@@ -40,7 +40,10 @@ Materi wulan
 
 **3. Contoh Kasus Berdasarkan Pengalaman Pribadi**
 
+
 1. Saat saya berpergian ke suatu tempat yang sebenarnya sudah saya sering kunjungi, saya tetep membuka aplikasi peta seperti Google Maps di handphone. Padahal saya sudah cukup tahu dan hafal arah menuju lokasi tersebut. Namun, karena aplikasi dianggap memberikan rute yang paling cepat dan akurat, saya jadi lebih mempercayai teknologi tersebut dibandingkan insting saya sendiri.
+
+2. Pengalaman hiperrealitas yang saya alami adalah ketika mengunjungi sebuah restoran sunda yang sebelumnya saya temui di platform TikTok. Dalam video yang saya lihat, restoran tersebut tampak sangat menarik, estetik, dan menyajikan makanan yang terlihat lezat dalam bentuk prasmanan, sehingga membentuk ekspektasi tinggi. Namun, ketika saya datang langsung, kondisi yang saya temui sangat berbeda, baik dari segi suasana maupun penyajian makanan yang terlihat biasa saja. Perbedaan ini menunjukkan bahwa apa yang saya anggap sebagai realitas sebelumnya sebenarnya hanyalah representasi yang telah dikurasi dan diedit oleh media. Dalam konteks ini, pengalaman tersebut mencerminkan hiperrealitas, di mana representasi yang dibentuk oleh teknologi justru terasa lebih nyata dan lebih meyakinkan daripada realitas yang sebenarnya.
 
 **4. Perbedaan antara Teknologi sebagai Mitos dan Teknologi sebagai Alat**
 
