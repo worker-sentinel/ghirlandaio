@@ -2,7 +2,7 @@
 
 ## PENDAHULUAN
 
-  Pengertian Mitos dalam konteks Sosial dalam kajian teori sosial Mitos dalam Kajian teori sosial bukan berarti cerita bohong atau dongeng. Ronald Barthes dalam Mythologies (1957) mendefinisikan mitos sebagai sistem pemaknaan tingkat kedua, dimana sesuatu yang sebenarnya merupakan kontruksi sosial dan historis tampak sosial dan historis tampak seolah olah alamiah, wajar, dan tidak perlu di pertanyakan. Mitos bekerja dengan cara menyembunyikan proses pembentukannnya. Sesuatu yang lahir dari kepentingan tertentu akhirnya diterima masyarakat sebagai kebenaran universal. Barthes menegaskan bahwa mitos mengubah sejarah menjadi sesuatu yng tampak seperti alam seolah hal tersebut memang sudah sewajarnya terjadi.
+  Pengertian Mitos dalam konteks Sosial dalam kajian teori sosial Mitos dalam Kajian teori sosial bukan berarti cerita bohong atau dongeng. Roland Barthes dalam Mythologies (1957) mendefinisikan mitos sebagai sistem pemaknaan tingkat kedua, dimana sesuatu yang sebenarnya merupakan kontruksi sosial dan historis tampak sosial dan historis tampak seolah olah alamiah, wajar, dan tidak perlu di pertanyakan. Mitos bekerja dengan cara menyembunyikan proses pembentukannnya. Sesuatu yang lahir dari kepentingan tertentu akhirnya diterima masyarakat sebagai kebenaran universal. Barthes menegaskan bahwa mitos mengubah sejarah menjadi sesuatu yng tampak seperti alam seolah hal tersebut memang sudah sewajarnya terjadi.
 
   Awal mula Teknologi bisa disebut Mitos itu karenaa Teknologi kerap dinasikan sebagai simbol kemajuan peradaban solusi atas segala permasalahan manusia sesuatu yang netral dan objektif penanda seseorang modern dan relevan narasi narasi ini diterima begitu saja tanpa proses kritis. inilah yang menjadikan teknologi bukan sekedar alat, melainkan sebuah nitos modern.  Baudirillard dalam The Consumer Society (1970) juga menegaskan bahwa konsumsi masyarakat modern di bangun atas beberapa mekanisme utama, salah satunya adalah depolitisasi.
 
@@ -31,3 +31,10 @@
 ## KESIMPULAN
 
   Teknologi tidak bisa lagi di [andang sebagai alat yang  sepenuhnya netral dan objektif, dalam konteks pendidikan teknnologi justru jelas memperlihatkan ia tidak bebas dari bias, mulai dari bias data, kultural, dan pendagosis Hal ini menunjukkan bahwasanya teknologi itu mereprsentasikan perspektif dari pembuatrnya.
+
+---
+
+## DAFTAR PUSTAKA
+- Roland, Barthes. *Mythologies*
+- Jean, Baudrillard. *The Consumer Society*
+- Teknologi tidak pernah netral; teknologi selalu membawa bias yang melekat dan struktur kekuasaan.  https://s3tp.fip.unesa.ac.id/post/teknologi-tidak-pernah-netral-teknologi-selalu-membawa-bias-yang-melekat-dan-struktur-kekuasaan
