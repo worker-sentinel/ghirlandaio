@@ -9,30 +9,16 @@ NIM :    12402051050115
  Resume ini dibuat dengan teori petik berry yaitu konsep perilaku pencarian informasi yang dikembangkan oleh Marcia Bates, yang menggambarkan proses penelusuran informasi sebagai kegiatan dinamis, bertahap, dan tidak linier, mirip dengan memetik buah beri di hutan. Dalam pencarian sumber saya menggunakan langganan perlegon untuk mencari beberapa buku.
 # Hasil
  Pada abad ke-21 ini banyak negara berkembang seperti Amerika serikat, China dan Eropa sudah berkecimpung dalam penggunaan open source. Di Amerika serikat pada tahun 1980, pemerintahnya masih menggunakan software proprietary custom. Lalu pada tahun 1990 market open source mulai berkembang luas sehingga mulai digunakan di insfrasturktur pemerintah. Pada tahun 2000 open source semakin penting dalam operasi DoD dan keamanan nasional. Pada tahun 2016 pemerintah mengadopsi kebijakan lebih dalam mengenai open source, serta mendorong penggunaan dan pembukaan kode  sumber. Dalam memo dari DOD pada tahun 2020 menyebutkan 3 keuntungan open souce untuk pemerintah: Peer review terus menerus meningkatkan keamanan yang lebih baik daripada software yang hanya dikembangkan tim kecil, kode dapat di ubah oleh DoD dengan lebih bebas sesuai kebutuhan. Open souce menawarkan keuntungan finansial dan cocok untuk prototype dan experiment.
- Meskipun begitu penggunaan open source terletak pada potensi masuknya ancaman keamanan melalui kode eksternal, sehingga dapat menjadi celah bagi serangan siber dan menuntut pengawasan ketat terhadap supply chain software. Oleh karena itu, dalam evaluasi OSS perlu dipastikan bahwa maintenance jangka panjang terjamin, sumber software berasal dari pihak yang terpercaya, serta seluruh ketergantungan (dependencies) dapat diidentifikasi dengan jelas. Selain itu, harus tersedia mekanisme deteksi kerentanan, integritas kode dijaga—misalnya melalui penggunaan fingerprint digital—dan terdapat kewaspadaan terhadap kemungkinan pengaruh dari pemerintah asing
- Sedangkan pada negara berbasis closed source seperti korea utara yang dipengaruhi oleh ideologi juche pada masa perang dingin sehingga menuntut negara untuk mandiri secara penuh dan tidak bergantung pada negara asing. Meskipun mengalami kemunduran korea utara tetap punya mental yang kuat karena doktrin yang kuat di masyarakat.
+ Meskipun begitu penggunaan open source terletak pada potensi masuknya ancaman keamanan melalui kode eksternal, sehingga dapat menjadi celah bagi serangan siber dan menuntut pengawasan ketat terhadap supply chain software. Oleh karena itu, dalam evaluasi OSS perlu dipastikan bahwa maintenance jangka panjang terjamin, sumber software berasal dari pihak yang terpercaya, serta seluruh ketergantungan (dependencies) dapat diidentifikasi dengan jelas. Selain itu, harus tersedia mekanisme deteksi kerentanan, integritas kode dijaga—misalnya melalui penggunaan fingerprint digital—dan terdapat kewaspadaan terhadap kemungkinan pengaruh dari pemerintah asing(Alice,2022).
+ Sedangkan pada negara berbasis closed source seperti korea utara yang dipengaruhi oleh ideologi juche pada masa perang dingin sehingga menuntut negara untuk mandiri secara penuh dan tidak bergantung pada negara asing. Meskipun mengalami kemunduran korea utara tetap punya mental yang kuat karena doktrin yang kuat di masyarakat(Munandar, 2017).
 # kesimpulan
  Berdasarkan pembahasan penulis menyimpulkan bahwa perbedaan ideologi antara open source dan closed source dapat memengaruhi kebijakan teknologi negara. Teknologi dengan open source dapat berkembang lebih pesat dengan biaya yang lebih murah tetapi dapat berdampak buruk apabila tidak diatur dengan baik. Sedangkan closed source dapat menguras tenaga dan biaya tetapi dapat dinikmati sendiri hasilnya.
 
  # Daftar Pustaka
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Munandar, F. (2017). NASIONALISME KOREA UTARA: PENERAPAN IDEOLOGI JUCHE PADA MASA PEMERINTAHAN KIM IL SUNG (1955-1994) [Other, Universitas Pendidikan Indonesia]. http://repository.upi.edu
+Alice PANNIER, « Software Power: The Economic and Geopolitical Implications of Open Source Software », Studies, Ifri, 12 December 2022.
+Weber, S. (2004). The success of open source. Harvard University Press.
 
 # Dokumentasi
 <img width="993" height="797" alt="image" src="https://github.com/user-attachments/assets/dab7ce9d-db0f-4d1a-96e4-5ca4227000ea" />
