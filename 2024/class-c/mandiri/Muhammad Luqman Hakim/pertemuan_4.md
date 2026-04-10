@@ -5,7 +5,7 @@ pada awal tahun 1970an perkembangan industri perangkat lunak dalam hubungan peny
 
 namun seiring berjlnnya waktu, perngkat lunak itu mengalami pergeseran signifikan menuju model tertutup (closed source), terud pada pertengahan 1970an munncul semangt komersialisasi. karena pergeseran ini menciptakan perdebatan panjang antara dua model pengembangan perangkay lunak, yaitu : open source dan close source. perdebatan ini tidak hany soal teknis saja tetapi jga menyentuh dimensi ekonomi, sosial dan idiologi.
 
-pemikiran john maynard keynes menawarkan perspektif yang sngt relevan, sebagai salah satu ekonom paling berpengaruh abad ke-20, dikenal dengan gagasanya tentang mixed economy dan perlunya intervensi negara dalam menjaga keseimbangan pasar.
+pemikiran john maynard keynes menawarkan perspektif yang sngt relevan, sebagai salah satu ekonom paling berpengaruh abad ke-20, dikenal dengan gagasanya tentang mixed economi dan perlunya intervensi negara dalam menjaga keseimbangan pasar.
 
 ---
 ## pembahasan
