@@ -31,3 +31,6 @@ PARC mengembangkan konsep kantor masa depan di mana pekerjaan dilakukan melalui 
 *Dampak Budaya Hacking Terhadap Inovasi*
 
 Budaya hacking yang diterapkan di PARC membuat para peneliti lebih berani berpikir jauh ke depan, bahkan melampaui kebutuhan pasar pada saat itu. Mereka bukan memperbaiki teknologi yang ada saja, tetapi juga menciptakan sistem baru yang berbeda. Contohnya, ketika komputer pada saat itu ukurannya sangat besar dan hanya digunakan oleh ahli, PARC memikirkan ide agar computer yang ramah pengguna dan bisa dipakai di kantor sehari-hari. Hal ini menunjukkan bahwa budaya hacking di PARC berorientasi pada masa depan.
+
+## KESIMPULAN
+Xerox PARC berhasil menghasilkan berbagai inovasi penting seperti GUI, mouse, komputer pribadi, Ethernet, dan printer laser. Inovasi-inovasi ini lahir karena adanya budaya eksperimen yang kuat, kebebasan berpikir, serta dukungan terhadap ide-ide baru. Budaya yang mirip dengan “hacking culture” membuat PARC menjadi tempat berkembangnya teknologi yang kemudian digunakan secara luas hingga saat ini. Keberhasilan PARC bukan hanya karena teknologi, tetapi juga karena budaya kerja yang mendukung kreativitas dan inovasi.
