@@ -18,4 +18,11 @@ Dalam hal politik Negara juga ikut menjaga pola ini. Lewat kebijakan seperti pat
 ## Kesimpulan 
 perkembangan teknologi sejak 1960-an menunjukkan pergeseran dari dominasi negara ke peran swasta, dimana teknologi awalnya didanai pemerintah lalu berkembang melalui komersialisasi dan venture capital. Di sisi lain, budaya hacking muncul dari komunitas akademik seperti Massachusetts Institute of Technology sebagai bentuk eksplorasi bebas teknologi. Sementara itu, hubungan antara open source dan closed source juga berubah dari kolaboratif menjadi komersial, hingga akhirnya saling beradaptasi dalam perkembangan industri teknologi modern.
 
+# Daftar Pustaka
+Marx, K. (1867). Das Kapital: Critique of political economy (Vol. 1). Moscow: Progress Publishers.
+
+Tresnawan, M. I. A. (2025). Sejarah pertama kali kata “hacker” dipakai. Universitas Internasional Batam.
+
+Makalah kelompok 3 Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era Kolaborasi Terbuka
+
 
