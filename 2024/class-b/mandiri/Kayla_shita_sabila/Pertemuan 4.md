@@ -19,5 +19,10 @@ Pertama, modal ventura modern yang dipelopori Don Valentine (Sequoia Capital) da
 ## **Kesimpulan** 
 Jadi munculnya komersialisasi teknologi di tahun 1970 an tidak lepas dari 2 model yaitu yang menciptakan pola pendanaan berkelanjutan di mana pengusaha sukses mendanai dan membimbing generasi berikutnya dan transfer teknologi universitas melalui Kantor Lisensi Teknologi Stanford yang aktif mematenkan dan memasarkan inovasi kampus. Karena keduanya saling berhubungan.
 
+---
+## **Daftar Pustaka**
+* Makalah kelompok 3 “Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era  Kolaborasi Terbuka”
+* Berlin, L. (2017). Troublemakers: Silicon Valley Coming of Age. Simon & Schuster.
 
 
+---

@@ -7,4 +7,4 @@ Sesuai dengan diskusi yang disampaikan oleh Kelompok 3, ideologi hadir dalam ben
 ## Kesimpulan 
 Jadi hubungan keduanya dapat dilihat dari cara akses kode sumber mempengaruhi cara orang memahami sistem. Pada closed source, kesadaran palsu akan lebih mudah muncul karena akses yang terbatas menyebabkan pengguna tidak bisa melihat kontrol di baliknya. Sedangkan pada open source, keterbukaan membuat pengguna lebih paham dan mengerti bagaimana sistem tersebut bekerja, sehingga hubungan sosial dan bentuk kontrol jadi lebih terlihat. 
 ## Daftar Pustaka 
-**Makalah kelompok 1 (2026)**. *Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era Kolaborasi Terbuka* 
+**Makalah kelompok 3 (2026)**. *Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era Kolaborasi Terbuka* 
