@@ -21,13 +21,13 @@ sebagai alat bantu saja, tetapi juga sebagai sarana untuk meningkatkan keuntunga
 dari nilai lebih yang berasal dari tenaga kerja. Teknologi digunakan untuk produktivitas, tetapi tidak selalu diikuti dengan peningkatan 
 kesejahteraan pekerja. Bahkan, dalam beberapa kondisi teknologi dapat digunakan untuk menekan biaya tenaga kerja atau menggantikan tenaga
 manuasia dengan mesin. Selain itu, dominasi sektor swasta dalam teknologi modern seperti yang dijelaskan dalam PPT kelompok 3 menunjukkan
-bahwa beberapa perusahaan kini telah menguasai platform dan data dalam skala besar. Hal ini memperkuat posisi mereka dalam ekonomi digital,
-tetapi juga berpotensi menimbulkan ketimpangan dan ketergantungan masyarakat terhadap teknologi yang mereka kembangkan. Dengan demikian, 
+bahwa beberapa perusahaan kini telah menguasai platform dan data dalam skala besar. Hal ini dapat memperkuat posisi mereka dalam ekonomi digital,
+selain itu juga berpotensi menimbulkan ketimpangan dan ketergantungan masyarakat terhadap teknologi yang mereka kembangkan. Dengan demikian, 
 teknologi tidak bersifat netral melainkan dapat dipengaruhi oleh kepentingan ekonomi dan kekuasaan. Tanpa adanya regulasi yang seimbang 
 dari negara, teknologi dapat pula menguntungkan pihak tertentu dibandingkan dengan masyarakat luas.
 ## KESIMPULAN
 Berdasarkan pembahasan diatas, dapat disimpulkan bahwa evolusi hubungan antara negara, sektor swasta, dan teknologi dapat menunjukkan
-perubahan yang signifikan, yang dimana sektor swasta kini menjadi aktor utama dalam inovasi teknologi. Dalam kondisi tersebut, teknologi
+perubahan yang signifikan, yang dimana sektor swasta kini telah menjadi aktor utama dalam inovasi teknologi. Dalam kondisi tersebut, teknologi
 layak diibaratkan sebagai "pisau bermata dua" karena memiliki dampak positif dan juga negatif secara bersamaan. Teknologi dapat memberikan
 kemudahan dan kemajuan, tetapi juga dapat menimbulkan ketimpangan sosial, pengangguran, serta potensi eksploitasi tenaga kerja. Oleh karena
 itu, diperlukan keseimbangan antara inovasi teknologi, peran negara sebagai regulator, serta kepentingan masyarakat agar teknologi dapat
