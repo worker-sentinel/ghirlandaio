@@ -27,8 +27,15 @@ Segala puji bagi Allah SWT yang telah memberikan kami kemudahan sehingga kami da
  Keamanan siber sering kali disalah pahami hanya sebagai alat teknis semata. Padahal, dalam perspektif etika, **keamanan siber adalah nilai instrumental**, yaitu sebuah media untuk melindungi nilai nilai fundamental manusia seperti privasi, kesehatan dan kepercayaan masyarakat. Penekanan yang berlebihan pada keamanan siber dapat beresiko melanggar  hak hak dasar seperti kebebasan, keadilan, dan kesetaraan. Sebaliknya, kegagalan dalam menjaga keamanan siber dapat merusak integritas data dan menghancurkan kepercayaan publik terhadap lembaga lembaga epistemik yang bertugas menjaga kebenaran informasi.
  Saat ini, terdapat kesenjangan besar dalam literatur etika teknologi. banyak diskusi berfokus pada "big data" dan privasi, namun etika keamanan siber secara spesifik masih kurang dikembangkan dan sering dibahas secara terpisah pisah. institusi digital harus menghadapi dilema praktis, seperti menyeimbangkan antara aksesibilitas informasi yang luas dengan perlindungan privasi pengguna, serta bagaimana merespons serangan seperti **ransomware** yang dapat melumpuhkan akses terhadap informasi publik. 
  Oleh karna itu, diperlukan sebuah krangka kerja etika yang konsisten dan terintegrasi untuk memandu para profesional informasi. memahami bahwa keamanan bukan sekedar tentang membangun benteng digital tetapi tentang mengelola risiko dan menjaga keseimbangan nilai nilai moral adalah krusial. Makalah ini disusun untuk mengeksplor bagaimana prinsip prinsip etika keamanan siber dapat diimplementasikan dalam konteks perpustakaan dan lembaga arsip digital untuk menciptakan ekosistem informasi yang aman, adil, dan terpercaya.
- 
 
+ ## 1.2 Rumusan Masalah
+1. Bagaimana evolusi 5 hukum perpustakaan?
+2. Jelaskan konsep cyberethic dan hubungannya dengan perpustakaann digital!
+3. Jelaskan prinsip dasar keamanan cyber bagi perpustakaan digital dan lembaga arsip digital!
+4. analisa resiko keam!anan perpustakaan dan arsip digital berdasarkan data historis!
+5. Jelaskan vektor dasar keamanan siber bagi perpustakaan atau arsip digital!
+6. Jelaskan faktor yang harus dikembangkan dan ditingkatkan dalam bagi perpustakaan dan arsip digital!
+ 
 ## 1.3 Tujuan
 1. Untuk mengetahui dan menjelaskan 5 hukum perpustakaan.
 2. Untuk menelaah serta menjelaskan konsep cyberethic dan hubunganya dengan perpustakaan digital.
