@@ -10,4 +10,9 @@ Perbedaan mendasar open source dan closed source ada pada redistribusi dan kode 
 # Kesimpulan #
 Berdasarkan pembahasan yang telah dijelaskan, dapat disimpulkan bahwa perbedaan utama anatara open source dan closed source terletak pada keterbukaan kode sumber serta kebebasan pengguna dalam menggunakannya. open source memberikan akses penuh kepada pengguna untuk melihat, memodifikasi, dan mendistribusikan ulang perangkat lunak sesuai kebutuhan. sebaliknya, closed source membatasi akses tersebut kerena kode sumber hanya dikelola oleh pengembang, sehingga pengguna hanya dapat menggunakan pernagkat lunak sesuai dengan aturan lisensi yang berlaku.
 
-Perbedaan inni berdampak pada tingkat fleksibilitas, di mana open source cenderung lebih bebas disesuiakan, sedangkan closed source lebih terkontrol namunn terbatas. Oleh karena itu, pemilihan jenis perangkat lunak bergantung pada kebutuhan pengguna, apakah mengutamakan kebebasan dan transparansi, atau kestabilan dan kontrol dari pengembang.
+# Daftar Pustaka
+Open Source Initiative. (n.d.). The open source definition. https://opensource.org/osd
+
+ Berlin, Leslie. 2017. Troublemakers: Silicon Valley's Coming of Age: Simon and Schuster.
+ 
+Kelompok 3. (2026). Evolusi Relasi antara Negara, Sektor Swasta, dan Teknologi (1960–Sekarang): Peran Budaya Hacking serta Paradigma Open dan Closed Source (Materi Presentasi).
