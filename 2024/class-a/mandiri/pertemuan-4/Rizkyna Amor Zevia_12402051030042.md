@@ -10,6 +10,9 @@ NIM: 12402051030042
   Pada masa awal perkembangan, pergembangan perangkat lunak di dominasi oleh model katedraL. Model ini bersifat tertutup (closed source) dikembangkan dan keamanannya dijaga ketat. Seiring munculnya teknologi seperti internet lahirlah pengembangan model bazzar, model ini mengedepankan keterbukaan (open source), di mana kode atau program pengembang tersedia bagi semua orang
   Perdebatan antara kedua model ini sering kali ditemukan, open source dan closed source tentu saja punya kelebihan dan kekurangan masing-masing
 
+  **Metode**
+  Metode yang digunakan adalah analisis dokumen dan literatur. Penulis mengkaji model katedral dan model bazzar yang ada di dalam buku The Cathedral and The Bazzar oleh Eric S Raymond untuk membedakan karakteristik antara open source dan closed source.
+
   **Pembahasan**
   
   Pola hubungan antara open source dan closed source pada dasarnya yaitu kedua source ini saling melengkapi satu dan yang lainnya tapi dalam jalan yang berbeda, perbedaan sumber antara sumber tertutup dan terbuka konteksnya disini yaitu perbedaan pengembang, pengembang open source mementingkan tujuan untuk menjunjung tinggi kepentingan bersama contohnya kolaborasi, dan pengembang ini tidak terlalu mementingkan masalah hak cipta terkait program ataupun kode yang dibuatnya, open source ini mendomisnasi suatu struktur lapisan contohnya seperti server, sistem operasi dan database, sedangkan closed source itu lebih mementingkan gagasan program untuk mendapatkan hak kekayaan intelektual, closed source ini lebih unggul dalam lapisan yang sangat spesifik. 

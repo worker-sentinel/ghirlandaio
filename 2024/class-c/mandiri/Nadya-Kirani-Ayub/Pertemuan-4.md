@@ -22,7 +22,7 @@ tetap timbul di pasar global.
 Di sisi lain, perusahaan swasta memiliki jaringan global melalui kerja sama dengan berbagai
 pihak seperti universitas, startup, maupun lembaga riset dari berbagai negara. Kolaborasi dari
 jaringan kerja sama ini dapat mempercepat pertukaran pengetahuan dan teknologi. Di dalam buku
-*Troublemakers: Silicon Valley's Coming of Age* menjelaskan bahwa inovasi lahir dari ekosistem
+*"Troublemakers: Silicon Valley's Coming of Age"* menjelaskan bahwa inovasi lahir dari ekosistem
 perusahaan swasta yang didukung oleh kolaborasi erat, keberanian mengambil risiko, serta 
 munculnya individu-individu yang berani menantang cara konvensional. Faktor-faktor tersebut
 menjadikan perusahaan swasta memiliki peranan dalam mendorong perkembangan teknologi.
