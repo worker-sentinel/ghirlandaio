@@ -1,0 +1,32 @@
+# Resume Materi Hubungan Sains dan Agama
+## Nama: Shabrina Zulfa
+## NIM: 12402051010024
+## Mata Kuliah: Perpustakaan dan Arsip Digital
+## Dosen Pengampu: Al Muhdil Karim, S. IP., M.Hum
+## Analisis
+Alasan membuat resume ini adalah untuk memahami dan mendalami pertanyaan tersebut dengan lebih jelas dan detail. Peran sains dalam kehidupan manusia sangat berpengaruh bagi masa depan umat manusia untuk memudahkan dalam menghadapi persoalan dunia nantinya. Sains membuat dunia berjalan dan keputusan kita lebih bijak. Di kesehatan, riset sains melahirkan vaksin, alat diagnosa, dan perawatan aman. Sedangkan di transportasi, fisika bantu kereta cepat dan kendaraan efisien. Jadi, dengan kita memahami apa saja peran sains, kita dapat membuat keputusan yang lebih baik dan bertanggung jawab terhadap lingkungan. Tetapi, tetap saja dibalik ada banyak dampak positif pasti ada dampak negatifnya walaupun sangat kecil. Berkembangnya sains memiliki dampak negatif dalam bidang komunikasi yaitu, jika teknologi dikendalikan oleh manusia yang tidak bertanggungjawab maka akan timbul kerusakan di bumi misalnya dengan adanya satelit manusia dapat mengetahui adanya pabrik senjata, cadangan minyak, uranium, dan sebagainya yang mengakibatkan adanya perselisihan untuk menguasai semua hal tersebut.     	
+
+## Konteks
+Resume ini dibuat berdasarkan pertanyaan dari kelompok 1, yaitu: Apa peran sains dalam kehidupan manusia. Begitupun juga dengan yang sudah dibahas oleh kelompok 1 melalui ppt nya tentang sains di era modern dan konflik-konflik yang muncul setelah adanya sains.
+## Opini dan Argumen
+Saya setuju dengan opini yang sudah dijelaskan oleh kelompok 1 bahwasanya peran sains dalam kehidupan manusia itu sangatlah penting dalam menjelaskan fenomena alam melalui penelitian, eksperimen, dan pendekatan rasional. Hal ini diperkuat oleh satu jurnal yang saya dapatkan tentang peran sains dan teknologi dalam meningkatkan kualitas hidup masyarakat. Dijelaskan oleh Sashidharan Sridharan, President Director 3M Indonesia, menyatakan, Sains itu penting bagi bisnis 3M. 3M percaya bahwa tujuan dasar teknologi dan inovasi adalah untuk meningkatkan kehidupan manusia. 3M Indonesia mempraktikkan keyakinan ini dengan memajukan teknologi dan inovasi berdasarkan sains yang akan berdampak signifikan pada pelanggannya. Artinya, sains memiliki peran yang sangat besar dalam kehidupan manusia saat ini, karena dengan berkembangnya sains itu akan membantu pekerjaan lebih efektif dan efisien. Maksud dari efektif dan efisien disini adalah bagaimana cara kita memfokuskan pada pemilihan yang tepat dan hemat.
+
+Selain itu, ada satu jurnal lagi yang membahas tentang peran ilmu pengetahuan dalam kehidupan manusia. Walaupun disini tidak secara langsung menjelaskan tentang peran sains, namun ilmu pengetahuan merupakan ilmu yang dimaksud science. Dijelaskan juga disini bahwa pengetahuan  yang  diperoleh  dengan  ilmu  diperolehnya  lewat  observasi,  eksperimen,  klasifikasi, sama seperti yang sudah dijelaskan oleh kelompok 1. Oleh karena itu, dapat disimpulkan bahwa sains tidak hanya berperan dalam teori saja, tetapi juga memiliki dampak nyata dalam kehidupan sehari-hari manusia.
+
+## Pendahuluan
+Di dalam buku Homo Deus Masa Depan Umat Manusia yang membicarakan hubungan antara sains dan agama dijelaskan bahwa peran sains modern adalah mengalahkan kematian dan memberi manusia usia muda abadi, karena banyak orang mati muda akibat gizi buruk, penyakit menular, dan kekerasan. Para sarjana di semua bidang sering berusaha memperluas horizon kita sehingga membentangkan di depan kita masa depan baru yang tak dikenal. Sering tampak bahwa tujuan sains adalah untuk memprediksi masa depan, seperti meteorologis diharapkan bisa meramalkan apakah besok turun hujan atau Matahari bersinar cerah, para ekonom harus tahu apakah dengan mendevaluasi mata uang akan mencegah atau mengendapkan krisis ekonomi, dokter yang baik memperkirakan apakah kemoterapi atau terapi radiasi akan semakin sukses dalam mengobati kanker paru-paru. Karena kita punya pilihan berkenaan dengan teknologi-teknologi baru, lebih baik kita memahami apa yang akan terjadi dan merombak pikiran kita tentang itu sebelum ia yang merombak pikiran kita.
+
+## Pembahasan
+Pada era modern, sains mulai menggantikan sebagian peran mitos dengan memberikan penjelasan yang lebih rasional terhadap berbagai fenomena alam. Sains berusaha menjelaskan bagaimana alam semesta bekerja melalui penelitian, pengamatan, dan eksperimen. Namun, sains tidak sepenuhnya menghapus peran agama karena agama tetap berfungsi sebagai sistem nilai dan moral yang mengatur kehidupan manusia. Sains berperan dalam perkembangan teknologi, kesehatan, dan pemahaman tentang alam semesta.
+
+Namun, Harari juga menyoroti keterbatasan sains dalam hal moralitas dan nilai-nilai. Hal ini berarti bahwa meskipun sains sangat penting untuk menjelaskan fenomena alam dan meningkatkan kesejahteraan manusia, tetapi sains tidak mampu memberikan jawaban atas pertanyaan-pertanyaan seperti makna hidup, tujuan hidup, atau apa yang benar dan salah. Oleh karena itu, dalam kehidupan manusia, sains merupakan alat untuk memahami dan mengendalikan alam semesta secara objektif, namun moralitas dan nilai-nilai tetap bergantung pada sistem lain, seperti agama atau keyakinan, agar keduanya dapat berdampingan dalam membentuk peradaban manusia.
+
+## Kesimpulan
+Jadi, dapat disimpulkan bahwa manusia dapat mengambil keputusan yang lebih baik dan lebih bertanggung jawab terkait lingkungan jika mereka memahami peran sains. Sains tidak hanya berkontribusi pada teori, tetapi juga secara langsung memengaruhi kehidupan sehari-hari, terutama di bidang kesehatan, teknologi, dan pemahaman kita tentang alam semesta. Peran agama atau sistem keyakinan sebagai panduan hidup tetap diperlukan karena sains memiliki keterbatasan dalam menentukan moralitas dan nilai-nilai. Dengan demikian, prinsip-prinsip moral dan sains dapat hidup berdampingan dalam perkembangan peradaban manusia.
+
+## Referensi
+Dela, Y. R., Fitrisia, A., & Ofianto. (2022). *Peran ilmu pengetahuan dalam kehidupan manusia. Jurnal Pendidikan dan Konseling*, 4(6).
+
+Fitriyadi, A., Syafe’i, A., Gunawan, I., Ramadhan, I. N., Gunawan, I., Yulianti, J., Nuralim, M., Ropik, M., Riyantini, R., Febrina, S. I., Ramadhan, V. B., & Johari, G. J. (2022). *Peran sains dan teknologi dalam meningkatkan kualitas hidup masyarakat*. Jurnal PkM MIFTEK, 3(1).
+
+Harari, Y. N. (2017). *Homo Deus: A Brief History of Tomorrow*. Harper.

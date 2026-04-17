@@ -1,0 +1,30 @@
+# Resume Pertemuan 2
+Materi: Dinamika Hubungan Sains dan Agama dalam Sejarah Peradaban
+
+## Pola hubungan antara sains dan agama
+Berisi bagaimana cerita dan kepercayaan membentuk masyarakat agama, selain itu juga agama memiliki peran yang penting dalam membangun kerja sama sosial. Agama dan sains itu punya fokus yang berbeda, sains memberikan cara yang baru untuk memahami realitas yang ada, berbeda dengan agama yang cara pahamnya tidak up-to-date, agama memberikan pandangan yang dimana sudah tercantum di kitab suci, dalam hal ini sains tidak menggantikan agama. Hubungan sains dan agama dalam kehidupan saling melengkapi satu sama lain, akan tetapi konflik sering muncul akibat klaim faktual dalam agama bertentangan dengan sains.
+
+## Akar Konflik pada Pembabakan Yunani, Romawi, Abad Kegelapan, Abad Kebangkitan dan Modern
+Pada masa Yunani Kuno, Harari melihat masa ini sebagai upaya manusia untuk mulai beralih dari penjelasan tentang "Dunia yang murni" ke kemampuan berpikir atau psikologis manusia, dalam masa ini konflik dilihat sebagai persaingan antar imajinasi mengenai cara yang paling benar mengatur masyarakat dari kedua pihak yang terlibat
+
+Pada Masa Romawi, mereka berhasil menciptakan struktur hukum dan indentitas bersama yang pada saat itu sangat kuat pada masa ini konflik muncul pada saat narasi pemuja kaisar bertentangan dengan narasi kristen. Disini agama digunakan sebagai alat kontrol untuk kegunaan politik dan pemersatu jutaan orang yg tidak saling mengenal, mereka bersatu 'dibawah naungan agama'
+
+Abad Kegelapan menurut pandangan Harari adalah era di mana agama memiliki kekuasaan penuh terhadap kebenaran, akar konflik ini memusatkan Tuhan sebagai referensi dari semua hal yang ada di dunia ini, kebenaran diturunkan dari wahyu Tuhan melalui institusi agama, dalam masa ini sains hanya diakui jika memperkuat kitab suci, jika bertentangan sains dianggap salah, karena menurut keyakinan mereka, Tuhan adalah sumber dari segala data yang ada
+
+Masa Kebangkitan merupakan masa yang paling krusial. Pada masa ini munculnya humanisme yang menyatakan jika makna hidup bukan lagi berasal dari Tuhan, namun berasal dari pilihan manusia dan perasaan. Pada masa ini agama dan sains berdampingan dengan fungsi yang berbeda yaitu agama mengajarkan etika, sedangkan sains memberi cara bagaimana kita mencapai tujuan 
+
+Pada Era Modern, di buku homodeus, Harari mengatakan bahwa di era modern sains mulai 'menghilangkan' agama. Konflik yang terjadi saat ini adalah manusia berlomba-lomba menguasai bioteknologi. Jika pada masa lampau manusia berperang karena tanah atau perdebatan tentang tuhan, melihat perkembangan sains di era modern in begitu pesat, maka sekarang manusia berlomba" untuk menjadi tuhan itu sendiri dengan berbagai cara yang menggunakan sains
+
+##Perbedaan Metodologis dari Konflik antara Sains dan Agama
+Terdapat dua pandangan ekstrim terhadap hal ini yaitu konflik dan pandangan yang terpisah antara sains dan agama. Sains mempelajari fakta dan cara kerja melalui observasi dan eksperimen, sedangkan agama memberikan nilai moral dan pedoman untuk beretika bagi manusia. Konflik sering muncul pada saat fakta yang dibuktikan oleh sains itu berbeda dengan apa yang ada di dalam kitab.
+
+## Analisa
+Konflik antara sains dan agama ini ada karena perbedaan cara pandang, sains dipandang sebagai pengetahuan ilmiah dan agama dipandang sebagai kepercayaan religi. Perubahan besar hubungan sains dan agama terjadi pada masa revolusi saintifik ketika manusia mulai mencari penjelasan yang masuk logika tentang alam semesta. Ilmu pengetahuan berkembang pesat dan juga mampu menjelaskan segala fenomena yang sebelumnya hanya dianggap sebagai kehendak Tuhan.
+
+### Q: Nabi Sulaiman bisa memindahkan istana dengan bantuan Jin Ifrit, dan hari ini manusia juga bisa memindahkan gedung atau bangunan dengan alat, yang awalnya memindahkan gedung itu mukjizat menjadi hal yang biasa, cuman yang harus diperhatikan adalah mulai ada potensi untuk hal tersebut bisa dilakukan oleh manusia, dan tidak menjadi mukjizat lagi, bagaimana pendapat kalian terkait fenomena tersebut, apakah kalian akan ada di pihak agama atau sains di mana mukjizat sudah bukan mukjizat?
+
+Menurut saya fenomena ini merupakan salah satu fenomena yang sering terjadi pada era modern, dikarenakan perkembangan sains yang begitu pesat, hal ini perlu diluruskan agar tidak terjadi konflik antar agama dan sains. Menurut saya ini bukanlah mukjizat seperti yang terjadi pada masa lampau, semakin berkembangnya teknologi dan informasi memungkinkan hal ini terjadi, akan tetapi hal ini tidak bisa dikatakan mukjizat karena juga era sekarang ini segala hal itu adalah rekayasa buatan (banyak campur tangan manusia)
+
+### Q: Mengapa agama seringkali menghadapi kesulitan untuk mengakui kebenaran pendapat mereka meskipun fakta ilmiah menunjukkan sebaliknya?
+
+Dalam sejarah peradaban, agama  tidak memisahkan antara pengetahuan 1 dan pengetahuan 2, semuanya dianggap sebagai paket lengkap yang berasal dari satu sumber atau wahyu. Ketika sumber tersebut mengatakan bahwa bumi adalah pusat alam semesta, bagi mereka itu bukan hanya sekadar informasi,  melainkan bagian dari identitas moral. Kemudian jika sains membuktikan melalui eksperimen bahwa bumi hanyalah planet kecil yang mengelilingi matahari, hal ini menciptakan krisis kepercayaan. Para pemimpin agama khawatir jika umat mulai percaya bahwa kitab suci salah dalam suatu hal. Dalam buku homodeus, Harari menekankan bahwa fungsi utama agama adalah untuk menyatukan jutaan manusia yang tidak saling kenal agar bisa bekerja sama. Kerja sama ini bisa berjalan jika semua orang percaya pada "cerita" yang sama. Kalau cerita itu terus-menerus berubah setiap kali ada penemuan sains baru, maka stabilitas sosial akan terancam. Oleh karena itu, bagi banyak petinggi agama menjaga agar masyarakat tetap tertib dan patuh jauh lebih penting daripada mengakui sebuah kebenaran hasil eksperimen sains. Mereka lebih memilih mempertahankan kepercayaan yang menyatukan orang banyak daripada menerima kebenaran yang bisa memecah belah kepercayaan masyarakat.

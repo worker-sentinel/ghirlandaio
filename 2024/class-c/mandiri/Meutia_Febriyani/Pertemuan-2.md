@@ -1,0 +1,11 @@
+# RESUME DARI HASIL PRESENTASI KELOMPOK 1
+## Apa perubahan penting yang terjadi dalam revolusi ilmiah menurut Harari? 
+Menurut Yuval Noah Harari dalam buku Homo Deus: A Brief History of Tomorrow, perubahan penting dalam revolusi ilmiah menjelaskan bahwa salah satu ciri utama revolusi ilmiah adalah perubahan cara manusia memperlakukan pengetahuan. Dari mengakui bahwa kita sudah (tahu segalanya) lewat tradisi dan agama, menjadi mengakui bahwa kita banyak yang tidak tahu dan mencari kebenaran lewat pengamatan, eksperimen, serta metode ilmiah. Jika pada masa sebelumnnya pengetahuan dianggap berasal dari otoritas kitab suci atau tradisi, maka dalam sains modern kebenrana harus dibuktikan melalui eksperimen dan observasi.
+
+Yuval Noah Harari menekankan bahwa sebelum revolusi ilmiah, manusia meras cukup dengan pengetahuan yang diberikan oleh kitab suci dan tradisi. Setelah revolusi ilmiah, manusia mulai mengakui ketidaktahuan dan memandang (ketidaktahuan) itu sebagai titik awal untuk meneliti lebih jauh. Manusia menyadari bahwa mereka tidak mengetahui banyak hal tentang dunia. Kesadaran ini mendorong manusia untuk mencari pengetahuan baru melalui penelitian dan observasi. Dalam The Innovators, Walter Issacson menunjukan bahwa perkembangan teknologi modern semakin memperkuat dominasi pendekatan ilmiah. Inovasi seperti komputer, algoritma dan jaringan internet berkembang melalui pemikiran serta analisi para ilmuan.
+
+Perubahan ini membuat manusia mulai mengembangkan ilmu pengetahuan dan teknologi secara sistematis untuk memahami alam, memecahkan manusia dan mengendalikan kehidupan lingkungan manusia. Dengan Pergeseran pola pikir ini, revolusi ilmiah mendorong kemajuan teknologi yang belum pernah terjadi sebelumnya, seperti ketokteran modern, fisika dan teknologi mesin, yang kemudian mengubah struktur sosial, ekonomi, hingga politik dunia. Menurut Harari, proyek besar di balik revolusi ilmiah bukan hanya (mengerti) alam, tetapi juga menguasai untuk memperpanjang kehidupan, meningkatkan kekuasaan, dan bahkan mencari (keabadian) secara teknologis.
+
+## Daftar Pustaka 
+- Harari, Y. N (2018). Homo Deus: A Brief History of Tomorrow. Jakarta: Kepustakaan Populer Gramedia.
+- Issacson, W. (2024). The Innovators: How a Group of Hackers, and Geeks Created the Digital Revoliutuion. Simon & Schuster.  

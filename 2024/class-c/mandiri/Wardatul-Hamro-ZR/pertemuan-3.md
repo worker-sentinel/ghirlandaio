@@ -1,0 +1,9 @@
+# Resume Hasil Presentasi Kelompok 2
+## Mengapa Simulasi Bisa Mengubah Realitas?
+
+Simulasi dapat mengubah realitas karena simulasi bukan hanya sekedar meniru, tetapi menciptakan realitas baru yang tidak diketahui asal usulnya. Dalam buku simulacra and simulation, Jean Baudrillard berpendapat bahwa realitas secara perlahan tergantikan oleh simulasi. Ia juga menulis bahwa batas antara kebenaran dan simulasi telah runtuh sehingga simulasi itu sendiri yang diakui sebagai kenyataan. Jean baudrillard juga menyatakan dalam bukunya bahwa simulasi adalah proses penciptaan realitas model yang tidak memiliki asal usul nyata. Kita sebagai manusia lebih sering berinteraksi dengan representasi yang dibentuk teknologi daripada dengan dunia langsung. Dalam konteks ini peran teknologi terutama media digital sangat penting. Banyak pengalaman manusia sekarang dibentuk oleh layar, gambar, dan teks. Sehingga apa yang kita sebut realitas sebenarnya sudah melalui proses rekayasa sebelumnya.
+#### Misalnya, televisi menyiarkan berita bahwa tisu akan mulai kehabisan stok pada esok hari, maka orang orang akan berbondong bondong mulai membeli persediaan tisu untuk dirumah mereka. Baik itu di mall, supermarket, atau tempat groseri lainnya, tisu akan kehabisan stok pada esok harinya. Itu artinya simulasi yang menciptakan suatu realitas bukan realitas yang direpresentasikan dalam suatu simulasi. Dalam pandangan simulacra and simulation, fenomena ini mencerminkan kondisi hiperrealitas, dimana simulasi atau representasi informasi lebih dipercaya dan lebih berpengaruh daripada realitas itu sendiri. Setap individu bertindak berdasarkan persepsi yang dibangun oleh simulasi teknologi, bukan berdasarkan apa yang diliatnya secara langsung.
+
+## Daftar Pustaka
+file:///C:/Users/nuriz/Downloads/Baudrillard.1981.Simulacra-and-Simulation%20vers%20indo.pdf
+#### https://youtu.be/BjD_I-9Zwv0?si=mr1VmkUYFC5TL3bN

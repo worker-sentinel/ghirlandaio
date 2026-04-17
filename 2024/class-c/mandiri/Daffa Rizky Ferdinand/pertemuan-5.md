@@ -1,0 +1,22 @@
+# Perpustakaan dan Kearsipan Digital: Evolusi 5 hukum, prinsip siber, dan keamanan data
+*Resume Tugas Presentasi Kelompok 4: bagaimana malware dapat masuk ke sistem perpustakaan digital?*
+
+## PENDAHULUAN 
+Perkembangan teknologi informasi telah mendorong transformasi besar dalam pengelolaan perpustakaan, khususnya melalui hadirnya sistem perpustakaan digital. Sistem ini memungkinkan akses informasi secara luas dan efisien, namun di sisi lain juga membuka peluang terhadap berbagai ancaman keamanan siber, termasuk malware. Dalam kajian keamanan siber, malware tidak hanya dipahami sebagai ancaman teknis semata, tetapi juga berkaitan dengan kelemahan sistem, perilaku pengguna, serta kurangnya perlindungan terhadap infrastruktur digital. Oleh karena itu, pemahaman mengenai bagaimana malware dapat masuk ke dalam sistem perpustakaan digital menjadi penting sebagai dasar dalam membangun sistem yang aman dan andal.
+
+## PEMBAHASAN 
+Dalam buku The Ethics of Cybersecurity dijelaskan bahwa malware dapat masuk ke dalam suatu sistem melalui berbagai mekanisme yang memanfaatkan celah keamanan. Salah satu cara utama adalah melalui eksploitasi kerentanan perangkat lunak. Sistem yang tidak diperbarui atau memiliki kelemahan, seperti buffer overflow, memungkinkan penyerang untuk menyisipkan kode berbahaya ke dalam sistem tanpa terdeteksi. Dalam konteks perpustakaan digital, kerentanan ini dapat ditemukan pada sistem repository, aplikasi pengelolaan koleksi digital, maupun database pengguna yang tidak dilindungi dengan baik.
+
+Selain itu, malware juga dapat masuk melalui manipulasi input dalam aplikasi berbasis web. Teknik seperti SQL injection memungkinkan penyerang untuk memasukkan perintah berbahaya melalui form input, seperti halaman login atau pencarian katalog. Jika sistem perpustakaan digital tidak memiliki mekanisme validasi data yang kuat, maka celah ini dapat dimanfaatkan untuk merusak sistem atau mencuri informasi penting. Hal ini menunjukkan bahwa keamanan aplikasi menjadi aspek krusial dalam pengelolaan perpustakaan digital.
+
+Lebih lanjut, buku tersebut menekankan bahwa faktor manusia juga memiliki peran besar dalam penyebaran malware melalui teknik social engineering. Penyerang sering memanfaatkan kelengahan pengguna, seperti staf perpustakaan atau administrator sistem, dengan cara mengirimkan email berbahaya atau tautan palsu yang tampak meyakinkan. Ketika pengguna tanpa sadar membuka atau mengunduh file tersebut, malware dapat dengan mudah masuk ke dalam sistem. Dengan demikian, keamanan tidak hanya bergantung pada teknologi, tetapi juga pada kesadaran dan kewaspadaan pengguna.
+
+Di samping itu, distribusi malware juga dapat terjadi melalui aplikasi atau perangkat lunak yang tampak aman. Dalam beberapa kasus, malware disisipkan dalam aplikasi yang diunduh dari sumber yang tidak terpercaya, bahkan dari platform yang terlihat resmi. Dalam lingkungan perpustakaan digital, hal ini dapat terjadi ketika pengguna atau pengelola sistem menginstal perangkat lunak tambahan, plugin, atau mengunduh koleksi digital dari sumber yang tidak jelas keamanannya. Kondisi ini semakin meningkatkan risiko infeksi malware dalam sistem.
+
+Terakhir, malware juga dapat masuk melalui akses tidak sah ke jaringan atau sistem. Penyerang dapat menggunakan berbagai jenis perangkat lunak berbahaya, seperti spyware atau trojan, untuk menyusup ke dalam sistem dan mengendalikan perangkat tanpa sepengetahuan pengguna. Hal ini menunjukkan bahwa sistem perpustakaan digital yang terhubung dengan jaringan terbuka sangat rentan terhadap infiltrasi jika tidak dilengkapi dengan sistem keamanan yang memadai, seperti firewall, enkripsi, dan kontrol akses yang ketat.
+
+## KESIMPULAN
+Berdasarkan pembahasan tersebut, dapat disimpulkan bahwa malware dapat masuk ke dalam sistem perpustakaan digital melalui berbagai jalur, antara lain eksploitasi kerentanan perangkat lunak, manipulasi input sistem, rekayasa sosial, distribusi melalui aplikasi, serta akses tidak sah ke jaringan. Ancaman ini tidak hanya disebabkan oleh kelemahan teknologi, tetapi juga oleh faktor manusia dan kurangnya kesadaran terhadap keamanan siber. Oleh karena itu, diperlukan upaya yang komprehensif dalam menjaga keamanan sistem perpustakaan digital, termasuk pembaruan perangkat lunak secara berkala, penerapan sistem keamanan yang kuat, serta peningkatan literasi keamanan bagi para pengguna dan pengelola sistem.
+
+## DAFTAR PUSTAKA
+**Christen, M., Gordijn, B., & Loi, M. (Eds.)**. (2020). *The Ethics of Cybersecurity. Cham: Springer*.

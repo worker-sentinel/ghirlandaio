@@ -1,0 +1,14 @@
+# Resume
+## Topik: Jelaskan Awal Perkembangan Komputer Modersn yang dijelaskan dalam Buku *The Innovators*
+
+Dalam buku The Innovators karya W. Issacson, Perkembangan computer modern di jelaskan sebagai proses Panjang yang dimulai sejak abad ke 19. Perkembangan ini tidak muncul secara tiba – tiba, tetapi melalui serangkaian gagasan dan penemuan teknologi yang saling memengaruhi. Salah satu tokoh paling penting pada tahap awal ini Adalah Charles Babbage, pada awalnya Babbage merancang mesin yang disebut mesin selisih. Mesin ini dibuat untuk memecahkan masalah polinomial, setelah mengalami kegagalan Babbage menciptakan mesin yang dapat menjalankan beragam Operasi berdasarkan instruksi pemograman, dimana alat itu dapat mengerjakan satu tugas lalu beralih mengerjakan tugas lainnya. Keinginan Babbage untuk membuat mesin yang ia beri nama dengan mesin analitis ini didorong oleh minat masa kecilnya pada mesin-mesin yang bisa Menggantikan pekerjaan manusia.
+
+Ide Charles Babbage tentang mesin analitis terlalu maju pada masanya sehingga tidak banyak mendapat perhatian dari media maupun kalangan ilmiah. Namun Ada Lovelace melihat potensi besar dari mesin tersebut. Ia percaya bahwa mesin itu tidak hanya mampu melakukan perhitungan matematika tetapi juga dapat memproses berbagai simbol termasuk notasi musik. Ide kartu berlubang yang ada di mesin tenun jacquard dan dipinjam oleh Babbage untuk mesin analitis rekaan nya itu nantinya disempurnakan oleh Herman Hollerith sehingga pas untuk dimanfaatkan dalam komputer.
+
+Gagasan mesin analog kemudian muncul oleh karya kakak beradik Lord Kelvin dan James Thomson pada tahun 1870 - an. Alat ini mampu melakukan perhitungan kalkulus namun gagal memecahkan persamaan dengan banyak variabel. Kesulitan ini akhirnya terjawab pada 1931 oleh Profesor Teknik dari MIT yaitu Vannevar Bush. ia berhasil membuat komputer analog elektromekanis pertama di dunia mesin itu diberi nama Differential Analyzer. Mesin ini nantinya bayak digunakan untuk mendidik para pionir komputer generasi selanjutnya. Namun demikian mesin ini tidak mengambil peran penting dalam sejarah komputer karena karakter analognya
+
+Namun demikian berbagai pendekatan, teknologi, dan teori anyar bermunculan pada tahun 1937, tepat seratus tahun Babbage menerbitkan makalahnya mengenai mesin analitis. Lompatan matematika terjadi pada tahun ini yang salah satunya menghasilkan konsep formal mengenai komputer universal. Dan konsep ini digagas oleh matematikawan brilian asal Inggris, Alan Turing yang terkenal dengan mesin Komputasi Logis atau mesin Turing. Disusul oleh berbagai penemuan dan tokoh pelopor komputer lainnya, Claude Shannon penemu teori informasi sampai Bill Gates, Steve Jobs yang tak asing lagi dan diakhiri oleh komputer buatan IBM.
+
+---
+## Daftar Pustaka
+- Isaacson, Walter. *The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution*.
