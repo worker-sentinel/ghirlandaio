@@ -6,7 +6,7 @@
 Ketergantungan manusia terhadap teknologi informasi dan komunikasi, menimbulkan fenomena yang bisa dirasakan yaitu hampir seluruh masyarakat sudah menggunakan digital platform untuk melakukan aktivitas peribadi dan urusan bisnis. Oleh karena itu, tidak heran jika sserangan cyber telah dan akan terus menjadi suatu ancaman keamanan informasi dan data bagi perusahaan, organisasi dan individu.
 ## Pembahasan
 Apa itu Triad CIA?
-Triad CIA merupan model umum yang menjadi dasar pengembangan sistem keamanan. Tria CIA digunakan untuk menemukan kerentanan dan metode untuk menciptakan solusi. Jadi CIA itu singkatan dari Confidentiality (Kerahasiaan), Integrity (Integritas) dan Avalability (Ketersediaan).
+Triad CIA merupakann model umum yang menjadi dasar pengembangan sistem keamanan. Tria CIA digunakan untuk menemukan kerentanan dan metode untuk menciptakan solusi. Jadi CIA itu singkatan dari Confidentiality (Kerahasiaan), Integrity (Integritas) dan Avalability (Ketersediaan).
 
 **Confidentiality** atau kerahasiaan menjadi hal/unsur pertama dalam membuat suatu sistem kemanan yang bagus. Cara suatu oraganisasi atau perusahaan menjamin bahwa informasi dan data tetap dirahasiakan atau bersifat private. Supaya data tetap aman, makan kita harus mengontrol akses informasi dan data. Jadi orang atau oknum yang tidak ada atau tidak diberi izin tidak akan bisa mengakses ke data yang sangat penting. 
 
@@ -21,3 +21,9 @@ Pemahan dasar kemanan sistem dari 3 prinsip/ konsep CIA, bisa menghasilkan siste
 
 ## Kesimpulan
 Menerapkan dan menjadikan Triad CIA prinsip utama dalam kemanan sistem suatu organasisasi, perusahaan dan perpustakaan bisa menghasilkan lingkungan atau sistem yang aman dan terjaga dari berbagai ancaman cyber dengan informasi dan data yang dimilki. Alhasil menambah tingkat kepercayaan dari publik, pengguna, clien dan partner bisnis. 
+---
+# Referensi
+1. Winarianto, P., dan Daud, D. E. (2022). *CIA TRIAD*. Cyber BINUS. https://share.google/YwQozA9pwPvzfAGli
+2. Puti, C. A., Anwar, R. K., Amar, S. C. D., dan Rukmana, E. N. (2024). *Keamanan Informasi dan Privasi Pengguna dan layanan Perpustakaan Digital*.
+3. Harahap, A. H., Andani, C. D., Christie, A., Nurhaliza, D., Fauzi, A. (2023). *Pentingnya Peranan CIA Triad Dalam Keamanan Informasi dan Data Untuk Pemangku Kepentingan Atau Stakeholder*.
+4. Christen, M., Gordijn, B., dan Loi, M. (Eds). (2020). *The Ethics of Cybersecurity*.
