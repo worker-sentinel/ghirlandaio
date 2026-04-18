@@ -17,4 +17,3 @@ Selain itu, keamanan informasi dan perlindungan privasi pengguna juga menjadi ha
 
 # Kesimpulan
 Perpustakaan digital memerlukan pengembangan yang berkelanjutan agar tetap relevan di tengah perkembangan teknologi dan kebutuhan informasi yang terus berubah. Berdasarkan pembahasan, terdapat tiga faktor utama yang perlu diperhatikan, yaitu pengembangan koleksi digital, keamanan informasi dan privasi pengguna, serta pengelolaan arsip elektronik. Ketiga faktor tersebut memiliki peran yang saling melengkapi dalam mendukung kualitas layanan perpustakaan digital. Dengan pengembangan yang terarah pada aspek-aspek tersebut, perpustakaan digital dapat meningkatkan efektivitas layanan, menjaga kepercayaan pengguna, serta mempertahankan keberadaannya sebagai sumber informasi yang relevan dan berkelanjutan.
-
