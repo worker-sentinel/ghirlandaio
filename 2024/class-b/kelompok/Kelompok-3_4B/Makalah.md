@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era Kolaborasi Terbuka</h1>
-  Disusun untuk Memenuhi Tugas Mata Kuliah Arsip dan Digital Perpustakaan
+  Disusun untuk Memenuhi Tugas Mata Kuliah Perpustakaan dan Arsip Digital
   <p>Dosen Pengampu:</p>
   <b>Al Mudhil Karim S.Ip, M.Hum.</b>
   
@@ -14,7 +14,7 @@
   <b>PROGRAM STUDI ILMU PERPUSTAKAAN <br>
   FAKULTAS ADAB DAN HUMANIORA</b><br>
   <b>UNIVERSITAS ISLAM NEGERI<br>
-  SYARIFHIDAYATULLAH</b><br>
+  SYARIF HIDAYATULLAH</b><br>
   <b>JAKARTA</b><br>
   <b>2026</b><br>
 </div>
@@ -61,11 +61,11 @@ semoga makalah ini dapat memberikan manfaat bagi para pembaca.
 * [PEMBAHASAN](#pembahasan)
 * [KATA PENGANTAR](#kata-pengantar)
 * [2.1 Pola Hubungan Antara Negara dan Teknologi Pada Rentang Tahun 1960-Sekarang](#21)
-* [2.2 Pola Hubungan antara Sektor Swasta dan Teknologi Pada Rentang Tahun 1960–Sekarang](#22)
+* [2.2 Pola Hubungan Antara Sektor Swasta dan Teknologi Pada Rentang Tahun 1960–Sekarang](#22)
 * [2.3 Implementasi dan Kontribusi Hacking Culture dalam Tkenologi Modern](#23)
 * [2.4 Sejarah dan Pola Hubungan Antara Kode Sumber Terbuka dan Kode Sumber Tertutup Rentang Tahun 1970an-Sekarang](#24)
-* [2.5 Sikap Terhadap Kode Sumber Terbuka atau Kode Sumber Tertutup](#25)
-* [2.6 Hubungan antara kode sumber terbuka dan kode sumber tertutup dengan ideologi](#26)
+* [2.5 Sikap Terhadap Kode Sumber Terbuka Atau Kode Sumber Tertutup](#25)
+* [2.6 Hubungan Antara Kode Sumber Terbuka dan Kode Sumber Tertutup dengan Ideologi](#26)
 * [PENUTUP](#penutup)
 * [3.1 Kesimpulan](#31-kesimpulan)
 * [DAFTAR PUSTAKA](#daftar-pustaka)
@@ -87,7 +87,7 @@ Parallel dengan dinamika aktor tersebut, perdebatan antara kode sumber terbuka (
 ## 1.2 Rumusan Masalah
 1. Bagaimana pola hubungan antara negara dan teknologi pada rentang tahun 1960-sekarang.
 2. Bagiamana pola hubungan antara swasta dan teknologi pada rentang tahun 1960-sekarang.
-3. Bagaimana implementasi dan kontribusi hacking culture dalam pengembangan teknologi modern
+3. Bagaimana implementasi dan kontribusi hacking culture dalam pengembangan teknologi modern.
 4. Jelaskan sejarah dan pola hubungan antara kode sumber terbuka dan kode sumber tertutup rentang tahun 1970an-sekarang.
 5. Jelaskan sikap anda terhadap kode sumber terbuka atau kode sumber tertutup.
 6. Jelaskan hubungan antara kode sumber terbuka dan kode sumber tertutup dengan ideologi.
@@ -99,7 +99,7 @@ Adapun tujuan penulisan makalah ini adalah:
 3. Untuk menelusuri implementasi serta kontribusi budaya hacking terhadap perkembangan teknologi dan masyarakat.
 4. Untuk mengetahui sejarah serta pola hubungan antara open source dan closed source dari tahun 1970-an hingga sekarang.
 5. Untuk memberikan analisis mendalam mengenai kaitan antara kode sumber dan ideologi, dalam perspektif ekonomi-politik (Smith, Keynes, Marx, Berlin).
-6. Untuk - Menganalisis hubungan antara kode sumber terbuka dan tertutup dengan ideologi
+6. Untuk menganalisis hubungan antara kode sumber terbuka dan tertutup dengan ideologi.
 
 ## 1.4 Manfaat
 - Memberikan gambaran bahwa teknologi modern tidak lahir dari ruang hampa, melaikan hasil dari budaya yang kreatif (*hacking culture*) yang mendobrak aturan lama.
@@ -113,26 +113,13 @@ Adapun tujuan penulisan makalah ini adalah:
 
 <a name="21"></a>
 ## 2.1 Pola Hubungan Antara Negara dan Teknologi Pada Rentang Tahun 1960-Sekarang
-Dalam Das Kapital, Marx menegaskan bahwa negara bukanlah entitas netral,
-melainkan instrumen kelas berkuasa untuk menjaga sistem produksi kapitalis.
-Kutipan Marx yang terkenal menyebutkan: 
-“The executive of the modern state is but a committee for managing the common affairs of the whole bourgeoisie.” 
-(Das Kapital, Vol. I)
-“Eksekutif dari negara modern tidak lain hanyalah sebuah komite untuk mengurus kepentingan bersama seluruh kelas borjuis.”
-Sejak 1960-an, perkembangan teknologi modern seperti komputerisasi,
-satelit, hingga internet, banyak diarahkan oleh negara. Namun, orientasi
-utamanya bukan sekedar moderenisasi, melainkan teknologimenjadi alat untuk 
-memperkuat akumulasi kapital. Negara mendukung teknologi yang menguntungkan 
-industri besar, sementara inovasi yang berpotensi mengganggu logika kapitalis
+Dalam Das Kapital, Marx menegaskan bahwa negara bukanlah entitas netral, melainkan instrumen kelas berkuasa untuk menjaga sistem produksi kapitalis. Kutipan Marx yang terkenal menyebutkan: “The executive of the modern state is but a committee for managing the common affairs of the whole bourgeoisie.” (Das Kapital, Vol. I) “Eksekutif dari negara modern tidak lain hanyalah sebuah komite untuk mengurus kepentingan bersama seluruh kelas borjuis.” Sejak 1960-an, perkembangan teknologi modern seperti komputerisasi, satelit, hingga internet, banyak diarahkan oleh negara. Namun, orientasi utamanya bukan sekedar moderenisasi, melainkan teknologimenjadi alat untuk memperkuat akumulasi kapital. Negara mendukung teknologi yang menguntungkan industri besar, sementara inovasi yang berpotensi mengganggu logika kapitalis
 sering kali ditekan atau diatur ketat.
-Dengan demikian, pola hubungan negara dan teknologi menunjukan bahwa 
-teknologi diposisikan sebagai instrumen politik-ekonomi untuk melanggengkan dominasi kapital, bukan sekedar sarana kemajuan netral.
-Negara sejak 1960-an bukan netral, tapi jadi alat kelas berkuasa. teknologi 
-diarahkan untuk mendukung kepentingan kapitalisme, misalnya lewat riset dan infrastruktur.
-jadi hubungan negara dan teknologi itu negara menjaga agar teknologi tetap meunguntungkan pemilik modal.
+
+Dengan demikian, pola hubungan negara dan teknologi menunjukan bahwa teknologi diposisikan sebagai instrumen politik-ekonomi untuk melanggengkan dominasi kapital, bukan sekedar sarana kemajuan netral. Negara sejak 1960-an bukan netral, tapi jadi alat kelas berkuasa. teknologi diarahkan untuk mendukung kepentingan kapitalisme, misalnya lewat riset dan infrastruktur. Jadi hubungan negara dan teknologi itu negara menjaga agar teknologi tetap meunguntungkan pemilik modal.
 
 <a name="22"></a>
-## 2.2 Pola Hubungan antara Sektor Swasta dan Teknologi Pada Rentang Tahun 1960–Sekarang
+## 2.2 Pola Hubungan Antara Sektor Swasta dan Teknologi Pada Rentang Tahun 1960–Sekarang
 Pada awal 1960-an, hubungan antara teknologi dan sektor swasta masih sangat dipengaruhi oleh negara, khususnya militer Amerika Serikat. Melalui ARPA (Advanced Research Projects Agency), Departemen Pertahanan menjadi sumber utama pendanaan riset komputer, dengan pola hierarkis yang jelas: negara menentukan arah riset, universitas mengerjakan, dan kontraktor militer memproduksi. ARPANET, yang kelak menjadi cikal bakal internet, lahir dari motivasi praktis Bob Taylor untuk menghubungkan peneliti agar lebih efisien, bukan semata-mata demi keamanan nasional seperti narasi yang berkembang kemudian. Namun, stabilitas pola ini mulai retak seiring memanasnya Perang Vietnam. Gelombang protes mahasiswa, termasuk di Stanford yang memblokir SRI dan laboratorium berbasis dana pertahanan, memaksa universitas mempertimbangkan ulang ketergantungan mereka pada militer. Tekanan ini justru mendorong inovasi kelembagaan, seperti yang dilakukan Niels Reimers di Stanford, yang mulai merancang model komersialisasi riset agar universitas bisa menghasilkan pendapatan mandiri tanpa bergantung penuh pada negara.
 
 Pergeseran paling mendasar terjadi pada pertengahan 1970-an dengan munculnya dua mekanisme baru. Pertama, modal ventura modern yang dipelopori Don Valentine (Sequoia Capital) dan Kleiner & Perkins, yang menciptakan pola pendanaan berkelanjutan di mana pengusaha sukses mendanai dan membimbing generasi berikutnya. Kedua, transfer teknologi universitas melalui Kantor Lisensi Teknologi Stanford yang aktif mematenkan dan memasarkan inovasi kampus. Terobosan paten Cohen-Boyer (DNA rekombinan) yang menghasilkan $255 juta menjadi landasan bagi disahkannya Undang-Undang Bayh-Dole tahun 1980, regulasi yang secara resmi memungkinkan universitas memiliki dan melisensikan paten dari riset berdana federal. Momen ini menandai masuknya logika pasar secara formal ke dalam dunia riset akademis.
@@ -159,38 +146,17 @@ Memasuki abad ke-21, pola hubungan mengalami konvergensi fungsional. Korporasi t
 
 <a name="25"></a>
 ## 2.5 Sikap Terhadap Kode Sumber Terbuka atau Kode Sumber Tertutup.
-Marx menekankan bahwa kepemilikan alat produksi menentukan relasi sosial.
-dalam konteks digital, kode sumber dapat dipandang sebagai "alat produksi baru"
-yang menentukan siapa yang berhak mengakses, mengubah, dan memanfaatkanya.
-kutipan Marx : “The accumulation of capital, therefore, is concentration of the means of production and of the command over labour.” (Das Kapital, Vol. I)
-“Akumulasi kapital, dengan demikian, adalah konsentrasi alat produksi dan penguasaan atas tenaga kerja.”
-closed scourse menceriminkan logika kapitalisme: kode diprivatisasi, akses dibatasi, dan keuntungan terkonsentrasi pada pemilik modal.
+Marx menekankan bahwa kepemilikan alat produksi menentukan relasi sosial. Dalam konteks digital, kode sumber dapat dipandang sebagai "alat produksi baru" yang menentukan siapa yang berhak mengakses, mengubah, dan memanfaatkanya. kutipan Marx : “The accumulation of capital, therefore, is concentration of the means of production and of the command over labour.” (Das Kapital, Vol. I) “Akumulasi kapital, dengan demikian, adalah konsentrasi alat produksi dan penguasaan atas tenaga kerja.” closed scourse menceriminkan logika kapitalisme: kode diprivatisasi, akses dibatasi, dan keuntungan terkonsentrasi pada pemilik modal.
 
-sebaliknya, open source mencerminkan semangat kolektif:kode dibuka untuk semua, memungkinkan kolaborasi, dan menentang monopoli kapital. Sikap terhadap open source atau closed source pada ahirnya bukan hanya pilihan teknis, melainkan
-pilihan politik dan ideologis. Mendukung open source berarti berpihak pada
-distribusi pengetahuan dan aksesyang lebih, sejalan dengan gagasan Marx tentang 
-kepemilikan bersama.sebaliknya, mendukung closed source berarti menerima struktur
-kapitalisme yang menekan kontrol, profit, dan eksklusivitas.
-Open source berarti kode dibuka, bisa dipakai dan dikembangkan bersama. 
-Closed source berarti kode ditutup, hanya pemilik modal yang bisa kontrol dan ambil untung.
+Sebaliknya, open source mencerminkan semangat kolektif: kode dibuka untuk semua, memungkinkan kolaborasi, dan menentang monopoli kapital. Sikap terhadap open source atau closed source pada ahirnya bukan hanya pilihan teknis, melainkan pilihan politik dan ideologis. Mendukung open source berarti berpihak pada distribusi pengetahuan dan aksesyang lebih, sejalan dengan gagasan Marx tentang kepemilikan bersama.sebaliknya, mendukung closed source berarti menerima struktur kapitalisme yang menekan kontrol, profit, dan eksklusivitas. Open source berarti kode dibuka, bisa dipakai dan dikembangkan bersama. Closed source berarti kode ditutup, hanya pemilik modal yang bisa kontrol dan ambil untung.
 
-sikap kita terhadap kode sumber terbuka (*open source*) atau tertutup (*closed source*) sebaiknya tidak bersifat kaku, melaikan dilihat sebagai alat yang digunakan sesuai dengan tahap perkembangan inovasi tersebut. *Troublemakers* mengajarkan kita bahwa dunia digital tumbuh paling pesat justru ketika ada ruang untuk kolaborasi publik sekaligus ruang untuk kompetensi privat.
+Sikap kita terhadap kode sumber terbuka (*open source*) atau tertutup (*closed source*) sebaiknya tidak bersifat kaku, melaikan dilihat sebagai alat yang digunakan sesuai dengan tahap perkembangan inovasi tersebut. *Troublemakers* mengajarkan kita bahwa dunia digital tumbuh paling pesat justru ketika ada ruang untuk kolaborasi publik sekaligus ruang untuk kompetensi privat.
 
 <a name="26"></a>
 ## 2.6 Hubungan antara kode sumber terbuka dan kode sumber tertutup dengan ideologi
-Marx menjelaskan bahwa ideologi adalah bentuk "kesadaran palsu" yang
-menutupi relasi produksi sebenarnya. Kutipan Marx :
-“In the social production of their existence, men inevitably enter into definite relations, which are independent of their will.” (Preface to A Contribution to the Critique of Political Economy)
-“Dalam produksi sosial atas keberadaan mereka, manusia secara tak terelakkan masuk ke dalam hubungan tertentu yang independen dari kehendak mereka.”\
-Dalam konteks kode sumber, ideologi hadir dalam bentuk bagaimana aksess terhadap 
-kode diatur. closed source membawa ideologi kapitalisme:
-menekankan kepemilikan privat, kontrol, dan profit. Open source membawa ideologi kolektif: menekankan kebersamaan, aksess terbuka, dan kerja sama.
-kode sumber menjadi medium ideologis yang menentukan bagaimana relasi sosial terbentuk.
-jika kode di tutup, relasi soisal tunduk pada logika kapitalisme akses terbatas, 
-keuntungan terkonsentrasi. jika kode dibuka, relasi sosial lebih egaliter pengetahuan dan inovasi bisa di bagi secara luas.
-Dengan demikian, perdebatan open source versus closed source bukan hanya soal
-teknologi, tetapi juga soal ideologi yang mendasari struktur masyarakat modern.
-Kode sumber itu bukan hanya instruksi teknis, tetapi juga membawa ideologi. Closed source ideologi kapitalisme (privatisasi, kontrol, profit). Open source ideologi kolektif (akses terbuka, kerja sama, kebersamaan). Jadi, cara kita mengatur kode sumber ikut menentukan bentuk relasi sosial di masyarakat.
+Marx menjelaskan bahwa ideologi adalah bentuk "kesadaran palsu" yang menutupi relasi produksi sebenarnya. Kutipan Marx : “In the social production of their existence, men inevitably enter into definite relations, which are independent of their will.” (Preface to A Contribution to the Critique of Political Economy) “Dalam produksi sosial atas keberadaan mereka, manusia secara tak terelakkan masuk ke dalam hubungan tertentu yang independen dari kehendak mereka.” Dalam konteks kode sumber, ideologi hadir dalam bentuk bagaimana aksess terhadap kode diatur. closed source membawa ideologi kapitalisme: menekankan kepemilikan privat, kontrol, dan profit. Open source membawa ideologi kolektif: menekankan kebersamaan, aksess terbuka, dan kerja sama. kode sumber menjadi medium ideologis yang menentukan bagaimana relasi sosial terbentuk. jika kode di tutup, relasi soisal tunduk pada logika komunisme akses terbatas, keuntungan terkonsentrasi. jika kode dibuka, relasi sosial lebih egaliter pengetahuan dan inovasi bisa di bagi secara luas. 
+
+Dengan demikian, perdebatan open source versus closed source bukan hanya soal teknologi, tetapi juga soal ideologi yang mendasari struktur masyarakat modern. Kode sumber itu bukan hanya instruksi teknis, tetapi juga membawa ideologi. Closed source ideologi kapitalisme (privatisasi, kontrol, profit). Open source ideologi kolektif (akses terbuka, kerja sama, kebersamaan). Jadi, cara kita mengatur kode sumber ikut menentukan bentuk relasi sosial di masyarakat.
 
 <div align="center">
   <h1>BAB III</h1>

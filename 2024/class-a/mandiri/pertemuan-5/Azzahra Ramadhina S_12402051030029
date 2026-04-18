@@ -1,0 +1,29 @@
+Nama: Azzahra Ramadhina Salsabillah
+Kelas: 4A
+**Pertanyaan: "Apa penyebab utama terjadinya kebocoran data di Indonesia tahun 2023-2024?"**
+---
+Penyebab utama kebocoran data di Indonesia pada periode 2023-2024 merupakan akumulasi dari kelemahan sistemik yang mencakup aspek teknis, 
+sumber daya manusia, dan regulasi. Berikut ini adalah analisis ringkasnya berdasarkan berbagai laporan ahli keamanan siber dan 
+studi kasus seperti insiden Pusat Data Nasional (PDN) serta kebocoran data Dukcapil.
+Fenomena kebocoran data massal di Indonesia sepanjang tahun 2023 hingga 2024 mencerminkan kerentanan serius dalam tata kelola digital nasional. 
+Tantangan ini tidak hanya datang dari kecanggihan serangan eksternal, 
+tetapi lebih didominasi oleh kerapuhan fundamental di dalam struktur internal organisasi, baik pemerintah maupun swasta.
+---
+Penyebab pertama dan yang paling mencolok adalah *lemahnya infrastruktur teknis dan sistem pengamanan. 
+Studi dari **Tanjung & Febrianisa (2024)** dalam analisis kasus PDN menyoroti penggunaan perangkat lunak yang kedaluwarsa (outdated), 
+konfigurasi keamanan yang minim, serta praktik keamanan dasar yang sangat buruk, seperti penggunaan kata sandi yang terlalu sederhana (misalnya "Admin#1234"). 
+Selain itu, ketiadaan sistem cadangan (backup) yang terenkripsi dan terpisah secara optimal membuat serangan ransomware menjadi sangat destruktif. 
+---
+Penyebab kedua adalah *faktor kesalahan manusia *(human error)* dan rendahnya literasi siber*. 
+Data dari **Ditjen Aptika Kominfo* menunjukkan bahwa sekitar 34% insiden kebocoran data disebabkan oleh kelalaian karyawan. 
+Ahli keamanan siber *Alfons Tanujaya* menekankan bahwa kurangnya kesadaran akan prosedur operasional standar (SOP) keamanan membuat individu mudah terjebak 
+dalam praktik rekayasa sosial (social engineering) atau kecerobohan dalam mengelola hak akses data sensitif.
+---
+Penyebab ketiga berkaitan dengan *lemahnya koordinasi lintas lembaga dan penegakan regulasi.* 
+Meskipun Indonesia telah memiliki UU Perlindungan Data Pribadi (UU PDP), implementasinya dinilai belum optimal. 
+Menurut **Indrawan (2025)*, strategi pertahanan siber nasional masih bersifat sektoral dan belum terpadu. 
+Hal ini diperparah dengan minimnya sanksi tegas bagi instansi pemerintah yang mengalami kebocoran, 
+sehingga tidak ada tekanan kuat untuk melakukan audit keamanan secara berkala.
+Sebagai kesimpulan, kebocoran data di Indonesia adalah hasil dari kombinasi infrastruktur yang rapuh, 
+SDM yang kurang siap, dan regulasi yang belum taring. Tanpa perbaikan menyeluruh pada ketiga aspek ini, 
+ruang digital Indonesia akan tetap menjadi target empuk bagi kejahatan siber internasional.
