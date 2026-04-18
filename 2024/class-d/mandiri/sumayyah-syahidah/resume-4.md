@@ -2,9 +2,9 @@
 
 ## Pendahuluan
 
-Perkembangan teknologi informasi dan komunikasi telah mendorong transformasi perpustakaan dan lembaga arsip ke dalam bentuk digital. Digitalisasi ini memungkinkan akses informasi menjadi lebih cepat, luas, dan efisien bagi pengguna. Namun, di balik kemudahan tersebut, muncul tantangan baru berupa meningkatnya risiko keamanan siber yang dapat mengancam sistem dan data yang dikelola. :contentReference[oaicite:0]{index=0}
+Perkembangan teknologi informasi dan komunikasi telah mendorong transformasi perpustakaan dan lembaga arsip ke dalam bentuk digital. Digitalisasi ini memungkinkan akses informasi menjadi lebih cepat, luas, dan efisien bagi pengguna. Namun, di balik kemudahan tersebut, muncul tantangan baru berupa meningkatnya risiko keamanan siber yang dapat mengancam sistem dan data yang dikelola. 
 
-Selain itu, meningkatnya ketergantungan terhadap sistem teknologi informasi menyebabkan sistem digital menjadi lebih rentan terhadap berbagai ancaman. Hal ini menjadikan keamanan siber sebagai aspek penting dalam menjaga keberlangsungan layanan informasi di perpustakaan dan arsip digital. :contentReference[oaicite:1]{index=1}
+Selain itu, meningkatnya ketergantungan terhadap sistem teknologi informasi menyebabkan sistem digital menjadi lebih rentan terhadap berbagai ancaman. Hal ini menjadikan keamanan siber sebagai aspek penting dalam menjaga keberlangsungan layanan informasi di perpustakaan dan arsip digital. 
 
 ---
 
@@ -19,7 +19,7 @@ Perpustakaan digital bergantung pada infrastruktur teknologi seperti database, j
 - Pencurian data
 - Serangan Denial of Service (DoS/DDoS)
 
-Ancaman tersebut dapat mengganggu operasional serta merusak sistem informasi perpustakaan. :contentReference[oaicite:2]{index=2}
+Ancaman tersebut dapat mengganggu operasional serta merusak sistem informasi perpustakaan. 
 
 ---
 
@@ -31,7 +31,7 @@ Selain faktor teknis, manusia menjadi salah satu titik lemah utama dalam keamana
 - Penggunaan password yang lemah
 - Ketidaksadaran terhadap serangan phishing
 
-Hal ini meningkatkan kemungkinan terjadinya pelanggaran keamanan dalam sistem perpustakaan digital. :contentReference[oaicite:3]{index=3}
+Hal ini meningkatkan kemungkinan terjadinya pelanggaran keamanan dalam sistem perpustakaan digital. 
 
 ---
 
@@ -48,8 +48,7 @@ Dalam menjaga keamanan sistem informasi, terdapat tiga prinsip utama yang dikena
 3. **Availability (Ketersediaan)**  
    Memastikan data dapat diakses saat dibutuhkan
 
-Ketiga prinsip ini menjadi dasar penting dalam perlindungan data perpustakaan digital. :contentReference[oaicite:4]{index=4}
-
+Ketiga prinsip ini menjadi dasar penting dalam perlindungan data perpustakaan digital. 
 ---
 
 ### 4. Etika Keamanan Siber (Cyberethics)
@@ -61,7 +60,7 @@ Keamanan siber tidak hanya bersifat teknis, tetapi juga memiliki dimensi etika. 
 - Akuntabilitas
 - Kebebasan
 
-Dalam konteks perpustakaan digital, aspek ini sangat penting karena berkaitan dengan perlindungan data pengguna dan hak akses informasi. :contentReference[oaicite:5]{index=5}
+Dalam konteks perpustakaan digital, aspek ini sangat penting karena berkaitan dengan perlindungan data pengguna dan hak akses informasi. 
 
 ---
 
@@ -73,7 +72,7 @@ Untuk mengurangi risiko ancaman siber, diperlukan beberapa strategi, antara lain
 - Peningkatan sumber daya manusia (literasi keamanan digital)
 - Penerapan kebijakan keamanan (standar seperti ISO/IEC 27001)
 
-Pendekatan ini penting untuk menciptakan sistem yang aman dan andal. :contentReference[oaicite:6]{index=6}
+Pendekatan ini penting untuk menciptakan sistem yang aman dan andal. 
 
 ---
 
@@ -87,6 +86,6 @@ Oleh karena itu, diperlukan upaya yang komprehensif yang mencakup aspek teknis, 
 
 ## Daftar Pustaka
 
-- Christen, M., Gordijn, B., & Loi, M. (2020). *Etika Keamanan Siber*. Springer Open. :contentReference[oaicite:7]{index=7}
-- Azibaev, A. G., dkk. (2026). *Cybersecurity Risk Modeling in Library Information Infrastructure*. IJISS. :contentReference[oaicite:8]{index=8}
-- Hayes, A. Y., dkk. (tanpa tahun). *Etika Keamanan Siber pada Perpustakaan dan Lembaga Arsip Digital: Tantangan dan Strategis*. :contentReference[oaicite:9]{index=9}
+- Christen, M., Gordijn, B., & Loi, M. (2020). *Etika Keamanan Siber*. Springer Open. 
+- Azibaev, A. G., dkk. (2026). *Cybersecurity Risk Modeling in Library Information Infrastructure*. IJISS.
+- Hayes, A. Y., dkk. (tanpa tahun). *Etika Keamanan Siber pada Perpustakaan dan Lembaga Arsip Digital: Tantangan dan Strategis*. 
