@@ -6,4 +6,4 @@ AT&T pada masanya adalah raksasa monopoli telekomunikasi Amerika Serikat. ROLM C
 # Kesimpulan
 Kasus ini memperlihatkan dengan jelas apa yang sudah Marx analisis lebih dari satu abad lalu dalam sistem kapitalisme, teknologi bukan soal mana yang lebih baik untuk masyarakat, tapi mana yang lebih menguntungkan bagi pemilik modal. Ketika teknologi baru mengancam keuntungan kapital yang sudah mapan, sistem kapitalisme tidak segan menggunakan kekuatan politik dan hukum untuk menekannya. Bukan teknologi yang buruk, justru sebaliknya. Yang buruk dalam logika kapital adalah bahwa teknologi itu terlalu bagus sehingga mengancam bisnis yang sudah berkuasa.
 # Daftar Pustaka
-Marx,K (2015). Das Kapital:A Critique of Political Economy, Book II-The Process of Circulation of Capital Progress Publishers
+Marx, K (2015). Das Kapital: Kritik der politischen Okonomie. Progress Publishers
