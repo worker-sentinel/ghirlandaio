@@ -17,3 +17,5 @@ Sebagai contoh nyata betapa seriusnya ancaman ini, serangan ransomware terhadap 
 Keamanan siber merupakan aspek yang sangat penting dalam pengelolaan perpustakaan dan arsip digital, baik dari sudut pandang teknis maupun etis. Prinsip kerahasiaan, keutuhan, dan ketersediaan informasi harus menjadi fondasi dalam setiap kebijakan pengelolaan sistem digital perpustakaan. Di sisi lain, seperti yang ditekankan oleh Christen dkk. (2020), keamanan siber bukan tujuan akhir, melainkan nilai instrumental yang harus diseimbangkan dengan nilai-nilai lain seperti keterbukaan, privasi, dan akses yang adil. Oleh karena itu, perpustakaan dan arsip digital perlu mengembangkan pendekatan keamanan yang tidak hanya bersifat reaktif, tetapi juga proaktif dan berorientasi pada tanggung jawab etis terhadap penggunanya, demi memastikan fungsi perpustakaan sebagai penyedia informasi yang terpercaya tetap terjaga di era digital.
 
 ## Daftar Pustaka
+Christen, M., Gordijn, B., & Loi, M. (Eds.). (2020). The Ethics of Cybersecurity. Springer. 
+Haqqi, F., Ghozal, M. S., & Fitriani, A. S. (2024). Jenis-jenis Ancaman Siber dan Penerapan Cyber Security.
