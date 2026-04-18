@@ -21,8 +21,8 @@ Kompleksitas ekosistem digital yang semakin meningkat ini, dikombinasikan dengan
 Jadi, dapat disimpulkan bahwa ketergantungan berlebih kita sama teknologi informasi memang membuat sistem digital makin rentan, mulai dari celah keamanan yang gampang dieksploitasi hacker, kompleksitas jaringan yang susah diawasi, sampai risiko bocor data atau gangguan total yang bisa lumpuhin operasional organisasi. Seperti yang udah dibahas, ini tidak hanya tentang teknis saja, tapi juga ngaruh ke sosial, ekonomi, dan kepercayaan masyarakat. Maka dari itu, solusinya harus komprehensif : menerapkan standar keamanan yang matang, meningkatkan kesadaran SDM, dan membangun sistem respons cepat. Kalau semua ini diterapkan dengan benar, maka kita bisa menikmati manfaat teknologi tanpa kekhawatiran sedikitpun. Intinya, jangan sampai ketergantungan ini jadi bumerang, waktunya action nyata untuk menguatkan postur keamanan digital kita.
 
 ## Referensi
-Christen, M., Gordijn, B., & Loi, M. (Eds.). (2020). *The ethics of cybersecurity*. Springer.
+Christen, M., Gordijn, B., & Loi, M. (Eds.). (2020). *The ethics of cybersecurity*. Springer. https://doi.org/10.1007/978-3-030-29053-5
 
-Aminudin, A., & Supriyanto, A. (2023). *Kematangan risiko keamanan informasi layanan TI menggunakan pendekatan NIST dan ISO 27001:2013*. AITI: Jurnal Teknologi Informasi. 
+Aminudin, A., & Supriyanto, A. (2023). *Kematangan risiko keamanan informasi layanan TI menggunakan pendekatan NIST dan ISO 27001:2013*. AITI: Jurnal Teknologi Informasi. https://ejournal.uksw.edu/aiti/article/view/11690/2909
 
-(Jurnal JUIKTI). (2022). *Analisis Keamanan Data pada Sistem Informasi Menggunakan Metode ISO/IEC 27001*. Jurnal Informatika dan Teknologi Informasi (JUIKTI). 
+Siregar, M. N. H., & Mardiah. (2022). *Analisis Keamanan Data pada Sistem Informasi Menggunakan Metode ISO/IEC 27001*. Jurnal Informatika dan Teknologi Informasi (JUIKTI). https://journals.raskhamedia.or.id/index.php/juikti/article/view/52/48
