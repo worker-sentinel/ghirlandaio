@@ -20,4 +20,4 @@ Pada dasarnya, integritas adalah tingkat kemampuan seseorang atau sistem untuk m
 ## Referensi
 1. Gramedia Literasi. (2023). Apa Itu Integritas? Ini Penjelasan Lengkapnya. https://www.gramedia.com/literasi/apa-itu-integritas/
 2. Duggineni, Sasidhar. (2023). "Integritas Data dan Risiko." Jurnal Optimasi Terbuka, vol. 12, no. 2
-3. Kelompok 4 4D. (2026). Etika Keamanan Siber Pada Perpustakaan dan Lembaga Arsip Digital: Tantangan dan Strategis
+3. Kelompok 4 4D. (2026). Etika Keamanan Siber Pada Perpustakaan dan Lembaga Arsip Digital: Tantangan dan strategis
