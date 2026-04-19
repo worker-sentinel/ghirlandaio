@@ -15,4 +15,8 @@ Layanan perpustakaan digital memungkinkan pengguna untuk dapat mengakses koleksi
 
 Layanan perpustakaan digital telah menghadapi berbagai ancaman keamanan dan privasi, ancaman tersebut berupa seperti kerusakan atau kerugian data, peretasan virus, pencurian akun, dan kerentanan dalam perlindungan kata sandi. Untuk mengatasi ancaman ini, teknologi keamanan seperti enkripsi data, autentikasi, otorisasi, dan penggunaan firewall sangat penting.  
 
+## Daftar Pustaka
+
+Setiono, Y., & Shintawati, Y. (2024). Studi kepustakaan: Keamanan data di perpustakaan digital. *Jurnal Perpustakaan dan Informasi*, 1(1), 1-15.  
+
 
