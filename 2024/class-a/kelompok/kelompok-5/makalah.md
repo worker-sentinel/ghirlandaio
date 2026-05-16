@@ -11,7 +11,7 @@ Al Muhdil Karim, S.IP, M.Hum.
 3.	Muhammad Suyuthi Alkautsar (12402051050115)
 
 ## Pendahuluan
-*Latar Belakang*
+**Latar Belakang**
 
 Arch Linux merupakan distribusi Linux yang menekankan pada prinsip kesederhanaan, modernitas, pragmatisme, terpusat pada pengguna, serta keserbagunaan dengan tujuan memberikan kebebasan kepada pengguna untuk mengatur sistem sesuai kebutuhan. Arch Linux mengutamakan sistem yang sederhana tanpa tambahan atau modifikasi yang tidak diperlukan sehingga pengguna dapat mengatur dan menyesuaikan sistem sesuai kebutuhan. Selain itu, Arch Linux menggunakan sistem rilis bergulir (rolling release) agar dalam sekali pemasangan dan terus diperbarui.
 
