@@ -31,3 +31,10 @@ untuk boot
 
 untuk root
 <img width="4080" height="2296" alt="20260518_130209" src="https://github.com/user-attachments/assets/9a8ab672-71b2-40e4-bb59-21d3151d057c" />
+
+untuk swap
+
+mount
+
+
+
