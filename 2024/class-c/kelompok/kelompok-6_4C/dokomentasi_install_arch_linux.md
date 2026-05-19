@@ -53,8 +53,8 @@ sudo systemctl enable --now sddm
 ```
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/64fca410-3726-4210-b6db-23962afb77b4" />
 
-
-## Untuk Aktifin Networkmanager 
+# Penggunaan Plasma
+## Untuk Aktifkan NetworkManager 
 buka terminal, lalu ketik 
 ```
 su -
@@ -75,10 +75,10 @@ masukin password sudo
 systemctl --user enable --now pipewire.service
 ```
 ```
-systemctl -user enable --now pipewire-pulse.service
+systemctl --user enable --now pipewire-pulse.service
 ```
 ```
-systemctl -user enable --now wireplumber.service
+systemctl --user enable --now wireplumber.service
 ```
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/2713db29-9b33-4ecf-8017-69088dfe61f9" />
 
