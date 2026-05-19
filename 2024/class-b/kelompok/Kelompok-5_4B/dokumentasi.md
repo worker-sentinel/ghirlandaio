@@ -79,9 +79,7 @@ Setelah itu keluar dari iwctl
 
 ### Sinkronisasi Waktu
 Setelah memastikan internet berjalan, selanjutnya adalah melakukan sinkronisasi waktu otomatis supaya sistem tidak terjadi error.
-Saat laptop mulai restart, flashdisk installer dicabut agar sistem tidak kembali boot dari USB.
 `timedatectl`
-
 Dengan menjalankan perintah ini sistem akan memastikan waktu dan tanggal sudah sesuai.
 
 ### Mengecek Disk yang Digunakan 
