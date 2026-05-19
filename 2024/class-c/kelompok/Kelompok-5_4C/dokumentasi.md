@@ -565,22 +565,35 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # Reboot
 
-Keluar dari chroot:
+Jika sudah mengikuti langkah-langkah diatas dengan benar. maka tahap terakhir yang dilakukan dari instalisasi adalah melakukan __Reboot__.
 
+Keluar dari chroot:
 ```bash
 exit
 ```
 
-Unmount:
-
+Selanjutnya, lakukan Unmount dengan mengetik:
 ```bash
 umount -R /mnt
 ```
 
-Reboot:
-
+Lalu Reboot dengan mengetik:
 ```bash
 reboot
 ```
 
-Lepas USB installer setelah restart.
+Perhatian:
+- Pastikan USB installer telah dilepas setelah melakukan proses restart.
+
+---
+
+__SELESAI.__
+
+---
+
+
+
+
+
+
+
