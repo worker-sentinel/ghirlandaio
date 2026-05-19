@@ -204,12 +204,4 @@ Setelah itu semua partisi yang tadi di-mount dilepas (unmount)
 `umount -R /mnt`
 Setelah semuanya dilepas, sistem direstart 
 Reboot 
-Saat laptop mulai restart, flashdisk installer dicabut agar sistem tidak kembali boot dari USB. 
-
-
-
-
-
-
-
-
+Saat laptop mulai restart, flashdisk installer dicabut agar sistem tidak kembali boot dari USB.
