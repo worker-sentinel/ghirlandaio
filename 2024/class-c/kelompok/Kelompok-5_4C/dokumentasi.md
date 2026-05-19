@@ -64,7 +64,7 @@ Setelah mengklik start akan muncul tampilan seperti ini, klik bawah yaitu __Writ
 
 ---
 
-Setelah muncul seperti, lanjut klik __OK__ untuk menaruh Archiso. (Gunakan flashdisk yang dibutuhkan, disarankan flashdisk lama yang sudah tidak terpakai lagi atau bisa saja menggunakan flashdisk baru)
+Setelah muncul seperti, lanjut klik __OK__ untuk menaruh Archiso. (Gunakan flashdisk yang dibutuhkan, disarankan flashdisk lama yang sudah tidak terpakai lagi atau bisa juga menggunakan flashdisk baru)
 
 
 Jika sudah selesai proses sebelumnya, klik __close__.
@@ -94,9 +94,11 @@ Jika ruang yang tersedia masih cukup besar, disarankan memasukkan nilai 50000 (s
 
 Kurang lebih seperti inilah tampilan setelah partisi berhasil dibuat. Namun, kita akan melanjutkan proses pembuatan partisi lebih lanjut di dalam Arch Linux.
 
-Masuk ke entering setup cari di google menyesuaikan laptop, Akses BIOS dengan menekan F1 saat logo Lenovo muncul, buka tab Security > Secure Boot, ubah menjadi disabled, lalu simpan dengan F10, Otomatis mereboot device. (Jika berbeda cari kembali di google menyesuaikan laptop)
 
-Masuk boot menu untuk thinkpad yaitu f12(kondisi flashdisk tercolok dan terisi archiso)
+Selanjutnya, Masuk ke __Entering Setup__ (cara masuk nya dapat dicari di Google sesuai tipe dan merk laptop masing-masing, sebagai contoh untuk modul dokumentasi ini kelompok kami menggunakan laptop Lenovo). Akses BIOS dengan menekan __F1__ saat logo Lenovo muncul, kemudian buka tab Security -> Secure Boot dan ubah statusnya menjadi __Disabled__.  Simpan perubahan dengan menekan __F10__, dan perangkat akan otomatis melakukan reboot.
+
+
+Setelah itu, masuk ke Boot Menu dengan menekan F12 (khusus p
 
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/5a149ab2-6ed8-42c2-9fcb-051c2aa6c577" />
