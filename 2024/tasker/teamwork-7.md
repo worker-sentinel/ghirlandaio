@@ -1,4 +1,4 @@
-# penugasan kelompok 6
+# penugasan kelompok 7
 
 ## presentator
 ### case:
@@ -10,7 +10,7 @@ Presentator mampu melakukan dan menjelaskan installasi desktop arch linux
 | boot            | booster         |
 | secureboot      | true            |
 | disk encryption | luks on lvm     |
-| dekstop         | dwm             |
+| dekstop         | xfce            |
 | file manager    | super file      |
 | disk layout     | CIS             |
 | container       | podman, podman desktop          |
