@@ -1,4 +1,5 @@
-# Resume Materi "Pemikiran siapa yang mendukung pergeseran ke arah mekanisme pasar dalam inovasi teknologi?"
+# Resume Materi "Evolusi Relasi antara Negara, Sektor Swasta, dan Teknologi (1960–Sekarang): Peran Budaya Hacking serta Paradigma Open dan Closed Source"
+"
 ## Nama: Mas Mochammad Ikhsan Adzani
 ## NIM: 12402051030094
 ## Mata Kuliah: Perpustakaan dan Arsip Digital

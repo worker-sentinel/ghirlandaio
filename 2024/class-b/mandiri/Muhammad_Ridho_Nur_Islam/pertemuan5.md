@@ -24,4 +24,33 @@ Di sisi lain, aspek privasi menuntut sistem kearsipan untuk memiliki kontrol aks
 Salah satu tujuan fundamental dari manajemen kearsipan adalah "menghemat waktu pengguna", yang secara teknis sangat bergantung pada kecepatan dan keandalan jaringan (Hidaya, 2020). Menurut saya peningkatan infrastruktur jaringan memastikan bahwa proses transfer data dan aksesibilitas dokumen tidak terhambat oleh kendala teknis. Hal ini sangat krusial apalagi saat pengguna perlu mengakses arsip berukuran besar atau melakukan pencarian dalam basis data yang sangat luas.
 ​Kecepatan akses yang didukung oleh jaringan yang stabil akan meningkatkan produktivitas dan kepercayaan pengguna terhadap layanan informasi. Dengan sistem yang terintegrasi dan responsif, hambatan antara pengguna dan informasi dapat diminimalisir, sehingga fungsi arsip digital sebagai penyedia memori kolektif yang efisien dapat tercapai secara maksimal.
 
-### 
+### Memperkuat Pertahanan Terhadap Ancaman Siber
+
+Arsip digital memiliki kerentanan yang lebih tinggi terhadap serangan siber dibandingkan dengan arsip fisik. Menurut laporan BSSN, terdapat lebih dari 400 juta upaya serangan siber di Indonesia sepanjang tahun 2023, yang didominasi oleh phishing, ransomware, dan kebocoran data (Arifin et al., 2025). Peningkatan pada aspek jaringan diperlukan untuk mengimplementasikan protokol enkripsi yang lebih kuat serta sistem pemantauan lalu lintas data yang mampu mendeteksi anomali secara real-time berdasarkan kerangka kerja keamanan siber seperti NIST (Nurochman et al., 2024).
+​Selain perlindungan jaringan, sistem penyimpanan juga harus diperkuat untuk menjamin pilar Confidentiality (Kerahasiaan), Integrity (Integritas), dan Availability (Ketersediaan) (Haqqi et al., 2024). Melalui peningkatan sistem, lembaga dapat menerapkan mekanisme pencadangan (backup) yang redundan dan teknologi enkripsi untuk menjaga integritas arsip dari perubahan yang tidak bertanggung jawab (Arifin et al., 2025). Hal ini memastikan bahwa jika terjadi kegagalan sistem, arsip tetap dapat diakses dan kontennya tetap autentik tanpa mengalami kerusakan permanen.
+
+### Mampu Menampung Volume Arsip yang Terus Bertambah
+
+Peningkatan sistem penyimpanan merupakan konsekuensi logis dari sifat arsip digital yang dinamis dan terus berkembang. Merujuk pada pemikiran S.R. Ranganathan bahwa perpustakaan adalah "organisme yang tumbuh", volume arsip digital akan selalu mengalami ekspansi seiring berjalannya waktu (Hidaya, 2020). Menurut saya tanpa adanya peningkatan kapasitas dan teknologi penyimpanan yang mumpuni, sistem akan mengalami penurunan performa atau bahkan kegagalan fungsi dalam menampung data baru yang dihasilkan secara besar-besaran di era informasi saat ini.
+​Oleh karena itu, aspek skalabilitas menjadi prioritas utama untuk memastikan bahwa infrastruktur tidak hanya mampu menampung data saat ini, tetapi juga siap menghadapi ledakan informasi di masa depan. Sistem penyimpanan yang ditingkatkan memungkinkan pengelolaan metadata dan konten digital yang lebih kompleks, sehingga ekosistem arsip tetap stabil dan andal meskipun beban kerjanya terus meningkat.
+
+### Kesimpulan 
+
+Secara keseluruhan, peningkatan sistem penyimpanan dan jaringan dalam pengelolaan arsip digital bukan sekadar pembaruan teknis, melainkan kebutuhan mendasar untuk menjaga kelangsungan informasi. Hal ini dilakukan untuk mengimbangi pertumbuhan data yang tidak pernah berhenti, sehingga perpustakaan dan lembaga arsip tetap mampu memberikan akses yang cepat dan efisien bagi penggunanya (Hidaya, 2020). Selain itu, infrastruktur yang kuat adalah kunci utama dalam menghadapi ancaman siber yang terus meningkat di Indonesia, guna memastikan bahwa data penting tetap utuh dan rahasia (Arifin et al., 2025).
+​Namun, teknologi yang canggih juga harus dibarengi dengan kesadaran hukum dan etika. Pengelolaan arsip digital yang ideal memerlukan sinergi antara keamanan teknis, kepatuhan terhadap regulasi seperti UU ITE, serta penerapan etika siber (cyberethics) oleh setiap pengguna (Wulandari & Ismaya, 2023; Kelompok 4, 2026). Dengan menggabungkan sistem yang andal dan perilaku digital yang bertanggung jawab, arsip digital dapat menjadi sumber informasi yang aman, lestari, dan bermanfaat untuk jangka panjang.
+
+## Daftar Pustaka
+
+**Arifin, M. M. X., Putra, P., & Syarif, V. D. P. (2025)**. Analisis tingkat keamanan arsip digital dalam menghadapi ancaman keamanan siber. Journal of Economic and Management (JEM) Terekam Jejak, 2(3), 95–110. https://jpm.terekamjejak.com/index.php/jeh
+  
+​**Haqqi, F., Ghozali, M. S., & Fitriani, A. S. (2024)**. Jenis-jenis ancaman siber dan penerapan cyber security. [Modul Pembelajaran].
+
+**​Hidaya, A. S. (2020)**. Teori S.R. Ranganathan Five Laws of Library Science dalam pengembangan koleksi perpustakaan. FIHRIS: Jurnal Ilmu Perpustakaan dan Informasi, 15(1), 1–13.
+
+**​Mecca, D. V., Aryani, A. D., & Videla, H. Z. (2026)**. Evolusi 5 hukum perpustakaan, cyberethics, dan keamanan cyber dalam pengelolaan perpustakaan serta arsip digital (Tugas Makalah Kelompok 4). Program Studi Ilmu Perpustakaan, UIN Syarif Hidayatullah Jakarta.
+  
+​**Nurochman, A., Astuti, E. Y., & Widianingtias, S. (2024)**. Analisis keamanan siber sistem informasi perpustakaan di Perpustakaan Universitas Jenderal Soedirman. BACA: Jurnal Dokumentasi dan Informasi, 45(1), 49–64. https://doi.org/10.55981/j.baca.2024.1237
+
+​**Putri, C. A., Anwar, R. K., Amar, S. C. D., & Rukmana, E. N. (2024)**. Keamanan informasi dan privasi pengguna dalam layanan perpustakaan digital. Media Pustakawan, 31(3), 266–276. https://doi.org/10.37014/medpus.v31i3.5317
+
+​**Wulandari, D. S., & Ismaya. (2023)**. Pengelolaan arsip elektronik di era digital. IKOMIK: Jurnal Ilmu Komunikasi dan Informasi, 3(2), 39–43. https://doi.org/10.33830/ikomik.v3i2.5252

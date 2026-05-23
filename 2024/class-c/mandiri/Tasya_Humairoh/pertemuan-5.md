@@ -1,0 +1,25 @@
+*<h1 align="center">Resume Pertemuan 5</h1>*
+*<h1 align="center">Bagaimana Penerapan Integrity Pada Pengelolaan Arsip Digital</h1>*
+
+## Pendahuluan
+Perkembangan teknologi digital pada saat ini membawa perubahan besar dalam cara informasi dibuat, disimpan, dan di kelola. Arsip yang sebelumnya berbentuk fisik kini bayak beralih ke bentuk/format digital. Perubahan tersebut disisi lain memberikan kemudahan, tetapi juga menimbulkan tantangan baru, terutama dalam menjaga keutuhan dan kepercayaan informasi tersebut. Integrity (integritas) merupakan salah satu aspek yang penting dalam pengelolaan arsip digital, yaitu kondisi dimana arsip tetap utuh, tidak berubah, dan dapat dipercaya sejak pertama kali dibuat hingga digunakan kembali. Jika integrity tidak terjaga, arsip digital bisa kehilangan fungsinya sebagai bukti maupun sumber informasi. Jadi, penting untuk memahami bagaimana integrity diterapkan dalam pengelolaan arsip digital agar informasi yang disimpan tetap dapat di percaya.
+
+## Pembahasan 
+Integrity dalam arsip digital berkaitan dengan authenticity (keaslian). Keaslian ngga cuma diliat dari bentuk arsipnya aja, tapi juga dari konteks, asal-usul, dan sistem penyimpanannya. Intinya, integrity berkaitan dengan bagaimana arsip ngga berubah dan masih sesuai sama kondisi aslinya.
+
+Penerapan integrity dilakuin kewat dua cara, yaitu mekanisme teknis dan mekanisme sosial. Corinne Rogers menjelaskan keaslian arsip digital di tentuin dari hubungan antara identitas dan integritas arsip tersebut. Dari sisi teknis, biasanya menggunakan sistem manajemen arsip digital, metadata, dan kontrol akses supaya data ngga bisa diubah sembarangan. Nah kalau dari sisi sosial itu ada kebijakan organisasi, prosedur kerja, dan peran arsiparis yang mastiin semua berjalan sesuai aturan. Teknologi aja ngga cukup tanpa adanya pengawasan dari manusia nya langsung.
+
+Integrity berkaitan dengan keamanan digital. Dalam sistem digital integrity itu penting supaya data tidak di modifikasi sembarangan. Cara yang bisa digunakan untuk menjaga integrity misalnya dengan membatasi akses, menggunakan autentikasi, dsn melindungi sistem dari ancaman seperti malware atau pretasan. Integrity juga perlu di cek melalui proses evaluasi dan pengendalian kualitas, Paul Conway menjelaskan bahwa kualitas isi arsip juga perlu di perhatikan, terutama pada arsip hasil digitalisasi. Meskipun sistemnya sudah baik, isi dari asrip harus tetap di cek melalui proses validasi dan pengecekan error agar tetap akurat dan bisa digunakan dalam jangka panjang. Integrity bukan cuma soal ngejaga data tetap utuh, tapi juga mastiin informasinya tetap bisa dipercaya.
+
+## Kesimpulan 
+Penerapan integrity dalam pengelolaan arsip digital itu penting dan ngga bisa di lakuin secara asal, integrity bukan cuma soal data itu sendiri tetap utuh, tapi juga berkaitan dengan kealian data arsip secara keseluruhan. Mulai dari konsep, penggunaan tenologi, kebijakan organisasi, sampai evaluasi kualitas. Jadi untuk menjaga integrity arsip digital, dibutuhkan kerja sama antar sistem yang baik dan peran manusia yang bertanggung jawab
+
+---
+### Daftar Pustaka
+Tateki, A., Muryanto, B., & Adikara, G. (2023). *Handbook digital safety*. Yayasan LKiS.
+
+Rogers, C. (2015). *Virtual authenticity: Autenthicity of digital records from theory to practice* (doctoral dissertation, The University of British Culombia).
+
+Conway, P. (2011). *Archival quality and long-term preservation: A research framework for validating the usefuless of digital surrogates.* Archival Science, 11(3-4), 293-309.
+
+Smith, A. (Ed.). (2000). *Authenticity in a digital environment.* Council on Library and Information Resources.

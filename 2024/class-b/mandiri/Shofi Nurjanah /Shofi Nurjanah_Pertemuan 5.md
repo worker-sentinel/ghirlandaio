@@ -1,2 +1,15 @@
 # Perpustakaan Disebut Sebagai Organisme yang Terus Berkembang
 Resume hasil persentasi kelompok 4
+## Pendahuluan
+Perpustakaan merupakan organisme yang terus berkembang karena selalu mengalami perubahan dari segi koleksi, layanan sampai pengelolaannya. Hal ini bisa dilihat dari perkembangan teknologi informasi yang mengubah perpustakaan dari sistem konvensional menjadi berbasis digital. Dari perubahan itu, perpustakaan harus menyesuaikan diri dengan kebutuhan pemustaka yang semakin berubah dan membutuhkan akses informasi yang cepat, fleksibel, dan mudah. 
+## Pembahasan
+Konsep perpustakaan sebagai organisme yang terus berkembang sesuai dengan hukum perpustakaan ke lima dalam buku klasik Ranganathan yaitu “A Library Is A Growing Organism” yang artinya perpustakaan adalah organisme yang selalu berkembang. Hukum ini menjelaskan bahwa perpustakaan selalu tumbuh, berkembang, dan berubah. Perkembangan perpustakaan mengikuti perkembangan teknologi informasi di zaman ini serta kebutuhan informasi pengguna.
+
+Seperti yang dijelaskan dalam makalah kelompok 4, hal utama yang perlu dikembangkan antara lain: pertama, koleksi digital yang berkelanjutan agar tetap sesuai dengan kebutuhan pengguna/pemustaka. Kedua, perpustakaan juga harus meningkatkan kemudahan akses ke koleksi digital agar pengguna bisa mengakses informasi dengan cepat dan bisa dilakukan di mana saja. Ketiga, Kualitas layanan perpustakaan pun tentu perlu ditingkatkan baik dari segi fasilitas maupun dari pelayanan langsung kepada pengguna. Selain itu, kompetensi pustakawan juga termasuk hal penting yang harus terus ditingkatkan misalnya melalui pelatihan di bidang teknologi informasi dan manajemen koleksi digital. Adapun dalam konteks arsip digital, hal utama yang perlu ditingkatkan yaitu sumber daya manusia, sistem penyimpanan dan jaringan yang memadai, dan teknologi kearsipan untuk kelancaran pengelolaan arsip. Maka dari itu, perpustakaan disebut sebagai organisme yang terus berkembang karena selalu menyesuaikan diri dengan perubahan kebutuhan dan perkembangan teknologi.
+## Kesimpulan
+Perpustakaan disebut sebagai organisme yang terus berkembang karena selalu mengalami perubahan dan akan selalu mengalami hal itu. Perpustakaan harus menyesuaikan dengan perkembangan teknologi dan kebutuhan pemustaka. Jika perpustakaan tidak berkembang, maka fungsi perpustakaan sebagai pusat informasi tidak akan bisa berjalan dengan baik. Jika hal itu terjadi, perpustakaan pun akan ditinggalkan oleh pemustakanya.
+## Daftar Pustaka
+•	Makalah kelompok 4 (2026). Evolusi 5 Hukum Perpustakaan, Cyberethics, dan Keamanan Cyber dalam Pengelolaan Perpustakaan serta Arsip Digital
+
+•	S. R. Ranganathan. (1931). The five laws of library science. Madras: Madras Library Association.
+ 
