@@ -1,3 +1,6 @@
+# Instalasi Archlinux
+---
+
 ## 1. Masuk ke live environtment archlinux
 
 #### BIOS HP
@@ -14,6 +17,7 @@ Pencet esc sampai masuk BIOS, terus F9 untuk ke BOOT MENU.. pilih yg flashdisk
 
 ---
 <img width="4064" height="3048" alt="2  Iwctl trus masuk ke wifi dgn command station wlan0 connect (nama wifi), stelah itu masukkan password" src="https://github.com/user-attachments/assets/a75a1015-4527-4ce5-9d10-3822da8be103" />
+
 ---
 
 
@@ -23,6 +27,7 @@ Ketik ```exit``` kalau sudah dan cek internet dgn ```ping 8.8.8.8``` dan memasuk
 
 ---
 <img width="3631" height="1162" alt="3  tes internet dengan command ping 8 8 8 8 dan memasukkan timedatectl(sinkronisasi waktu)" src="https://github.com/user-attachments/assets/c27b3726-4be9-4fcf-8de1-54776c06a201" />
+
 ---
 
 
@@ -32,6 +37,7 @@ Ketik ```exit``` kalau sudah dan cek internet dgn ```ping 8.8.8.8``` dan memasuk
 
 ---
 <img width="4064" height="3048" alt="4  lsblk untuk melihat partisi, ketik cfdisk _dev_nvme0n1 untuk format partisi" src="https://github.com/user-attachments/assets/a689eb6a-55c8-483b-9851-ce9d8e6f9b9a" />
+
 ---
 
 
@@ -93,7 +99,7 @@ Untuk mengsinkronkan Hardware Clock ketik :
 ```hwclock --systohc```
 
 
-## 9. Localization
+## 8. Localization
 
 
 Instalasi NEOVIM dulu
@@ -138,7 +144,7 @@ ini yg uda diinput
 Setelah sudah terisi, tekan key escape pada keyboard dan ketik ```:wq```
 
 
-## 10. Hostname
+## 9. Hostname, passwd root, bootloader
 
 untuk membuat Useradd, ketik:
 
@@ -165,7 +171,7 @@ TERUS INSTALL BOOTLOADER(GRUB)
 
 ---
 
-##  11 . Reboot
+##  10. Reboot
 
 Ketik ```Exit```
 
@@ -284,14 +290,8 @@ filemanager
 
 kitty terminal
 
-
 *** Selesai***
 ---
-
-
-
-
-
 
 
 
