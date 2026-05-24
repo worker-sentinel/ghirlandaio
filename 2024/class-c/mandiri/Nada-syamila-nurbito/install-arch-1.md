@@ -14,7 +14,7 @@
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/17baee22-bcf9-45ce-af71-f6fd14c2d340" />
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/658f17b3-0cdb-4e8f-bea4-702c3ace55be" />
 
-## 5. Format partisipasi root, swap, and swap on
+## 5. Format partisipasi Root, Swap, and swap on
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/1b90ceb5-c09c-4ad6-8748-8405696b8c62" />
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/b6f005dd-12e2-4368-81ce-55fe3f4230f6" />
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/7dbac9ac-f3aa-4cb3-9308-bc998445f759" />
