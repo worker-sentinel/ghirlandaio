@@ -97,17 +97,6 @@ lvcreate -l50%FREE proc -n home
 lvcreate -L size (G | M) proc -n [name]
 ```
 
-## setup luks
-```
-cryptsetup luksFormat /dev/proc/[name]
-```
-```
-cryptsetup luksOpen /dev/proc/ikhsan [nama device]
-```
-```
-mkfs.ext4 /dev/mapper/[nama device]
-```
-
 ## formating 
 ```
 mkfs.ext4 /dev/proc/root
@@ -140,6 +129,17 @@ mkfs.ext4 /dev/proc/home
 ```
 mkfs.ext4 /dev/proc/[name]
 ```
+## setup luks
+```
+cryptsetup luksFormat /dev/proc/[name]
+```
+```
+cryptsetup luksOpen /dev/proc/ikhsan [nama device]
+```
+```
+mkfs.ext4 /dev/mapper/[nama device]
+```
+
 # packages
 ## intel
 ```
