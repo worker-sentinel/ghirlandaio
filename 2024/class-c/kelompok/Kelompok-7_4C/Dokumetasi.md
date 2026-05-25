@@ -231,6 +231,7 @@ nvim /etc/locale.conf
 ---
 ### Pam_mount
 **Menambahkan User**
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.38.24.jpeg)
 ```
 mkdir /home/user
 ```
@@ -253,6 +254,7 @@ sudo mount -o rw,nodev,nosuid,relatime /dev/mapper/(nama device) /home/(nama)
 ```
 
 **Config volume**
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.38.24(1).jpeg)
 ```
 nvim /etc/security/pam_mount.conf.xml
 ```
@@ -322,6 +324,7 @@ nvim /etc/security/pam_mount.conf.xml
 ```
 
 **Update konfigurasi pam_mount**
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.38.23(1).jpeg)
 ```
 nvim /etc/pam.d/system-login
 ```
@@ -358,6 +361,7 @@ session    required   pam_env.so
 
 ---
 ## Booster
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.38.22.jpeg)
 ```
 nvim /etc/booster.yaml
 ```
@@ -373,6 +377,7 @@ strip: true
 enable_lvm: true
 ```
 
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.37.47.jpeg)
 ```
 cd /boot
 ```
@@ -390,6 +395,7 @@ rm -fr booster-linux-lts.img
 
 ---
 ## Systemd boot
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/arch-xfce/WhatsApp%20Image%202026-05-25%20at%2008.37.47(2).jpeg)
 ```
 bootctl --path=/boot install
 ```
