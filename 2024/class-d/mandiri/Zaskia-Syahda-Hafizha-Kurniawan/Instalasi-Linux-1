@@ -1,0 +1,425 @@
+# 1. Persiapan
+
+- Masukkan flashdisk ke laptop atau komputer.
+- Cari dan download Rufus versi standard.
+- Download Arch Linux ISO versi Indonesia ukuran sekitar 1GB.
+
+---
+
+# 2. Membuat Bootable USB
+
+- Buka Rufus.
+- Pada bagian Device pilih nama flashdisk masing-masing.
+- Klik Select lalu pilih file Arch Linux ISO yang sudah didownload.
+- Klik Open.
+- Klik Start.
+- Pilih opsi 2 lalu klik OK.
+- Tunggu proses selesai.
+- Klik Close.
+
+---
+
+# 3. Booting ke Arch Linux
+
+- Restart laptop.
+- Tekan `F2` untuk masuk BIOS.
+- Masuk ke menu:
+  - Security
+  - Secure Boot
+  - Disabled
+- Tekan `F10` untuk save lalu exit.
+- Pilih boot menggunakan flashdisk.
+
+---
+
+# 4. Mengecek Mode EFI
+
+Ketik:
+
+```bash
+cat /sys/firmware/efi/fw_platform_size
+```
+
+---
+
+# 5. Menghubungkan ke Internet
+
+Masuk ke iwctl:
+
+```bash
+iwctl
+```
+
+Cek driver Wi-Fi:
+
+```bash
+device list
+```
+
+Scan Wi-Fi:
+
+```bash
+station wlan0 scan
+```
+
+Melihat daftar Wi-Fi:
+
+```bash
+station wlan0 get-networks
+```
+
+Menghubungkan Wi-Fi:
+
+```bash
+station wlan0 connect nama-wifi
+```
+
+Masukkan password Wi-Fi.
+
+Keluar:
+
+```bash
+exit
+```
+
+Cek koneksi internet:
+
+```bash
+ping 1.1.1.1
+```
+
+---
+
+# Perkondisian
+
+Mengaktifkan Wi-Fi:
+
+```bash
+device wlan0 set-property Powered on
+```
+
+Jika tidak bisa:
+
+```bash
+rfkill list
+rfkill unblock all
+```
+
+Untuk hidden network:
+
+```bash
+station wlan0 connect-hidden rogerlab
+```
+
+Masukkan password:
+
+```text
+T1g4_Puluh_R1bu
+```
+
+---
+
+# 6. Mengecek Partisi
+
+Melihat partisi:
+
+```bash
+lsblk -o name,fstype,size
+```
+
+Keterangan:
+- `vfat` digunakan untuk sistem UEFI.
+- `ntfs` digunakan untuk Windows.
+
+---
+
+# 7. Membagi Partisi
+
+Masuk ke cfdisk:
+
+```bash
+cfdisk /dev/nvme0n1
+```
+
+Membuat partisi:
+- Boot = `1G` → EFI System
+- Swap = `4G` → Linux Swap
+- Root = `14.2G` → Linux Filesystem
+
+Contoh:
+- Boot = `/dev/nvme0n1p5`
+- Swap = `/dev/nvme0n1p6`
+- Root = `/dev/nvme0n1p7`
+
+---
+
+# 8. Format Partisi
+
+Format root:
+
+```bash
+mkfs.ext4 /dev/nvme0n1p7
+```
+
+Format swap:
+
+```bash
+mkswap /dev/nvme0n1p6
+```
+
+Aktifkan swap:
+
+```bash
+swapon /dev/nvme0n1p6
+```
+
+Format EFI:
+
+```bash
+mkfs.fat -F32 /dev/nvme0n1p5
+```
+
+---
+
+# 9. Mount Partisi
+
+Mount root:
+
+```bash
+mount /dev/nvme0n1p7 /mnt
+```
+
+Mount EFI:
+
+```bash
+mount --mkdir /dev/nvme0n1p5 /mnt/boot
+```
+
+---
+
+# 10. Instalasi Sistem Dasar
+
+Install sistem dasar Arch Linux:
+
+```bash
+pacstrap -K /mnt base base-devel linux linux-firmware neovim git networkmanager
+```
+
+---
+
+# 11. Membuat FSTAB
+
+FSTAB digunakan untuk menentukan partisi yang otomatis dimount saat boot.
+
+```bash
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+Masuk ke sistem Arch:
+
+```bash
+arch-chroot /mnt
+```
+
+Digunakan untuk mengubah root install menjadi sistem Arch Linux yang baru dipasang.
+
+---
+
+# 12. Download Pengelola Jaringan
+
+Install iwd dan dhcpcd:
+
+```bash
+pacman -S iwd dhcpcd
+```
+
+Ketik:
+
+```text
+Y
+```
+
+---
+
+# 13. Mengaktifkan Service
+
+```bash
+systemctl enable iwd.service
+systemctl enable dhcpcd.service
+```
+
+---
+
+# 14. Mengatur Timezone
+
+Sinkronasi waktu Indonesia:
+
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+```
+
+Sinkronkan hardware clock:
+
+```bash
+hwclock --systohc
+```
+
+---
+
+# 15. Localization
+
+Cek neovim:
+
+```bash
+nvim
+```
+
+Cara keluar:
+
+```text
+:q
+```
+
+Generate locale:
+
+```bash
+locale-gen
+```
+
+Isi locale.conf:
+
+```bash
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+```
+
+Cek file:
+
+```bash
+cat /etc/locale.conf
+```
+
+---
+
+# 16. Membuat Hostname
+
+```bash
+echo "Nova" > /etc/hostname
+```
+
+Hostname digunakan sebagai nama komputer.
+
+---
+
+# 17. Generate Initramfs
+
+Membuat image boot awal Linux:
+
+```bash
+mkinitcpio -P
+```
+
+---
+
+# 18. Membuat Password Root
+
+```bash
+passwd
+```
+
+Masukkan password root.
+
+---
+
+# 19. Menambahkan User
+
+Membuat user baru:
+
+```bash
+useradd -m ahn.hyorim
+```
+
+Membuat password user:
+
+```bash
+passwd Zaskiasyahda.93
+```
+
+Menambahkan sudo:
+
+```bash
+echo "ahn.hyorim ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/none
+```
+
+Digunakan untuk memberikan akses sudo pada user.
+
+---
+
+# 20. Install Bootloader
+
+Install GRUB:
+
+```bash
+pacman -S grub efibootmgr
+```
+
+Install bootloader:
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+```
+
+Generate konfigurasi GRUB:
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+---
+
+# 21. Reboot
+
+Keluar dari chroot:
+
+```bash
+exit
+```
+
+Unmount partisi:
+
+```bash
+umount -R /mnt
+```
+
+Restart:
+
+```bash
+reboot
+```
+
+Setelah laptop mati, cabut flashdisk.
+
+---
+
+# 22. Menyalakan Service iwd dan dhcpcd
+
+Menyalakan service:
+
+```bash
+systemctl start iwd.service
+systemctl start dhcpcd.service
+```
+
+Cek status service:
+
+```bash
+systemctl status iwd.service
+systemctl status dhcpcd.service
+```
+
+---
+
+# Selesai
+
+Arch Linux berhasil diinstall.
+
+Dokumentasi:
