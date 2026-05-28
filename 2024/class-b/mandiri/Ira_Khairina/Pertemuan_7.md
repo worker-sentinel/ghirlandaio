@@ -31,3 +31,23 @@ Dokumentasi ini dibuat untuk memenuhi tugas audience pada mata kuliah Perpustaka
 
 <img width="987" height="821" alt="WhatsApp Image 2026-05-28 at 8 57 58 AM" src="https://github.com/user-attachments/assets/f3669046-ba25-4c5b-a614-a4f7270ac4f4" />
 
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 42 AM" src="https://github.com/user-attachments/assets/de85d810-6235-4f8b-af03-53adb8731293" />
+
+<img width="1196" height="1600" alt="WhatsApp Image 2026-05-28 at 9 16 42 AM (1)" src="https://github.com/user-attachments/assets/4c445e01-afb9-497a-b075-534a6f9635d1" />
+
+<img width="1600" height="937" alt="WhatsApp Image 2026-05-28 at 9 16 43 AM" src="https://github.com/user-attachments/assets/5c229173-8d29-41cf-80ba-e03142041dea" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 43 AM (1)" src="https://github.com/user-attachments/assets/3f4497e7-c17c-470d-bac6-44e2c0f0ec9f" />
+
+<img width="1600" height="809" alt="WhatsApp Image 2026-05-28 at 9 16 43 AM (2)" src="https://github.com/user-attachments/assets/2fb3c947-dfe3-4246-bfb5-142702100d23" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 44 AM" src="https://github.com/user-attachments/assets/63243e91-352c-476a-9d02-ed16b4566a41" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 44 AM (1)" src="https://github.com/user-attachments/assets/767b11d6-7af0-4375-80e8-ecc3601c82aa" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 44 AM (2)" src="https://github.com/user-attachments/assets/1ac57645-f354-4225-b668-d7a1758ca9b8" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 44 AM (3)" src="https://github.com/user-attachments/assets/89a71898-78f1-4cff-9acc-83926c80ba9d" />
+
+<img width="1600" height="1196" alt="WhatsApp Image 2026-05-28 at 9 16 45 AM" src="https://github.com/user-attachments/assets/e98f9a80-f34f-43a6-95a3-d8be9529e8da" />
+
