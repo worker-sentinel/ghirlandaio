@@ -1,0 +1,159 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 134
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 374
+    content: "\e]3008;start=662c74c8-b3d0-4d2b-b0b3-45fdd31b25fb;machineid=01010fede8ba4d65b8d9a310e0ba321d;user=rehan;hostname=ThinkPadX260;bootid=61676523-b2ce-4511-ab33-c173404edb0b;pid=00000000000000004918;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://ThinkPadX260/home/user\e\\\e]0;rehan@ThinkPadX260:/home/user\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3# \e]133;B\e\\"
+  - delay: 2503
+    content: i
+  - delay: 169
+    content: p
+  - delay: 348
+    content: t
+  - delay: 211
+    content: a
+  - delay: 166
+    content: b
+  - delay: 361
+    content: l
+  - delay: 333
+    content: e
+  - delay: 246
+    content: s
+  - delay: 679
+    content: ' '
+  - delay: 662
+    content: '-'
+  - delay: 692
+    content: L
+  - delay: 762
+    content: ' '
+  - delay: 887
+    content: '-'
+  - delay: 781
+    content: 'n'
+  - delay: 1132
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 6
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=8b0fe7c1-9eae-4050-8d2f-cf3a3f8b8c9e;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=662c74c8-b3d0-4d2b-b0b3-45fdd31b25fb;machineid=01010fede8ba4d65b8d9a310e0ba321d;user=rehan;hostname=ThinkPadX260;bootid=61676523-b2ce-4511-ab33-c173404edb0b;pid=00000000000000004918;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://ThinkPadX260/home/user\e\\\e]0;rehan@ThinkPadX260:/home/user\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3# \e]133;B\e\\"
+  - delay: 2045
+    content: e
+  - delay: 292
+    content: x
+  - delay: 170
+    content: i
+  - delay: 297
+    content: t
+  - delay: 449
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"
