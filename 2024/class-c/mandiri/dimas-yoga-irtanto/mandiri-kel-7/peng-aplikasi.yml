@@ -1,0 +1,1901 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 134
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 543
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user\e\\\e]0;root@dimas:/home/user\a\e[?2004h[root@dimas user]# "
+  - delay: 4183
+    content: m
+  - delay: 187
+    content: k
+  - delay: 228
+    content: s
+  - delay: 579
+    content: "\b\e[K"
+  - delay: 377
+    content: "\b\e[K"
+  - delay: 154
+    content: "\b\e[K"
+  - delay: 487
+    content: m
+  - delay: 151
+    content: k
+  - delay: 280
+    content: d
+  - delay: 191
+    content: i
+  - delay: 143
+    content: r
+  - delay: 181
+    content: ' '
+  - delay: 7341
+    content: p
+  - delay: 240
+    content: r
+  - delay: 180
+    content: o
+  - delay: 811
+    content: j
+  - delay: 87
+    content: w
+  - delay: 190
+    content: k
+  - delay: 542
+    content: "\b\e[K"
+  - delay: 148
+    content: "\b\e[K"
+  - delay: 577
+    content: e
+  - delay: 165
+    content: k
+  - delay: 457
+    content: '-'
+  - delay: 665
+    content: o
+  - delay: 710
+    content: 'n'
+  - delay: 20
+    content: e
+  - delay: 571
+    content: "\b\e[K"
+  - delay: 134
+    content: "\b\e[K"
+  - delay: 589
+    content: m
+  - delay: 179
+    content: e
+  - delay: 145
+    content: k
+  - delay: 1181
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=660bdfb5-0cef-477f-aeb1-764872a83fb1;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user\e\\\e]3008;end=660bdfb5-0cef-477f-aeb1-764872a83fb1;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user\e\\\e]0;root@dimas:/home/user\a\e[?2004h[root@dimas user]# "
+  - delay: 868
+    content: c
+  - delay: 125
+    content: d
+  - delay: 171
+    content: ' '
+  - delay: 741
+    content: p
+  - delay: 216
+    content: r
+  - delay: 132
+    content: ojek-omek/
+  - delay: 263
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=efc8ece6-7938-41f3-8e96-b00a200b791a;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user\e\\\e]3008;end=efc8ece6-7938-41f3-8e96-b00a200b791a;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 1046
+    content: m
+  - delay: 165
+    content: k
+  - delay: 76
+    content: d
+  - delay: 209
+    content: i
+  - delay: 100
+    content: r
+  - delay: 161
+    content: ' '
+  - delay: 426
+    content: c
+  - delay: 139
+    content: o
+  - delay: 216
+    content: m
+  - delay: 256
+    content: p
+  - delay: 206
+    content: o
+  - delay: 271
+    content: s
+  - delay: 257
+    content: "\b\e[K"
+  - delay: 503
+    content: "\b\e[K"
+  - delay: 47
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 52
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 409
+    content: 'n'
+  - delay: 104
+    content: v
+  - delay: 128
+    content: i
+  - delay: 204
+    content: m
+  - delay: 197
+    content: ' '
+  - delay: 313
+    content: c
+  - delay: 156
+    content: o
+  - delay: 482
+    content: m
+  - delay: 268
+    content: p
+  - delay: 291
+    content: o
+  - delay: 146
+    content: s
+  - delay: 202
+    content: e
+  - delay: 1153
+    content: .
+  - delay: 12049
+    content: 'y'
+  - delay: 333
+    content: m
+  - delay: 221
+    content: l
+  - delay: 717
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=c33a9011-d03e-4cc9-a650-1f5d358f51dc;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 48
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 11
+    content: "\e]11;?\a\e[5n\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[H                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \r\n                                                                                                                                      \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 44
+    content: "\e[c\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yml                                                                                                         0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yml                                                                                                         0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h\eP+q4D73\e\\"
+  - delay: 21
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 3599
+    content: "\e[?25l\e[40;124Hi\e[H\e[?25h\e[?25l\e[40;124H \r\e[40;1H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- INSERT --\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1  \e[6 q\e[H\e[?25h"
+  - delay: 1059
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;13H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m[+]                                                                                                     1,2\e[1;2H\e[?25h"
+  - delay: 72
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 232
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 114
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mu\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 196
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[1;6H\e[?25h"
+  - delay: 502
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 500
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 115
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[1;6H\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[1;7H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[1;8H\e[?25h"
+  - delay: 2446
+    content: "\e[?25l\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[1;9H\e[?25h"
+  - delay: 264
+    content: "\e[?25l\e[39;119H10\e[1;10H\e[?25h"
+  - delay: 1667
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[1;11H\e[?25h"
+  - delay: 272
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m3\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;12H\e[?25h"
+  - delay: 268
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;13H\e[?25h"
+  - delay: 926
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;12H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[1;11H\e[?25h"
+  - delay: 1104
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;12H\e[?25h"
+  - delay: 695
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[1;11H\e[?25h"
+  - delay: 177
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m2\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;12H\e[?25h"
+  - delay: 746
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;13H\e[?25h"
+  - delay: 528
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,1 \r\e[37A\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\n\e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\r\e[36A\e[?25h"
+  - delay: 3917
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[3;2H\e[?25h"
+  - delay: 299
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[3;3H\e[?25h"
+  - delay: 283
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[3;4H\e[?25h"
+  - delay: 689
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[3;5H\e[?25h"
+  - delay: 191
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[3;6H\e[?25h"
+  - delay: 155
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[3;7H\e[?25h"
+  - delay: 267
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[3;8H\e[?25h"
+  - delay: 655
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[3;9H\e[?25h"
+  - delay: 736
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[3;8H\e[?25h"
+  - delay: 211
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[3;9H\e[?25h"
+  - delay: 938
+    content: "\e[?25l\r\e[3;1H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[3;10H\e[?25h"
+  - delay: 342
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,3 \e[4;3H\e[?25h"
+  - delay: 3130
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[4;4H\e[?25h"
+  - delay: 335
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[4;5H\e[?25h"
+  - delay: 1106
+    content: "\e[?25l\b\b\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[4;6H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,5\e[5;5H\e[?25h"
+  - delay: 2728
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;6H\e[?25h"
+  - delay: 222
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;7H\e[?25h"
+  - delay: 106
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;8H\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mg\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[5;9H\e[?25h"
+  - delay: 100
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[5;10H\e[?25h"
+  - delay: 1087
+    content: "\e[?25l\e[5D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[5;11H\e[?25h"
+  - delay: 3066
+    content: "\e[?25l\e[39;120H2\e[5;12H\e[?25h"
+  - delay: 764
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;13H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[5;14H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[5;15H\e[?25h"
+  - delay: 162
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;16H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;17H\e[?25h"
+  - delay: 358
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;18H\e[?25h"
+  - delay: 685
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m.\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[5;19H\e[?25h"
+  - delay: 375
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[5;20H\e[?25h"
+  - delay: 179
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[5;21H\e[?25h"
+  - delay: 3526
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[5;22H\e[?25h"
+  - delay: 519
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;23H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[5;24H\e[?25h"
+  - delay: 197
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[5;25H\e[?25h"
+  - delay: 389
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;26H\e[?25h"
+  - delay: 145
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;27H\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;28H\e[?25h"
+  - delay: 246
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27my\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[5;29H\e[?25h"
+  - delay: 8255
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[5;30H\e[?25h"
+  - delay: 894
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[5;31H\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[5;32H\e[?25h"
+  - delay: 460
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;33H\e[?25h"
+  - delay: 101
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[5;34H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[5;35H\e[?25h"
+  - delay: 488
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;36H\e[?25h"
+  - delay: 180
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;37H\e[?25h"
+  - delay: 630
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;38H\e[?25h"
+  - delay: 4325
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;37H\e[?25h"
+  - delay: 950
+    content: "\e[?25l\e[25D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdocker.io/library/mariadb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;38H\e[?25h"
+  - delay: 2075
+    content: "\e[?25l\e[26D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdocker.io/library/mariadb:1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[5;39H\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m40\e[5;40H\e[?25h"
+  - delay: 597
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m.\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[5;41H\e[?25h"
+  - delay: 221
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[5;42H\e[?25h"
+  - delay: 180
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;43H\e[?25h"
+  - delay: 506
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,5 \e[6;5H\e[?25h"
+  - delay: 3042
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[6;6H\e[?25h"
+  - delay: 173
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[6;7H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[6;8H\e[?25h"
+  - delay: 781
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[6;9H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[6;10H\e[?25h"
+  - delay: 675
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[6;11H\e[?25h"
+  - delay: 254
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[6;12H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[6;13H\e[?25h"
+  - delay: 1161
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[6;14H\e[?25h"
+  - delay: 836
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[6;15H\e[?25h"
+  - delay: 517
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[6;16H\e[?25h"
+  - delay: 217
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[6;17H\e[?25h"
+  - delay: 125
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[6;18H\e[?25h"
+  - delay: 263
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[6;19H\e[?25h"
+  - delay: 2533
+    content: "\e[?25l\e[14D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[6;20H\e[?25h"
+  - delay: 258
+    content: "\e[?25l\e[39;120H1\e[6;21H\e[?25h"
+  - delay: 533
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[6;22H\e[?25h"
+  - delay: 227
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[6;23H\e[?25h"
+  - delay: 176
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[6;24H\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[6;25H\e[?25h"
+  - delay: 189
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[6;26H\e[?25h"
+  - delay: 8295
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[6;27H\e[?25h"
+  - delay: 438
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[6;28H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[6;29H\e[?25h"
+  - delay: 686
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,5 \e[7;5H\e[?25h"
+  - delay: 3606
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[7;6H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[7;7H\e[?25h"
+  - delay: 205
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[7;8H\e[?25h"
+  - delay: 182
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[7;9H\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[7;10H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[7;11H\e[?25h"
+  - delay: 245
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[7;12H\e[?25h"
+  - delay: 722
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[7;13H\e[?25h"
+  - delay: 461
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[7;14H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[7;15H\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[7;16H\e[?25h"
+  - delay: 373
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[7;17H\e[?25h"
+  - delay: 4282
+    content: "\e[?25l\e[39;120H6\e[7;16H\e[?25h"
+  - delay: 177
+    content: "\e[?25l\e[39;120H5\e[7;15H\e[?25h"
+  - delay: 137
+    content: "\e[?25l\e[39;120H4\e[7;14H\e[?25h"
+  - delay: 342
+    content: "\e[?25l\e[39;120H3\e[7;13H\e[?25h"
+  - delay: 541
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mment \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[7;12H\e[?25h"
+  - delay: 446
+    content: "\e[?25l\e[39;120H3\e[7;13H\e[?25h"
+  - delay: 197
+    content: "\e[?25l\e[39;120H4\e[7;14H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[39;120H5\e[7;15H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[39;120H6\e[7;16H\e[?25h"
+  - delay: 1412
+    content: "\e[?25l\e[11D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[7;17H\e[?25h"
+  - delay: 2992
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,7 \e[8;7H\e[?25h"
+  - delay: 1332
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[8;8H\e[?25h"
+  - delay: 357
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mY\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[8;9H\e[?25h"
+  - delay: 211
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[8;10H\e[?25h"
+  - delay: 174
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mQ\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[8;11H\e[?25h"
+  - delay: 488
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mL\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[8;12H\e[?25h"
+  - delay: 895
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[8;13H\e[?25h"
+  - delay: 757
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[8;14H\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[8;15H\e[?25h"
+  - delay: 277
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[8;16H\e[?25h"
+  - delay: 514
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mT\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[8;17H\e[?25h"
+  - delay: 876
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[8;18H\e[?25h"
+  - delay: 338
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mP\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[8;19H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[8;20H\e[?25h"
+  - delay: 301
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[8;21H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[8;22H\e[?25h"
+  - delay: 194
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mW\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[8;23H\e[?25h"
+  - delay: 157
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mP\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[8;24H\e[?25h"
+  - delay: 206
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[8;25H\e[?25h"
+  - delay: 337
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[8;24H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[8;23H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[8;22H\e[?25h"
+  - delay: 571
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[8;23H\e[?25h"
+  - delay: 406
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[8;22H\e[?25h"
+  - delay: 528
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mW\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[8;23H\e[?25h"
+  - delay: 656
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[8;24H\e[?25h"
+  - delay: 176
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[8;25H\e[?25h"
+  - delay: 237
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mD\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[8;26H\e[?25h"
+  - delay: 453
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,7 \e[9;7H\e[?25h"
+  - delay: 3192
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[9;8H\e[?25h"
+  - delay: 419
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mY\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[9;9H\e[?25h"
+  - delay: 186
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[9;10H\e[?25h"
+  - delay: 111
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mQ\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[9;11H\e[?25h"
+  - delay: 942
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mL\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[9;12H\e[?25h"
+  - delay: 11339
+    content: "\e[?25l\e[39;117H8\e[8;12H\e[?25h"
+  - delay: 252
+    content: "\e[?25l\e[39;120H3\e[8;13H\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[39;120H4\e[8;14H\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[39;120H5\e[8;15H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[39;120H6\e[8;16H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[39;120H7\e[8;17H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[39;120H8\e[8;18H\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[39;120H9\e[8;19H\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[39;119H20\e[8;20H\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[39;120H1\e[8;21H\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[39;120H2\e[8;22H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[39;120H3\e[8;23H\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[39;120H4\e[8;24H\e[?25h"
+  - delay: 293
+    content: "\e[?25l\e[39;120H5\e[8;25H\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e[39;120H6\e[8;26H\e[?25h"
+  - delay: 940
+    content: "\e[?25l\e[19D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[8;27H\e[?25h"
+  - delay: 270
+    content: "\e[?25l\e[39;120H8\e[8;28H\e[?25h"
+  - delay: 3753
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[8;29H\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mN\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[8;30H\e[?25h"
+  - delay: 952
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m29\e[8;29H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[8;28H\e[?25h"
+  - delay: 2022
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[8;29H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[8;30H\e[?25h"
+  - delay: 139
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[8;31H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[8;32H\e[?25h"
+  - delay: 1075
+    content: "\e[?25l\e[39;117H9,1\e[9;12H\e[?25h"
+  - delay: 13544
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[9;13H\e[?25h"
+  - delay: 482
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;14H\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[9;15H\e[?25h"
+  - delay: 655
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;14H\e[?25h"
+  - delay: 276
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[9;13H\e[?25h"
+  - delay: 1181
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mD\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;14H\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[9;15H\e[?25h"
+  - delay: 190
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mT\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[9;16H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[9;17H\e[?25h"
+  - delay: 426
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mB\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[9;18H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[9;19H\e[?25h"
+  - delay: 227
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;119H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[9;20H\e[?25h"
+  - delay: 222
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mE\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[9;21H\e[?25h"
+  - delay: 887
+    content: "\e[?25l\e[14D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[9;22H\e[?25h"
+  - delay: 238
+    content: "\e[?25l\e[39;120H3\e[9;23H\e[?25h"
+  - delay: 738
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;24H\e[?25h"
+  - delay: 178
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[9;25H\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mE\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[9;26H\e[?25h"
+  - delay: 162
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mK\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[9;27H\e[?25h"
+  - delay: 408
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[9;26H\e[?25h"
+  - delay: 173
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[9;25H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;24H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[9;23H\e[?25h"
+  - delay: 482
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;24H\e[?25h"
+  - delay: 455
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[9;23H\e[?25h"
+  - delay: 470
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[9;24H\e[?25h"
+  - delay: 178
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[9;25H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[9;26H\e[?25h"
+  - delay: 112
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[9;27H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[9;28H\e[?25h"
+  - delay: 4127
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,7\e[10;7H\e[?25h"
+  - delay: 1561
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[10;8H\e[?25h"
+  - delay: 390
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mY\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[10;9H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[10;10H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mQ\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[10;11H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mL\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[10;12H\e[?25h"
+  - delay: 810
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[10;13H\e[?25h"
+  - delay: 582
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mU\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[10;14H\e[?25h"
+  - delay: 113
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[10;15H\e[?25h"
+  - delay: 224
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mE\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[10;16H\e[?25h"
+  - delay: 200
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[10;17H\e[?25h"
+  - delay: 695
+    content: "\e[?25l\e[10D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[10;18H\e[?25h"
+  - delay: 458
+    content: "\e[?25l\e[39;121H9\e[10;19H\e[?25h"
+  - delay: 621
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[10;20H\e[?25h"
+  - delay: 220
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[10;21H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[10;22H\e[?25h"
+  - delay: 76
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[10;23H\e[?25h"
+  - delay: 312
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[10;22H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[10;21H\e[?25h"
+  - delay: 207
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m0\e[10;20H\e[?25h"
+  - delay: 235
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[10;19H\e[?25h"
+  - delay: 474
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[10;20H\e[?25h"
+  - delay: 211
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[10;21H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[10;22H\e[?25h"
+  - delay: 122
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[10;23H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[10;24H\e[?25h"
+  - delay: 1964
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,7 \e[11;7H\e[?25h"
+  - delay: 2621
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;8H\e[?25h"
+  - delay: 427
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mY\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[11;9H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[11;10H\e[?25h"
+  - delay: 901
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mQ\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[11;11H\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mL\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[11;12H\e[?25h"
+  - delay: 913
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[11;13H\e[?25h"
+  - delay: 293
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mP\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;14H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;15H\e[?25h"
+  - delay: 226
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;16H\e[?25h"
+  - delay: 194
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;17H\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mW\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;18H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[11;19H\e[?25h"
+  - delay: 218
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[11;20H\e[?25h"
+  - delay: 425
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[11;19H\e[?25h"
+  - delay: 148
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;18H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;17H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;16H\e[?25h"
+  - delay: 339
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;15H\e[?25h"
+  - delay: 296
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;14H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[11;13H\e[?25h"
+  - delay: 8620
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mP\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;14H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;15H\e[?25h"
+  - delay: 259
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;16H\e[?25h"
+  - delay: 191
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mS\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;17H\e[?25h"
+  - delay: 191
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mW\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;18H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[11;19H\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mR\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[11;20H\e[?25h"
+  - delay: 291
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mD\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[11;21H\e[?25h"
+  - delay: 1103
+    content: "\e[?25l\e[14D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[11;22H\e[?25h"
+  - delay: 221
+    content: "\e[?25l\e[39;121H3\e[11;23H\e[?25h"
+  - delay: 591
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;24H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;25H\e[?25h"
+  - delay: 95
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mE\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;26H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mK\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;27H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;28H\e[?25h"
+  - delay: 244
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;27H\e[?25h"
+  - delay: 163
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;26H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;25H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;24H\e[?25h"
+  - delay: 130
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[11;23H\e[?25h"
+  - delay: 456
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[11;24H\e[?25h"
+  - delay: 219
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[11;25H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[11;26H\e[?25h"
+  - delay: 120
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;27H\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[11;28H\e[?25h"
+  - delay: 9985
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,7 \e[12;7H\e[?25h"
+  - delay: 1189
+    content: "\e[?25l\e[39;120H5\e[12;5H\e[?25h"
+  - delay: 1727
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[12;6H\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[12;7H\e[?25h"
+  - delay: 210
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[12;8H\e[?25h"
+  - delay: 288
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mu\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[12;9H\e[?25h"
+  - delay: 226
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[12;10H\e[?25h"
+  - delay: 207
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[12;11H\e[?25h"
+  - delay: 308
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[12;12H\e[?25h"
+  - delay: 663
+    content: "\e[?25l\e[7D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[12;13H\e[?25h"
+  - delay: 3119
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,7 \e[13;7H\e[?25h"
+  - delay: 857
+    content: "\e[?25l\e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;8H\e[?25h"
+  - delay: 140
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m--\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[13;9H\e[?25h"
+  - delay: 399
+    content: "\e[?25l\b\b\e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;8H\e[?25h"
+  - delay: 356
+    content: "\e[?25l\e[39;120H9\e[13;9H\e[?25h"
+  - delay: 646
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[13;10H\e[?25h"
+  - delay: 185
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[13;11H\e[?25h"
+  - delay: 403
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[13;12H\e[?25h"
+  - delay: 278
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[13;13H\e[?25h"
+  - delay: 162
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[13;14H\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[13;15H\e[?25h"
+  - delay: 83
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[13;16H\e[?25h"
+  - delay: 2410
+    content: "\e[?25l\e[7D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[13;17H\e[?25h"
+  - delay: 658
+    content: "\e[?25l\e[8D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdb_data:v\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;18H\e[?25h"
+  - delay: 207
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[13;19H\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[13;20H\e[?25h"
+  - delay: 3408
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[13;19H\e[?25h"
+  - delay: 233
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;18H\e[?25h"
+  - delay: 324
+    content: "\e[?25l\e[9D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[13;17H\e[?25h"
+  - delay: 569
+    content: "\e[?25l\e[8D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdb_data:/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;18H\e[?25h"
+  - delay: 347
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[13;19H\e[?25h"
+  - delay: 136
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[13;20H\e[?25h"
+  - delay: 163
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[13;21H\e[?25h"
+  - delay: 598
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[13;22H\e[?25h"
+  - delay: 645
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[13;23H\e[?25h"
+  - delay: 258
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[13;24H\e[?25h"
+  - delay: 195
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[13;25H\e[?25h"
+  - delay: 348
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[13;26H\e[?25h"
+  - delay: 354
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[13;27H\e[?25h"
+  - delay: 353
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27my\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[13;28H\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[13;29H\e[?25h"
+  - delay: 759
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mq\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[13;30H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[13;31H\e[?25h"
+  - delay: 2534
+    content: "\e[?25l\e[22D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data:/var/lib/mysql\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[13;32H\e[?25h"
+  - delay: 1003
+    content: "\e[?25l\e[23D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdb_data:/var/lib/mysql:z\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[13;33H\e[?25h"
+  - delay: 982
+    content: "\e[?25l\e[24D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data:/var/lib/mysql\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[13;32H\e[?25h"
+  - delay: 544
+    content: "\e[?25l\e[23D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdb_data:/var/lib/mysql:Z\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[13;33H\e[?25h"
+  - delay: 1296
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,7 \e[14;7H\e[?25h"
+  - delay: 2959
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[14;8H\e[?25h"
+  - delay: 109
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[14;9H\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[14;10H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[14;11H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[14;12H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[14;13H\e[?25h"
+  - delay: 178
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[14;14H\e[?25h"
+  - delay: 340
+    content: "\e[?25l\e[39;121H5\e[14;15H\e[?25h"
+  - delay: 428
+    content: "\e[?25l\e[39;121H4\e[14;14H\e[?25h"
+  - delay: 405
+    content: "\e[?25l\e[9D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[14;13H\e[?25h"
+  - delay: 215
+    content: "\e[?25l\e[39;121H4\e[14;14H\e[?25h"
+  - delay: 1076
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[14;15H\e[?25h"
+  - delay: 1892
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[14;16H\e[?25h"
+  - delay: 256
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[14;17H\e[?25h"
+  - delay: 262
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[14;18H\e[?25h"
+  - delay: 246
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27my\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[14;19H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[14;20H\e[?25h"
+  - delay: 3140
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,5 \e[15;5H\e[?25h"
+  - delay: 443
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[16;5H\e[?25h"
+  - delay: 1336
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[17;5H\e[?25h"
+  - delay: 322
+    content: "\e[?25l\e[39;120H3\e[17;3H\e[?25h"
+  - delay: 1180
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[17;4H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[17;5H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[17;6H\e[?25h"
+  - delay: 209
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[17;7H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[17;8H\e[?25h"
+  - delay: 1256
+    content: "\e[?25l\r\e[C\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[17;9H\e[?25h"
+  - delay: 397
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,5\e[18;5H\e[?25h"
+  - delay: 8476
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[18;6H\e[?25h"
+  - delay: 196
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[18;7H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[18;8H\e[?25h"
+  - delay: 258
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mg\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[18;9H\e[?25h"
+  - delay: 107
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[18;10H\e[?25h"
+  - delay: 946
+    content: "\e[?25l\e[5D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[18;11H\e[?25h"
+  - delay: 316
+    content: "\e[?25l\e[39;121H2\e[18;12H\e[?25h"
+  - delay: 3022
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[18;13H\e[?25h"
+  - delay: 166
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[18;14H\e[?25h"
+  - delay: 161
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[18;15H\e[?25h"
+  - delay: 158
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[18;16H\e[?25h"
+  - delay: 134
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[18;17H\e[?25h"
+  - delay: 252
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[18;18H\e[?25h"
+  - delay: 1647
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m.\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[18;19H\e[?25h"
+  - delay: 385
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[18;20H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[18;21H\e[?25h"
+  - delay: 673
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[18;22H\e[?25h"
+  - delay: 333
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[18;23H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[18;24H\e[?25h"
+  - delay: 110
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[18;25H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[18;26H\e[?25h"
+  - delay: 197
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[18;27H\e[?25h"
+  - delay: 4407
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[18;28H\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[18;29H\e[?25h"
+  - delay: 177
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[18;30H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[18;31H\e[?25h"
+  - delay: 119
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[18;32H\e[?25h"
+  - delay: 169
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[18;33H\e[?25h"
+  - delay: 1496
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[18;34H\e[?25h"
+  - delay: 171
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[18;35H\e[?25h"
+  - delay: 2679
+    content: "\e[?25l\e[23D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdocker.io/omeka/omeka-s\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[18;36H\e[?25h"
+  - delay: 1008
+    content: "\e[?25l\e[24D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdocker.io/omeka/omeka-s:l\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[18;37H\e[?25h"
+  - delay: 230
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[18;38H\e[?25h"
+  - delay: 287
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[18;39H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m40\e[18;40H\e[?25h"
+  - delay: 233
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[18;41H\e[?25h"
+  - delay: 1233
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[18;42H\e[?25h"
+  - delay: 3272
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,5 \e[19;5H\e[?25h"
+  - delay: 2334
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[19;6H\e[?25h"
+  - delay: 183
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[19;7H\e[?25h"
+  - delay: 405
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[19;8H\e[?25h"
+  - delay: 515
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[19;9H\e[?25h"
+  - delay: 124
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[19;10H\e[?25h"
+  - delay: 187
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[19;11H\e[?25h"
+  - delay: 212
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[19;12H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[19;13H\e[?25h"
+  - delay: 227
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[19;14H\e[?25h"
+  - delay: 720
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[19;15H\e[?25h"
+  - delay: 261
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[19;16H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[19;17H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[19;18H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[19;19H\e[?25h"
+  - delay: 1400
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m;\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[19;20H\e[?25h"
+  - delay: 238
+    content: "\e[?25l\e[39;121H1\e[19;21H\e[?25h"
+  - delay: 442
+    content: "\e[?25l\e[39;121H0\e[19;20H\e[?25h"
+  - delay: 271
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[19;19H\e[?25h"
+  - delay: 883
+    content: "\e[?25l\e[14D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[19;20H\e[?25h"
+  - delay: 272
+    content: "\e[?25l\e[39;121H1\e[19;21H\e[?25h"
+  - delay: 603
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[19;22H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mM\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[19;23H\e[?25h"
+  - delay: 107
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mE\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[19;24H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mK\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[19;25H\e[?25h"
+  - delay: 160
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mA\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[19;26H\e[?25h"
+  - delay: 193
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[19;25H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[19;24H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[19;23H\e[?25h"
+  - delay: 171
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[19;22H\e[?25h"
+  - delay: 109
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[19;21H\e[?25h"
+  - delay: 447
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[19;22H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[19;23H\e[?25h"
+  - delay: 181
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[19;24H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mk\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[19;25H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[19;26H\e[?25h"
+  - delay: 2711
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[19;27H\e[?25h"
+  - delay: 208
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[19;28H\e[?25h"
+  - delay: 194
+    content: "\e[?25l\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m[\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[19;29H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m[\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[19;30H\e[?25h"
+  - delay: 406
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m29\e[19;29H\e[?25h"
+  - delay: 149
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[19;28H\e[?25h"
+  - delay: 554
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[19;29H\e[?25h"
+  - delay: 145
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[19;30H\e[?25h"
+  - delay: 2308
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20,5 \e[20;5H\e[?25h"
+  - delay: 808
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[20;6H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[20;7H\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[20;8H\e[?25h"
+  - delay: 298
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[20;9H\e[?25h"
+  - delay: 342
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[20;10H\e[?25h"
+  - delay: 909
+    content: "\e[?25l\e[5D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[20;11H\e[?25h"
+  - delay: 243
+    content: "\e[?25l\e[39;121H2\e[20;12H\e[?25h"
+  - delay: 912
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[20;13H\e[?25h"
+  - delay: 233
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[20;14H\e[?25h"
+  - delay: 256
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[20;15H\e[?25h"
+  - delay: 191
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[20;16H\e[?25h"
+  - delay: 632
+    content: "\e[?25l\b\b\b\b\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27m8080\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[20;17H\e[?25h"
+  - delay: 582
+    content: "\e[?25l\e[5D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8080:8\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[20;18H\e[?25h"
+  - delay: 239
+    content: "\e[?25l\e[6D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8080:80\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[20;19H\e[?25h"
+  - delay: 7526
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,5 \e[21;5H\e[?25h"
+  - delay: 1675
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[21;6H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[21;7H\e[?25h"
+  - delay: 245
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[21;8H\e[?25h"
+  - delay: 224
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mu\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[21;9H\e[?25h"
+  - delay: 271
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[21;10H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[21;11H\e[?25h"
+  - delay: 259
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[21;12H\e[?25h"
+  - delay: 2987
+    content: "\e[?25l\e[39;118H0\e[20;12H\e[?25h"
+  - delay: 386
+    content: "\e[?25l\e[39;121H1\e[20;11H\e[?25h"
+  - delay: 388
+    content: "\e[?25l\e[39;121H2\e[20;12H\e[?25h"
+  - delay: 480
+    content: "\e[?25l\e[7D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mports:8080:80 \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[20;11H\e[?25h"
+  - delay: 333
+    content: "\e[?25l\e[21;38r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[L\e[r\e[20;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[7X\r\n      8080:80\e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,7 \e[21;7H\e[?25h"
+  - delay: 1105
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m-8080:80\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[21;8H\e[?25h"
+  - delay: 484
+    content: "\e[?25l\b\e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 8080:80\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[21;9H\e[?25h"
+  - delay: 778
+    content: "\e[?25l\e[39;118H2\e[22;9H\e[?25h"
+  - delay: 233
+    content: "\e[?25l\e[39;120H10\e[22;10H\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[39;121H1\e[22;11H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e[39;121H2\e[22;12H\e[?25h"
+  - delay: 706
+    content: "\e[?25l\e[7D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[22;13H\e[?25h"
+  - delay: 206
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,7 \e[23;7H\e[?25h"
+  - delay: 5477
+    content: "\e[?25l\e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;8H\e[?25h"
+  - delay: 543
+    content: "\e[?25l\e[39;120H9\e[23;9H\e[?25h"
+  - delay: 295
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mf\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[23;10H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[23;11H\e[?25h"
+  - delay: 305
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[23;12H\e[?25h"
+  - delay: 155
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;13H\e[?25h"
+  - delay: 528
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;14H\e[?25h"
+  - delay: 1440
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[23;15H\e[?25h"
+  - delay: 288
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;14H\e[?25h"
+  - delay: 142
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;13H\e[?25h"
+  - delay: 106
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;14H\e[?25h"
+  - delay: 2908
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[23;15H\e[?25h"
+  - delay: 683
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[23;16H\e[?25h"
+  - delay: 105
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[23;17H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;18H\e[?25h"
+  - delay: 96
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[23;19H\e[?25h"
+  - delay: 8634
+    content: "\e[?25l\e[10D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[23;20H\e[?25h"
+  - delay: 379
+    content: "\e[?25l\e[11D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mfiles_data:/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[23;21H\e[?25h"
+  - delay: 643
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[23;22H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;23H\e[?25h"
+  - delay: 245
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;24H\e[?25h"
+  - delay: 703
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[23;25H\e[?25h"
+  - delay: 398
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[23;26H\e[?25h"
+  - delay: 221
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[23;27H\e[?25h"
+  - delay: 370
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;28H\e[?25h"
+  - delay: 3820
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[23;29H\e[?25h"
+  - delay: 742
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30\e[23;30H\e[?25h"
+  - delay: 215
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[23;31H\e[?25h"
+  - delay: 302
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[23;32H\e[?25h"
+  - delay: 267
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;33H\e[?25h"
+  - delay: 229
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;34H\e[?25h"
+  - delay: 686
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;33H\e[?25h"
+  - delay: 158
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[23;32H\e[?25h"
+  - delay: 176
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[23;31H\e[?25h"
+  - delay: 1018
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[23;32H\e[?25h"
+  - delay: 167
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[23;33H\e[?25h"
+  - delay: 752
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m/\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[23;34H\e[?25h"
+  - delay: 6119
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mf\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[23;35H\e[?25h"
+  - delay: 109
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mf\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[23;36H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[23;37H\e[?25h"
+  - delay: 237
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;38H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[23;39H\e[?25h"
+  - delay: 307
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;38H\e[?25h"
+  - delay: 171
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[23;37H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[23;36H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[23;35H\e[?25h"
+  - delay: 474
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[23;36H\e[?25h"
+  - delay: 226
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[23;37H\e[?25h"
+  - delay: 106
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[23;38H\e[?25h"
+  - delay: 228
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[23;39H\e[?25h"
+  - delay: 599
+    content: "\e[?25l\e[30D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data:/var/www/html/files\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m40\e[23;40H\e[?25h"
+  - delay: 477
+    content: "\e[?25l\e[31D\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mfiles_data:/var/www/html/files:Z\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[23;41H\e[?25h"
+  - delay: 3555
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,7 \e[24;7H\e[?25h"
+  - delay: 1905
+    content: "\e[?25l\e[39;120H5\e[24;5H\e[?25h"
+  - delay: 645
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[24;6H\e[?25h"
+  - delay: 221
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[24;7H\e[?25h"
+  - delay: 56
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[24;8H\e[?25h"
+  - delay: 398
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[24;9H\e[?25h"
+  - delay: 292
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[24;10H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[24;11H\e[?25h"
+  - delay: 679
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[24;12H\e[?25h"
+  - delay: 3493
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[24;13H\e[?25h"
+  - delay: 847
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mO\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[24;14H\e[?25h"
+  - delay: 536
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[24;13H\e[?25h"
+  - delay: 491
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[24;14H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[24;15H\e[?25h"
+  - delay: 744
+    content: "\e[?25l\e[10D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[24;16H\e[?25h"
+  - delay: 341
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,7 \e[25;7H\e[?25h"
+  - delay: 2735
+    content: "\e[?25l\e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[25;8H\e[?25h"
+  - delay: 343
+    content: "\e[?25l\e[39;120H9\e[25;9H\e[?25h"
+  - delay: 141
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[25;10H\e[?25h"
+  - delay: 601
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[25;11H\e[?25h"
+  - delay: 2771
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,7 \e[26;7H\e[?25h"
+  - delay: 904
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[26;8H\e[?25h"
+  - delay: 159
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[26;9H\e[?25h"
+  - delay: 269
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[26;10H\e[?25h"
+  - delay: 206
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[26;11H\e[?25h"
+  - delay: 153
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[26;12H\e[?25h"
+  - delay: 151
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[26;13H\e[?25h"
+  - delay: 121
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[26;14H\e[?25h"
+  - delay: 312
+    content: "\e[?25l\e[39;121H5\e[26;15H\e[?25h"
+  - delay: 1212
+    content: "\e[?25l\e[39;121H4\e[26;14H\e[?25h"
+  - delay: 576
+    content: "\e[?25l\e[9D\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[26;13H\e[?25h"
+  - delay: 261
+    content: "\e[?25l\e[39;121H4\e[26;14H\e[?25h"
+  - delay: 584
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[26;15H\e[?25h"
+  - delay: 165
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[26;16H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[26;17H\e[?25h"
+  - delay: 216
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[26;18H\e[?25h"
+  - delay: 337
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27my\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[26;19H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[26;20H\e[?25h"
+  - delay: 967
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[26;19H\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[26;20H\e[?25h"
+  - delay: 15386
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,5 \e[27;5H\e[?25h"
+  - delay: 223
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[28;5H\e[?25h"
+  - delay: 479
+    content: "\e[?25l\e[39;120H3\e[28;3H\e[?25h"
+  - delay: 332
+    content: "\e[?25l\e[39;120H1\r\e[11A\e[?25h"
+  - delay: 15411
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mv\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[28;2H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[28;3H\e[?25h"
+  - delay: 208
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[28;4H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mu\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[28;5H\e[?25h"
+  - delay: 218
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[28;6H\e[?25h"
+  - delay: 144
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[28;7H\e[?25h"
+  - delay: 242
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[28;8H\e[?25h"
+  - delay: 857
+    content: "\e[?25l\r\e[28;1H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[28;9H\e[?25h"
+  - delay: 2518
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e[K\e[39;118H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,3\e[29;3H\e[?25h"
+  - delay: 807
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[29;4H\e[?25h"
+  - delay: 195
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[29;5H\e[?25h"
+  - delay: 660
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[29;6H\e[?25h"
+  - delay: 522
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[29;7H\e[?25h"
+  - delay: 131
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[29;8H\e[?25h"
+  - delay: 154
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[29;9H\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[29;10H\e[?25h"
+  - delay: 695
+    content: "\e[?25l\r\e[C\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[29;11H\e[?25h"
+  - delay: 299
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[K\e[39;117H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m30,5 \e[30;5H\e[?25h"
+  - delay: 2846
+    content: "\e[?25l\e[39;120H3\e[30;3H\e[?25h"
+  - delay: 866
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mf\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[30;4H\e[?25h"
+  - delay: 448
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[30;5H\e[?25h"
+  - delay: 250
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ml\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[30;6H\e[?25h"
+  - delay: 98
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[30;7H\e[?25h"
+  - delay: 246
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[30;8H\e[?25h"
+  - delay: 486
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m_\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[30;9H\e[?25h"
+  - delay: 282
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[39;120H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[30;10H\e[?25h"
+  - delay: 152
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[30;11H\e[?25h"
+  - delay: 244
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[30;12H\e[?25h"
+  - delay: 116
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[30;13H\e[?25h"
+  - delay: 992
+    content: "\e[?25l\r\e[C\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[30;14H\e[?25h"
+  - delay: 5349
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\e[10B\e[12X\e[39;121H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[2 q\e[30;13H\e[?25h"
+  - delay: 797
+    content: "\e[?25l\e[40;124H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m:\e[30;13H\e[?25h\e[?25l\e[40;124H \r\e[40;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 361
+    content: "\e[?25lw\e[?25h"
+  - delay: 141
+    content: "\e[?25lq\e[?25h"
+  - delay: 987
+    content: "\e[?25l\r\e[40;1H\e[?25h\e[?25l\"compose.yml\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h"
+  - delay: 15
+    content: "\e[?25l[New] 30L, 543B written\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 5
+    content: "\e[?25l\r\e[40;1H\e[?1049l\e[23;0;0t\e[?25h\e]3008;end=c33a9011-d03e-4cc9-a650-1f5d358f51dc;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 4342
+    content: p
+  - delay: 185
+    content: o
+  - delay: 184
+    content: d
+  - delay: 2009
+    content: m
+  - delay: 111
+    content: a
+  - delay: 1068
+    content: 'n'
+  - delay: 186
+    content: ' '
+  - delay: 377
+    content: p
+  - delay: 147
+    content: s
+  - delay: 161
+    content: ' '
+  - delay: 997
+    content: '-'
+  - delay: 242
+    content: a
+  - delay: 197
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=1e00c5d0-8f05-42fc-9e6d-382a41d66e2e;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 36
+    content: "CONTAINER ID  IMAGE       COMMAND     CREATED     STATUS      PORTS       NAMES\r\n\e]3008;end=1e00c5d0-8f05-42fc-9e6d-382a41d66e2e;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 1229
+    content: p
+  - delay: 137
+    content: p
+  - delay: 228
+    content: d
+  - delay: 155
+    content: m
+  - delay: 195
+    content: a
+  - delay: 177
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 132
+    content: "\b\e[K"
+  - delay: 342
+    content: o
+  - delay: 110
+    content: d
+  - delay: 169
+    content: m
+  - delay: 144
+    content: a
+  - delay: 120
+    content: 'n'
+  - delay: 172
+    content: ' '
+  - delay: 151
+    content: c
+  - delay: 115
+    content: o
+  - delay: 194
+    content: m
+  - delay: 215
+    content: p
+  - delay: 206
+    content: o
+  - delay: 129
+    content: s
+  - delay: 219
+    content: e
+  - delay: 135
+    content: ' '
+  - delay: 449
+    content: i
+  - delay: 323
+    content: "\b\e[K"
+  - delay: 423
+    content: u
+  - delay: 262
+    content: p
+  - delay: 232
+    content: ' '
+  - delay: 317
+    content: '-'
+  - delay: 191
+    content: d
+  - delay: 299
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=ba22baba-a499-49bb-a833-12f023a56102;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 39
+    content: "\e[4m>>>> Executing external compose provider \"/usr/bin/podman-compose\". Please see podman-compose(1) for how to disable this message. <<<<\r\n\r\n\e[0m"
+  - delay: 509
+    content: "f87581464eb49596a39e72c3c26aca52edf832fbc699c40760b7ddcb743e0871\r\n"
+  - delay: 192
+    content: "a24e3e460de78671cbbb4ae93d48d9f7d6004b36359b9f096e367fc57fe1f02f\r\n"
+  - delay: 232
+    content: "omeka-db\r\n"
+  - delay: 6115
+    content: "omeka-app\r\n"
+  - delay: 65
+    content: "\e]3008;end=ba22baba-a499-49bb-a833-12f023a56102;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 3337
+    content: p
+  - delay: 181
+    content: o
+  - delay: 141
+    content: d
+  - delay: 135
+    content: m
+  - delay: 158
+    content: a
+  - delay: 140
+    content: 'n'
+  - delay: 181
+    content: ' '
+  - delay: 228
+    content: p
+  - delay: 142
+    content: s
+  - delay: 129
+    content: ' '
+  - delay: 263
+    content: '0'
+  - delay: 70
+    content: a
+  - delay: 453
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 281
+    content: '-'
+  - delay: 131
+    content: a
+  - delay: 300
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=00bf69b3-17c4-42b3-a937-7087d9b37257;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 46
+    content: "CONTAINER ID  IMAGE                            COMMAND               CREATED         STATUS         PORTS                 NAMES\r\nf87581464eb4  docker.io/library/mariadb:10.11  mariadbd              13 seconds ago  Up 13 seconds  3306/tcp              omeka-db\r\na24e3e460de7  docker.io/omeka/omeka-s:latest   apache2-foregroun...  12 seconds ago  Up 7 seconds   0.0.0.0:8080->80/tcp  omeka-app\r\n"
+  - delay: 5
+    content: "\e]3008;end=00bf69b3-17c4-42b3-a937-7087d9b37257;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 437780
+    content: m
+  - delay: 186
+    content: p
+  - delay: 121
+    content: d
+  - delay: 671
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=2db31eaa-2d30-4acb-865f-b06cbdb20743;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 299
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\nconfig: Found database setting without music_directory - disabling database\r\noutput: No 'audio_output' defined in config file\r\n"
+  - delay: 156
+    content: "output: Successfully detected a alsa audio device\r\n"
+  - delay: 36
+    content: "\e]3008;end=2db31eaa-2d30-4acb-865f-b06cbdb20743;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 359735
+    content: m
+  - delay: 236
+    content: p
+  - delay: 212
+    content: v
+  - delay: 202
+    content: ' '
+  - delay: 1372
+    content: "\e[7mhttps://youtu.be/fJ9rUzIMcZQ?si=zulEw3SI_cSFfy3p\e[27m"
+  - delay: 3253
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://youtu.be/fJ9rUzIMcZQ?si=zulEw3SI_cSFfy3p\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=a1dca099-28ac-42bd-8ed8-3f70d1ddd7f3;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 212
+    content: "\e="
+  - delay: 47
+    content: "\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m"
+  - delay: 8
+    content: "\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m\e[31m[ytdl_hook] \r\n\e[0m\e[31m[ytdl_hook] youtube-dl failed: not found or not enough permissions\r\n\e[0m"
+  - delay: 3947
+    content: "\e[31mFailed to recognize file format.\r\n\e[0m\e[0mExiting... (Errors when loading file)\r\n\e[0m"
+  - delay: 5
+    content: "\e>"
+  - delay: 22
+    content: "\e]3008;end=a1dca099-28ac-42bd-8ed8-3f70d1ddd7f3;exit=failure;status=2\e\\"
+  - delay: 6
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 23851
+    content: 'mpv https://youtu.be/fJ9rUzIMcZQ?si=zulEw3SI_cSFfy3p'
+  - delay: 437
+    content: \
+  - delay: 499
+    content: \
+  - delay: 51
+    content: \
+  - delay: 50
+    content: \
+  - delay: 50
+    content: \
+  - delay: 50
+    content: \
+  - delay: 52
+    content: \
+  - delay: 51
+    content: \
+  - delay: 51
+    content: \
+  - delay: 51
+    content: \
+  - delay: 114
+    content: "\b\e[K"
+  - delay: 498
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 57
+    content: "\b\e[K"
+  - delay: 42
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 362
+    content: "\b\e[K"
+  - delay: 166
+    content: "\b\e[K"
+  - delay: 152
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 162
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 1185
+    content: "\e[7mhttps://youtu.be/2ZBtPf7FOoM?si=SqT8QX-E0POJYPy6\e[27m"
+  - delay: 1019
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://youtu.be/2ZBtPf7FOoM?si=SqT8QX-E0POJYPy6\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=c089e322-6881-4fd9-9ee8-1370b3c696d6;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\"
+  - delay: 164
+    content: "\e="
+  - delay: 25
+    content: "\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m"
+  - delay: 26
+    content: "\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m\e[31m[ytdl_hook] Subprocess failed: init\r\n\e[0m\e[31m[ytdl_hook] \r\n\e[0m\e[31m[ytdl_hook] youtube-dl failed: not found or not enough permissions\r\n\e[0m"
+  - delay: 2878
+    content: "\e[31mFailed to recognize file format.\r\n\e[0m\e[0mExiting... (Errors when loading file)\r\n\e[0m"
+  - delay: 9
+    content: "\e>"
+  - delay: 14
+    content: "\e]3008;end=c089e322-6881-4fd9-9ee8-1370b3c696d6;exit=failure;status=2\e\\"
+  - delay: 6
+    content: "\e]3008;start=f4873325-87c6-4132-a1c6-87e063a13fd5;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=shell;cwd=/home/user/projek-omek\e\\\e]0;root@dimas:/home/user/projek-omek\a\e[?2004h[root@dimas projek-omek]# "
+  - delay: 5789
+    content: e
+  - delay: 259
+    content: x
+  - delay: 153
+    content: i
+  - delay: 303
+    content: t
+  - delay: 735
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=55eeba2e-398d-408e-81d1-e10f7b315ddd;machineid=af31347324c74dce93141ce74ad4ddbe;user=root;hostname=dimas;bootid=0081306c-f543-4f2c-9a13-b8fc48ba30cf;pid=00000000000000003834;type=command;cwd=/home/user/projek-omek\e\\logout\r\n"
