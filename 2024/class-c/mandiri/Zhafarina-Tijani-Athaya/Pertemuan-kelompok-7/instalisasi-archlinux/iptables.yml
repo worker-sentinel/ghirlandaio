@@ -1,0 +1,465 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 361
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 1054
+    content: terminalizer record iptables
+  - delay: 759
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[4Psource /root/.nvm/nvm.sh"
+  - delay: 919
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\budo iptables -A INPUT -p top --dport 22 -j DROP"
+  - delay: 1607
+    content: "\b"
+  - delay: 499
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 400
+    content: "\b"
+  - delay: 168
+    content: "\b"
+  - delay: 281
+    content: "\b"
+  - delay: 274
+    content: "\b"
+  - delay: 629
+    content: "\b\e[1P"
+  - delay: 430
+    content: "\e[1@c"
+  - delay: 864
+    content: "\e[C"
+  - delay: 691
+    content: "\b\e[1P"
+  - delay: 176
+    content: "\b\e[1P"
+  - delay: 873
+    content: "\e[1@t"
+  - delay: 332
+    content: "\e[1@c"
+  - delay: 684
+    content: "\e[C"
+  - delay: 500
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 319
+    content: "\e[C"
+  - delay: 201
+    content: "\e[C"
+  - delay: 286
+    content: "\a"
+  - delay: 264
+    content: "\a"
+  - delay: 709
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=efc98b18-c916-4de1-b879-f90e925940ce;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=command;cwd=/home/user\e\\"
+  - delay: 80
+    content: "\e]3008;end=efc98b18-c916-4de1-b879-f90e925940ce;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 12399
+    content: sudo iptables -A INPUT -p tcp --dport 22 -j DROP
+  - delay: 1176
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 129
+    content: "\b\e[K"
+  - delay: 144
+    content: "\b\e[K"
+  - delay: 361
+    content: "\b\e[K"
+  - delay: 1233
+    content: '-'
+  - delay: 399
+    content: L
+  - delay: 998
+    content: ' '
+  - delay: 1551
+    content: '-'
+  - delay: 748
+    content: 'n'
+  - delay: 1272
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=a3e9d469-daf4-4448-bcb1-003816175ffa;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=command;cwd=/home/user\e\\"
+  - delay: 21
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\nDROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22\r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=a3e9d469-daf4-4448-bcb1-003816175ffa;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 3443
+    content: s
+  - delay: 178
+    content: u
+  - delay: 705
+    content: d
+  - delay: 239
+    content: o
+  - delay: 423
+    content: ' '
+  - delay: 415
+    content: i
+  - delay: 210
+    content: p
+  - delay: 286
+    content: t
+  - delay: 130
+    content: a
+  - delay: 172
+    content: b
+  - delay: 264
+    content: l
+  - delay: 109
+    content: e
+  - delay: 242
+    content: s
+  - delay: 466
+    content: ' '
+  - delay: 407
+    content: '-'
+  - delay: 388
+    content: L
+  - delay: 1015
+    content: ' '
+  - delay: 442
+    content: '-'
+  - delay: 211
+    content: '-'
+  - delay: 1200
+    content: l
+  - delay: 244
+    content: i
+  - delay: 231
+    content: 'n'
+  - delay: 113
+    content: e
+  - delay: 970
+    content: '-'
+  - delay: 1207
+    content: 'n'
+  - delay: 241
+    content: u
+  - delay: 217
+    content: m
+  - delay: 224
+    content: b
+  - delay: 101
+    content: e
+  - delay: 278
+    content: r
+  - delay: 86
+    content: s
+  - delay: 4606
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=e7197cd0-fbe2-47ab-9889-3a1039d49412;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=command;cwd=/home/user\e\\"
+  - delay: 21
+    content: "Chain INPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n1    DROP       tcp  --  anywhere             anywhere             tcp dpt:ssh\r\n\r\nChain FORWARD (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n"
+  - delay: 6
+    content: "\e]3008;end=e7197cd0-fbe2-47ab-9889-3a1039d49412;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 7833
+    content: s
+  - delay: 308
+    content: u
+  - delay: 95
+    content: d
+  - delay: 192
+    content: o
+  - delay: 138
+    content: ' '
+  - delay: 198
+    content: i
+  - delay: 234
+    content: p
+  - delay: 286
+    content: t
+  - delay: 151
+    content: a
+  - delay: 124
+    content: b
+  - delay: 301
+    content: l
+  - delay: 106
+    content: e
+  - delay: 240
+    content: s
+  - delay: 220
+    content: ' '
+  - delay: 403
+    content: '-'
+  - delay: 459
+    content: D
+  - delay: 873
+    content: ' '
+  - delay: 982
+    content: I
+  - delay: 200
+    content: 'N'
+  - delay: 248
+    content: O
+  - delay: 874
+    content: "\b\e[K"
+  - delay: 592
+    content: P
+  - delay: 527
+    content: U
+  - delay: 204
+    content: T
+  - delay: 360
+    content: ' '
+  - delay: 1094
+    content: '1'
+  - delay: 1882
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=80c68e5d-0900-49af-abe1-260af89941f9;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=command;cwd=/home/user\e\\"
+  - delay: 47
+    content: "\e]3008;end=80c68e5d-0900-49af-abe1-260af89941f9;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 2892
+    content: sudo iptables -D INPUT 1
+  - delay: 620
+    content: "\b\b\b\b\b\b\b\b\bL --line-numbers"
+  - delay: 393
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bn\e[K"
+  - delay: 2061
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=b6443e24-5e99-4f50-8b02-b679fcf6d8b8;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=command;cwd=/home/user\e\\"
+  - delay: 19
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=b6443e24-5e99-4f50-8b02-b679fcf6d8b8;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=aa3fd4c0-e9cd-4c2c-a633-8de2e5aea955;machineid=ce1c123477b94a26b15508e17c985fa9;user=root;hostname=asuszhafa;bootid=24a01bd4-3c03-4649-a548-38c28b7c2a89;pid=00000000000000014665;type=shell;cwd=/home/user\e\\\e]0;root@asuszhafa:/home/user\a\e[?2004h[root@asuszhafa user]# "
+  - delay: 4741
+    content: "\e[?2004l\r\r\nlogout\r\n"
