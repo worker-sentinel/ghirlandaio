@@ -46,3 +46,6 @@ lsblk
 
 ---
 ## Enkripsi 
+Mengunci semua partisi yang ada di root ke dalam satu enkrippsi
+```
+cryptsetup luksFormat
