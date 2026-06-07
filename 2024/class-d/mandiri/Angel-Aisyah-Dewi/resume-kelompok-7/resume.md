@@ -1,5 +1,5 @@
 ## LVM on LUKS vs LUKS on LVM
-Dua cara berbeda buat gabungin enkripsi disk (LUKS) sama manajemen volume (LVM). LVM on LUKS: enkrip dulu baru dibagi — cukup satu kunci buat semua. LUKS on LVM: dibagi dulu baru tiap bagian dienkrip sendiri, jadi lebih aman tapi lebih ribet.
+Dua cara berbeda buat gabungin enkripsi disk (LUKS) sama manajemen volume (LVM). LVM on LUKS: enkrip dulu baru dibagi, cukup satu kunci buat semua. LUKS on LVM: dibagi dulu baru tiap bagian dienkrip sendiri, jadi lebih aman tapi lebih ribet.
 
 ## KeePassXC dan Secret Service
 KeePassXC buat nyimpen password secara lokal dan aman. Secret Service (GNOME Keyring/KDE Wallet) adalah sistem Linux buat aplikasi ambil kredensial otomatis. Keduanya bisa nyambung, jadi gak perlu masukin password terus-terusan.
@@ -11,7 +11,7 @@ Alat buat jalanin aplikasi di container yang terisolasi. Lebih aman dari Docker 
 Desktop environment Linux yang ringan dan hemat resource. Cocok buat PC lama atau server yang butuh tampilan grafis tapi speknya terbatas.
 
 ## Superfile
-File manager berbasis terminal yang tampilannya visual. Lebih praktis dari ngetik `ls`, `cp`, `mv` terus-terusan, terutama di server tanpa antarmuka grafis.
+File manager berbasis terminal yang tampilannya visual. Lebih praktis dari ngetik ls, cp, mv terus-terusan, terutama di server tanpa antarmuka grafis.
 
 ## iptables
 Alat firewall Linux buat ngatur lalu lintas jaringan. Bisa blokir port yang gak dibutuhin dan buka port tertentu saja. Sering dipasang bareng fail2ban buat lawan brute force.
@@ -20,7 +20,7 @@ Alat firewall Linux buat ngatur lalu lintas jaringan. Bisa blokir port yang gak 
 Panduan keamanan standar internasional dari organisasi CIS. Isinya langkah-langkah konkret buat ngamanin sistem Linux, mulai dari firewall sampai manajemen user. Banyak dipakai pemerintah dan lembaga pendidikan.
 
 ## OpenSSH
-Alat buat akses server dari jarak jauh secara terenkripsi. Bisa juga buat transfer file lewat `scp`/`sftp`. Login pake SSH key pair lebih disaranin daripada password biasa.
+Alat buat akses server dari jarak jauh secara terenkripsi. Bisa juga buat transfer file lewat scp/sftp. Login pake SSH key pair lebih disaranin daripada password biasa.
 
 ## Booster
 Alat bikin initramfs yang lebih cepat dan ringan dari mkinitcpio. Penting kalau pakai enkripsi disk LUKS, karena dia yang minta passphrase saat booting sebelum sistem utama jalan.
