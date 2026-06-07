@@ -206,7 +206,7 @@ cd /boot
 mkdir kernel efi
 ```
 ```
-cd /efi
+cd efi
 ```
 ```
 mkdir linux
