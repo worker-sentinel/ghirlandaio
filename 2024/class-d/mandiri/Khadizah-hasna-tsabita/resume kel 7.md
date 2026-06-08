@@ -1,4 +1,4 @@
-# Resume Kelompok 7
+# Resume Kelompok 7 
 
 ## Nama : Khadizah Hasna Tsabita
 ## NIM : 12402051030099
