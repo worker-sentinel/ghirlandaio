@@ -93,6 +93,7 @@ untuk lihat luks header information
 ```
 cryptsetup luksDump /dev/sawit/lvroot
 ```
+```
 format partisi
 ```
 mkfs.ext4 /dev/mapper/cryptroot

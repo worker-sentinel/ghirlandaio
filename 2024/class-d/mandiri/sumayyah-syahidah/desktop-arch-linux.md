@@ -1,4 +1,20 @@
-# Arch Linux Hardened — Panduan Instalasi 
+# Instalasi <img width="960" height="546" alt="719827555_1631578731262225_6242484077355546964_n" src="https://github.com/user-attachments/assets/fdafb652-5c17-48f2-bb59-9f5481538f95" />
+<img width="960" height="546" alt="716389964_1399572942222894_7955005953849238079_n" src="https://github.com/user-attachments/assets/0a122637-0baa-41b6-b580-d8355a456978" />
+<img width="960" height="546" alt="716289904_1376006034433892_5938722405745322594_n" src="https://github.com/user-attachments/assets/88bb3769-8176-4e07-962b-292cbbd75a33" />
+<img width="960" height="720" alt="715463660_1643363726730121_4318970356919555355_n" src="https://github.com/user-attachments/assets/e5ea7317-da43-4410-b506-be9bcc9140f8" />
+<img width="960" height="546" alt="715263017_1544433370416171_3553942927055657228_n" src="https://github.com/user-attachments/assets/b9cb23bd-8167-40ae-ad21-87b1917abcff" />
+<img width="960" height="720" alt="714954703_1511150300481638_2348229925858542982_n" src="https://github.com/user-attachments/assets/6aa836e5-5618-453a-bc61-826226aed5bc" />
+<img width="960" height="546" alt="714698686_985083930807280_3233290880590722448_n" src="https://github.com/user-attachments/assets/9bef8bb7-47e7-4ea2-9668-4cb86ab0712d" />
+<img width="960" height="546" alt="713663132_2791971964512500_303831181638257125_n" src="https://github.com/user-attachments/assets/26710e5d-d4d3-46ad-9ed2-fca1fedd8f79" />
+<img width="960" height="546" alt="713343148_2183902335789333_1050327620028100101_n" src="https://github.com/user-attachments/assets/1efc5413-fae8-49c9-b089-7262bab61e5d" />
+<img width="960" height="546" alt="713163126_2057599788181520_8399220712224777598_n" src="https://github.com/user-attachments/assets/4174b2c7-2439-474a-9cc1-b6548694bb35" />
+<img width="960" height="546" alt="712783078_1471884147583857_3194870545272475823_n" src="https://github.com/user-attachments/assets/de45f548-bfc4-43a7-9ff0-698f64bc9d62" />
+<img width="960" height="546" alt="711543134_865398386615744_566956582063129660_n" src="https://github.com/user-attachments/assets/5a24c1d7-3908-4bdb-b7cf-e86f772132bb" />
+<img width="960" height="546" alt="711168577_1526478392597741_2501481059580661621_n" src="https://github.com/user-attachments/assets/961c733c-f785-4f27-a552-a6afe0e7e598" />
+<img width="960" height="720" alt="710516705_3936174530021804_7851734375160177228_n" src="https://github.com/user-attachments/assets/1665b9d7-f3e5-4340-b6d1-76f4ab3e4f5f" />
+<img width="960" height="546" alt="709004804_26920509014307401_4287895050904833041_n" src="https://github.com/user-attachments/assets/6f5ccacf-3fc9-4d57-aae4-03d3d8a1a8d2" />
+<img width="960" height="546" alt="708937664_965746866292046_7390020998421303379_n" src="https://github.com/user-attachments/assets/7c641c4d-2dd9-4571-83ca-ccbb02a609d9" />
+Arch Linux Hardened  
 
 ## Fase Live ISO
 
