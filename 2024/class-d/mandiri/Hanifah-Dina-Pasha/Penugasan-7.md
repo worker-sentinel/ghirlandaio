@@ -39,3 +39,5 @@ Secret merupakan aplikasi yang digunakan untuk menyimpan kunci autentikasi secar
 
 ## Openssh
 Merupakan implementasi protocol SSH yang digunakan untuk mengakses computer atau server lain secara aman melalui jaringan. 
+
+

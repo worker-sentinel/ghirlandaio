@@ -16,4 +16,4 @@ Maka disini peran lembaga epistemik bekerja, bermula dari istilah ‘episteme’
 Lembaga epistemik memiliki peran penting dalam memastikan apakah suatu informasi dapat tersampaikan dengan baik, harus bersifat netral dan independen agar masyarakat tidak mudah terprovokasi oleh propaganda dan kejahatan dalam media sosial lain seperti ujaran kebencian dan berita palsu.
 
 # Referensi
-1.	Christen, M., Gordijn, B., & Loi, M. (Eds.). (2020). *The ethics of cybersecurity. Springer*. https://doi.org/10.1007/978-3-030-29053-5
+1.	Christen, M., Gordijn, B., & Loi, M. (Eds.). (2020). *The ethics of cybersecurity*. Springer. https://doi.org/10.1007/978-3-030-29053-5
