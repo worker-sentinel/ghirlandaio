@@ -145,6 +145,9 @@ pacstrap /mnt intel-ucode base pacman sudo linux-lts linux-lts-headers lvm2 mkin
 ```
 genfstab -U /mnt > /mnt/etc/fstab
 ```
+```
+echo "tmpfs /tmp tmpfs defaults,rw,nosuid,nodev,noexec,relatime,size=1G 0 0" >> /mnt/etc/fstab
+```
 # chroot
 ```
 arch-chroot /mnt
