@@ -13,6 +13,7 @@ docker swarm --join token124546567687889867565456763 <ip_manager>:2377
 ## deploy
 
 #### di sisi manager
+
 ```
 mkdir project-docker.yml
 ```
@@ -29,11 +30,10 @@ version: "3.9"
 services:
   postgres:
     image: postgres:15
-    container_name: mayan-postgres
     environment:
       POSTGRES_DB: mayan
       POSTGRES_USER: mayan
-      POSTGRES_PASSWORD: passwordanda
+      POSTGRES_PASSWORD: strongpassword
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
@@ -41,8 +41,6 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: mayan-redis
-    restart: unless-stopped
     volumes:
       - redis_data:/data
     networks:
@@ -53,12 +51,13 @@ services:
       - "100mb"
   mayan:
     image: mayanedms/mayanedms:latest
-    container_name: mayan-edms
     depends_on:
       - postgres
       - redis
     ports:
       - "8000:8000"
+    deploy:
+      replicas: 2
     environment:
       MAYAN_DATABASE_ENGINE: django.db.backends.postgresql
       MAYAN_DATABASE_NAME: mayan
@@ -85,8 +84,25 @@ volumes:
 
 networks:
   mayan:
-    driver: bridge
+    driver: overlay
+    attachable: true
+
 ```
 ```
 docker stack deploy -c docker-compose.yml mayan
 ```
+```
+docker node ls
+```
+> untuk melihat node
+
+```
+docker ps -a
+```
+> untuk melihat kontainer
+
+```
+docker service ls
+```
+> untuk melihat service yaang sedang running
+
