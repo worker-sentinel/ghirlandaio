@@ -11,7 +11,7 @@
 ```station wlan0 get-networks```
 ```station wlan0 connect nama_wifi```
 ### 2. Pengujian Koneksi Jaringan
-```ping archlinux.org```
+```ping 1.1.1.1```
 ### 3. Melakukan Rekaman dengan Asciinema
 ```asciinema rec coba1.cast```
 ### 4. Melihat Partisi Disk
