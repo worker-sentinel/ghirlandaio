@@ -1,0 +1,9 @@
+{"version":3,"term":{"cols":113,"rows":20,"type":"xterm-256color","theme":{"fg":"#ffffff","bg":"#000000","palette":"#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"}},"timestamp":1781357261,"env":{"SHELL":"/usr/bin/bash"}}
+[0.008, "o", "\u001b]0;root@archlinux:/home/oi\u0007"]
+[0.000, "o", "\u001b[?2004h[root@archlinux oi]# "]
+[1122.138, "o", "e"]
+[0.056, "o", "x"]
+[1.075, "o", "i"]
+[0.224, "o", "t"]
+[1.414, "o", "\r\n\u001b[?2004l\rexit\r\n"]
+[0.000, "x", "0"]
