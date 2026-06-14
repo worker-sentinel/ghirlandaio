@@ -1,5 +1,8 @@
 ```
-nvim docker-compose.yml
+sudo docker pull openkm/openkm-ce:latest
+```
+```
+sudo nvim docker-compose.yml
 ```
 isi
 ```
