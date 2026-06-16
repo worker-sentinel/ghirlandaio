@@ -3,6 +3,8 @@
 ## Menghubungkan ke jaringan wifi
 ```
 iwctl
+```
+```
 device list
 ```
 Cek driver wifi setiap laptop
@@ -74,3 +76,32 @@ lvcreate -L 5GB [nama grup] -n home
 lvcreate -L 5GB [nama grup] -n podman
 ```
 ## Formating
+```
+mkfs.vfat -F32 -n BOOT /dev/[partisi boot]
+```
+```
+mkfs.ext4 /dev/[nama grup]/root/
+```
+```
+mkfs.ext4 /dev/[nama grup]/vars
+```
+```
+mkfs.ext4 /dev/[nama grup]/vtmp
+```
+```
+mkfs.ext4 /dev/[nama grup]/vaud
+```
+```
+mkfs.ext4 /dev/[nama grup]/vlog
+```
+```
+mkfs.ext4 /dev[nama grup]/home
+```
+```
+mkfs.ext4 /dev[nama grup]/podman
+```
+## Periksa
+```
+lsblk
+```
+## Mounting
