@@ -94,9 +94,6 @@ lvcreate -L size (G | M) proc -n vaud
 ```
 lvcreate -L size (G | M) proc -n home
 ```
-```
-lvcreate -l50%FREE  proc -n [name]
-```
 
 ## formating 
 ```
@@ -127,20 +124,6 @@ mkfs.ext4 /dev/proc/vaud
 mkfs.ext4 /dev/proc/home
 ```
 
-```
-mkfs.ext4 /dev/proc/[name]
-```
-## setup luks
-```
-cryptsetup luksFormat /dev/proc/[name]
-```
-```
-cryptsetup luksOpen /dev/proc/ikhsan [nama device]
-```
-```
-mkfs.ext4 /dev/mapper/[nama device]
-```
-
 ## Mounting
 ```
 mount /dev/proc/root /mnt
@@ -168,6 +151,14 @@ mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vaud /mnt/var/log/aud
 
 ```
 mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/home /mnt/home
+```
+
+## setup luks
+```
+lvcreate -l50%FREE  proc -n [name]
+```
+```
+cryptsetup luksFormat /dev/proc/[name]
 ```
 
 # packages
@@ -242,6 +233,13 @@ dan isi ALL=en_US.UTF-8
 ****
 
 # pam_mount
+## buka luks nya
+```
+cryptsetup luksOpen /dev/proc/ikhsan [nama device]
+```
+```
+mkfs.ext4 /dev/mapper/[nama device]
+```
 ## USERADD
 ```
 mkdir /home/user
@@ -260,9 +258,6 @@ passwd
 
 ```
 echo '[user name] ALL=(ALL:ALL) ALL' >> /etc/sudoers.d/none
-```
-```
-sudo mount -o rw,nodev,nosuid,relatime /dev/mapper/[nama device] /home/[name]
 ```
 
 ## config volume
@@ -372,17 +367,28 @@ session    required   pam_env.so
 nvim /etc/booster.yaml
 ```
 
-add value
+## add value
 ```
 network:
   dhcp: on
 universal: false
-modules: -*,ext4
+modules: -*,ext4 
+extra_files: fsck,fsck.ext4
+strip: true
+enable_lvm: true
+```
+## Jika anda menggunakan partisi bertipe nvme, tambahkan bagian module seperti berikut:
+```
+network:
+  dhcp: on
+universal: false
+modules: -*,ext4,nvme
 extra_files: fsck,fsck.ext4
 strip: true
 enable_lvm: true
 ```
 
+## Prepare boot
 ```
 cd /boot
 ```
@@ -401,7 +407,14 @@ rm -fr booster-linux-lts.img
 ```
 bootctl --path=/boot install
 ```
-
+### Jika gagal muncul di boot option kalian keluar terlebih dahulu dari arch-chroot
+```
+exit
+```
+```
+bootctl --path=/mnt/boot install
+```
+---
 ```
 nvim /boot/loader/entries/booster.conf
 ```

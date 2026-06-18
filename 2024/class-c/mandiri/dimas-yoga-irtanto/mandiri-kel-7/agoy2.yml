@@ -1,0 +1,697 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 190
+    content: "\e]3008;start=85dd8f9f-bca6-4f25-a2d8-1a020b96036c;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=cba9d053-ca00-4e15-9995-3a539d0b1b95;pid=00000000000000016231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2182
+    content: s
+  - delay: 152
+    content: s
+  - delay: 174
+    content: h
+  - delay: 197
+    content: ' '
+  - delay: 1937
+    content: r
+  - delay: 225
+    content: o
+  - delay: 157
+    content: o
+  - delay: 141
+    content: t
+  - delay: 1098
+    content: '#'
+  - delay: 893
+    content: "\b\e[K"
+  - delay: 691
+    content: '@'
+  - delay: 3611
+    content: '1'
+  - delay: 778
+    content: '2'
+  - delay: 376
+    content: '7'
+  - delay: 1834
+    content: "\b\e[K"
+  - delay: 159
+    content: "\b\e[K"
+  - delay: 1055
+    content: '7'
+  - delay: 125
+    content: '2'
+  - delay: 2000
+    content: .
+  - delay: 370
+    content: '2'
+  - delay: 139
+    content: '0'
+  - delay: 1861
+    content: .
+  - delay: 237
+    content: '1'
+  - delay: 200
+    content: '1'
+  - delay: 865
+    content: '9'
+  - delay: 1526
+    content: .
+  - delay: 906
+    content: '7'
+  - delay: 152
+    content: '7'
+  - delay: 1394
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 1547
+    content: "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\n@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\r\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\nIT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\r\r\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)!\r\r\nIt is also possible that a host key has just been changed.\r\r\nThe fingerprint for the ED25519 key sent by the remote host is\r\nSHA256:cttWBRhnbRQ2QpphKw3XQT+S924edQC/o9R4VwqL6H4.\r\r\nPlease contact your system administrator.\r\r\nAdd correct host key in /home/user/.ssh/known_hosts to get rid of this message.\r\r\nOffending ECDSA key in /home/user/.ssh/known_hosts:4\r\r\nHost key for 172.20.119.77 has changed and you have requested strict checking.\r\r\nHost key verification failed.\r\r\n\e]3008;end=73c2872e-d8f6-4f16-af08-01b5ae5c7663;exit=failure;status=255\e\\"
+  - delay: 8
+    content: "\e]3008;start=85dd8f9f-bca6-4f25-a2d8-1a020b96036c;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=cba9d053-ca00-4e15-9995-3a539d0b1b95;pid=00000000000000016231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;255\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 13206
+    content: ssh root@172.20.119.77
+  - delay: 692
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 1166
+    content: "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\n@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @\r\r\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\r\nIT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\r\r\nSomeone could be eavesdropping on you right now (man-in-the-middle attack)!\r\r\nIt is also possible that a host key has just been changed.\r\r\nThe fingerprint for the ED25519 key sent by the remote host is\r\nSHA256:cttWBRhnbRQ2QpphKw3XQT+S924edQC/o9R4VwqL6H4.\r\r\nPlease contact your system administrator.\r\r\nAdd correct host key in /home/user/.ssh/known_hosts to get rid of this message.\r\r\nOffending ECDSA key in /home/user/.ssh/known_hosts:4\r\r\nHost key for 172.20.119.77 has changed and you have requested strict checking.\r\r\nHost key verification failed.\r\r\n\e]3008;end=81a95a35-dd18-432c-bad8-8f77d51fc272;exit=failure;status=255\e\\"
+  - delay: 9
+    content: "\e]3008;start=85dd8f9f-bca6-4f25-a2d8-1a020b96036c;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=cba9d053-ca00-4e15-9995-3a539d0b1b95;pid=00000000000000016231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;255\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 80204
+    content: s
+  - delay: 183
+    content: s
+  - delay: 151
+    content: h
+  - delay: 782
+    content: '-'
+  - delay: 269
+    content: k
+  - delay: 153
+    content: e
+  - delay: 157
+    content: 'y'
+  - delay: 193
+    content: g
+  - delay: 138
+    content: e
+  - delay: 192
+    content: 'n'
+  - delay: 3051
+    content: ' '
+  - delay: 551
+    content: '-'
+  - delay: 458
+    content: R
+  - delay: 480
+    content: ' '
+  - delay: 3358
+    content: '1'
+  - delay: 274
+    content: '7'
+  - delay: 248
+    content: '2'
+  - delay: 1153
+    content: .
+  - delay: 1988
+    content: '2'
+  - delay: 139
+    content: '0'
+  - delay: 831
+    content: .
+  - delay: 1468
+    content: '1'
+  - delay: 221
+    content: '1'
+  - delay: 280
+    content: '9'
+  - delay: 16409
+    content: .
+  - delay: 842
+    content: '7'
+  - delay: 152
+    content: '7'
+  - delay: 416
+    content: ' '
+  - delay: 2628
+    content: "\b\e[K"
+  - delay: 572
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 10
+    content: "# Host 172.20.119.77 found: line 2\r\n# Host 172.20.119.77 found: line 3\r\n# Host 172.20.119.77 found: line 4\r\n/home/user/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/user/.ssh/known_hosts.old\r\n\e]3008;end=56cf31be-744c-45b3-920c-40798e3c03fb;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=85dd8f9f-bca6-4f25-a2d8-1a020b96036c;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=cba9d053-ca00-4e15-9995-3a539d0b1b95;pid=00000000000000016231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3115
+    content: ssh-keygen -R 172.20.119.77
+  - delay: 244
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[5P root@\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1496
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 1970
+    content: "\rThe authenticity of host '172.20.119.77 (172.20.119.77)' can't be established.\r\nED25519 key fingerprint is: SHA256:cttWBRhnbRQ2QpphKw3XQT+S924edQC/o9R4VwqL6H4\r\nThis key is not known by any other names.\r\nAre you sure you want to continue connecting (yes/no/[fingerprint])? "
+  - delay: 1448
+    content: 'Y'
+  - delay: 308
+    content: E
+  - delay: 238
+    content: S
+  - delay: 776
+    content: "\r\nWarning: Permanently added '172.20.119.77' (ED25519) to the list of known hosts.\r\r\n"
+  - delay: 1331
+    content: "\rroot@172.20.119.77's password: "
+  - delay: 2374
+    content: "\r\n"
+  - delay: 1003
+    content: "To install \e[38;2;23;147;209mArch Linux\e[0m follow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\r\n\r\nFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl\e[0m utility.\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli\e[0m utility.\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\r\n\r\nAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[0m.\r\n\r\n\e[41m \e[41m \e[41m \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m \e[41m \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m \e[40m \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \e[0m\r\n"
+  - delay: 308
+    content: "\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[?1h\e=\e[?2004h"
+  - delay: 3277
+    content: l
+  - delay: 211
+    content: "\bls"
+  - delay: 200
+    content: b
+  - delay: 15
+    content: l
+  - delay: 194
+    content: k
+  - delay: 304
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;root@archiso: lsblk\a"
+  - delay: 10
+    content: "NAME            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\nloop0             7:0    0 973.1M  1 loop /run/archiso/airootfs\r\nsda               8:0    1  14.3G  0 disk \r\n└─sda1            8:1    1  14.3G  0 part \r\nnvme0n1         259:0    0 238.5G  0 disk \r\n├─nvme0n1p1     259:1    0   100M  0 part \r\n├─nvme0n1p2     259:2    0    16M  0 part \r\n├─nvme0n1p3     259:3    0 110.1G  0 part \r\n├─nvme0n1p4     259:4    0   721M  0 part \r\n├─nvme0n1p5     259:5    0  25.8G  0 part \r\n├─nvme0n1p6     259:6    0   313M  0 part \r\n├─nvme0n1p7     259:7    0    15M  0 part \r\n├─nvme0n1p8     259:8    0   128M  0 part \r\n├─nvme0n1p9     259:9    0   256M  0 part \r\n├─nvme0n1p10    259:10   0    36G  0 part \r\n├─nvme0n1p11    259:11   0    34G  0 part \r\n├─nvme0n1p12    259:12   0     3G  0 part /mnt/boot\r\n└─nvme0n1p13    259:13   0  27.2G  0 part \r\n  ├─proc-root   253:0    0    10G  0 lvm  /mnt\r\n  ├─proc-vars   253:1    0    10G  0 lvm  \r\n  ├─proc-vtemp  253:2    0   256M  0 lvm  \r\n  ├─proc-vlog   253:3    0   256M  0 lvm  \r\n  ├─proc-vaud   253:4    0   256M  0 lvm  \r\n  ├─proc-home   253:5    0     2G  0 lvm  \r\n  └─proc-pisang 253:6    0     4G  0 lvm  \r\n\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r"
+  - delay: 59
+    content: "\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1672
+    content: a
+  - delay: 166
+    content: "\bar"
+  - delay: 161
+    content: v
+  - delay: 140
+    content: h
+  - delay: 489
+    content: "\b \b"
+  - delay: 156
+    content: "\b \b"
+  - delay: 628
+    content: c
+  - delay: 153
+    content: h
+  - delay: 738
+    content: '-'
+  - delay: 465
+    content: ch
+  - delay: 154
+    content: r
+  - delay: 137
+    content: o
+  - delay: 131
+    content: o
+  - delay: 115
+    content: t
+  - delay: 198
+    content: ' '
+  - delay: 519
+    content: /
+  - delay: 236
+    content: m
+  - delay: 136
+    content: 'n'
+  - delay: 134
+    content: "t\e[1m/\e[0m"
+  - delay: 284
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]0;root@archiso: arch-chroot /mnt\a"
+  - delay: 73
+    content: "\e]0;root@archiso:/\a\e[?2004h[root@archiso /]# "
+  - delay: 988
+    content: 'n'
+  - delay: 196
+    content: v
+  - delay: 156
+    content: i
+  - delay: 227
+    content: m
+  - delay: 195
+    content: ' '
+  - delay: 603
+    content: /
+  - delay: 191
+    content: e
+  - delay: 132
+    content: tc/
+  - delay: 20387
+    content: d
+  - delay: 283
+    content: e
+  - delay: 195
+    content: "\a"
+  - delay: 1228
+    content: "\b\e[K"
+  - delay: 208
+    content: "\b\e[K"
+  - delay: 620
+    content: s
+  - delay: 205
+    content: e
+  - delay: 253
+    content: c
+  - delay: 146
+    content: c
+  - delay: 256
+    content: "\a"
+  - delay: 999
+    content: "\b\e[K"
+  - delay: 365
+    content: "\aur"
+  - delay: 1867
+    content: i
+  - delay: 424
+    content: r
+  - delay: 1757
+    content: "\b\e[K"
+  - delay: 820
+    content: t
+  - delay: 127
+    content: y/
+  - delay: 2265
+    content: p
+  - delay: 279
+    content: a
+  - delay: 152
+    content: "\am_"
+  - delay: 744
+    content: m
+  - delay: 87
+    content: 'ount.conf.xml '
+  - delay: 622
+    content: "\r\n\e[?2004l\r"
+  - delay: 18
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 5
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                     "
+  - delay: 5
+    content: "                                                                                                                                                         \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                    "
+  - delay: 16
+    content: "                                                                                          \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 72
+    content: "\e[?25l\e[?2031h\e[>4;2m\e[?1004h\e[?25h\e[c"
+  - delay: 5
+    content: "\e[?25l\e(B\e[m<?xml version=\e[92m\"1.0\"\e(B\e[m encoding=\e[92m\"utf-8\"\e(B\e[m ?>\e[K\r\n\e[96m<!\e(B\e[0;1mDOCTYPE\e(B\e[m pam_mount \e(B\e[0;1mSYSTEM\e(B\e[m \e[92m\"pam_mount.conf.xml.dtd\"\e(B\e[m\e[96m>\e(B\e[m\e[K\r\n<!--\e[K\r\n        See pam_mount.conf(5) for a description.\e[K\r\n-->\e[K\r\n\e[K\n\e[96m<pam_mount>\e(B\e[m\e[K\r\n\e[K\n                <!-- debug should come before everything else,\e[K\r\n                since this file is still processed in a single pass\e[K\r\n                from top-to-bottom -->\e[K\r\n\e[K\n\e[96m<debug \e(B\e[menable=\e[92m\"0\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[K\n                <!-- Volume definitions -->\e[K\r\n\e[K\n\e[K\n                <!-- pam_mount parameters: General tunables -->\e[K\r\n\e[K\n<!--\e[K\r\n<luserconf name=\".pam_mount.conf.xml\" />\e[K\r\n-->\e[K\r\n\e[K\n<!-- Note that commenting out mntoptions will give you the defaults.\e[K\r\n     You will need to explicitly initialize it with the empty string\e[K\r\n     to reset the defaults to nothing. -->\e[K\r\n\e[96m<mntoptions \e(B\e[mallow=\e[92m\"nosuid,nodev,loop,encryption,fsck,nonempty,allow_root,allow_other\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n<!--\e[K\r\n<mntoptions deny=\"suid,dev\" />\e[K\r\n<mntoptions allow=\"*\" />\e[K\r\n<mntoptions deny=\"*\" />\e[K\r\n-->\e[K\r\n\e[96m<mntoptions \e(B\e[mrequire=\e[92m\"nosuid,nodev\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[K\n<!-- requires ofl from hxtools to be present -->\e[K\r\n\e[96m<logout \e(B\e[mwait=\e[92m\"0\"\e(B\e[m\e[96m \e(B\e[mhup=\e[92m\"no\"\e(B\e[m\e[96m \e(B\e[mterm=\e[92m\"no\"\e(B\e[m\e[96m \e(B\e[mkill=\e[92m\"no\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[96m<volume\e(B\e[m\e[K\r\n\e[96m    \e(B\e[muser=\e[92m\"kudalepas\"\e(B\e[m\e[K\r\n\e[96m    \e(B\e[mfstype=\e[92m\"crypt\"\e(B\e[m\e[K\r\n\e[96m    \e(B\e[mpath=\e[92m\"/dev/proc/pisang\e(B\e[m\e[K\r\n\e[92m    mountpoint=\"\e(B\e[m\e[96m/\e(B\e[mhome\e[96m/user\e(B\e[m\e[92m\"\e(B\e[m\e[K\r\n\e[92m/>\e(B\e[m\e[K\r\n\e[K\n\e[K\n\e[92m                <!-- pam_mount parameters: Volume-related -->\e(B\e[m\e[K\r\n\e[K\n\e[92m<mkmountpoint enable=\"\e(B\e[m\e[96m1\e(B\e[m\e[92m\" remove=\"\e(B\e[m\e[96mtrue\e(B\e[m\e[92m\" />\e(B\e[m\e[K\r\n\e[K\n\e[K\n\e[92m</pam_mount>\e(B\e[m\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[0;7metc/security/pam_mount.conf.xml                                                                                                                                             1,1            All\e(B\e[m\r\n\e[J\e[2 q\e[2 q\e[H<?xml version=\e[92m\"1.0\"\e(B\e[m encoding=\e[92m\"utf-8\"\e(B\e[m ?>\e[K\r\n\e[96m<!\e(B\e[0;1mDOCTYPE\e(B\e[m pam_mount \e(B\e[0;1mSYSTEM\e(B\e[m \e[92m\"pam_mount.conf.xml.dtd\"\e(B\e[m\e[96m>\e(B\e[m\e[K\r\n<!--\e[K\r\n        See pam_mount.conf(5) for a description.\e[K\r\n-->\e[K\r\n\e[K\n\e[96m<pam_mount>\e(B\e[m\e[K\r\n\e[K\n                <!-- debug should come before everything else,\e[K\r\n                since this file is still processed in a single pass\e[K\r\n                from top-to-bottom -->\e[K\r\n\e[K\n\e[96m<debug \e(B\e[menable=\e[92m\"0\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[K\n                <!-- Volume definitions -->\e[K\r\n\e[K\n\e[K\n                <!-- pam_mount parameters: General tunables -->\e[K\r\n\e[K\n<!--\e[K\r\n<luserconf name=\".pam_mount.conf.xml\" />\e[K\r\n-->\e[K\r\n\e[K\n<!-- Note that commenting out mntoptions will give you the defaults.\e[K\r\n     You will need to explicitly initialize it with the empty string\e[K\r\n     to reset the defaults to nothing. -->\e[K\r\n\e[96m<mntoptions \e(B\e[mallow=\e[92m\"nosuid,nodev,loop,encryption,fsck,nonempty,allow_root,allow_other\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n<!--\e[K\r\n<mntoptions deny=\"suid,dev\" />\e[K\r\n<mntoptions allow=\"*\" />\e[K\r\n<mntoptions deny=\"*\" />\e[K\r\n-->\e[K\r\n\e[96m<mntoptions \e(B\e[mrequire=\e[92m\"nosuid,nodev\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[K\n<!-- requires ofl from hxtools to be present -->\e[K\r\n\e[96m<logout \e(B\e[mwait=\e[92m\"0\"\e(B\e[m\e[96m \e(B\e[mhup=\e[92m\"no\"\e(B\e[m\e[96m \e(B\e[mterm=\e[92m\"no\"\e(B\e[m\e[96m \e(B\e[mkill=\e[92m\"no\"\e(B\e[m\e[96m />\e(B\e[m\e[K\r\n\e[96m<volume\e(B\e[m\e[K\r\n\e[96m    \e(B\e[muser=\e[92m\"kudalepas\"\e(B\e[m\e[K\r\n\e[96m    \e(B\e[mfstype=\e[92m\"crypt\"\e(B\e[m\e[K\r\n\e[96m    \e(B\e[mpath=\e[92m\"/dev/proc/pisang\e(B\e[m\e[K\r\n\e[92m    mountpoint=\"\e(B\e[m\e[96m/\e(B\e[mhome\e[96m/user\e(B\e[m\e[92m\"\e(B\e[m\e[K\r\n\e[92m/>\e(B\e[m\e[K\r\n\e[K\n\e[K\n\e[92m                <!-- pam_mount parameters: Volume-related -->\e(B\e[m\e[K\r\n\e[K\n\e[92m<mkmountpoint enable=\"\e(B\e[m\e[96m1\e(B\e[m\e[92m\" remove=\"\e(B\e[m\e[96mtrue\e(B\e[m\e[92m\" />\e(B\e[m\e[K\r\n\e[K\n\e[K\n\e[92m</pam_mount>\e(B\e[m\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[0;7metc/security/pam_mount.conf.xml                                                                                                                                             1,1            All\e(B\e[m\r\n\e[J\e[H\e[?25h"
+  - delay: 20
+    content: "\eP+q4D73\e\\"
+  - delay: 1561
+    content: "\e[?25l\e[59;180H~@k\e[H\e[?25h\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m2\r\e[56A\e[?25h"
+  - delay: 481
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[57A\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m3\r\e[55A\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[56A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m4,1-8\e[4;8H\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[4;8H\e[?25h\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m5,1  \r\e[53A\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[54A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m6,0-1\r\e[52A\e[?25h"
+  - delay: 27
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[53A\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m7,1  \r\e[51A\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[52A\e[?25h\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m8,0-1\r\e[50A\e[?25h"
+  - delay: 65
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[51A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m9,1-8\e[9;8H\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[9;8H\e[?25h"
+  - delay: 10
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m10,1-8\e[10;8H\e[?25h"
+  - delay: 45
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[10;8H\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m1\e[11;8H\e[?25h"
+  - delay: 45
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[11;8H\e[?25h"
+  - delay: 10
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m2,0-1\r\e[46A\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[47A\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m3,1  \r\e[45A\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[46A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m4,0-1\r\e[44A\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[45A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m5,1-8\e[15;8H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[15;8H\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m6,0-1\r\e[42A\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[43A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m7\r\e[41A\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[42A\e[?25h"
+  - delay: 8
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m8,1-8\e[18;8H\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\e[18;8H\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m9,0-1\r\e[39A\e[?25h"
+  - delay: 45
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[40A\e[?25h\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m20,1  \r\e[38A\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[39A\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m1\r\e[37A\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[38A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m2\r\e[36A\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[37A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m3,0-1\r\e[35A\e[?25h"
+  - delay: 65
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[36A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m4,1  \r\e[34A\e[?25h"
+  - delay: 46
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[35A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m5\r\e[33A\e[?25h"
+  - delay: 55
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[34A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m6\r\e[32A\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[33A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m7\r\e[31A\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[32A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m8\r\e[30A\e[?25h"
+  - delay: 41
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[31A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m9\r\e[29A\e[?25h"
+  - delay: 28
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[30A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m30\r\e[28A\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[29A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m1\r\e[27A\e[?25h"
+  - delay: 42
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[28A\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m2\r\e[26A\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[27A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m3\r\e[25A\e[?25h"
+  - delay: 61
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[26A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m4,0-1\r\e[24A\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[25A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m5,1  \r\e[23A\e[?25h"
+  - delay: 57
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[24A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m6\r\e[22A\e[?25h"
+  - delay: 36
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[23A\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m7\r\e[21A\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[22A\e[?25h"
+  - delay: 8
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m8\r\e[20A\e[?25h"
+  - delay: 57
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[21A\e[?25h\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m9\r\e[19A\e[?25h"
+  - delay: 228
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[20A\e[?25h\e[?25l\e[59;180H   \e[58;173H\e(B\e[0;7m40\r\e[18A\e[?25h"
+  - delay: 186
+    content: "\e[?25l\e[59;180H\e(B\e[m~@k\r\e[19A\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[59;180H   \e[58;174H\e(B\e[0;7m1\r\e[17A\e[?25h"
+  - delay: 839
+    content: "\e[?25l\e[59;180H\e(B\e[mi\r\e[18A\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[59;180H \r\e[59;1H\e[92m-- INSERT --\e[6 q\r\e[18A\e[?25h"
+  - delay: 759
+    content: "\e[?25l\e[58;176H\e(B\e[0;7m2\e[41;2H\e[?25h"
+  - delay: 499
+    content: "\e[?25l\e[58;176H3\e[41;3H\e[?25h"
+  - delay: 68
+    content: "\e[?25l\e[58;176H4\e[41;4H\e[?25h"
+  - delay: 69
+    content: "\e[?25l\e[58;176H5\e[41;5H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[58;176H6\e[41;6H\e[?25h"
+  - delay: 56
+    content: "\e[?25l\e[58;176H7\e[41;7H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[58;176H8\e[41;8H\e[?25h"
+  - delay: 66
+    content: "\e[?25l\e[58;176H9\e[41;9H\e[?25h"
+  - delay: 40
+    content: "\e[?25l\e[58;176H10\e[41;10H\e[?25h"
+  - delay: 65
+    content: "\e[?25l\e[58;177H1\e[41;11H\e[?25h"
+  - delay: 629
+    content: "\e[?25l\e[58;174H0\e[40;11H\e[?25h"
+  - delay: 251
+    content: "\e[?25l\e[58;177H2\e[40;12H\e[?25h"
+  - delay: 494
+    content: "\e[?25l\e[58;177H3\e[40;13H\e[?25h"
+  - delay: 66
+    content: "\e[?25l\e[58;177H4\e[40;14H\e[?25h"
+  - delay: 40
+    content: "\e[?25l\e[58;177H5\e[40;15H\e[?25h"
+  - delay: 43
+    content: "\e[?25l\e[58;177H6\e[40;16H\e[?25h"
+  - delay: 63
+    content: "\e[?25l\e[58;177H7\e[40;17H\e[?25h"
+  - delay: 42
+    content: "\e[?25l\e[58;177H8\e[40;18H\e[?25h"
+  - delay: 66
+    content: "\e[?25l\e[58;177H9\e[40;19H\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[58;176H20\e[40;20H\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[58;177H1\e[40;21H\e[?25h"
+  - delay: 58
+    content: "\e[?25l\e[58;177H2\e[40;22H\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[58;177H3\e[40;23H\e[?25h"
+  - delay: 61
+    content: "\e[?25l\e[58;177H4\e[40;24H\e[?25h"
+  - delay: 46
+    content: "\e[?25l\e[58;177H5\e[40;25H\e[?25h"
+  - delay: 69
+    content: "\e[?25l\e[58;177H6\e[40;26H\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[58;177H7\e[40;27H\e[?25h"
+  - delay: 1367
+    content: "\e[?25l\e(B\e[m\e[92m\"\r\n\e(B\e[m\e[96m    \e(B\e[mmountpoint=\e[92m\"/home/user\r\n\e(B\e[m\e[96m/>\r\n\n\n\e(B\e[m                <!-- pam_mount parameters: Volume-related -->\r\n\n\e[96m<mkmountpoint \e(B\e[menable=\e[92m\"1\"\e(B\e[m\e[96m \e(B\e[mremove=\e[92m\"true\"\e(B\e[m\e[96m />\r\n\n\n</pam_mount>\e[58;33H\e(B\e[0;7m[+]                                                                                                                                         40,28\e[40;28H\e[?25h"
+  - delay: 1147
+    content: "\e[?25l\e(B\e[m\r\e[19B\e[12X\e[58;177H\e(B\e[0;7m7\e[2 q\e[40;27H\e[?25h"
+  - delay: 691
+    content: "\e[?25l\e[59;180H\e(B\e[m:\e[40;27H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 437
+    content: "\e[?25lw\e[?25h"
+  - delay: 144
+    content: "\e[?25lq\e[?25h"
+  - delay: 628
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"etc/security/pam_mount.conf.xml\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h"
+  - delay: 23
+    content: "\e[?25l50L, 1154B written\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 39
+    content: "\e[?25l\r\e[59;1H\e[?1049l\e[23;0;0t\e[?25h\e]0;root@archiso:/\a\e[?2004h[root@archiso /]# "
+  - delay: 2295
+    content: e
+  - delay: 458
+    content: x
+  - delay: 152
+    content: i
+  - delay: 268
+    content: t
+  - delay: 716
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 14
+    content: "\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K"
+  - delay: 8
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 1845
+    content: u
+  - delay: 405
+    content: "\bum"
+  - delay: 865
+    content: o
+  - delay: 272
+    content: u
+  - delay: 206
+    content: 'n'
+  - delay: 129
+    content: t
+  - delay: 166
+    content: ' '
+  - delay: 646
+    content: '-'
+  - delay: 438
+    content: R
+  - delay: 275
+    content: ' '
+  - delay: 563
+    content: /
+  - delay: 252
+    content: m
+  - delay: 129
+    content: 'n'
+  - delay: 147
+    content: t
+  - delay: 562
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;root@archiso: umount -R /mnt\a"
+  - delay: 35
+    content: "umount: /mnt: target is busy.\r\n\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m32 \e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[167C:(\e[169D\e[?1h\e=\e[?2004h"
+  - delay: 6226
+    content: "l\bls"
+  - delay: 201
+    content: b
+  - delay: 209
+    content: lk
+  - delay: 405
+    content: "\e[?1l\e>\e[?2004l\e[K\r\r\n"
+  - delay: 8
+    content: "\e]0;root@archiso: lsblk\a"
+  - delay: 8
+    content: "NAME            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\nloop0             7:0    0 973.1M  1 loop /run/archiso/airootfs\r\nsda               8:0    1  14.3G  0 disk \r\n└─sda1            8:1    1  14.3G  0 part \r\nnvme0n1         259:0    0 238.5G  0 disk \r\n├─nvme0n1p1     259:1    0   100M  0 part \r\n├─nvme0n1p2     259:2    0    16M  0 part \r\n├─nvme0n1p3     259:3    0 110.1G  0 part \r\n├─nvme0n1p4     259:4    0   721M  0 part \r\n├─nvme0n1p5     259:5    0  25.8G  0 part \r\n├─nvme0n1p6     259:6    0   313M  0 part \r\n├─nvme0n1p7     259:7    0    15M  0 part \r\n├─nvme0n1p8     259:8    0   128M  0 part \r\n├─nvme0n1p9     259:9    0   256M  0 part \r\n├─nvme0n1p10    259:10   0    36G  0 part \r\n├─nvme0n1p11    259:11   0    34G  0 part \r\n├─nvme0n1p12    259:12   0     3G  0 part \r\n└─nvme0n1p13    259:13   0  27.2G  0 part \r\n  ├─proc-root   253:0    0    10G  0 lvm  /mnt\r\n  ├─proc-vars   253:1    0    10G  0 lvm  \r\n  ├─proc-vtemp  253:2    0   256M  0 lvm  \r\n  ├─proc-vlog   253:3    0   256M  0 lvm  \r\n  ├─proc-vaud   253:4    0   256M  0 lvm  \r\n  ├─proc-home   253:5    0     2G  0 lvm  \r\n  └─proc-pisang 253:6    0     4G  0 lvm  \r\n\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1158
+    content: r
+  - delay: 144
+    content: "\bre"
+  - delay: 142
+    content: b
+  - delay: 207
+    content: p
+  - delay: 149
+    content: p
+  - delay: 165
+    content: t
+  - delay: 608
+    content: "\b \b"
+  - delay: 138
+    content: "\b \b"
+  - delay: 134
+    content: "\b \b"
+  - delay: 515
+    content: o
+  - delay: 100
+    content: o
+  - delay: 131
+    content: t
+  - delay: 727
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;root@archiso: reboot\a"
+  - delay: 49
+    content: "\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r"
+  - delay: 8
+    content: "\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[?1h\e=\e[?2004h"
+  - delay: 12
+    content: "Connection to 172.20.119.77 closed by remote host.\r\nConnection to 172.20.119.77 closed.\r\n\e]3008;end=bc797199-2221-4d32-8694-fcf678639e89;exit=failure;status=255\e\\"
+  - delay: 8
+    content: "\e]3008;start=85dd8f9f-bca6-4f25-a2d8-1a020b96036c;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=cba9d053-ca00-4e15-9995-3a539d0b1b95;pid=00000000000000016231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;255\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1584
+    content: "\e[?2004l\r\r\nlogout\r\n"

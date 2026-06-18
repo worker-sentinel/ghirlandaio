@@ -1,0 +1,716 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Windows\System32
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 539
+    content: "\e[?9001h\e[?1004h"
+  - delay: 353
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[6;1H\e]0;Administrator: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 494
+    content: 'PS C:\Windows\System32> '
+  - delay: 7890
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93ms\e[?25h"
+  - delay: 149
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bss\e[?25h"
+  - delay: 102
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;25Hssh\e[?25h"
+  - delay: 616
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;25Hssh \e[?25h"
+  - delay: 342
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;25Hssh \e[37mr\e[?25h"
+  - delay: 230
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;25Hssh \e[37mro\e[?25h"
+  - delay: 164
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;25Hssh \e[37mroo\e[?25h"
+  - delay: 110
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hssh \e[37mroot\e[?25h"
+  - delay: 979
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[37mroot@\e[?25h"
+  - delay: 1608
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 539
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 412
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 352
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.1\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.11\e[?25h"
+  - delay: 120
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111\e[?25h"
+  - delay: 280
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.\e[?25h"
+  - delay: 3472
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.1\e[?25h"
+  - delay: 509
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.13\e[?25h"
+  - delay: 370
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.136\e[?25h"
+  - delay: 175
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.136.\e[?25h"
+  - delay: 928
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.136.4\e[?25h"
+  - delay: 107
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.111.136.43\e[?25h"
+  - delay: 1001
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 21090
+    content: "ssh: connect to host 10.111.136.43 port 22: Connection timed out\r\n"
+  - delay: 80
+    content: 'PS C:\Windows\System32> '
+  - delay: 1918
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93mp\e[?25h"
+  - delay: 231
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\bpi\e[?25h"
+  - delay: 184
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[8;25Hpin\e[?25h"
+  - delay: 220
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[8;25Hping\e[?25h"
+  - delay: 358
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[8;25Hping \e[?25h"
+  - delay: 1357
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[8;25Hping \e[97m1\e[?25h"
+  - delay: 565
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[8;25Hping \e[97m10\e[?25h"
+  - delay: 415
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[8;25Hping \e[97m10.\e[?25h"
+  - delay: 486
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[8;25Hping \e[97m10.1\e[?25h"
+  - delay: 164
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[8;25Hping \e[97m10.11\e[?25h"
+  - delay: 161
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[8;25Hping \e[97m10.111\e[?25h"
+  - delay: 1042
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[8;25Hping \e[37m10.111.\e[?25h"
+  - delay: 531
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[8;25Hping \e[37m10.111.1\e[?25h"
+  - delay: 452
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[8;25Hping \e[37m10.111.13\e[?25h"
+  - delay: 383
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[8;25Hping \e[37m10.111.136\e[?25h"
+  - delay: 897
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[8;25Hping \e[37m10.111.136.\e[?25h"
+  - delay: 552
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[8;25Hping \e[37m10.111.136.4\e[?25h"
+  - delay: 196
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[8;25Hping \e[37m10.111.136.43\e[?25h"
+  - delay: 539
+    content: "\e[m"
+  - delay: 18
+    content: "\r\n"
+  - delay: 80
+    content: "\r\nPinging 10.111.136.43 with 32 bytes of data:\r\n"
+  - delay: 2937
+    content: R
+  - delay: 15
+    content: "eply from 10.111.136.52: Destination host unreachable.\r\n"
+  - delay: 2983
+    content: R
+  - delay: 15
+    content: "eply from 10.111.136.52: Destination host unreachable.\r\n"
+  - delay: 2987
+    content: R
+  - delay: 16
+    content: "eply from 10.111.136.52: Destination host unreachable.\r\n"
+  - delay: 2986
+    content: R
+  - delay: 15
+    content: "\e[?25leply from 10.111.136.52: Destination host unreachable.\e[16;1HPing statistics for 10.111.136.43:\r\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\r\nPS C:\\Windows\\System32> \e[?25h"
+  - delay: 19124
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93ms\e[?25h"
+  - delay: 141
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\bss\e[?25h"
+  - delay: 423
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[18;25Hssh\e[?25h"
+  - delay: 184
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[18;25Hssh \e[?25h"
+  - delay: 260
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[18;25Hssh \e[37mr\e[?25h"
+  - delay: 352
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[18;25Hssh \e[37mro\e[?25h"
+  - delay: 136
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[18;25Hssh \e[37mroo\e[?25h"
+  - delay: 253
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[18;25Hssh \e[37mroot\e[?25h"
+  - delay: 997
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh \e[37mroot@\e[?25h"
+  - delay: 4227
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[18;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 1313
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 350
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 520
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.1\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.11\e[?25h"
+  - delay: 210
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111\e[?25h"
+  - delay: 693
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.\e[?25h"
+  - delay: 6310
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.1\e[?25h"
+  - delay: 20190
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.13\e[?25h"
+  - delay: 458
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.136\e[?25h"
+  - delay: 645
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.136.\e[?25h"
+  - delay: 489
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.136.5\e[?25h"
+  - delay: 317
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.111.136.52\e[?25h"
+  - delay: 940
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 2093
+    content: "ssh: connect to host 10.111.136.52 port 22: Connection refused\r\n"
+  - delay: 13
+    content: 'PS C:\Windows\System32> '
+  - delay: 1595209
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93mi\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\bip\e[?25h"
+  - delay: 429
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[20;25Hip \e[?25h"
+  - delay: 644
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[20;25Hip \e[37mc\e[?25h"
+  - delay: 460
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[20;25Hip \e[37mco\e[?25h"
+  - delay: 267
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[20;25Hip \e[37mcon\e[?25h"
+  - delay: 687
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[20;25Hip \e[37mconf\e[?25h"
+  - delay: 467
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[20;25Hip \e[37mconfi\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[20;25Hip \e[37mconfig\e[?25h"
+  - delay: 428
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 960
+    content: "\e[38;5;9mip : The term 'ip' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the "
+  - delay: 21
+    content: "\e[m\e[38;5;9m\r\nspelling of the name, or if a path was included, verify that the path is correct and try again.\r\nAt line:1 char:1\r\n+ ip config\r\n+ ~~\r\n    + CategoryInfo          : ObjectNotFound: (ip:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException\r\n \e[m\r\nPS C:\\Windows\\System32> "
+  - delay: 104840
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93mp\e[?25h"
+  - delay: 209
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\bpi\e[?25h"
+  - delay: 225
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[29;25Hpin\e[?25h"
+  - delay: 261
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[29;25Hping\e[?25h"
+  - delay: 350
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[29;25Hping \e[?25h"
+  - delay: 853
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[29;25Hping \e[97m1\e[?25h"
+  - delay: 651
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[29;25Hping \e[97m10\e[?25h"
+  - delay: 394
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[29;25Hping \e[97m10.\e[?25h"
+  - delay: 3429
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[29;25Hping \e[97m10.1\e[?25h"
+  - delay: 153
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[29;25Hping \e[97m10.11\e[?25h"
+  - delay: 165
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[29;25Hping \e[97m10.111\e[?25h"
+  - delay: 759
+    content: "\e[?25l\e[m\e[93m\e[29;25Hping \e[37m10.111."
+  - delay: 17
+    content: "\e[m\e[?25h"
+  - delay: 515
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[29;25Hping \e[37m10.111.1\e[?25h"
+  - delay: 255
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[29;25Hping \e[37m10.111.13\e[?25h"
+  - delay: 575
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[29;25Hping \e[37m10.111.136\e[?25h"
+  - delay: 633
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[29;25Hping \e[37m10.111.136.\e[?25h"
+  - delay: 2489
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[29;25Hping \e[37m10.111.136.4\e[?25h"
+  - delay: 302
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[29;25Hping \e[37m10.111.136.43\e[?25h"
+  - delay: 714
+    content: "\e[m\r\n"
+  - delay: 37
+    content: "\nPinging 10.111.136.43 with 32 bytes of data:\r"
+  - delay: 5
+    content: "\nReply from 10.111.136.43: bytes=32 time=3ms TTL=64\r\n"
+  - delay: 1002
+    content: "Reply from 10.111.136.43: bytes=32 time=4ms TTL=64\r"
+  - delay: 9
+    content: |+
+
+  - delay: 1002
+    content: "Reply from 10.111.136.43: bytes=32 time=4ms TTL=64\r"
+  - delay: 9
+    content: |+
+
+  - delay: 1006
+    content: "Reply from 10.111.136.43: bytes=32 time=4ms TTL=64\r\n\nPing statistics for 10.111.136.43:\r\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\r\nApproximate round trip times in milli-seconds:\r\n    Minimum = 3ms, Maximum = 4ms, Average = 3ms\r"
+  - delay: 5
+    content: "\nPS C:\\Windows\\System32>\e[1C"
+  - delay: 12729
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93ms\e[?25h"
+  - delay: 134
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bss\e[?25h"
+  - delay: 598
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;25Hssh\e[?25h"
+  - delay: 3058
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[30;25Hssh \e[?25h"
+  - delay: 889
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[30;25Hssh \e[37mr\e[?25h"
+  - delay: 785
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[30;25Hssh \e[37mro\e[?25h"
+  - delay: 414
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[30;25Hssh \e[37mroo\e[?25h"
+  - delay: 287
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[30;25Hssh \e[37mroot\e[?25h"
+  - delay: 706
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;25Hssh \e[37mroot@\e[?25h"
+  - delay: 5400
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[30;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 1371
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 747
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 843
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.1\e[?25h"
+  - delay: 196
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.11\e[?25h"
+  - delay: 161
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111\e[?25h"
+  - delay: 931
+    content: "\e[?25l\e[m\e[93m\e[30;25Hssh \e[37mroot@10.111."
+  - delay: 18
+    content: "\e[m\e[?25h"
+  - delay: 600
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.1\e[?25h"
+  - delay: 332
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.13\e[?25h"
+  - delay: 626
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.136\e[?25h"
+  - delay: 910
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[91m\e[30;23H> \e[93mssh \e[37mroot@10.111.136\e[90m,\e[?25h"
+  - delay: 861
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[30;23H> \e[93mssh \e[37mroot@10.111.136 \b\e[?25h"
+  - delay: 320
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.136.\e[?25h"
+  - delay: 908
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.136.4\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[30;25Hssh \e[37mroot@10.111.136.43\e[?25h"
+  - delay: 2066
+    content: "\e[m"
+  - delay: 8
+    content: "\r\n"
+  - delay: 188
+    content: "The authenticity of host '10.111.136.43 (10.111.136.43)' can't be established.\r\nED25519 key fingerprint is SHA256:+qfqWRb9EXRF7RjDG0boBPYAWJd6CZl6dIoqspgDMfA.\r\nThis key is not known by any other names.\r\nAre you sure you want to continue connecting (yes/no/[fingerprint])?\e[1C"
+  - delay: 2587
+    content: 'y'
+  - delay: 1066
+    content: "\r\n"
+  - delay: 23
+    content: 'Please type ''yes'', ''no'' or the fingerprint: '
+  - delay: 3173
+    content: 'y'
+  - delay: 360
+    content: e
+  - delay: 252
+    content: s
+  - delay: 809
+    content: "\r\nWarning: Permanently added '10.111.136.43' (ED25519) to the list of known hosts.\r"
+  - delay: 12
+    content: |+
+
+  - delay: 53
+    content: 'root@10.111.136.43''s password: '
+  - delay: 4180
+    content: "\r\n"
+  - delay: 115
+    content: "To install \e[38;2;23;147;209mArch Linux \e[mfollow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\r\n\nFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl \e[mutility.\e[K\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli \e[mutility.\e[K\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\r\n\nAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[m.\e[K\r\n\n\e[41m   \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m  \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m  \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \e[m\e[K\r\n"
+  - delay: 120
+    content: "                                                                                                                        \e[30;1H"
+  - delay: 7
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                        \e[30;18H\e]0;root@archiso: ~\a"
+  - delay: 125524
+    content: e
+  - delay: 486
+    content: "\bex"
+  - delay: 366
+    content: i
+  - delay: 315
+    content: t
+  - delay: 768
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: exit\aConnection to 10.111.136.43 closed.\r"
+  - delay: 17
+    content: "\nPS C:\\Windows\\System32>\e[1C\e]0;Administrator: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a"
+  - delay: 5155
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93my\e[?25h"
+  - delay: 933
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 32
+    content: "\e[38;5;9my : The term 'y' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the \e[m\r\n\e[38;5;9mspelling of the name, or if a path was included, verify that the path is correct and try again.\e[m\r\n\e[38;5;9mAt line:1 char:1\e[m\r\n\e[38;5;9m+ y\e[m\r\n\e[38;5;9m+ ~\e[m\r\n\e[38;5;9m    + CategoryInfo          : ObjectNotFound: (y:String) [], CommandNotFoundException\e[m\r\n\e[38;5;9m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[38;5;9m\e[1C"
+  - delay: 9
+    content: "\e[m\r\nPS C:\\Windows\\System32>\e[1C"
+  - delay: 1925
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93me\e[?25h"
+  - delay: 561
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bex\e[?25h"
+  - delay: 177
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[30;25Hexi\e[?25h"
+  - delay: 262
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[30;25Hexit\e[?25h"
+  - delay: 731
+    content: "\e[m"
+  - delay: 13
+    content: "\r\n"

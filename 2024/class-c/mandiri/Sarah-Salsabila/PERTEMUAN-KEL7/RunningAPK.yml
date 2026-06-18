@@ -1,0 +1,1505 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 316
+    content: "\e]3008;start=e0c88371-993a-4238-87e6-fba6297f0dfd;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 37865
+    content: s
+  - delay: 199
+    content: u
+  - delay: 125
+    content: d
+  - delay: 139
+    content: o
+  - delay: 640
+    content: ' '
+  - delay: 359
+    content: p
+  - delay: 169
+    content: a
+  - delay: 330
+    content: c
+  - delay: 822
+    content: m
+  - delay: 140
+    content: a
+  - delay: 117
+    content: 'n'
+  - delay: 207
+    content: ' '
+  - delay: 2285
+    content: '-'
+  - delay: 548
+    content: S
+  - delay: 1551
+    content: ' '
+  - delay: 796
+    content: 'y'
+  - delay: 336
+    content: t
+  - delay: 557
+    content: ' '
+  - delay: 1380
+    content: d
+  - delay: 121
+    content: l
+  - delay: 238
+    content: p
+  - delay: 6487
+    content: "\b"
+  - delay: 236
+    content: "\b"
+  - delay: 366
+    content: "\b"
+  - delay: 752
+    content: "\b\e[1P"
+  - delay: 368
+    content: "\e[1@-"
+  - delay: 2177
+    content: "\e[C"
+  - delay: 226
+    content: "\e[C"
+  - delay: 262
+    content: "\e[C"
+  - delay: 1272
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=86f69da9-e0be-4103-ba58-44bb036d4172;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=command;cwd=/home/user\e\\"
+  - delay: 232
+    content: "warning: yt-dlp-2026.03.17-1 is up to date -- reinstalling\r\n\e[?25lresolving dependencies...\r\nlooking for conflicting packages...\r\n\r\nPackages (1) yt-dlp-2026.03.17-1\r\n\r\nTotal Installed Size:  32.90 MiB\r\nNet Upgrade Size:       0.00 MiB\r\n\r\n:: Proceed with installation? [Y/n] \e[?25h"
+  - delay: 2000
+    content: 'y'
+  - delay: 714
+    content: "\r\n\e[?25l(0/1) checking keys in keyring                                                                                     [--------------------------------------------------------------------]   0%\r"
+  - delay: 61
+    content: "(1/1) checking keys in keyring                                                                                     [####################################################################] 100%\r\r\n(0/1) checking package integrity                                                                                   [--------------------------------------------------------------------]   0%\r"
+  - delay: 40
+    content: "(1/1) checking package integrity                                                                                   [####################################################################] 100%\r\r\n(0/1) loading package files                                                                                        [--------------------------------------------------------------------]   0%\r"
+  - delay: 16
+    content: "(1/1) loading package files                                                                                        [####################################################################] 100%\r\r\n(0/1) checking for file conflicts                                                                                  [--------------------------------------------------------------------]   0%\r(1/1) checking for file conflicts                                                                                  [####################################################################] 100%\r\r\n(0/1) checking available disk space                                                                                [--------------------------------------------------------------------]   0%\r"
+  - delay: 11
+    content: "(1/1) checking available disk space                                                                                [####################################################################] 100%\r\r\n:: Processing package changes...\r\n"
+  - delay: 52
+    content: "(1/1) reinstalling yt-dlp                                                                                          [--------------------------------------------------------------------]   0%\r"
+  - delay: 148
+    content: "(1/1) reinstalling yt-dlp                                                                                          [####################################################################] 100%\r\r\n"
+  - delay: 168
+    content: ":: Running post-transaction hooks...\r\n(1/1) Arming ConditionNeedsUpdate...\r\n"
+  - delay: 57
+    content: "\e[?25h"
+  - delay: 31
+    content: "\e]3008;end=86f69da9-e0be-4103-ba58-44bb036d4172;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=e0c88371-993a-4238-87e6-fba6297f0dfd;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 5616
+    content: 'y'
+  - delay: 199
+    content: t
+  - delay: 6673
+    content: '-'
+  - delay: 1511
+    content: d
+  - delay: 230
+    content: l
+  - delay: 252
+    content: p
+  - delay: 1443
+    content: ' '
+  - delay: 697
+    content: '-'
+  - delay: 216
+    content: '-'
+  - delay: 679
+    content: v
+  - delay: 197
+    content: e
+  - delay: 201
+    content: r
+  - delay: 233
+    content: s
+  - delay: 219
+    content: i
+  - delay: 148
+    content: o
+  - delay: 869
+    content: 'n'
+  - delay: 1007
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=867d697b-703b-4852-9077-05a04a74b234;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=command;cwd=/home/user\e\\"
+  - delay: 328
+    content: "2026.03.17\r\n"
+  - delay: 86
+    content: "\e]3008;end=867d697b-703b-4852-9077-05a04a74b234;exit=success\e\\\e]3008;start=e0c88371-993a-4238-87e6-fba6297f0dfd;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 3546
+    content: m
+  - delay: 451
+    content: p
+  - delay: 696
+    content: v
+  - delay: 45513
+    content: ' '
+  - delay: 2658
+    content: "\e[7mhttps://youtu.be/lY5V4hSLWY8?si=PRUw2DKzr_KpQ48H\e[27m"
+  - delay: 3271
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://youtu.be/lY5V4hSLWY8?si=PRUw2DKzr_KpQ48H\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=4bfd01c6-860c-4f74-9fd3-0ff05e9493a1;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=command;cwd=/home/user\e\\"
+  - delay: 59
+    content: "\e="
+  - delay: 3800
+    content: "\e[0m● Video  --vid=1               (av1 3840x2160 23.976 fps) [default]\r\n\e[0m\e[0m● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]\r\n\e[0m\e[0mFile tags:\r\n\e[0m\e[0m Date: 20260227\r\n\e[0m\e[0m Uploader: Bruno Mars\r\n\e[0m\e[0m Channel_URL: https://www.youtube.com/channel/UCoUM-UJ7rirJYP8CQ0EIaHA\r\n\e[0m"
+  - delay: 110
+    content: "\e[31m[ao/alsa] Playback open error: Host is down\r\n\e[0m"
+  - delay: 24
+    content: "\e[91m[ao/jack] cannot open server\r\n\e[0m[ALSOFT] (EE) Failed to connect PipeWire event context (errno: 112)\r\n"
+  - delay: 14
+    content: "\e[91m[ao/openal] could not open device\r\n\e[0m"
+  - delay: 120
+    content: "\e[0mAO: [sndio] 48000Hz stereo 2ch s16\r\n\e[0m"
+  - delay: 5780
+    content: "\e[0mVO: [gpu-next] 3840x2160 yuv420p\r\n\e[0m"
+  - delay: 4342
+    content: "\e[?25l\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V:  0.000 Cache: 0.0s/1KB\e[0m\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.041 Cache: 0.0s/0KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.0s\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.0s\e[0m"
+  - delay: 179
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.1s/61KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.0s\e[0m"
+  - delay: 1105
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.0s/124KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.0s/179KB\e[0m"
+  - delay: 114
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.2s/561KB\e[0m"
+  - delay: 200
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.3s/620KB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.7s/1MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 0.8s/1MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Buffering) AV: 00:00:00 / 00:03:30 (0%) A-V: -0.037 Cache: 1.0s/1MB\e[0m"
+  - delay: 753
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.035 Cache: 1.1s/2MB\e[0m\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.030 Cache: 1.0s/2MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.027 Cache: 1.1s/2MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.024 Cache: 1.0s/2MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.022 Cache: 0.9s/2MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.019 Cache: 0.9s/1MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.018 Cache: 0.9s/1MB\e[0m"
+  - delay: 30
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.016 Cache: 0.9s/1MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.014 Cache: 0.8s/1MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.013 Cache: 0.7s/1MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.011 Cache: 0.7s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.010 Cache: 0.7s/1MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.009 Cache: 0.8s/1MB\e[0m"
+  - delay: 36
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.008 Cache: 0.8s/1MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.008 Cache: 0.7s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.007 Cache: 0.6s/1MB\e[0m"
+  - delay: 62
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.006 Cache: 0.7s/1MB\e[0m"
+  - delay: 24
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.005 Cache: 0.6s/1MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:00 / 00:03:30 (0%) A-V: -0.004 Cache: 0.7s/1MB\e[0m"
+  - delay: 85
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (0%) A-V: -0.004 Cache: 0.7s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (0%) A-V: -0.003 Cache: 0.7s/1MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.003 Cache: 0.6s/1MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.003 Cache: 0.8s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.002 Cache: 0.7s/1MB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.002 Cache: 0.6s/1MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.7s/1MB\e[0m"
+  - delay: 210
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.8s/1MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.9s/1MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.8s/1MB\e[0m"
+  - delay: 36
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.9s/1MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.001 Cache: 0.8s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.000 Cache: 0.8s/1MB\e[0m"
+  - delay: 86
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.000 Cache: 0.9s/1MB\e[0m"
+  - delay: 31
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.000 Cache: 1.2s/1MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:01 / 00:03:30 (1%) A-V: -0.000 Cache: 1.1s/1MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 1.0s/1MB\e[0m"
+  - delay: 124
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.9s/1MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 1.0s/1MB\e[0m"
+  - delay: 92
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.9s/1MB\e[0m"
+  - delay: 122
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.8s/1MB\e[0m"
+  - delay: 121
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.7s/1MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.6s/1MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.8s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.7s/1MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.6s/1MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mAV: 00:00:02 / 00:03:30 (1%) A-V: -0.000 Cache: 0.5s/1MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (1%) A-V: -0.000 Cache: 0.5s/972KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (1%) A-V: -0.000 Cache: 0.4s/1MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (1%) A-V: -0.000 Cache: 0.5s/1MB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (1%) A-V: -0.000 Cache: 1.0s/1MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.0s/1MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 0.9s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.3s/2MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.2s/2MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.5s/1MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.4s/1MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.3s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.5s/1MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.6s/1MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.7s/1MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.9s/1MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.8s/1MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.7s/1MB\e[0m"
+  - delay: 126
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.6s/1MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.7s/1MB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mAV: 00:00:03 / 00:03:30 (2%) A-V: -0.000 Cache: 1.9s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 1.8s/1MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 1.9s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.1s/1MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.0s/1MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.5s/1MB\e[0m"
+  - delay: 36
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.6s/1MB\e[0m"
+  - delay: 86
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.5s/1MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.7s/2MB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.8s/2MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.7s/1MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.0s/2MB\e[0m"
+  - delay: 96
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 2.9s/2MB\e[0m"
+  - delay: 27
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.0s/2MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.2s/2MB\e[0m"
+  - delay: 88
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.4s/2MB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.6s/2MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:04 / 00:03:30 (2%) A-V: -0.000 Cache: 3.7s/2MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (2%) A-V:  0.005 Cache: 3.8s/2MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (2%) A-V: -0.000 Cache: 3.8s/2MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (2%) A-V: -0.000 Cache: 3.7s/2MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (2%) A-V: -0.000 Cache: 3.6s/2MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (2%) A-V: -0.000 Cache: 3.7s/2MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 3.9s/2MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.0s/2MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.2s/2MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.3s/2MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.2s/2MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.3s/3MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/3MB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/3MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.9s/3MB\e[0m"
+  - delay: 172
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/3MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:05 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/3MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/3MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/3MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/3MB\e[0m"
+  - delay: 86
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.6s/3MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.5s/3MB\e[0m"
+  - delay: 56
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.4s/3MB\e[0m"
+  - delay: 28
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.5s/3MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/4MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/4MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:06 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.8s/4MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 27
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (3%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.8s/4MB\e[0m"
+  - delay: 90
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.9s/4MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.8s/4MB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 57
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 32
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.6s/4MB\e[0m"
+  - delay: 33
+    content: "\e[1K\r\e[0mAV: 00:00:07 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/4MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.7s/5MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.9s/5MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.8s/5MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.9s/5MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.0s/5MB\e[0m"
+  - delay: 209
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.9s/5MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.0s/5MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 4.9s/5MB\e[0m"
+  - delay: 55
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.0s/5MB\e[0m"
+  - delay: 19
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.1s/5MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.2s/5MB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.3s/6MB\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.2s/6MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.2s/5MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:08 / 00:03:30 (4%) A-V: -0.000 Cache: 5.1s/5MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (4%) A-V: -0.000 Cache: 5.1s/6MB\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (4%) A-V: -0.000 Cache: 5.1s/5MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (4%) A-V: -0.000 Cache: 5.3s/6MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (4%) A-V: -0.000 Cache: 5.4s/6MB\e[0m"
+  - delay: 201
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (4%) A-V: -0.000 Cache: 5.3s/6MB\e[0m"
+  - delay: 130
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.2s/6MB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.4s/6MB\e[0m"
+  - delay: 173
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.5s/6MB\e[0m"
+  - delay: 124
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.5s/7MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.7s/7MB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mAV: 00:00:09 / 00:03:30 (5%) A-V: -0.000 Cache: 5.8s/7MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.7s/7MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.8s/7MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.7s/7MB\e[0m"
+  - delay: 136
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.6s/7MB\e[0m"
+  - delay: 73
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.7s/7MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.6s/7MB\e[0m"
+  - delay: 163
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.7s/7MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.8s/7MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.9s/7MB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.8s/7MB\e[0m"
+  - delay: 86
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 5.9s/7MB\e[0m"
+  - delay: 85
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 6.0s/7MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:10 / 00:03:30 (5%) A-V: -0.000 Cache: 6.1s/7MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.2s/7MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.3s/7MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.4s/7MB\e[0m"
+  - delay: 123
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.5s/7MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.6s/7MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.5s/7MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (5%) A-V: -0.000 Cache: 6.4s/7MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 6.3s/7MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 6.4s/7MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 6.6s/7MB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 6.9s/7MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 6.8s/7MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 7.2s/7MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:11 / 00:03:30 (6%) A-V: -0.000 Cache: 7.1s/7MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.2s/7MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/7MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/7MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.3s/7MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/8MB\e[0m"
+  - delay: 90
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 36
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/7MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/8MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V:  0.000 Cache: 7.4s/8MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/8MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.3s/8MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.2s/7MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:12 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/7MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.4s/7MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 85
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 169
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.7s/8MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 123
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (6%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 88
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (7%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 168
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (7%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:13 / 00:03:30 (7%) A-V: -0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V:  0.000 Cache: 7.6s/8MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 7.5s/8MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 7.4s/8MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 7.7s/8MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 7.9s/8MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 7.8s/8MB\e[0m"
+  - delay: 121
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 8.4s/8MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 8.8s/9MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 9.0s/9MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 8.9s/9MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 9.0s/9MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 9.2s/9MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 9.4s/9MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 9.5s/9MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 10s/9MB\e[0m"
+  - delay: 126
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 11s/9MB\e[0m"
+  - delay: 131
+    content: "\e[1K\r\e[0mAV: 00:00:14 / 00:03:30 (7%) A-V: -0.000 Cache: 12s/9MB\e[0m"
+  - delay: 75
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (7%) A-V: -0.000 Cache: 12s/9MB\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (7%) A-V: -0.000 Cache: 13s/9MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (7%) A-V: -0.000 Cache: 14s/9MB\e[0m"
+  - delay: 502
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (7%) A-V: -0.000 Cache: 15s/9MB\e[0m"
+  - delay: 91
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (8%) A-V: -0.000 Cache: 15s/9MB\e[0m"
+  - delay: 116
+    content: "\e[1K\r\e[0mAV: 00:00:15 / 00:03:30 (8%) A-V: -0.000 Cache: 16s/10MB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mAV: 00:00:16 / 00:03:30 (8%) A-V: -0.000 Cache: 17s/10MB\e[0m"
+  - delay: 95
+    content: "\e[1K\r\e[0mAV: 00:00:16 / 00:03:30 (8%) A-V: -0.000 Cache: 18s/10MB\e[0m"
+  - delay: 378
+    content: "\e[1K\r\e[0mAV: 00:00:16 / 00:03:30 (8%) A-V: -0.000 Cache: 19s/10MB\e[0m"
+  - delay: 324
+    content: "\e[1K\r\e[0mAV: 00:00:16 / 00:03:30 (8%) A-V: -0.000 Cache: 20s/10MB\e[0m"
+  - delay: 213
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 20s/10MB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 21s/10MB\e[0m"
+  - delay: 126
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 22s/11MB\e[0m"
+  - delay: 33
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 22s/10MB\e[0m"
+  - delay: 98
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 22s/11MB\e[0m"
+  - delay: 156
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 23s/11MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 22s/11MB\e[0m"
+  - delay: 91
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 23s/11MB\e[0m"
+  - delay: 113
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (8%) A-V: -0.000 Cache: 24s/11MB\e[0m"
+  - delay: 179
+    content: "\e[1K\r\e[0mAV: 00:00:17 / 00:03:30 (9%) A-V: -0.000 Cache: 24s/11MB\e[0m"
+  - delay: 71
+    content: "\e[1K\r\e[0mAV: 00:00:18 / 00:03:30 (9%) A-V: -0.000 Cache: 24s/11MB\e[0m"
+  - delay: 130
+    content: "\e[1K\r\e[0mAV: 00:00:18 / 00:03:30 (9%) A-V: -0.000 Cache: 25s/11MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mAV: 00:00:18 / 00:03:30 (9%) A-V: -0.000 Cache: 26s/12MB\e[0m"
+  - delay: 464
+    content: "\e[1K\r\e[0mAV: 00:00:18 / 00:03:30 (9%) A-V: -0.000 Cache: 27s/12MB\e[0m"
+  - delay: 211
+    content: "\e[1K\r\e[0mAV: 00:00:18 / 00:03:30 (9%) A-V: -0.000 Cache: 27s/13MB\e[0m"
+  - delay: 76
+    content: "\e[1K\r\e[0mAV: 00:00:19 / 00:03:30 (9%) A-V: -0.000 Cache: 27s/13MB\e[0m"
+  - delay: 175
+    content: "\e[1K\r\e[0mAV: 00:00:19 / 00:03:30 (9%) A-V: -0.000 Cache: 28s/13MB\e[0m"
+  - delay: 413
+    content: "\e[1K\r\e[0mAV: 00:00:19 / 00:03:30 (9%) A-V: -0.000 Cache: 29s/13MB\e[0m"
+  - delay: 252
+    content: "\e[1K\r\e[0mAV: 00:00:19 / 00:03:30 (9%) A-V: -0.000 Cache: 30s/13MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:19 / 00:03:30 (9%) A-V: -0.000 Cache: 29s/13MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 29s/13MB\e[0m"
+  - delay: 132
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 30s/13MB\e[0m"
+  - delay: 206
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 31s/13MB\e[0m"
+  - delay: 212
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 32s/13MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 32s/14MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 32s/13MB\e[0m"
+  - delay: 288
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 33s/13MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:20 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/14MB\e[0m"
+  - delay: 31
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/13MB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/14MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/13MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/14MB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 34s/13MB\e[0m"
+  - delay: 126
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 35s/13MB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 36s/14MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 37s/14MB\e[0m"
+  - delay: 165
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 38s/14MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:00:21 / 00:03:30 (10%) A-V: -0.000 Cache: 39s/14MB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (10%) A-V: -0.000 Cache: 39s/14MB\e[0m"
+  - delay: 124
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 39s/14MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 40s/14MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 39s/14MB\e[0m"
+  - delay: 30
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 40s/14MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 39s/14MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 40s/14MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 41s/14MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 41s/15MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 42s/15MB\e[0m"
+  - delay: 122
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 43s/15MB\e[0m"
+  - delay: 209
+    content: "\e[1K\r\e[0mAV: 00:00:22 / 00:03:30 (11%) A-V: -0.000 Cache: 44s/16MB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mAV: 00:00:23 / 00:03:30 (11%) A-V: -0.000 Cache: 44s/16MB\e[0m"
+  - delay: 92
+    content: "\e[1K\r\e[0mAV: 00:00:23 / 00:03:30 (11%) A-V: -0.000 Cache: 45s/16MB\e[0m"
+  - delay: 587
+    content: "\e[1K\r\e[0mAV: 00:00:23 / 00:03:30 (11%) A-V: -0.000 Cache: 46s/16MB\e[0m"
+  - delay: 28
+    content: "\e[1K\r\e[0mAV: 00:00:23 / 00:03:30 (11%) A-V: -0.000 Cache: 46s/17MB\e[0m"
+  - delay: 135
+    content: "\e[1K\r\e[0mAV: 00:00:23 / 00:03:30 (11%) A-V: -0.000 Cache: 47s/17MB\e[0m"
+  - delay: 166
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (11%) A-V: -0.000 Cache: 47s/17MB\e[0m"
+  - delay: 208
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V: -0.000 Cache: 47s/17MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V:  0.008 Cache: 47s/17MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V: -0.000 Cache: 47s/17MB\e[0m"
+  - delay: 121
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V: -0.000 Cache: 48s/18MB\e[0m"
+  - delay: 209
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V: -0.000 Cache: 47s/18MB\e[0m"
+  - delay: 116
+    content: "\e[1K\r\e[0mAV: 00:00:24 / 00:03:30 (12%) A-V: -0.000 Cache: 48s/18MB\e[0m"
+  - delay: 215
+    content: "\e[1K\r\e[0mAV: 00:00:25 / 00:03:30 (12%) A-V: -0.000 Cache: 48s/18MB\e[0m"
+  - delay: 420
+    content: "\e[1K\r\e[0mAV: 00:00:25 / 00:03:30 (12%) A-V: -0.000 Cache: 49s/19MB\e[0m"
+  - delay: 154
+    content: "\e[1K\r\e[0mAV: 00:00:25 / 00:03:30 (12%) A-V: -0.000 Cache: 50s/19MB\e[0m"
+  - delay: 100
+    content: "\e[1K\r\e[0mAV: 00:00:25 / 00:03:30 (12%) A-V: -0.000 Cache: 51s/19MB\e[0m"
+  - delay: 320
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (12%) A-V: -0.000 Cache: 51s/19MB\e[0m"
+  - delay: 96
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (12%) A-V: -0.000 Cache: 51s/20MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (12%) A-V: -0.000 Cache: 53s/20MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (12%) A-V: -0.000 Cache: 54s/20MB\e[0m"
+  - delay: 92
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (13%) A-V: -0.000 Cache: 53s/20MB\e[0m"
+  - delay: 164
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/20MB\e[0m"
+  - delay: 165
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/21MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:26 / 00:03:30 (13%) A-V: -0.000 Cache: 55s/21MB\e[0m"
+  - delay: 289
+    content: "\e[1K\r\e[0mAV: 00:00:27 / 00:03:30 (13%) A-V: -0.000 Cache: 55s/21MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:27 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/21MB\e[0m"
+  - delay: 211
+    content: "\e[1K\r\e[0mAV: 00:00:27 / 00:03:30 (13%) A-V: -0.000 Cache: 55s/22MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:27 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/21MB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mAV: 00:00:27 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/22MB\e[0m"
+  - delay: 536
+    content: "\e[1K\r\e[0mAV: 00:00:28 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/22MB\e[0m"
+  - delay: 174
+    content: "\e[1K\r\e[0mAV: 00:00:28 / 00:03:30 (13%) A-V: -0.000 Cache: 54s/23MB\e[0m"
+  - delay: 249
+    content: "\e[1K\r\e[0mAV: 00:00:28 / 00:03:30 (14%) A-V: -0.000 Cache: 54s/23MB\e[0m"
+  - delay: 456
+    content: "\e[1K\r\e[0mAV: 00:00:28 / 00:03:30 (14%) A-V: -0.000 Cache: 54s/24MB\e[0m"
+  - delay: 124
+    content: "\e[1K\r\e[0mAV: 00:00:29 / 00:03:30 (14%) A-V: -0.000 Cache: 54s/24MB\e[0m"
+  - delay: 626
+    content: "\e[1K\r\e[0mAV: 00:00:29 / 00:03:30 (14%) A-V: -0.000 Cache: 53s/24MB\e[0m"
+  - delay: 209
+    content: "\e[1K\r\e[0mAV: 00:00:29 / 00:03:30 (14%) A-V: -0.000 Cache: 53s/25MB\e[0m"
+  - delay: 166
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (14%) A-V: -0.000 Cache: 53s/25MB\e[0m"
+  - delay: 171
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (14%) A-V: -0.000 Cache: 54s/25MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (14%) A-V: -0.000 Cache: 53s/25MB\e[0m"
+  - delay: 281
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (14%) A-V: -0.000 Cache: 53s/26MB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (15%) A-V: -0.000 Cache: 53s/26MB\e[0m"
+  - delay: 243
+    content: "\e[1K\r\e[0mAV: 00:00:30 / 00:03:30 (15%) A-V: -0.000 Cache: 54s/26MB\e[0m"
+  - delay: 207
+    content: "\e[1K\r\e[0mAV: 00:00:31 / 00:03:30 (15%) A-V: -0.000 Cache: 54s/26MB\e[0m"
+  - delay: 288
+    content: "\e[1K\r\e[0mAV: 00:00:31 / 00:03:30 (15%) A-V: -0.000 Cache: 55s/26MB\e[0m"
+  - delay: 90
+    content: "\e[1K\r\e[0mAV: 00:00:31 / 00:03:30 (15%) A-V: -0.000 Cache: 56s/27MB\e[0m"
+  - delay: 205
+    content: "\e[1K\r\e[0mAV: 00:00:31 / 00:03:30 (15%) A-V:  0.000 Cache: 56s/27MB\e[0m"
+  - delay: 416
+    content: "\e[1K\r\e[0mAV: 00:00:32 / 00:03:30 (15%) A-V:  0.000 Cache: 56s/28MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0mAV: 00:00:32 / 00:03:30 (15%) A-V:  0.000 Cache: 55s/28MB\e[0m"
+  - delay: 419
+    content: "\e[1K\r\e[0mAV: 00:00:32 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/28MB\e[0m"
+  - delay: 331
+    content: "\e[1K\r\e[0mAV: 00:00:33 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/28MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:33 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/29MB\e[0m"
+  - delay: 627
+    content: "\e[1K\r\e[0mAV: 00:00:33 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/30MB\e[0m"
+  - delay: 332
+    content: "\e[1K\r\e[0mAV: 00:00:34 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/30MB\e[0m"
+  - delay: 331
+    content: "\e[1K\r\e[0mAV: 00:00:34 / 00:03:30 (16%) A-V:  0.000 Cache: 55s/31MB\e[0m"
+  - delay: 419
+    content: "\e[1K\r\e[0mAV: 00:00:34 / 00:03:30 (17%) A-V:  0.000 Cache: 55s/31MB\e[0m"
+  - delay: 173
+    content: "\e[1K\r\e[0mAV: 00:00:34 / 00:03:30 (17%) A-V:  0.000 Cache: 54s/31MB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mAV: 00:00:35 / 00:03:30 (17%) A-V:  0.000 Cache: 54s/31MB\e[0m"
+  - delay: 293
+    content: "\e[1K\r\e[0mAV: 00:00:35 / 00:03:30 (17%) A-V:  0.000 Cache: 54s/32MB\e[0m"
+  - delay: 708
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (17%) A-V:  0.000 Cache: 54s/32MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (17%) A-V:  0.000 Cache: 54s/33MB\e[0m"
+  - delay: 299
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (17%) A-V:  0.000 Cache: 55s/33MB\e[0m"
+  - delay: 285
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (17%) A-V:  0.000 Cache: 55s/34MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (17%) A-V:  0.000 Cache: 55s/33MB\e[0m"
+  - delay: 165
+    content: "\e[1K\r\e[0mAV: 00:00:36 / 00:03:30 (18%) A-V:  0.000 Cache: 55s/33MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:37 / 00:03:30 (18%) A-V:  0.000 Cache: 55s/34MB\e[0m"
+  - delay: 507
+    content: "\e[1K\r\e[0mAV: 00:00:37 / 00:03:30 (18%) A-V:  0.000 Cache: 55s/35MB\e[0m"
+  - delay: 496
+    content: "\e[1K\r\e[0mAV: 00:00:38 / 00:03:30 (18%) A-V:  0.000 Cache: 55s/35MB\e[0m"
+  - delay: 297
+    content: "\e[1K\r\e[0mAV: 00:00:38 / 00:03:30 (18%) A-V:  0.000 Cache: 55s/36MB\e[0m"
+  - delay: 666
+    content: "\e[1K\r\e[0mAV: 00:00:38 / 00:03:30 (19%) A-V:  0.000 Cache: 55s/37MB\e[0m"
+  - delay: 30
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 55s/37MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 55s/36MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 55s/37MB\e[0m"
+  - delay: 201
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 56s/37MB\e[0m"
+  - delay: 210
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 57s/37MB\e[0m"
+  - delay: 249
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 57s/38MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:39 / 00:03:30 (19%) A-V:  0.000 Cache: 58s/38MB\e[0m"
+  - delay: 202
+    content: "\e[1K\r\e[0mAV: 00:00:40 / 00:03:30 (19%) A-V:  0.000 Cache: 58s/38MB\e[0m"
+  - delay: 547
+    content: "\e[1K\r\e[0mAV: 00:00:40 / 00:03:30 (19%) A-V:  0.000 Cache: 58s/39MB\e[0m"
+  - delay: 459
+    content: "\e[1K\r\e[0mAV: 00:00:41 / 00:03:30 (19%) A-V:  0.000 Cache: 57s/39MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:00:41 / 00:03:30 (19%) A-V:  0.000 Cache: 58s/39MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:41 / 00:03:30 (20%) A-V:  0.000 Cache: 58s/39MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:41 / 00:03:30 (20%) A-V:  0.000 Cache: 57s/39MB\e[0m"
+  - delay: 457
+    content: "\e[1K\r\e[0mAV: 00:00:41 / 00:03:30 (20%) A-V:  0.000 Cache: 57s/40MB\e[0m"
+  - delay: 380
+    content: "\e[1K\r\e[0mAV: 00:00:42 / 00:03:30 (20%) A-V:  0.000 Cache: 57s/40MB\e[0m"
+  - delay: 289
+    content: "\e[1K\r\e[0mAV: 00:00:42 / 00:03:30 (20%) A-V:  0.000 Cache: 57s/41MB\e[0m"
+  - delay: 710
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (20%) A-V:  0.000 Cache: 57s/41MB\e[0m"
+  - delay: 199
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 57s/41MB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 57s/42MB\e[0m"
+  - delay: 378
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 56s/42MB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 57s/42MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 56s/42MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 56s/43MB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mAV: 00:00:43 / 00:03:30 (21%) A-V:  0.000 Cache: 57s/43MB\e[0m"
+  - delay: 93
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 56s/43MB\e[0m"
+  - delay: 76
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 57s/43MB\e[0m"
+  - delay: 208
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 58s/43MB\e[0m"
+  - delay: 208
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 59s/43MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 59s/44MB\e[0m"
+  - delay: 209
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 60s/44MB\e[0m"
+  - delay: 211
+    content: "\e[1K\r\e[0mAV: 00:00:44 / 00:03:30 (21%) A-V:  0.000 Cache: 61s/44MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (21%) A-V:  0.000 Cache: 61s/44MB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (21%) A-V:  0.000 Cache: 60s/44MB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (21%) A-V:  0.000 Cache: 61s/44MB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (21%) A-V:  0.000 Cache: 62s/44MB\e[0m"
+  - delay: 113
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (22%) A-V:  0.000 Cache: 63s/44MB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (22%) A-V:  0.000 Cache: 63s/45MB\e[0m"
+  - delay: 419
+    content: "\e[1K\r\e[0mAV: 00:00:45 / 00:03:30 (22%) A-V:  0.000 Cache: 64s/45MB\e[0m"
+  - delay: 207
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 64s/45MB\e[0m"
+  - delay: 167
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 65s/46MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 65s/45MB\e[0m"
+  - delay: 85
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 65s/46MB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 65s/45MB\e[0m"
+  - delay: 195
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 65s/46MB\e[0m"
+  - delay: 91
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 66s/46MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 67s/46MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:46 / 00:03:30 (22%) A-V:  0.000 Cache: 66s/46MB\e[0m"
+  - delay: 171
+    content: "\e[1K\r\e[0mAV: 00:00:47 / 00:03:30 (22%) A-V:  0.000 Cache: 66s/46MB\e[0m"
+  - delay: 205
+    content: "\e[1K\r\e[0mAV: 00:00:47 / 00:03:30 (22%) A-V:  0.000 Cache: 66s/47MB\e[0m"
+  - delay: 216
+    content: "\e[1K\r\e[0mAV: 00:00:47 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/47MB\e[0m"
+  - delay: 499
+    content: "\e[1K\r\e[0mAV: 00:00:47 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/48MB\e[0m"
+  - delay: 75
+    content: "\e[1K\r\e[0mAV: 00:00:48 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/48MB\e[0m"
+  - delay: 91
+    content: "\e[1K\r\e[0mAV: 00:00:48 / 00:03:30 (23%) A-V:  0.000 Cache: 67s/48MB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mAV: 00:00:48 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/48MB\e[0m"
+  - delay: 587
+    content: "\e[1K\r\e[0mAV: 00:00:48 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/49MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0mAV: 00:00:49 / 00:03:30 (23%) A-V:  0.000 Cache: 66s/49MB\e[0m"
+  - delay: 538
+    content: "\e[1K\r\e[0mAV: 00:00:49 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/49MB\e[0m"
+  - delay: 170
+    content: "\e[1K\r\e[0mAV: 00:00:49 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/50MB\e[0m"
+  - delay: 288
+    content: "\e[1K\r\e[0mAV: 00:00:50 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/50MB\e[0m"
+  - delay: 668
+    content: "\e[1K\r\e[0mAV: 00:00:50 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/51MB\e[0m"
+  - delay: 336
+    content: "\e[1K\r\e[0mAV: 00:00:51 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/51MB\e[0m"
+  - delay: 331
+    content: "\e[1K\r\e[0mAV: 00:00:51 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/52MB\e[0m"
+  - delay: 174
+    content: "\e[1K\r\e[0mAV: 00:00:51 / 00:03:30 (24%) A-V:  0.000 Cache: 66s/51MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mAV: 00:00:51 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/51MB\e[0m"
+  - delay: 90
+    content: "\e[1K\r\e[0mAV: 00:00:51 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/52MB\e[0m"
+  - delay: 284
+    content: "\e[1K\r\e[0mAV: 00:00:52 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/52MB\e[0m"
+  - delay: 296
+    content: "\e[1K\r\e[0mAV: 00:00:52 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/53MB\e[0m"
+  - delay: 709
+    content: "\e[1K\r\e[0mAV: 00:00:53 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/54MB\e[0m"
+  - delay: 117
+    content: "\e[1K\r\e[0mAV: 00:00:53 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/53MB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mAV: 00:00:53 / 00:03:30 (25%) A-V:  0.000 Cache: 66s/54MB\e[0m"
+  - delay: 507
+    content: "\e[1K\r\e[0mAV: 00:00:53 / 00:03:30 (26%) A-V:  0.000 Cache: 66s/54MB\e[0m"
+  - delay: 123
+    content: "\e[1K\r\e[0mAV: 00:00:53 / 00:03:30 (26%) A-V:  0.000 Cache: 66s/55MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:54 / 00:03:30 (26%) A-V:  0.000 Cache: 66s/55MB\e[0m"
+  - delay: 712
+    content: "\e[1K\r\e[0mAV: 00:00:54 / 00:03:30 (26%) A-V:  0.000 Cache: 66s/56MB\e[0m"
+  - delay: 285
+    content: "\e[1K\r\e[0mAV: 00:00:55 / 00:03:30 (26%) A-V:  0.000 Cache: 66s/56MB\e[0m"
+  - delay: 125
+    content: "\e[1K\r\e[0mAV: 00:00:55 / 00:03:30 (26%) A-V:  0.000 Cache: 65s/56MB\e[0m"
+  - delay: 298
+    content: "\e[1K\r\e[0mAV: 00:00:55 / 00:03:30 (26%) A-V:  0.000 Cache: 65s/57MB\e[0m"
+  - delay: 410
+    content: "\e[1K\r\e[0mAV: 00:00:55 / 00:03:30 (27%) A-V:  0.000 Cache: 65s/57MB\e[0m"
+  - delay: 168
+    content: "\e[1K\r\e[0mAV: 00:00:56 / 00:03:30 (27%) A-V:  0.000 Cache: 65s/57MB\e[0m"
+  - delay: 131
+    content: "\e[1K\r\e[0mAV: 00:00:56 / 00:03:30 (27%) A-V:  0.000 Cache: 66s/57MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:00:56 / 00:03:30 (27%) A-V:  0.000 Cache: 65s/57MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:00:56 / 00:03:30 (27%) A-V:  0.000 Cache: 66s/58MB\e[0m"
+  - delay: 700
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 66s/58MB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 66s/59MB\e[0m"
+  - delay: 376
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 67s/59MB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 66s/59MB\e[0m"
+  - delay: 118
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 67s/59MB\e[0m"
+  - delay: 173
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 67s/60MB\e[0m"
+  - delay: 126
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (27%) A-V:  0.000 Cache: 67s/59MB\e[0m"
+  - delay: 81
+    content: "\e[1K\r\e[0mAV: 00:00:57 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/59MB\e[0m"
+  - delay: 44
+    content: "\e[1K\r\e[0mAV: 00:00:58 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/60MB\e[0m"
+  - delay: 541
+    content: "\e[1K\r\e[0mAV: 00:00:58 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/61MB\e[0m"
+  - delay: 169
+    content: "\e[1K\r\e[0mAV: 00:00:58 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/60MB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mAV: 00:00:58 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/61MB\e[0m"
+  - delay: 208
+    content: "\e[1K\r\e[0mAV: 00:00:59 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/61MB\e[0m"
+  - delay: 418
+    content: "\e[1K\r\e[0mAV: 00:00:59 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/62MB\e[0m"
+  - delay: 541
+    content: "\e[1K\r\e[0mAV: 00:00:59 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/63MB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mAV: 00:01:00 / 00:03:30 (28%) A-V:  0.000 Cache: 67s/63MB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mAV: 00:01:00 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/62MB\e[0m"
+  - delay: 216
+    content: "\e[1K\r\e[0mAV: 00:01:00 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/63MB\e[0m"
+  - delay: 711
+    content: "\e[1K\r\e[0mAV: 00:01:00 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/64MB\e[0m"
+  - delay: 37
+    content: "\e[1K\r\e[0mAV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/64MB\e[0m"
+  - delay: 291
+    content: "\e[1K\r\e[0mAV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 68s/64MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mAV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/64MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mAV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 68s/65MB\e[0m"
+  - delay: 257
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 67s/65MB\e[0m"
+  - delay: 297
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 68s/65MB\e[0m"
+  - delay: 133
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 68s/66MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 69s/66MB\e[0m"
+  - delay: 503
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 70s/67MB\e[0m"
+  - delay: 543
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 70s/68MB\e[0m"
+  - delay: 522
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 71s/68MB\e[0m"
+  - delay: 285
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 71s/69MB\e[0m"
+  - delay: 716
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 71s/70MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 72s/71MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 72s/72MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 73s/72MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 73s/73MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 73s/74MB\e[0m"
+  - delay: 167
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 74s/74MB\e[0m"
+  - delay: 401
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 74s/75MB\e[0m"
+  - delay: 183
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 75s/75MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 76s/76MB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 77s/76MB\e[0m"
+  - delay: 196
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 77s/77MB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 78s/77MB\e[0m"
+  - delay: 704
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 78s/78MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 79s/78MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 79s/79MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 80s/79MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 80s/80MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 81s/81MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 82s/81MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 82s/82MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 83s/82MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 83s/83MB\e[0m"
+  - delay: 154
+    content: "\e[?25h\e[1K\r\e[31m[ffmpeg] tls: Error in the pull function.\r\n\e[0m\e[?25l\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 83s/83MB\e[0m\e[?25h\e[1K\r\e[31m[ffmpeg] tls: IO error: Connection reset by peer\r\n\e[0m\e[?25l\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 83s/83MB\e[0m\e[?25h\e[1K\r\e[33m[ffmpeg] https: Will reconnect at 2490352 in 0 second(s), error=Connection reset by peer.\r\n\e[0m\e[?25l\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 83s/83MB\e[0m"
+  - delay: 347
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 84s/84MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 85s/84MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 85s/85MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 86s/86MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 87s/86MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 87s/87MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 88s/87MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 89s/88MB\e[0m"
+  - delay: 752
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 89s/89MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 90s/89MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 90s/90MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 91s/91MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 91s/92MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 92s/92MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 92s/93MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 93s/94MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 93s/95MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 95s/96MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 96s/96MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 97s/97MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 98s/97MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 99s/98MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 100s/99MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 101s/99MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 101s/100MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 102s/100MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 103s/101MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 104s/102MB\e[0m"
+  - delay: 752
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 105s/103MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 106s/103MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 106s/104MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 107s/105MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 107s/106MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 108s/106MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 109s/107MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 109s/108MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 110s/108MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 111s/109MB\e[0m"
+  - delay: 1002
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 112s/110MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 112s/111MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 113s/111MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 114s/112MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 115s/112MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 115s/113MB\e[0m"
+  - delay: 502
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 115s/114MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 116s/114MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 118s/115MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 120s/115MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 121s/116MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 123s/117MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 124s/117MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 125s/117MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 126s/118MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 127s/118MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 128s/119MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 129s/119MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 130s/120MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 131s/120MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 132s/120MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 134s/121MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 134s/122MB\e[0m"
+  - delay: 752
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 135s/123MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 135s/124MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 136s/124MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 136s/125MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 137s/125MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 137s/126MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 138s/127MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 138s/128MB\e[0m"
+  - delay: 502
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 139s/128MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 139s/129MB\e[0m"
+  - delay: 1002
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 139s/130MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 140s/131MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 140s/132MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 140s/133MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 141s/133MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 141s/134MB\e[0m"
+  - delay: 751
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 142s/135MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 143s/136MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 148s/136MB\e[0m"
+  - delay: 10946215
+    content: "\e[1K\r\e[0mAV: 00:01:01 / 00:03:30 (29%) A-V:  0.000 Cache: 148s/136MB\e[0m"
+  - delay: 376
+    content: "\e[1K\r\e[0mAV: 00:01:02 / 00:03:30 (29%) A-V:  0.000 Cache: 148s/136MB\e[0m"
+  - delay: 169
+    content: "\e[1K\r\e[0mAV: 00:01:02 / 00:03:30 (30%) A-V:  0.000 Cache: 148s/136MB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mAV: 00:01:02 / 00:03:30 (30%) A-V:  0.000 Cache: 147s/136MB\e[0m"
+  - delay: 740
+    content: "\e[1K\r\e[0mAV: 00:01:03 / 00:03:30 (30%) A-V:  0.000 Cache: 147s/136MB\e[0m"
+  - delay: 175
+    content: "\e[1K\r\e[0mAV: 00:01:03 / 00:03:30 (30%) A-V:  0.000 Cache: 147s/135MB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mAV: 00:01:03 / 00:03:30 (30%) A-V:  0.000 Cache: 146s/135MB\e[0m"
+  - delay: 544
+    content: "\e[1K\r\e[0mAV: 00:01:03 / 00:03:30 (30%) A-V: -0.000 Cache: 146s/135MB\e[0m"
+  - delay: 249
+    content: "\e[1K\r\e[0mAV: 00:01:04 / 00:03:30 (30%) A-V: -0.000 Cache: 146s/135MB\e[0m"
+  - delay: 211
+    content: "\e[1K\r\e[0mAV: 00:01:04 / 00:03:30 (30%) A-V: -0.000 Cache: 145s/135MB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mAV: 00:01:04 / 00:03:30 (31%) A-V: -0.000 Cache: 145s/135MB\e[0m"
+  - delay: 752
+    content: "\e[1K\r\e[0mAV: 00:01:05 / 00:03:30 (31%) A-V: -0.000 Cache: 145s/135MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0mAV: 00:01:05 / 00:03:30 (31%) A-V: -0.000 Cache: 144s/135MB\e[0m"
+  - delay: 632
+    content: "\e[1K\r\e[0mAV: 00:01:05 / 00:03:30 (31%) A-V: -0.000 Cache: 144s/134MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mAV: 00:01:06 / 00:03:30 (31%) A-V: -0.000 Cache: 144s/134MB\e[0m"
+  - delay: 215
+    content: "\e[1K\r\e[0mAV: 00:01:06 / 00:03:30 (31%) A-V: -0.000 Cache: 143s/134MB\e[0m"
+  - delay: 168
+    content: "\e[1K\r\e[0mAV: 00:01:06 / 00:03:30 (32%) A-V: -0.000 Cache: 143s/134MB\e[0m"
+  - delay: 625
+    content: "\e[1K\r\e[0mAV: 00:01:07 / 00:03:30 (32%) A-V: -0.000 Cache: 143s/134MB\e[0m"
+  - delay: 252
+    content: "\e[1K\r\e[0mAV: 00:01:07 / 00:03:30 (32%) A-V: -0.000 Cache: 142s/134MB\e[0m"
+  - delay: 740
+    content: "\e[1K\r\e[0mAV: 00:01:08 / 00:03:30 (32%) A-V: -0.000 Cache: 142s/134MB\e[0m"
+  - delay: 214
+    content: "\e[1K\r\e[0mAV: 00:01:08 / 00:03:30 (32%) A-V: -0.000 Cache: 141s/134MB\e[0m"
+  - delay: 244
+    content: "\e[1K\r\e[0mAV: 00:01:08 / 00:03:30 (33%) A-V: -0.000 Cache: 141s/134MB\e[0m"
+  - delay: 549
+    content: "\e[1K\r\e[0mAV: 00:01:09 / 00:03:30 (33%) A-V: -0.000 Cache: 141s/134MB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0m(Paused) AV: 00:01:09 / 00:03:30 (33%) A-V: -0.000 Cache: 141s/134MB\e[0m"
+  - delay: 48926
+    content: "\e[?25h\r\n\e[0mExiting... (Quit)\r\n\e[0m"
+  - delay: 30
+    content: "\e>"
+  - delay: 34
+    content: "\e]3008;end=4bfd01c6-860c-4f74-9fd3-0ff05e9493a1;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=e0c88371-993a-4238-87e6-fba6297f0dfd;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 141085
+    content: e
+  - delay: 297
+    content: x
+  - delay: 341
+    content: i
+  - delay: 237
+    content: t
+  - delay: 1361
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=56e24c92-8ae7-4e0a-80b9-6d5ceb2e8489;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000024967;type=command;cwd=/home/user\e\\logout\r\n"

@@ -22,4 +22,4 @@ Stallings, W., & Brown, L. (2018). Computer security: Principles and practice (4
 
 Stallings, W., & Brown, L. (2018). Computer security: Principles and practice (4th ed.). Pearson Education. Bab 7, hlm. 241-260.
 
-Hayes, A. Y., Sabbiq, F. E., & Tsabita, K. H. (2026). Etika keamanan siber pada perpustakaan dan lembaga arsip digital: Tantangan dan strategis [Slide presentasi]. Google Slides. https://docs.google.com/presentation/d/1doS3LMU1zkK_MlP9o0_HiE4OdXe-N89L-Fzb8L9bGBA/edit?usp=sharing
+Hayes, A. Y., Sabbiq, F. E., & Tsabita, K. H. (2026). Etika keamanan siber pada perpustakaan dan lembaga arsip digital: Tantangan dan strategis. Google Slides. https://docs.google.com/presentation/d/1doS3LMU1zkK_MlP9o0_HiE4OdXe-N89L-Fzb8L9bGBA/edit?usp=sharing

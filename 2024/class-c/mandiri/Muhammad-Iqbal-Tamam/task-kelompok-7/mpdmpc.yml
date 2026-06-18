@@ -1,0 +1,243 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 192
+    content: "\e]3008;start=8147aabf-8d9a-461d-b098-132c69881d33;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000010357;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1752
+    content: s
+  - delay: 133
+    content: u
+  - delay: 260
+    content: d
+  - delay: 126
+    content: o
+  - delay: 194
+    content: s
+  - delay: 114
+    content: u
+  - delay: 306
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\bash: sudosu: command not found\r\n\e]3008;end=eb7e3ae4-5e63-405e-83a7-ded2a3b7d674;exit=failure;status=127\e\\"
+  - delay: 7
+    content: "\e]3008;start=8147aabf-8d9a-461d-b098-132c69881d33;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000010357;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;127\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1651
+    content: s
+  - delay: 180
+    content: u
+  - delay: 236
+    content: d
+  - delay: 85
+    content: o
+  - delay: 178
+    content: ' '
+  - delay: 234
+    content: s
+  - delay: 150
+    content: u
+  - delay: 770
+    content: '1'
+  - delay: 744
+    content: "\b\e[K"
+  - delay: 327
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 38
+    content: '[sudo] password for iqbal: '
+  - delay: 1817
+    content: "\r\n"
+  - delay: 48
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 2086
+    content: m
+  - delay: 494
+    content: p
+  - delay: 276
+    content: d
+  - delay: 470
+    content: "\r\n\e[?2004l\r"
+  - delay: 158
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\nconfig: Found database setting without music_directory - disabling database\r\noutput: No 'audio_output' defined in config file\r\nalsa_output: Error opening default ALSA device: Host is down\r\noss_output: Error opening OSS device \"/dev/dsp\": No such file or directory\r\noss_output: Error opening OSS device \"/dev/sound/dsp\": No such file or directory\r\noutput: Successfully detected a jack audio device\r\n"
+  - delay: 7
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 12409
+    content: m
+  - delay: 307
+    content: p
+  - delay: 266
+    content: c
+  - delay: 122
+    content: ' '
+  - delay: 339
+    content: u
+  - delay: 287
+    content: p
+  - delay: 356
+    content: t
+  - delay: 97
+    content: a
+  - delay: 229
+    content: d
+  - delay: 196
+    content: e
+  - delay: 123
+    content: t
+  - delay: 758
+    content: e
+  - delay: 482
+    content: "\b\e[K"
+  - delay: 238
+    content: "\b\e[K"
+  - delay: 645
+    content: "\b\e[K"
+  - delay: 369
+    content: a
+  - delay: 296
+    content: t
+  - delay: 52
+    content: e
+  - delay: 224
+    content: "\r\n\e[?2004l\r"
+  - delay: 43
+    content: "unknown command \"uptadate\"\r\nUsage: mpc [options] <command> [--] [<arguments>]\r\nmpc version: 0.35\r\nSee man 1 mpc or use 'mpc help' for more help.\r\n\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 12572
+    content: m
+  - delay: 229
+    content: p
+  - delay: 531
+    content: d
+  - delay: 703
+    content: "\r\n\e[?2004l\r"
+  - delay: 68
+    content: "exception: Failed to bind to '[::]:6600'; Failed to bind socket: Address already in use\r\n\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 11120
+    content: e
+  - delay: 303
+    content: x
+  - delay: 85
+    content: i
+  - delay: 327
+    content: t
+  - delay: 176
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 5
+    content: "\e]3008;end=440735ab-9fd6-41c6-b15f-8e150657754b;exit=failure;status=1\e\\"
+  - delay: 8
+    content: "\e]3008;start=8147aabf-8d9a-461d-b098-132c69881d33;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000010357;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1216
+    content: e
+  - delay: 284
+    content: x
+  - delay: 178
+    content: i
+  - delay: 129
+    content: t
+  - delay: 135
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"

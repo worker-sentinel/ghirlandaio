@@ -1,0 +1,301 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 191
+    content: "\e]3008;start=7eff4cc1-382f-4131-8458-5dd69be1b9bb;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012650;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2712
+    content: s
+  - delay: 57
+    content: u
+  - delay: 606
+    content: d
+  - delay: 125
+    content: o
+  - delay: 368
+    content: s
+  - delay: 166
+    content: u
+  - delay: 967
+    content: "\b\e[K"
+  - delay: 197
+    content: "\b\e[K"
+  - delay: 322
+    content: ' '
+  - delay: 345
+    content: s
+  - delay: 228
+    content: u
+  - delay: 427
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 44
+    content: '[sudo] password for iqbal: '
+  - delay: 2061
+    content: "\r\n"
+  - delay: 49
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 4142
+    content: i
+  - delay: 202
+    content: p
+  - delay: 868
+    content: t
+  - delay: 102
+    content: a
+  - delay: 244
+    content: b
+  - delay: 327
+    content: l
+  - delay: 166
+    content: e
+  - delay: 287
+    content: s
+  - delay: 630
+    content: ' '
+  - delay: 897
+    content: '-'
+  - delay: 388
+    content: L
+  - delay: 255
+    content: ' '
+  - delay: 1767
+    content: '-'
+  - delay: 484
+    content: 'n'
+  - delay: 430
+    content: "\r\n\e[?2004l\r"
+  - delay: 78
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 33389
+    content: s
+  - delay: 125
+    content: u
+  - delay: 259
+    content: d
+  - delay: 100
+    content: o
+  - delay: 181
+    content: ' '
+  - delay: 474
+    content: i
+  - delay: 218
+    content: p
+  - delay: 326
+    content: t
+  - delay: 162
+    content: a
+  - delay: 141
+    content: b
+  - delay: 291
+    content: l
+  - delay: 155
+    content: e
+  - delay: 551
+    content: s
+  - delay: 304
+    content: ' '
+  - delay: 615
+    content: '-'
+  - delay: 550
+    content: A
+  - delay: 800
+    content: ' '
+  - delay: 466
+    content: I
+  - delay: 228
+    content: 'N'
+  - delay: 296
+    content: P
+  - delay: 330
+    content: U
+  - delay: 260
+    content: T
+  - delay: 1959
+    content: ' '
+  - delay: 1150
+    content: '-'
+  - delay: 705
+    content: p
+  - delay: 468
+    content: ' '
+  - delay: 573
+    content: t
+  - delay: 558
+    content: c
+  - delay: 137
+    content: p
+  - delay: 862
+    content: ' '
+  - delay: 1393
+    content: '-'
+  - delay: 173
+    content: '-'
+  - delay: 1872
+    content: d
+  - delay: 201
+    content: p
+  - delay: 266
+    content: o
+  - delay: 188
+    content: r
+  - delay: 467
+    content: t
+  - delay: 621
+    content: ' '
+  - delay: 363
+    content: '2'
+  - delay: 194
+    content: '2'
+  - delay: 1082
+    content: ' '
+  - delay: 810
+    content: '-'
+  - delay: 428
+    content: j
+  - delay: 356
+    content: ' '
+  - delay: 641
+    content: D
+  - delay: 363
+    content: R
+  - delay: 1023
+    content: O
+  - delay: 160
+    content: P
+  - delay: 1327
+    content: "\r\n\e[?2004l\r"
+  - delay: 85
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 64282
+    content: e
+  - delay: 308
+    content: x
+  - delay: 170
+    content: i
+  - delay: 506
+    content: t
+  - delay: 442
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 5
+    content: "\e]3008;end=c804a024-2e43-4b27-9049-23966899fb1c;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=7eff4cc1-382f-4131-8458-5dd69be1b9bb;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012650;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4399
+    content: e
+  - delay: 274
+    content: x
+  - delay: 237
+    content: i
+  - delay: 213
+    content: t
+  - delay: 125
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"

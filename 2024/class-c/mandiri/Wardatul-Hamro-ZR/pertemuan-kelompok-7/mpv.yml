@@ -1,0 +1,689 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 134
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 635
+    content: "\e]3008;start=579ea428-a4ec-4ad4-9daf-2934500ab45b;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 3651
+    content: s
+  - delay: 167
+    content: u
+  - delay: 95
+    content: d
+  - delay: 163
+    content: o
+  - delay: 304
+    content: ' '
+  - delay: 361
+    content: p
+  - delay: 126
+    content: a
+  - delay: 236
+    content: c
+  - delay: 300
+    content: m
+  - delay: 133
+    content: a
+  - delay: 121
+    content: 'n'
+  - delay: 1721
+    content: ' '
+  - delay: 540
+    content: '-'
+  - delay: 437
+    content: S
+  - delay: 1213
+    content: ' '
+  - delay: 518
+    content: 'y'
+  - delay: 165
+    content: t
+  - delay: 345
+    content: '-'
+  - delay: 549
+    content: d
+  - delay: 462
+    content: l
+  - delay: 216
+    content: p
+  - delay: 1268
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=f901b353-a263-4215-b028-199b99a48755;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=command;cwd=/home/user\e\\"
+  - delay: 511
+    content: "warning: yt-dlp-2026.03.17-1 is up to date -- reinstalling\r\n\e[?25lresolving dependencies...\r\n"
+  - delay: 131
+    content: "looking for conflicting packages...\r\n"
+  - delay: 11
+    content: "\r\nPackages (1) yt-dlp-2026.03.17-1\r\n\r\nTotal Installed Size:  32.90 MiB\r\nNet Upgrade Size:       0.00 MiB\r\n\r\n:: Proceed with installation? [Y/n] \e[?25h"
+  - delay: 4629
+    content: 'y'
+  - delay: 379
+    content: "\r\n\e[?25l(0/1) checking keys in keyring                                                   [----------------------------------------------]   0%\r"
+  - delay: 70
+    content: "(1/1) checking keys in keyring                                                   [##############################################] 100%\r\r\n(0/1) checking package integrity                                                 [----------------------------------------------]   0%\r"
+  - delay: 55
+    content: "(1/1) checking package integrity                                                 [##############################################] 100%\r\r\n(0/1) loading package files                                                      [----------------------------------------------]   0%\r"
+  - delay: 28
+    content: "(1/1) loading package files                                                      [##############################################] 100%\r\r\n(0/1) checking for file conflicts                                                [----------------------------------------------]   0%\r(1/1) checking for file conflicts                                                [##############################################] 100%\r\r\n(0/1) checking available disk space                                              [----------------------------------------------]   0%\r"
+  - delay: 52
+    content: "(1/1) checking available disk space                                              [##############################################] 100%\r\r\n"
+  - delay: 16
+    content: ":: Processing package changes...\r\n"
+  - delay: 108
+    content: "(1/1) reinstalling yt-dlp                                                        [----------------------------------------------]   0%\r"
+  - delay: 200
+    content: "(1/1) reinstalling yt-dlp                                                        [####################--------------------------]  45%\r"
+  - delay: 200
+    content: "(1/1) reinstalling yt-dlp                                                        [###################################-----------]  77%\r"
+  - delay: 123
+    content: "(1/1) reinstalling yt-dlp                                                        [##############################################] 100%\r\r\n"
+  - delay: 380
+    content: ":: Running post-transaction hooks...\r\n(1/1) Arming ConditionNeedsUpdate...\r\n"
+  - delay: 105
+    content: "\e[?25h"
+  - delay: 60
+    content: "\e]3008;end=f901b353-a263-4215-b028-199b99a48755;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=579ea428-a4ec-4ad4-9daf-2934500ab45b;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 2857
+    content: 'y'
+  - delay: 187
+    content: t
+  - delay: 964
+    content: '-'
+  - delay: 590
+    content: d
+  - delay: 500
+    content: d
+  - delay: 50
+    content: d
+  - delay: 50
+    content: d
+  - delay: 16
+    content: p
+  - delay: 808
+    content: "\b\e[K"
+  - delay: 155
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 185
+    content: "\b\e[K"
+  - delay: 604
+    content: l
+  - delay: 184
+    content: p
+  - delay: 2632
+    content: ' '
+  - delay: 357
+    content: '-'
+  - delay: 155
+    content: '-'
+  - delay: 625
+    content: v
+  - delay: 310
+    content: e
+  - delay: 171
+    content: r
+  - delay: 145
+    content: s
+  - delay: 230
+    content: i
+  - delay: 174
+    content: o
+  - delay: 313
+    content: 'n'
+  - delay: 3810
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=4d9ed61a-b382-4035-bae7-9d77a9f78065;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=command;cwd=/home/user\e\\"
+  - delay: 732
+    content: "2026.03.17\r\n"
+  - delay: 127
+    content: "\e]3008;end=4d9ed61a-b382-4035-bae7-9d77a9f78065;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=579ea428-a4ec-4ad4-9daf-2934500ab45b;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 27877
+    content: m
+  - delay: 233
+    content: p
+  - delay: 341
+    content: v
+  - delay: 259
+    content: ' '
+  - delay: 5843
+    content: ' '
+  - delay: 748
+    content: "\b\e[K"
+  - delay: 49296
+    content: "\e[7mhttps://youtu.be/Dml0JEgRpc0?si=VyfGLEm3t4Hg8X0-\e[27m"
+  - delay: 935
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://youtu.be/Dml0JEgRpc0?si=VyfGLEm3t4Hg8X0-\r\n\e[?2004l\r"
+  - delay: 16
+    content: "\e]3008;start=7110f362-7287-4826-9b77-31c942954956;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=command;cwd=/home/user\e\\"
+  - delay: 311
+    content: "\e="
+  - delay: 14715
+    content: "\e[0m● Video  --vid=1               (av1 1920x1080 25 fps) [default]\r\n\e[0m\e[0m● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]\r\n\e[0m\e[0mFile tags:\r\n\e[0m\e[0m Date: 20250929\r\n\e[0m\e[0m Uploader: LatinHype\r\n\e[0m\e[0m Channel_URL: https://www.youtube.com/channel/UC-AlofdKECUdhXrbJQZ6iEg\r\n\e[0m"
+  - delay: 422
+    content: "\e[31m[ao/alsa] Playback open error: Host is down\r\n\e[0m"
+  - delay: 8
+    content: "\e[91m[ao/jack] cannot open server\r\n\e[0m"
+  - delay: 14
+    content: "[ALSOFT] (EE) Failed to connect PipeWire event context (errno: 112)\r\n"
+  - delay: 8
+    content: "\e[91m[ao/openal] could not open device\r\n\e[0m"
+  - delay: 154
+    content: "couldn't open play stream: Device or resource busy\r\n\e[31m[ao/sndio] Can't open audio device default.\r\n\e[0m\e[31m[ao] Failed to initialize audio driver 'sndio'\r\n\e[0m\e[31mCould not open/initialize audio device -> no sound.\r\n\e[0m\e[0mAudio: no audio\r\n\e[0m"
+  - delay: 19
+    content: "\e[0mVO: [gpu-next] 1920x1080 yuv420p\r\n\e[0m"
+  - delay: 639
+    content: "\e[?25l\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.6s/261KB\e[0m"
+  - delay: 68
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.6s/260KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.5s/260KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.4s/259KB\e[0m"
+  - delay: 59
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.8s/318KB\e[0m"
+  - delay: 56
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 5.7s/317KB\e[0m"
+  - delay: 54
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Cache: 6.4s/340KB\e[0m"
+  - delay: 28
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 1 Cache: 6.4s/340KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 2 Cache: 6.3s/340KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 3 Cache: 6.3s/340KB\e[0m"
+  - delay: 24
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 4 Cache: 6.2s/339KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 4 Cache: 6.2s/338KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 4 Cache: 6.2s/337KB\e[0m"
+  - delay: 92
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 4 Cache: 6.5s/349KB\e[0m"
+  - delay: 14
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 5 Cache: 6.5s/349KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 6 Cache: 6.5s/349KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 7 Cache: 6.4s/348KB\e[0m"
+  - delay: 9
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 8 Cache: 6.4s/343KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 8 Cache: 6.3s/342KB\e[0m"
+  - delay: 253
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 8 Cache: 6.2s/341KB\e[0m"
+  - delay: 109
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 9 Cache: 6.2s/341KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 9 Cache: 6.2s/340KB\e[0m"
+  - delay: 145
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 10 Cache: 6.2s/340KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 11 Cache: 6.2s/340KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 11 Cache: 6.1s/338KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 11 Cache: 6.0s/337KB\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 12 Cache: 6.0s/337KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 13 Cache: 6.0s/337KB\e[0m"
+  - delay: 14
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 14 Cache: 6.0s/337KB\e[0m"
+  - delay: 18
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 14 Cache: 5.9s/335KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 14 Cache: 5.9s/334KB\e[0m"
+  - delay: 155
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:03:16 (0%) Dropped: 14 Cache: 6.0s/458KB\e[0m"
+  - delay: 62
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 14 Cache: 5.9s/457KB\e[0m"
+  - delay: 326
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 15 Cache: 5.9s/457KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 16 Cache: 5.8s/456KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 16 Cache: 5.8s/451KB\e[0m"
+  - delay: 45
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 16 Cache: 5.8s/450KB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 17 Cache: 5.8s/450KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 18 Cache: 5.8s/450KB\e[0m"
+  - delay: 26
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 18 Cache: 5.7s/449KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 18 Cache: 5.6s/448KB\e[0m"
+  - delay: 70
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 19 Cache: 5.6s/448KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 20 Cache: 5.6s/448KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 21 Cache: 5.6s/448KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 21 Cache: 5.5s/446KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 21 Cache: 5.5s/445KB\e[0m"
+  - delay: 100
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 22 Cache: 5.5s/445KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 23 Cache: 5.4s/444KB\e[0m"
+  - delay: 10
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 24 Cache: 5.4s/444KB\e[0m"
+  - delay: 21
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 24 Cache: 5.4s/443KB\e[0m"
+  - delay: 54
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 24 Cache: 5.3s/442KB\e[0m"
+  - delay: 199
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 24 Cache: 5.8s/463KB\e[0m"
+  - delay: 137
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 25 Cache: 5.8s/463KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 26 Cache: 5.8s/462KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 26 Cache: 5.7s/457KB\e[0m"
+  - delay: 53
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 26 Cache: 5.7s/456KB\e[0m"
+  - delay: 69
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 27 Cache: 5.7s/456KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 28 Cache: 5.7s/456KB\e[0m"
+  - delay: 19
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 28 Cache: 5.6s/455KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 28 Cache: 5.6s/454KB\e[0m"
+  - delay: 77
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 29 Cache: 5.6s/454KB\e[0m\e[1K\r\e[0mV: 00:00:01 / 00:03:16 (1%) Dropped: 30 Cache: 5.5s/454KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 31 Cache: 5.5s/452KB\e[0m"
+  - delay: 10
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 31 Cache: 5.4s/452KB\e[0m"
+  - delay: 145
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 32 Cache: 5.4s/452KB\e[0m"
+  - delay: 10
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 33 Cache: 5.4s/450KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 34 Cache: 5.3s/450KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 34 Cache: 5.2s/448KB\e[0m"
+  - delay: 95
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 35 Cache: 5.2s/448KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 36 Cache: 5.2s/439KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 37 Cache: 5.2s/438KB\e[0m"
+  - delay: 95
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 37 Cache: 5.1s/437KB\e[0m"
+  - delay: 83
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 38 Cache: 5.1s/437KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 39 Cache: 5.0s/436KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 40 Cache: 5.0s/435KB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 40 Cache: 4.9s/434KB\e[0m"
+  - delay: 94
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 41 Cache: 4.9s/434KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 42 Cache: 4.9s/432KB\e[0m"
+  - delay: 24
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 43 Cache: 4.8s/431KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 44 Cache: 4.8s/431KB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 44 Cache: 4.8s/430KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 44 Cache: 4.7s/428KB\e[0m"
+  - delay: 84
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 45 Cache: 4.7s/428KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 46 Cache: 4.7s/428KB\e[0m\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 47 Cache: 4.7s/428KB\e[0m"
+  - delay: 13
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 47 Cache: 5.5s/457KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (1%) Dropped: 47 Cache: 5.4s/455KB\e[0m"
+  - delay: 189
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:03:16 (2%) Dropped: 47 Cache: 5.4s/455KB\e[0m"
+  - delay: 142
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 47 Cache: 5.4s/455KB\e[0m"
+  - delay: 93
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 48 Cache: 5.4s/455KB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 49 Cache: 5.3s/453KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 50 Cache: 5.3s/452KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 51 Cache: 5.2s/452KB\e[0m"
+  - delay: 64
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 51 Cache: 5.2s/451KB\e[0m"
+  - delay: 57
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 52 Cache: 5.2s/451KB\e[0m"
+  - delay: 12
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 53 Cache: 5.1s/449KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 54 Cache: 5.1s/449KB\e[0m"
+  - delay: 65
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 54 Cache: 5.0s/448KB\e[0m"
+  - delay: 172
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 54 Cache: 5.0s/447KB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 54 Cache: 4.9s/446KB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 55 Cache: 4.9s/446KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 56 Cache: 4.9s/446KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 56 Cache: 4.8s/445KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 56 Cache: 4.8s/413KB\e[0m"
+  - delay: 53
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 57 Cache: 4.8s/413KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 58 Cache: 4.8s/413KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 58 Cache: 4.7s/412KB\e[0m"
+  - delay: 75
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 59 Cache: 4.7s/412KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 60 Cache: 4.6s/410KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 60 Cache: 4.6s/409KB\e[0m"
+  - delay: 82
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 61 Cache: 4.6s/409KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 61 Cache: 4.5s/407KB\e[0m"
+  - delay: 100
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 62 Cache: 4.5s/407KB\e[0m\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 62 Cache: 4.4s/402KB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 62 Cache: 4.4s/401KB\e[0m"
+  - delay: 28
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:03:16 (2%) Dropped: 63 Cache: 4.4s/401KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 63 Cache: 4.4s/401KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 63 Cache: 4.3s/399KB\e[0m"
+  - delay: 62
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 64 Cache: 4.3s/399KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 65 Cache: 4.3s/397KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 65 Cache: 4.2s/397KB\e[0m"
+  - delay: 92
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 66 Cache: 4.2s/397KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 67 Cache: 4.2s/392KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 67 Cache: 4.1s/391KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 67 Cache: 4.1s/342KB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 68 Cache: 4.1s/342KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 68 Cache: 4.0s/303KB\e[0m"
+  - delay: 118
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 69 Cache: 4.0s/303KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 70 Cache: 4.0s/303KB\e[0m"
+  - delay: 71
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 70 Cache: 4.0s/475KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 70 Cache: 3.9s/473KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 71 Cache: 3.9s/473KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 72 Cache: 3.9s/473KB\e[0m"
+  - delay: 53
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 72 Cache: 4.4s/498KB\e[0m"
+  - delay: 54
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 73 Cache: 4.4s/498KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 74 Cache: 4.4s/495KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 74 Cache: 4.4s/494KB\e[0m"
+  - delay: 137
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 75 Cache: 4.4s/494KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 76 Cache: 4.3s/493KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 76 Cache: 4.2s/491KB\e[0m"
+  - delay: 129
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 77 Cache: 4.2s/491KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 78 Cache: 4.2s/491KB\e[0m\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (2%) Dropped: 79 Cache: 4.1s/489KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:03:16 (3%) Dropped: 79 Cache: 4.1s/482KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 79 Cache: 4.0s/482KB\e[0m"
+  - delay: 56
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 80 Cache: 4.0s/482KB\e[0m"
+  - delay: 67
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 80 Cache: 4.0s/480KB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 81 Cache: 4.0s/480KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 82 Cache: 3.9s/479KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 82 Cache: 3.9s/478KB\e[0m"
+  - delay: 112
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 83 Cache: 3.9s/478KB\e[0m"
+  - delay: 8
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 84 Cache: 3.8s/477KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 84 Cache: 3.8s/474KB\e[0m"
+  - delay: 46
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 84 Cache: 3.7s/473KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 85 Cache: 3.7s/473KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 85 Cache: 3.6s/472KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 86 Cache: 3.6s/472KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 87 Cache: 3.6s/471KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 87 Cache: 3.6s/470KB\e[0m"
+  - delay: 100
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 88 Cache: 4.2s/484KB\e[0m"
+  - delay: 20
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 88 Cache: 4.1s/483KB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 88 Cache: 4.1s/430KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 89 Cache: 4.1s/430KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 90 Cache: 4.0s/429KB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 90 Cache: 4.0s/428KB\e[0m"
+  - delay: 60
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 91 Cache: 4.0s/428KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 92 Cache: 3.9s/426KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 93 Cache: 3.9s/425KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 93 Cache: 3.8s/424KB\e[0m"
+  - delay: 74
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 94 Cache: 3.8s/424KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 95 Cache: 3.8s/420KB\e[0m\e[1K\r\e[0mV: 00:00:05 / 00:03:16 (3%) Dropped: 95 Cache: 3.7s/420KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 95 Cache: 3.7s/420KB\e[0m"
+  - delay: 73
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 96 Cache: 3.7s/420KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 97 Cache: 3.6s/419KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 97 Cache: 3.6s/417KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 97 Cache: 3.6s/416KB\e[0m"
+  - delay: 55
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 98 Cache: 3.6s/416KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 99 Cache: 3.6s/416KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 99 Cache: 3.5s/415KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 99 Cache: 3.4s/408KB\e[0m"
+  - delay: 54
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 100 Cache: 3.4s/408KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 101 Cache: 3.4s/408KB\e[0m"
+  - delay: 59
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 101 Cache: 3.3s/406KB\e[0m"
+  - delay: 70
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 102 Cache: 3.3s/406KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 103 Cache: 3.3s/403KB\e[0m"
+  - delay: 8
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 103 Cache: 3.2s/402KB\e[0m"
+  - delay: 93
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 104 Cache: 3.2s/402KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 105 Cache: 3.2s/400KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 105 Cache: 3.1s/396KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 105 Cache: 3.7s/445KB\e[0m"
+  - delay: 68
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 106 Cache: 3.7s/445KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 107 Cache: 3.7s/445KB\e[0m"
+  - delay: 19
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 107 Cache: 3.6s/444KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 107 Cache: 4.2s/454KB\e[0m"
+  - delay: 54
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 108 Cache: 4.2s/454KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 109 Cache: 4.2s/454KB\e[0m"
+  - delay: 53
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 109 Cache: 4.1s/452KB\e[0m"
+  - delay: 56
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 110 Cache: 4.8s/504KB\e[0m\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (3%) Dropped: 110 Cache: 4.7s/381KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (4%) Dropped: 110 Cache: 4.7s/380KB\e[0m"
+  - delay: 57
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (4%) Dropped: 111 Cache: 5.3s/396KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:03:16 (4%) Dropped: 112 Cache: 5.3s/396KB\e[0m"
+  - delay: 63
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 112 Cache: 5.2s/394KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 112 Cache: 5.2s/392KB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 113 Cache: 5.2s/392KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 114 Cache: 5.2s/392KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 115 Cache: 5.2s/392KB\e[0m"
+  - delay: 25
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 115 Cache: 5.1s/390KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 115 Cache: 5.4s/429KB\e[0m"
+  - delay: 106
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 116 Cache: 5.4s/429KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 117 Cache: 5.3s/429KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 118 Cache: 5.3s/429KB\e[0m"
+  - delay: 34
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 119 Cache: 5.2s/426KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 120 Cache: 5.2s/423KB\e[0m"
+  - delay: 13
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 120 Cache: 5.2s/422KB\e[0m"
+  - delay: 49
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 120 Cache: 5.6s/444KB\e[0m"
+  - delay: 47
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 121 Cache: 5.6s/444KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 121 Cache: 5.6s/442KB\e[0m"
+  - delay: 48
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 121 Cache: 5.5s/439KB\e[0m"
+  - delay: 182
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 121 Cache: 6.0s/453KB\e[0m"
+  - delay: 75
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 122 Cache: 6.0s/453KB\e[0m"
+  - delay: 55
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 122 Cache: 5.9s/451KB\e[0m"
+  - delay: 74
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 123 Cache: 5.9s/451KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 124 Cache: 5.8s/450KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 124 Cache: 5.8s/449KB\e[0m"
+  - delay: 145
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 125 Cache: 5.8s/449KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 126 Cache: 5.7s/448KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 127 Cache: 5.7s/447KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 127 Cache: 5.6s/446KB\e[0m"
+  - delay: 148
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 128 Cache: 5.6s/446KB\e[0m\e[1K\r\e[0mV: 00:00:07 / 00:03:16 (4%) Dropped: 129 Cache: 5.6s/445KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 130 Cache: 5.5s/444KB\e[0m"
+  - delay: 172
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 130 Cache: 5.4s/442KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 130 Cache: 5.6s/486KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 130 Cache: 5.6s/475KB\e[0m"
+  - delay: 85
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 130 Cache: 6.3s/501KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 131 Cache: 6.3s/501KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 131 Cache: 6.3s/500KB\e[0m"
+  - delay: 52
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 131 Cache: 6.8s/521KB\e[0m"
+  - delay: 71
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 132 Cache: 7.2s/534KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 133 Cache: 7.1s/532KB\e[0m"
+  - delay: 19
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 133 Cache: 7.0s/531KB\e[0m"
+  - delay: 105
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 134 Cache: 7.0s/531KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 135 Cache: 7.0s/358KB\e[0m"
+  - delay: 8
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 135 Cache: 6.9s/344KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 135 Cache: 6.9s/343KB\e[0m"
+  - delay: 87
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 136 Cache: 6.9s/343KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 137 Cache: 6.9s/343KB\e[0m"
+  - delay: 56
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 137 Cache: 6.8s/341KB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 137 Cache: 6.8s/340KB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 138 Cache: 6.8s/340KB\e[0m"
+  - delay: 5
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 139 Cache: 6.7s/340KB\e[0m"
+  - delay: 10
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 140 Cache: 6.7s/340KB\e[0m"
+  - delay: 16
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 141 Cache: 6.6s/338KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 142 Cache: 6.6s/336KB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (4%) Dropped: 143 Cache: 6.6s/336KB\e[0m\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (5%) Dropped: 144 Cache: 6.5s/334KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (5%) Dropped: 145 Cache: 6.4s/333KB\e[0m"
+  - delay: 11
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:03:16 (5%) Dropped: 145 Cache: 6.4s/332KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 145 Cache: 6.4s/332KB\e[0m"
+  - delay: 140
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 145 Cache: 6.3s/331KB\e[0m"
+  - delay: 72
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 146 Cache: 6.3s/331KB\e[0m\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 147 Cache: 6.3s/328KB\e[0m\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 148 Cache: 6.2s/328KB\e[0m\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 149 Cache: 6.2s/328KB\e[0m"
+  - delay: 35
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 150 Cache: 6.2s/326KB\e[0m"
+  - delay: 7
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 151 Cache: 6.1s/325KB\e[0m"
+  - delay: 103
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 152 Cache: 6.1s/325KB\e[0m"
+  - delay: 6
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 6.0s/324KB\e[0m\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 6.0s/322KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 5.9s/321KB\e[0m"
+  - delay: 474
+    content: "\e[?25h\e[1K\r\e[33m[ffmpeg/demuxer] mov,mp4,m4a,3gp,3g2,mj2: Packet corrupt (stream = 0, dts = 199680).\r\n\e[0m\e[?25l\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 5.9s/321KB\e[0m\e[?25h\e[1K\r\e[31m[ffmpeg] NULL: Invalid OBU length: 213520, but only 172830 bytes remaining in fragment.\r\n\e[0m\e[?25l\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 5.9s/321KB\e[0m\e[?25h\e[1K\r\e[31m[ffmpeg] NULL: Failed to parse temporal unit.\r\n\e[0m\e[?25l\e[0mV: 00:00:09 / 00:03:16 (5%) Dropped: 153 Cache: 5.9s/321KB\e[0m\e[?25h\r\n\e[0mExiting... (Quit)\r\n\e[0m"
+  - delay: 89
+    content: "\e>"
+  - delay: 186
+    content: "\e]3008;end=7110f362-7287-4826-9b77-31c942954956;exit=success\e\\"
+  - delay: 19
+    content: "\e]3008;start=579ea428-a4ec-4ad4-9daf-2934500ab45b;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 4075
+    content: e
+  - delay: 339
+    content: x
+  - delay: 122
+    content: i
+  - delay: 267
+    content: t
+  - delay: 1388
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=f4805baf-b3b0-4a87-89ca-14de4723f123;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000011666;type=command;cwd=/home/user\e\\logout\r\n"

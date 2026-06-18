@@ -1,0 +1,4 @@
+{"version":3,"term":{"cols":133,"rows":37,"type":"xterm-256color","version":"VTE(8400)","theme":{"fg":"#ffffff","bg":"#000000","palette":"#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"}},"timestamp":1780514069,"env":{"SHELL":"/usr/bin/bash"}}
+[0.014, "o", "\u001b]0;fawwaz@advan:~\u0007\u001b[?2004h[fawwaz@advan ~]$ "]
+[5.219, "o", "\u001b[?2004l\r\r\nexit\r\n"]
+[0.001, "x", "0"]

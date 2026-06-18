@@ -1,0 +1,821 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 66
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 191
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 18234
+    content: i
+  - delay: 217
+    content: p
+  - delay: 686
+    content: t
+  - delay: 314
+    content: a
+  - delay: 400
+    content: b
+  - delay: 250
+    content: l
+  - delay: 417
+    content: e
+  - delay: 222
+    content: s
+  - delay: 579
+    content: ' '
+  - delay: 7098
+    content: "\b\e[K"
+  - delay: 502
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 174
+    content: "\a"
+  - delay: 668
+    content: s
+  - delay: 267
+    content: u
+  - delay: 249
+    content: d
+  - delay: 250
+    content: o
+  - delay: 22917
+    content: ' '
+  - delay: 499
+    content: i
+  - delay: 217
+    content: p
+  - delay: 367
+    content: t
+  - delay: 266
+    content: a
+  - delay: 400
+    content: b
+  - delay: 266
+    content: l
+  - delay: 350
+    content: e
+  - delay: 200
+    content: s
+  - delay: 367
+    content: ' '
+  - delay: 651
+    content: '-'
+  - delay: 1899
+    content: L
+  - delay: 266
+    content: ' '
+  - delay: 284
+    content: '-'
+  - delay: 1250
+    content: 'n'
+  - delay: 3263
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=996f7d1c-766f-40ad-8bbb-c8cb86db5426;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 76
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=996f7d1c-766f-40ad-8bbb-c8cb86db5426;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 2742
+    content: s
+  - delay: 266
+    content: u
+  - delay: 234
+    content: d
+  - delay: 267
+    content: o
+  - delay: 232
+    content: ' '
+  - delay: 1772
+    content: i
+  - delay: 584
+    content: p
+  - delay: 328
+    content: t
+  - delay: 283
+    content: a
+  - delay: 440
+    content: b
+  - delay: 294
+    content: l
+  - delay: 410
+    content: e
+  - delay: 200
+    content: s
+  - delay: 1056
+    content: ' '
+  - delay: 567
+    content: '-'
+  - delay: 733
+    content: A
+  - delay: 333
+    content: ' '
+  - delay: 1617
+    content: I
+  - delay: 250
+    content: B
+  - delay: 866
+    content: P
+  - delay: 701
+    content: "\b\e[K"
+  - delay: 117
+    content: "\b\e[K"
+  - delay: 549
+    content: 'N'
+  - delay: 300
+    content: P
+  - delay: 250
+    content: U
+  - delay: 253
+    content: T
+  - delay: 263
+    content: ' '
+  - delay: 5117
+    content: '-'
+  - delay: 183
+    content: '-'
+  - delay: 4700
+    content: P
+  - delay: 1000
+    content: ' '
+  - delay: 537
+    content: T
+  - delay: 230
+    content: C
+  - delay: 253
+    content: P
+  - delay: 664
+    content: ' '
+  - delay: 834
+    content: '-'
+  - delay: 132
+    content: '-'
+  - delay: 367
+    content: D
+  - delay: 433
+    content: P
+  - delay: 166
+    content: O
+  - delay: 367
+    content: R
+  - delay: 167
+    content: T
+  - delay: 266
+    content: ' '
+  - delay: 502
+    content: "\b\e[K"
+  - delay: 132
+    content: "\b\e[K"
+  - delay: 130
+    content: "\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 117
+    content: "\b\e[K"
+  - delay: 500
+    content: "\b\e[K"
+  - delay: 100
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 1034
+    content: "\b\e[K"
+  - delay: 219
+    content: "\b\e[K"
+  - delay: 133
+    content: "\b\e[K"
+  - delay: 147
+    content: "\b\e[K"
+  - delay: 136
+    content: "\b\e[K"
+  - delay: 134
+    content: "\b\e[K"
+  - delay: 1467
+    content: p
+  - delay: 235
+    content: ' '
+  - delay: 5699
+    content: t
+  - delay: 716
+    content: m
+  - delay: 217
+    content: p
+  - delay: 200
+    content: ' '
+  - delay: 2966
+    content: '-'
+  - delay: 166
+    content: '-'
+  - delay: 551
+    content: d
+  - delay: 483
+    content: p
+  - delay: 183
+    content: o
+  - delay: 317
+    content: r
+  - delay: 183
+    content: t
+  - delay: 1233
+    content: ' '
+  - delay: 567
+    content: '2'
+  - delay: 150
+    content: '2'
+  - delay: 1531
+    content: ' '
+  - delay: 1455
+    content: '-'
+  - delay: 1316
+    content: j
+  - delay: 282
+    content: ' '
+  - delay: 917
+    content: D
+  - delay: 185
+    content: R
+  - delay: 598
+    content: O
+  - delay: 233
+    content: P
+  - delay: 6136
+    content: "\b"
+  - delay: 1281
+    content: "\b"
+  - delay: 234
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 364
+    content: "\b"
+  - delay: 348
+    content: "\b"
+  - delay: 750
+    content: "\b\e[1P"
+  - delay: 1717
+    content: "\e[C"
+  - delay: 415
+    content: "\b\e[1P"
+  - delay: 808
+    content: "\e[1@T"
+  - delay: 242
+    content: "\e[1@C"
+  - delay: 1134
+    content: "\b\e[1P"
+  - delay: 350
+    content: "\b\e[1P"
+  - delay: 867
+    content: "\e[1@t"
+  - delay: 235
+    content: "\e[1@c"
+  - delay: 1499
+    content: "\e[C"
+  - delay: 500
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 49
+    content: "\a"
+  - delay: 52
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 955
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=f4870184-076b-43e4-9438-8d65a71854e4;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 18
+    content: "iptables v1.8.13 (nf_tables): unknown option \"--p\"\r\nTry `iptables -h' or 'iptables --help' for more information.\r\n\e]3008;end=f4870184-076b-43e4-9438-8d65a71854e4;exit=failure;status=2\e\\"
+  - delay: 7
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 8250
+    content: s
+  - delay: 267
+    content: u
+  - delay: 280
+    content: d
+  - delay: 150
+    content: e
+  - delay: 733
+    content: "\b\e[K"
+  - delay: 683
+    content: o
+  - delay: 518
+    content: ' '
+  - delay: 624
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 692
+    content: sudo iptables -A INPUT --p tcp --dport 22 -j DROP
+  - delay: 1015
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 52
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 259
+    content: "\b"
+  - delay: 216
+    content: "\b"
+  - delay: 480
+    content: "\b"
+  - delay: 252
+    content: "\b"
+  - delay: 850
+    content: "\e[1P\b"
+  - delay: 1286
+    content: "\e[C"
+  - delay: 500
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 52
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 49
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 51
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 50
+    content: "\e[C"
+  - delay: 51
+    content: "\a"
+  - delay: 49
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 423
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=118d1326-ae11-448c-9d12-dc5b47353d71;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 62
+    content: "\e]3008;end=118d1326-ae11-448c-9d12-dc5b47353d71;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 12102
+    content: sudo iptables -A INPUT -p tcp --dport 22 -j DROP
+  - delay: 567
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1@-\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 848
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bL -n\e[K"
+  - delay: 1167
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=6c69a4e9-a24a-43fc-8847-93ef99b88a5f;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 17
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\nDROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22\r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=6c69a4e9-a24a-43fc-8847-93ef99b88a5f;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 23129
+    content: s
+  - delay: 333
+    content: u
+  - delay: 267
+    content: d
+  - delay: 333
+    content: o
+  - delay: 3282
+    content: ' '
+  - delay: 2068
+    content: i
+  - delay: 249
+    content: p
+  - delay: 401
+    content: t
+  - delay: 316
+    content: a
+  - delay: 492
+    content: b
+  - delay: 258
+    content: l
+  - delay: 433
+    content: e
+  - delay: 201
+    content: s
+  - delay: 950
+    content: ' '
+  - delay: 3116
+    content: '-'
+  - delay: 1085
+    content: L
+  - delay: 265
+    content: ' '
+  - delay: 2367
+    content: '-'
+  - delay: 133
+    content: '-'
+  - delay: 2600
+    content: l
+  - delay: 216
+    content: i
+  - delay: 249
+    content: 'n'
+  - delay: 368
+    content: e
+  - delay: 784
+    content: ' '
+  - delay: 3416
+    content: \
+  - delay: 839
+    content: "\b\e[K"
+  - delay: 144
+    content: "\b\e[K"
+  - delay: 151
+    content: "\b\e[K"
+  - delay: 816
+    content: e
+  - delay: 569
+    content: '-'
+  - delay: 314
+    content: 'n'
+  - delay: 184
+    content: u
+  - delay: 200
+    content: m
+  - delay: 217
+    content: b
+  - delay: 302
+    content: e
+  - delay: 182
+    content: r
+  - delay: 199
+    content: s
+  - delay: 3851
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=47a30c0f-dfb6-4fa5-bbce-ed4b72b5228f;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 22
+    content: "Chain INPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n"
+  - delay: 14
+    content: "1    DROP       tcp  --  anywhere             anywhere             tcp dpt:ssh\r\n\r\nChain FORWARD (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\e]3008;end=47a30c0f-dfb6-4fa5-bbce-ed4b72b5228f;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 26654
+    content: s
+  - delay: 467
+    content: u
+  - delay: 249
+    content: d
+  - delay: 301
+    content: o
+  - delay: 249
+    content: ' '
+  - delay: 2667
+    content: i
+  - delay: 242
+    content: 'n'
+  - delay: 1058
+    content: "\b\e[K"
+  - delay: 483
+    content: p
+  - delay: 351
+    content: t
+  - delay: 233
+    content: a
+  - delay: 450
+    content: b
+  - delay: 236
+    content: l
+  - delay: 367
+    content: e
+  - delay: 180
+    content: s
+  - delay: 233
+    content: ' '
+  - delay: 3673
+    content: '-'
+  - delay: 377
+    content: D
+  - delay: 217
+    content: ' '
+  - delay: 350
+    content: I
+  - delay: 234
+    content: 'N'
+  - delay: 259
+    content: P
+  - delay: 292
+    content: U
+  - delay: 265
+    content: T
+  - delay: 234
+    content: ' '
+  - delay: 2501
+    content: '1'
+  - delay: 1698
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=4170a49f-15bd-4bba-9296-ff2664c773c4;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 56
+    content: "\e]3008;end=4170a49f-15bd-4bba-9296-ff2664c773c4;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 6160
+    content: sudo iptables -D INPUT 1
+  - delay: 432
+    content: "\b\b\b\b\b\b\b\b\bL --line-numbers"
+  - delay: 601
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bn\e[K"
+  - delay: 1223
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=3dc63b3b-8aef-4eda-9260-8a54027a4d29;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=command;cwd=/home/user\e\\"
+  - delay: 19
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=3dc63b3b-8aef-4eda-9260-8a54027a4d29;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=4aa52b7e-fffd-4004-9a31-7215494145a6;machineid=60c45fed64284224823fc2e3718d3e7c;user=root;hostname=acerlau;bootid=bcfa84f5-70d1-4172-9e65-7df3567cb611;pid=00000000000000008374;type=shell;cwd=/home/user\e\\\e]0;root@acerlau:/home/user\a\e[?2004h[root@acerlau user]# "
+  - delay: 7155
+    content: "\e[?2004l\r\r\nlogout\r\n"

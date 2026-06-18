@@ -1,0 +1,1331 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 397
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user\e\\\e]0;root@hakim:/home/user\a\e[?2004h[root@hakim user]# "
+  - delay: 2695
+    content: exit
+  - delay: 1261
+    content: "\b\b\b\bterminalizer record omeka_hakim"
+  - delay: 547
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cexit\e[K"
+  - delay: 249
+    content: "\b\b\b\b\e[K"
+  - delay: 915
+    content: l
+  - delay: 437
+    content: s
+  - delay: 199
+    content: "\r\n\e[?2004l\r"
+  - delay: 15
+    content: "\e]3008;start=454aabf9-27af-499a-96fd-869002a6bcca;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user\e\\Desktop       config.database.ini\t  miftah_nurul_azizah.yml\r\nDownloads     file\t\t\t  nada_syamila.yml\r\ncompose.yam   files\t\t\t  omeka-project\r\ncompose.yaml  lulu_jannati_adn.yml\t  podman-tmp\r\nconfig\t      lutpi_sugeng_suharjito.yml  sallamahdhiaus.yml\r\n\e]3008;end=454aabf9-27af-499a-96fd-869002a6bcca;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user\e\\\e]0;root@hakim:/home/user\a\e[?2004h[root@hakim user]# "
+  - delay: 2810
+    content: c
+  - delay: 173
+    content: d
+  - delay: 74
+    content: ' '
+  - delay: 1828
+    content: o
+  - delay: 213
+    content: m
+  - delay: 93
+    content: e
+  - delay: 126
+    content: k
+  - delay: 182
+    content: a
+  - delay: 1482
+    content: '-'
+  - delay: 241
+    content: p
+  - delay: 143
+    content: r
+  - delay: 96
+    content: o
+  - delay: 299
+    content: j
+  - delay: 117
+    content: e
+  - delay: 554
+    content: c
+  - delay: 158
+    content: t
+  - delay: 3278
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=b6e095e4-6879-4eb8-93c3-ff9f48a60281;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user\e\\\e]3008;end=b6e095e4-6879-4eb8-93c3-ff9f48a60281;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 4354
+    content: cd omeka-project
+  - delay: 261
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 514
+    content: "\b\bexit"
+  - delay: 451
+    content: "\b\b\b\bterminalizer record omeka_hakim"
+  - delay: 802
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cexit\e[K"
+  - delay: 377
+    content: "\b\b\b\b\e[2Pls"
+  - delay: 321
+    content: "\b\bcd omeka-project"
+  - delay: 751
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[K"
+  - delay: 513
+    content: cd omeka-project
+  - delay: 302
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 287
+    content: "\b\bexit"
+  - delay: 261
+    content: "\b\b\b\bterminalizer record omeka_hakim"
+  - delay: 433
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[9P--version"
+  - delay: 358
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bcd\e[K"
+  - delay: 670
+    content: "\b\bnmtui"
+  - delay: 655
+    content: "\b\b\b\bvim compose.yaml"
+  - delay: 1497
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=aec4c12b-b011-4c15-97ce-36dbfd15805c;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 7
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 7
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 26
+    content: "\e[c\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h"
+  - delay: 16
+    content: "\eP+q4D73\e\\"
+  - delay: 46
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 1703
+    content: "\e[?25l\e[24;70H^[\e[H\e[?25h\e[?25l\e[24;70H  \e[H\e[?25h"
+  - delay: 1253
+    content: "\e[?25l\e[24;70Hw\e[H\e[?25h\e[?25l\e[24;70H \e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[1;8H\e[?25h"
+  - delay: 3513
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m^[\e[1;8H\e[?25h\e[?25l\e[24;70H  \e[1;8H\e[?25h"
+  - delay: 825
+    content: "\e[?25l\e[24;70H:\e[1;8H\e[?25h\e[?25l\e[24;70H \r\e[24;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 865
+    content: "\e[?25lq\e[?25h"
+  - delay: 547
+    content: "\e[?25l!\e[?25h"
+  - delay: 713
+    content: "\e[?25l\r\e[24;1H\e[?25h"
+  - delay: 12
+    content: "\e[?25l\e[2 q\e[?1002h\e[?1006h\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[?1049l\e[23;0;0t\e[?25h"
+  - delay: 5
+    content: "\e]3008;end=aec4c12b-b011-4c15-97ce-36dbfd15805c;exit=success\e\\"
+  - delay: 27
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 870
+    content: nvim compose.yaml
+  - delay: 377
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1Pcd omeka-project"
+  - delay: 862
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 424
+    content: "\b\bexit"
+  - delay: 372
+    content: "\b\b\b\bterminalizer record omeka_hakim"
+  - delay: 451
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[9P--version"
+  - delay: 863
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bcd\e[K"
+  - delay: 340
+    content: "\b\bnmtui"
+  - delay: 795
+    content: "\b\b\b\bvim compose.yaml"
+  - delay: 427
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[2Pcd\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 426
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 418
+    content: "\b\bcd omeka-project"
+  - delay: 1111
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 421
+    content: p
+  - delay: 147
+    content: o
+  - delay: 84
+    content: d
+  - delay: 128
+    content: m
+  - delay: 167
+    content: a
+  - delay: 94
+    content: 'n'
+  - delay: 649
+    content: '-'
+  - delay: 1081
+    content: c
+  - delay: 128
+    content: o
+  - delay: 235
+    content: m
+  - delay: 319
+    content: p
+  - delay: 262
+    content: s
+  - delay: 776
+    content: "\b\e[K"
+  - delay: 382
+    content: o
+  - delay: 136
+    content: s
+  - delay: 216
+    content: e
+  - delay: 158
+    content: ' '
+  - delay: 1894
+    content: u
+  - delay: 318
+    content: p
+  - delay: 351
+    content: ' '
+  - delay: 411
+    content: '-'
+  - delay: 239
+    content: d
+  - delay: 2946
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=6c3cbb37-e03d-4005-bd01-36dc355bbcf6;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 2574
+    content: "omeka-db\r\n"
+  - delay: 358
+    content: "omeka-app\r\n"
+  - delay: 44
+    content: "\e]3008;end=6c3cbb37-e03d-4005-bd01-36dc355bbcf6;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 23878
+    content: l
+  - delay: 122
+    content: s
+  - delay: 158
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=214dc26f-c1d9-4bd3-b94e-35ab8dc73a22;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\compose.yaml\r\n\e]3008;end=214dc26f-c1d9-4bd3-b94e-35ab8dc73a22;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 29901
+    content: ls
+  - delay: 320
+    content: "\b\bpodman-compose up -d"
+  - delay: 1062
+    content: "\b\e[K"
+  - delay: 500
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 2311
+    content: r
+  - delay: 165
+    content: m
+  - delay: 200
+    content: ' '
+  - delay: 1897
+    content: o
+  - delay: 454
+    content: m
+  - delay: 118
+    content: e
+  - delay: 136
+    content: k
+  - delay: 303
+    content: a
+  - delay: 1102
+    content: '-'
+  - delay: 470
+    content: d
+  - delay: 139
+    content: b
+  - delay: 1297
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=b905e84a-fb12-4cef-adaa-1e7e7c1425a1;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 5
+    content: "rm: cannot remove 'omeka-db': No such file or directory\r\n\e]3008;end=b905e84a-fb12-4cef-adaa-1e7e7c1425a1;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 2107
+    content: rm omeka-db
+  - delay: 289
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 269
+    content: "\b"
+  - delay: 107
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 115
+    content: "\b"
+  - delay: 114
+    content: "\b"
+  - delay: 841
+    content: "\e[1@-"
+  - delay: 1637
+    content: "\e[1@r"
+  - delay: 209
+    content: "\e[1@f"
+  - delay: 986
+    content: "\b\e[1P"
+  - delay: 150
+    content: "\b\e[1P"
+  - delay: 633
+    content: "\e[1@f"
+  - delay: 236
+    content: "\e[1@r"
+  - delay: 435
+    content: "\e[1@ "
+  - delay: 473
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=39f846f7-2423-497d-a3e2-535ec5e72d25;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\\e]3008;end=39f846f7-2423-497d-a3e2-535ec5e72d25;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 2180
+    content: rm -fr omeka-db
+  - delay: 1738
+    content: "\b\e[K"
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 207
+    content: "\b\e[K"
+  - delay: 154
+    content: "\b\e[K"
+  - delay: 116
+    content: "\b\e[K"
+  - delay: 412
+    content: "\b\e[K"
+  - delay: 307
+    content: "\b\e[K"
+  - delay: 187
+    content: "\b\e[K"
+  - delay: 152
+    content: "\b\e[K"
+  - delay: 974
+    content: ' '
+  - delay: 4538
+    content: o
+  - delay: 233
+    content: m
+  - delay: 391
+    content: k
+  - delay: 191
+    content: e
+  - delay: 586
+    content: "\b\e[K"
+  - delay: 135
+    content: "\b\e[K"
+  - delay: 185
+    content: e
+  - delay: 237
+    content: k
+  - delay: 267
+    content: a
+  - delay: 1256
+    content: '-'
+  - delay: 219
+    content: a
+  - delay: 98
+    content: p
+  - delay: 129
+    content: p
+  - delay: 418
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=fc2200c9-6660-482b-b84d-3f7fde4b7dda;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\\e]3008;end=fc2200c9-6660-482b-b84d-3f7fde4b7dda;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 2098
+    content: l
+  - delay: 123
+    content: s
+  - delay: 175
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=9381d88d-718a-499e-863f-c17b6c225bde;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\compose.yaml\r\n\e]3008;end=9381d88d-718a-499e-863f-c17b6c225bde;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 1817
+    content: ls
+  - delay: 298
+    content: "\b\brm -fr omeka-app"
+  - delay: 610
+    content: "\b\b\b\e[1Pdb"
+  - delay: 3724
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\e[4P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 321
+    content: "\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 318
+    content: "\b\bpodman-compose up -d"
+  - delay: 431
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[3Pnvim compose.yaml"
+  - delay: 434
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1Pcd omeka-project"
+  - delay: 771
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bnvim compose.yaml"
+  - delay: 1130
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=111564b3-ac99-4f33-bef2-bfde1bd2dd56;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 7
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 8
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 25
+    content: "\e[c\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h"
+  - delay: 16
+    content: "\eP+q4D73\e\\"
+  - delay: 46
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 823
+    content: "\e[?25l\e[24;70H~@k\e[H\e[?25h\e[?25l\e[24;70H   \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,0-1\r\e[21A\e[?25h"
+  - delay: 431
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\r\e[22A\e[?25h\e[?25l\e[24;70H   \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,1  \r\e[20A\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\r\e[21A\e[?25h\e[?25l\e[24;70H   \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\r\e[19A\e[?25h"
+  - delay: 754
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m^[\r\e[20A\e[?25h\e[?25l\e[24;70H  \r\e[20A\e[?25h"
+  - delay: 772
+    content: "\e[?25l\e[24;70H:\r\e[20A\e[?25h\e[?25l\e[24;70H \r\e[24;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 753
+    content: "\e[?25lw\e[?25h"
+  - delay: 274
+    content: "\e[?25lq\e[?25h"
+  - delay: 214
+    content: "\e[?25l\r\e[24;1H\e[?25h\e[?25l\"compose.yaml\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h"
+  - delay: 23
+    content: "\e[?25l29L, 549B written\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 10
+    content: "\e[?25l\r\e[24;1H\e[?1049l\e[23;0;0t\e[?25h\e]3008;end=111564b3-ac99-4f33-bef2-bfde1bd2dd56;exit=success\e\\"
+  - delay: 12
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 831
+    content: nvim compose.yaml
+  - delay: 186
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 345
+    content: "\b\brm -fr omeka-app"
+  - delay: 597
+    content: "\b\b\b\e[1Pdb"
+  - delay: 252
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\e[4P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 365
+    content: "\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 339
+    content: "\b\bpodman-compose up -d"
+  - delay: 1658
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=b1bde4fe-3755-4a87-95e8-117477c5223e;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 283
+    content: "omeka-db\r\n"
+  - delay: 77
+    content: "omeka-app\r\n"
+  - delay: 51
+    content: "\e]3008;end=b1bde4fe-3755-4a87-95e8-117477c5223e;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 8851
+    content: podman-compose up -d
+  - delay: 264
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[3Pnvim compose.yaml"
+  - delay: 409
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 368
+    content: "\b\bnvim compose.yaml"
+  - delay: 374
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=4390899c-e10b-422b-95ef-1ae85b6d993a;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 8
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 9
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 47
+    content: "\e[c\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h\eP+q4D73\e\\"
+  - delay: 36
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 1123
+    content: "\e[?25l\e[24;70Hi\e[H\e[?25h\e[?25l\e[24;70H \r\e[24;1H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- INSERT --\e[6 q\e[H\e[?25h"
+  - delay: 879
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,1            42%\e[H\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[6M\e[r\e[17;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,1           Bot\e[H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[6M\e[r\e[17;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[H\e[?25h"
+  - delay: 138
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n\n\n\n\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[6L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85%\r\e[10A\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42\r\e[7A\e[?25h"
+  - delay: 329
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\r\e[10A\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\r\e[13A\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\e[15A\e[?25h"
+  - delay: 854
+    content: "\e[?25l\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m29,14\e[17;14H\e[?25h"
+  - delay: 206
+    content: "\e[?25l\e[24;4H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m(insert) VISUAL --\e[48C\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[17;13H\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[2 q\e[17;12H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[17;12H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88ma\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[17;11H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[16;10H\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mfiles_dat\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,9 \e[16;9H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88ma\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[16;8H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mt\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[16;7H\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[15;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mmes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb_da\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,4\e[15;4H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\b\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mlu\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[15;2H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mo\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\r\e[8A\e[?25h"
+  - delay: 301
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[13;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\r\n \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mv\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\r\e[10A\e[?25h"
+  - delay: 23
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[10;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m     \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m files_data:/var/www/html/files:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\r\e[13A\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m10\e[8;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m     \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m\"8080:80\"\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m0\r\e[15A\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[7;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\r\e[16A\e[?25h"
+  - delay: 60
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[7;2H   \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\r\e[15A\e[?25h"
+  - delay: 242
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[7;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\r\e[16A\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[6;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-app\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\r\e[17A\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[5;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/omeka/omeka-s:latest\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\r\e[18A\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[4;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\r\e[19A\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\r\e[20A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,0-1\r\e[20A\e[?25h"
+  - delay: 241
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[2;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m   \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,1  \r\e[21A\e[?25h"
+  - delay: 59
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\e[1;2H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m     \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db_data:/var/lib/mysql:Z\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[H\e[?25h"
+  - delay: 1182
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[1;2H     \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\r\n  \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,2\e[2;2H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[2;3H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,0-1\r\e[20A\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\r\e[20A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mo\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,3  \e[4;3H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[4;4H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mmeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mp\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,5\e[7;5H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[7;6H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27morts\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20,6\e[8;6H\e[?25h"
+  - delay: 262
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[7;7H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrts\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m19\e[7;6H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mr\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[7;7H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[6;8H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mtainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-app\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mpor\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[6;7H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\r\e[19A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/omeka/omeka-s:latest\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcon\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,9\e[4;9H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[2;10H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrt\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\r\n \r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[2;9H\e[?25h"
+  - delay: 150
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88ma\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[2;8H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mt\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[2;7H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[2;8H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mtart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,0-1\r\e[20A\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\r\e[20A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mome\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,5  \e[4;5H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88me\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[4;4H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[4;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27meka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;4H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[5;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\r\n    \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[6;4H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[6;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\r\n    \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[7;4H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m0\e[7;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20\e[8;4H\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8 \e[8;5H  \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[10;4H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[10;5H  \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m     \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,5\e[12;5H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[12;6H \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mr\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[13;5H\e[?25h"
+  - delay: 252
+    content: "\e[?25l\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27me\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[13;6H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[C\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27ms\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[13;7H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[13;8H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mtart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,0-1\r\e[9A\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\r\e[9A\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,9  \e[15;9H\e[?25h"
+  - delay: 289
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\r\e[8A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11\e[16;11H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,13\e[17;13H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[17;14H\e[?25h"
+  - delay: 1145
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[67D\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mINSERT --\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[9X\e[6 q\e[17;14H\e[?25h"
+  - delay: 669
+    content: "\e[?25l\e[1;22r\e[H\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[14;14H\e[?25h"
+  - delay: 290
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[11;14H\e[?25h"
+  - delay: 176
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\e[14;14H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\e[17;14H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e[6L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11          85%\e[22;11H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,15          42\e[22;15H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,15          Top\e[22;15H\e[?25h"
+  - delay: 3679
+    content: "\e[?25l\e[23;63H1,1  \e[H\e[?25h"
+  - delay: 203
+    content: "\e[?25l\e[24;4H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m(insert) VISUAL --\e[48C\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mv\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[2 q\e[1;2H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mersion\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m'2'\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,0-1\r\e[21A\e[?25h"
+  - delay: 56
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\r\e[22A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mservice\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,8  \e[3;8H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88ms\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[3;10H\e[?25h"
+  - delay: 79
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\r\e[20A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,6 \e[4;6H\e[?25h"
+  - delay: 339
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\r\e[19A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m do\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,14\e[5;14H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mck\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;16H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\e[5;16H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mer.io/library/mariadb:10.11\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,17\e[7;17H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[16A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_ROOT_PAS\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,21\e[8;21H\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\e[8;21H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,23\e[9;23H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[8;22H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,22\e[8;22H\e[?25h"
+  - delay: 219
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\e[8;22H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,23\e[9;23H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m10\e[9;23H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88momeka\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,24\e[10;24H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\r\e[13A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omek\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,27\e[11;27H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[11;27H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88ma\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,13\e[12;13H\e[?25h"
+  - delay: 260
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\r\e[11A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db_data:/var/lib/mysq\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,30\e[13;30H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[13;30H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88ml:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,2\e[14;20H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,0-1\r\e[8A\e[?25h"
+  - delay: 273
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\r\e[9A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,9  \e[16;9H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\r\e[7A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/omeka/omeka-s:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,36\e[17;36H\e[?25h"
+  - delay: 37
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[17;36H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mlatest\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-app\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,30\e[18;30H\e[?25h"
+  - delay: 264
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\r\e[5A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,11\e[19;11H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m20\r\e[4A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m\"8080:80\"\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20,18\e[20;18H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\r\e[3A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,13\e[21;13H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\r\e[A\e[A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m files_data:/var/www/html/files:Z\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,41\e[22;41H\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[1;22r\e[H\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,16          14%\e[22;16H\e[?25h"
+  - delay: 130
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[1;22r\e[H\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,20          42\e[22;20H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\e[1;22r\e[H\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,9           71\e[22;9H\e[?25h"
+  - delay: 326
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\e[1;22r\e[H\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,14          Bot\e[22;14H\e[?25h"
+  - delay: 193
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[20;14H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[18;14H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[16;14H\e[?25h"
+  - delay: 217
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[14;14H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[12;14H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[10;14H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\e[9;14H\e[?25h"
+  - delay: 31091
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e[68D\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mINSERT --\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[9X\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[6 q\e[?25h"
+  - delay: 513
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[6;14H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[5M\e[r\e[18;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\e[1;14H\e[?25h"
+  - delay: 369
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[4;14H\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[1;22r\e[H\e[6L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[10;14H\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[1;22r\e[H\e[9L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[19;14H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e[9L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,16          14%\e[22;16H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,41          Top\e[22;41H\e[?25h"
+  - delay: 12533
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\n\e[12X\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m0\e[2 q\e[22;40H\e[?25h"
+  - delay: 703
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m:\e[22;40H\e[?25h\e[?25l\e[24;70H \r\e[24;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 453
+    content: "\e[?25lw\e[?25h"
+  - delay: 283
+    content: "\e[?25lq\e[?25h"
+  - delay: 234
+    content: "\e[?25l\r\e[24;1H\e[?25h\e[?25l\"compose.yaml\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h"
+  - delay: 26
+    content: "\e[?25l29L, 549B written\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 5
+    content: "\e[?25l\r\e[24;1H\e[?1049l\e[23;0;0t\e[?25h"
+  - delay: 5
+    content: "\e]3008;end=4390899c-e10b-422b-95ef-1ae85b6d993a;exit=success\e\\"
+  - delay: 25
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 44893
+    content: nvim compose.yaml
+  - delay: 1363
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bpodman-compose up -d"
+  - delay: 575
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[3Pnvim compose.yaml"
+  - delay: 723
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 419
+    content: "\b\brm -fr omeka-app"
+  - delay: 518
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 1851
+    content: "\b\brm -fr omeka-app"
+  - delay: 872
+    content: "\b\b\b\e[1Pdb"
+  - delay: 351
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\e[4P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 549
+    content: "\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 574
+    content: "\b\bpodman-compose up -d"
+  - delay: 703
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[3Pnvim compose.yaml"
+  - delay: 392
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[1Pcd omeka-project"
+  - delay: 415
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 434
+    content: "\b\bexit"
+  - delay: 620
+    content: "\b\b\b\b\e[2Pls"
+  - delay: 914
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=68485502-dd7b-4bbb-be49-5b8f50ac2b18;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\compose.yaml\r\n\e]3008;end=68485502-dd7b-4bbb-be49-5b8f50ac2b18;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 5585
+    content: ls
+  - delay: 352
+    content: "\b\bnvim compose.yaml"
+  - delay: 1746
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bpodman-compose up -d"
+  - delay: 548
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[3Pnvim compose.yaml"
+  - delay: 312
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bls\e[K"
+  - delay: 433
+    content: "\b\bnvim compose.yaml"
+  - delay: 406
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=8471f760-1afd-4d6e-8581-c715dd87715f;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 8
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[0m\e[4:3m\eP$qm\e\\\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 6
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \r\n                                                                                \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 25
+    content: "\e[c\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mcompose.yaml                                                  1,1            Top\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h"
+  - delay: 15
+    content: "\eP+q4D73\e\\"
+  - delay: 48
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 3989
+    content: "\e[?25l\e[1;22r\e[H\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,1            42%\e[H\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,1            85\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,1           Bot\e[H\e[?25h"
+  - delay: 25
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m22\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[H\e[?25h"
+  - delay: 512
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\n\n\n\e[?25h"
+  - delay: 23
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\r\e[7B\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\e[10B\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\e[13B\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\e[16B\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,0-1         57%\r\e[A\e[?25h"
+  - delay: 505
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,1           14\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,1           Top\r\e[A\e[?25h"
+  - delay: 2912
+    content: "\e[?25l\e[23;63H1,2 \e[1;2H\e[?25h"
+  - delay: 234
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[1;2H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mersion\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m'2'\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,0-1\r\n\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- VISUAL --\e[57C\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \b2\e[2 q\r\e[22A\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[24;70H3\r\e[22A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mservi\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,6  \e[3;6H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mc\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[3;7H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[3;7H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,6\e[4;6H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\r\e[19A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimag\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,9\e[5;9H\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88me\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[5;10H\e[?25h"
+  - delay: 49
+    content: "\e[?25l\b\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27me\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9 \e[5;9H\e[?25h"
+  - delay: 369
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[5;9H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88me\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/library/mariadb:10.11\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontai\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,11\e[6;11H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[6;11H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mner_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,12\e[8;12H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\e[8;12H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88m_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_D\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,14\e[9;14H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m10\e[9;14H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_USE\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,16\e[10;16H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mR\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[10;17H\e[?25h"
+  - delay: 355
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e[1;2H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mersion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\e[14B\e[12X\e[2 q\e[10;17H\e[?25h"
+  - delay: 2688
+    content: "\e[?25l\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m,1  \e[H\e[?25h"
+  - delay: 263
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m'2'\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,0-1\r\n\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- VISUAL --\e[57C\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \b2\e[2 q\r\e[22A\e[?25h"
+  - delay: 57
+    content: "\e[?25l\e[24;70H3\r\e[22A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mser\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,4  \e[3;4H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mv\e[23;65H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[3;5H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[3;5H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mices\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,6\e[4;6H\e[?25h"
+  - delay: 35
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\r\e[19A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,11\e[5;11H\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\e[5;11H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/library/mariadb:10.11\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontainer\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,14\e[6;14H\e[?25h"
+  - delay: 33
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88m_n\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[6;16H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88ma\e[23;66H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[6;17H\e[?25h"
+  - delay: 237
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\e[6;17H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mme\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[7;17H\e[?25h"
+  - delay: 36
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[16A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_ROOT_PAS\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,21\e[8;21H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m10\e[8;21H\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m 123_hakim\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omek\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10,23\e[10;23H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\e[10;23H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88ma\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m om\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,25\e[11;25H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mek\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[11;27H\e[?25h"
+  - delay: 30
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\e[11;27H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88ma\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,13\e[12;13H\e[?25h"
+  - delay: 207
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\r\e[11A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db_data:/var/lib/mysq\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,30\e[13;30H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m4\e[13;30H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88ml:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,2\e[14;20H\e[?25h"
+  - delay: 34
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m6\r\e[9A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,9 \e[16;9H\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\r\e[7A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m docker.io/omeka/omeka-s:l\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,37\e[17;37H\e[?25h"
+  - delay: 243
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[17;37H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88matest\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m omeka-app\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,30\e[18;30H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\r\e[5A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,11\e[19;11H\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m20\r\e[4A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;179;246;192m\e[48;2;79;82;88m\"8080:80\"\e[23;63H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m20,18\e[20;18H\e[?25h\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m1\r\e[3A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1,13\e[21;13H\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m2\r\e[A\e[A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m files_data:/var/www/html/files:Z\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,41\e[22;41H\e[?25h"
+  - delay: 283
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m3\e[1;22r\e[H\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,16          14%\e[22;16H\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m5\e[1;22r\e[H\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;79;82;88m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m db\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m always\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,20          42\e[22;20H\e[?25h"
+  - delay: 55
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\e[1;22r\e[H\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m \e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,9           71\e[22;9H\e[?25h"
+  - delay: 348
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\e[1;22r\e[H\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11          85\e[22;11H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\e[1;22r\e[H\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,14          Bot\e[22;14H\e[?25h"
+  - delay: 53
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[A\e[A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11\e[21;11H\e[?25h"
+  - delay: 60
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\r\e[3A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,9 \e[20;9H\e[?25h"
+  - delay: 117
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[3A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11\e[21;11H\e[?25h"
+  - delay: 77
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\r\e[A\e[A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,14\e[22;14H\e[?25h"
+  - delay: 58
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\e[21;14H\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[19;14H\e[?25h"
+  - delay: 329
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[21;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[17;14H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\e[16;14H\e[?25h"
+  - delay: 97
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[8A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11\e[15;11H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m7\r\e[9A  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7,9 \e[14;9H\e[?25h"
+  - delay: 308
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m8\r\e[9A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,11\e[15;11H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[24;71H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m9\r\e[8A\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;79;82;88mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;79;82;88m:\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,14\e[16;14H\e[?25h"
+  - delay: 1928
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\r\n \r\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e[23;67H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[12X\e[2 q\e[16;13H\e[?25h"
+  - delay: 26474
+    content: "\e[?25l\e[1;22r\e[H\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[13;13H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;13H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[7;13H\e[?25h"
+  - delay: 54
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[4;13H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[7;13H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\e[10;13H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[13;13H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\e[19;13H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[22;13H\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,0-1         57%\r\e[A\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,15          14\e[22;15H\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,40          Top\e[22;40H\e[?25h"
+  - delay: 843
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 135
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 348
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 3571
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[13;40H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85%\e[16;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mTop\e[22;40H\e[?25h"
+  - delay: 3475
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 116
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 542
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[7;40H\e[?25h"
+  - delay: 427
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[13;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85%\e[16;40H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42\e[19;40H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mTop\e[22;40H\e[?25h"
+  - delay: 28449
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 39
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 3481
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[7;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[4;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[1;40H\e[?25h"
+  - delay: 60
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,19\e[1;19H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8,10\e[1;10H\e[?25h"
+  - delay: 22
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[M\e[r\e[22;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9,13\e[1;13H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[4;13H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[7;13H\e[?25h"
+  - delay: 25
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m files_data:/var/www/html/files:Z\e[K\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[16;13H\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[22;13H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6,0-1         57%\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,15          14\e[22;15H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;64H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,40          Top\e[22;40H\e[?25h"
+  - delay: 190558
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 18
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[4;40H\e[?25h"
+  - delay: 13
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[1;40H\e[?25h"
+  - delay: 400
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mports\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"8080:80\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[4;40H\e[?25h"
+  - delay: 79
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\e[7;40H\e[?25h"
+  - delay: 14
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\e[10;40H\e[?25h"
+  - delay: 79
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[13;40H\e[?25h"
+  - delay: 117
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85%\e[16;40H\e[?25h"
+  - delay: 36
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42\e[19;40H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mTop\e[22;40H\e[?25h"
+  - delay: 21777
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 20
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[7;40H\e[?25h"
+  - delay: 58
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[4;40H\e[?25h"
+  - delay: 486
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27momeka\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/omeka/omeka-s:latest\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-app\e[K\e[7;40H\e[?25h"
+  - delay: 78
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db_data:/var/lib/mysql:Z\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\r\n\e[K\e[10;40H\e[?25h"
+  - delay: 116
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_USER\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[13;40H\e[?25h"
+  - delay: 77
+    content: "\e[?25l\e[1;22r\e[H\e[3L\e[r\e[H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27menvironment\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_ROOT_PASSWORD\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m 123_hakim\e[K\r\n      \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mMYSQL_DATABASE\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85%\e[16;40H\e[?25h"
+  - delay: 78
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mimage\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m docker.io/library/mariadb:10.11\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mcontainer_name\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m omeka-db\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42\e[19;40H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3L\e[r\e[H\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mversion\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'2'\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mservices\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mTop\e[22;40H\e[?25h"
+  - delay: 618
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdepends_on\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n      \e(B\e[0;1m\e[38;2;224;226;234m\e[48;2;20;22;27m-\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m db\e[K\r\n    \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mrestart\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m always\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m42%\e[19;40H\e[?25h"
+  - delay: 19
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e[K\n\e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mvolumes\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mdb_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m85\e[16;40H\e[?25h"
+  - delay: 157
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H  \e(B\e[m\e[38;2;166;219;255m\e[48;2;20;22;27mfiles_data\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27m:\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\r\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\e[23;78H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88mBot\e[13;40H\e[?25h"
+  - delay: 77
+    content: "\e[?25l\e[1;22r\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[3M\e[r\e[20;1H\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\e[10;40H\e[?25h"
+  - delay: 33517
+    content: "\e[?25l\e[24;70H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m^[\e[10;40H\e[?25h\e[?25l\e[24;70H  \e[10;40H\e[?25h"
+  - delay: 923
+    content: "\e[?25l\e[24;70H:\e[10;40H\e[?25h\e[?25l\e[24;70H \r\e[24;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 560
+    content: "\e[?25lq\e[?25h"
+  - delay: 1137
+    content: "\e[?25l!\e[?25h"
+  - delay: 274
+    content: "\e[?25l\r\e[24;1H\e[?25h"
+  - delay: 24
+    content: "\e[?25l\e[2 q\e[?1002h\e[?1006h\e[?25h"
+  - delay: 5
+    content: "\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 6
+    content: "\e[?25l\e[?1049l\e[23;0;0t\e[?25h"
+  - delay: 5
+    content: "\e]3008;end=8471f760-1afd-4d6e-8581-c715dd87715f;exit=success\e\\"
+  - delay: 24
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 30558
+    content: p
+  - delay: 143
+    content: o
+  - delay: 128
+    content: d
+  - delay: 183
+    content: m
+  - delay: 176
+    content: a
+  - delay: 129
+    content: 'n'
+  - delay: 5450
+    content: ' '
+  - delay: 5313
+    content: r
+  - delay: 141
+    content: e
+  - delay: 211
+    content: s
+  - delay: 152
+    content: t
+  - delay: 149
+    content: a
+  - delay: 104
+    content: r
+  - delay: 201
+    content: t
+  - delay: 7653
+    content: ' '
+  - delay: 407
+    content: o
+  - delay: 258
+    content: m
+  - delay: 143
+    content: e
+  - delay: 80
+    content: k
+  - delay: 198
+    content: a
+  - delay: 852
+    content: '-'
+  - delay: 598
+    content: a
+  - delay: 336
+    content: p
+  - delay: 153
+    content: p
+  - delay: 366
+    content: "\b\e[K"
+  - delay: 636
+    content: p
+  - delay: 2796
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=3eabb6f7-2aab-4f02-a618-388e750172a5;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=command;cwd=/home/user/omeka-project\e\\"
+  - delay: 559
+    content: "omeka-app\r\n"
+  - delay: 5
+    content: "\e]3008;end=3eabb6f7-2aab-4f02-a618-388e750172a5;exit=success\e\\"
+  - delay: 11
+    content: "\e]3008;start=038c02b1-d56a-4855-bec6-5ef00f32306b;machineid=f9c8a83baecf45648022788fe00015cd;user=root;hostname=hakim;bootid=60f99756-8207-418e-be15-0961847a271b;pid=00000000000000001220;type=shell;cwd=/home/user/omeka-project\e\\\e]0;root@hakim:/home/user/omeka-project\a\e[?2004h[root@hakim omeka-project]# "
+  - delay: 56547
+    content: "\e[?2004l\r\r\nlogout\r\n"

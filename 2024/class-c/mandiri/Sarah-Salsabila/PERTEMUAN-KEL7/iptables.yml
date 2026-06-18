@@ -1,0 +1,613 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 196
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 43050
+    content: s
+  - delay: 249
+    content: u
+  - delay: 123
+    content: d
+  - delay: 245
+    content: o
+  - delay: 949
+    content: ' '
+  - delay: 1989
+    content: i
+  - delay: 130
+    content: p
+  - delay: 1014
+    content: t
+  - delay: 352
+    content: a
+  - delay: 198
+    content: b
+  - delay: 320
+    content: l
+  - delay: 163
+    content: e
+  - delay: 217
+    content: s
+  - delay: 1583
+    content: ' '
+  - delay: 550
+    content: '-'
+  - delay: 1540
+    content: L
+  - delay: 1560
+    content: ' '
+  - delay: 367
+    content: '-'
+  - delay: 1334
+    content: 'n'
+  - delay: 1315
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=86436cb6-85e6-4963-b14a-06798c88636b;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 21
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=86436cb6-85e6-4963-b14a-06798c88636b;exit=success\e\\"
+  - delay: 10
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 46862
+    content: s
+  - delay: 167
+    content: u
+  - delay: 144
+    content: d
+  - delay: 140
+    content: o
+  - delay: 383
+    content: ' '
+  - delay: 2816
+    content: i
+  - delay: 95
+    content: p
+  - delay: 442
+    content: t
+  - delay: 277
+    content: a
+  - delay: 171
+    content: b
+  - delay: 294
+    content: l
+  - delay: 150
+    content: e
+  - delay: 2454
+    content: s
+  - delay: 2416
+    content: ' '
+  - delay: 634
+    content: '-'
+  - delay: 814
+    content: A
+  - delay: 4296
+    content: ' '
+  - delay: 1003
+    content: I
+  - delay: 247
+    content: 'N'
+  - delay: 450
+    content: P
+  - delay: 250
+    content: U
+  - delay: 274
+    content: T
+  - delay: 9566
+    content: ' '
+  - delay: 810
+    content: '-'
+  - delay: 334
+    content: p
+  - delay: 1800
+    content: ' '
+  - delay: 483
+    content: t
+  - delay: 373
+    content: c
+  - delay: 494
+    content: p
+  - delay: 1149
+    content: ' '
+  - delay: 817
+    content: '-'
+  - delay: 137
+    content: '-'
+  - delay: 931
+    content: d
+  - delay: 586
+    content: p
+  - delay: 896
+    content: o
+  - delay: 423
+    content: r
+  - delay: 177
+    content: t
+  - delay: 3918
+    content: '2'
+  - delay: 172
+    content: '2'
+  - delay: 3596
+    content: ' '
+  - delay: 621
+    content: '-'
+  - delay: 522
+    content: j
+  - delay: 921
+    content: ' '
+  - delay: 1217
+    content: D
+  - delay: 367
+    content: R
+  - delay: 506
+    content: O
+  - delay: 227
+    content: P
+  - delay: 5550
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=76f248fa-9d7d-48d4-b5bf-642f6dd9fa7d;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 19
+    content: "iptables v1.8.13 (nf_tables): unknown option \"--dport22\"\r\nTry `iptables -h' or 'iptables --help' for more information.\r\n\e]3008;end=76f248fa-9d7d-48d4-b5bf-642f6dd9fa7d;exit=failure;status=2\e\\"
+  - delay: 8
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 7746
+    content: sudo iptables -A INPUT -p tcp --dport22 -j DROP
+  - delay: 580
+    content: "\b"
+  - delay: 264
+    content: "\b"
+  - delay: 203
+    content: "\b"
+  - delay: 205
+    content: "\b"
+  - delay: 177
+    content: "\b"
+  - delay: 199
+    content: "\b"
+  - delay: 185
+    content: "\b"
+  - delay: 184
+    content: "\b"
+  - delay: 217
+    content: "\b"
+  - delay: 217
+    content: "\b"
+  - delay: 2647
+    content: "\b"
+  - delay: 350
+    content: "\e[1@ "
+  - delay: 1100
+    content: "\e[C"
+  - delay: 1002
+    content: "\b"
+  - delay: 801
+    content: "\b\e[1P"
+  - delay: 1282
+    content: "\e[C"
+  - delay: 588
+    content: "\e[1@ "
+  - delay: 1703
+    content: "\e[C"
+  - delay: 241
+    content: "\e[C"
+  - delay: 184
+    content: "\e[C"
+  - delay: 185
+    content: "\e[C"
+  - delay: 187
+    content: "\e[C"
+  - delay: 212
+    content: "\e[C"
+  - delay: 171
+    content: "\e[C"
+  - delay: 229
+    content: "\e[C"
+  - delay: 206
+    content: "\e[C"
+  - delay: 1165
+    content: "\e[C"
+  - delay: 977
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=8d659221-24fc-4d95-88ee-e893ac421bb6;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 23
+    content: "\e]3008;end=8d659221-24fc-4d95-88ee-e893ac421bb6;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 13243
+    content: sudo iptables -A INPUT -p tcp --dport 22 -j DROP
+  - delay: 433
+    content: "\b\b\b\b\b\b\b\b\b\b\b\e[1P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1785
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bL -n\e[K"
+  - delay: 1332
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=2c7f1c80-74e6-4c8f-a3b9-75c2da65464a;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 21
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\nDROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22\r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=2c7f1c80-74e6-4c8f-a3b9-75c2da65464a;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 13438
+    content: s
+  - delay: 133
+    content: u
+  - delay: 234
+    content: o
+  - delay: 2050
+    content: ' '
+  - delay: 539
+    content: i
+  - delay: 201
+    content: p
+  - delay: 1426
+    content: t
+  - delay: 233
+    content: a
+  - delay: 153
+    content: b
+  - delay: 304
+    content: l
+  - delay: 177
+    content: e
+  - delay: 193
+    content: s
+  - delay: 3579
+    content: ' '
+  - delay: 610
+    content: '-'
+  - delay: 934
+    content: L
+  - delay: 2322
+    content: ' '
+  - delay: 545
+    content: '-'
+  - delay: 167
+    content: '-'
+  - delay: 784
+    content: l
+  - delay: 216
+    content: i
+  - delay: 232
+    content: 'n'
+  - delay: 200
+    content: e
+  - delay: 2013
+    content: '-'
+  - delay: 693
+    content: 'n'
+  - delay: 227
+    content: u
+  - delay: 868
+    content: m
+  - delay: 700
+    content: b
+  - delay: 199
+    content: e
+  - delay: 167
+    content: r
+  - delay: 117
+    content: s
+  - delay: 4068
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=eeae787f-791a-4b83-bfaa-b979086e39fe;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\bash: suo: command not found\r\n\e]3008;end=eeae787f-791a-4b83-bfaa-b979086e39fe;exit=failure;status=127\e\\"
+  - delay: 7
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 13964
+    content: suo iptables -L --line-numbers
+  - delay: 559
+    content: "\b"
+  - delay: 212
+    content: "\b"
+  - delay: 178
+    content: "\b"
+  - delay: 499
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 176
+    content: "\b"
+  - delay: 218
+    content: "\b"
+  - delay: 138
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 193
+    content: "\b"
+  - delay: 218
+    content: "\b"
+  - delay: 199
+    content: "\b"
+  - delay: 169
+    content: "\b"
+  - delay: 182
+    content: "\b"
+  - delay: 167
+    content: "\b"
+  - delay: 202
+    content: "\b"
+  - delay: 748
+    content: "\b"
+  - delay: 764
+    content: "\e[1@d"
+  - delay: 1617
+    content: "\b\e[1P"
+  - delay: 1236
+    content: "\e[C"
+  - delay: 578
+    content: "\e[1@d"
+  - delay: 1489
+    content: "\r\n\e[?2004l\r"
+  - delay: 11
+    content: "\e]3008;start=d6dd0e29-27c9-4781-91c6-1c53093c24a7;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 19
+    content: "Chain INPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n1    DROP       tcp  --  anywhere             anywhere             tcp dpt:ssh\r\n\r\nChain FORWARD (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\e]3008;end=d6dd0e29-27c9-4781-91c6-1c53093c24a7;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 12799
+    content: s
+  - delay: 152
+    content: u
+  - delay: 191
+    content: d
+  - delay: 184
+    content: o
+  - delay: 882
+    content: ' '
+  - delay: 2367
+    content: i
+  - delay: 150
+    content: p
+  - delay: 840
+    content: t
+  - delay: 393
+    content: a
+  - delay: 167
+    content: b
+  - delay: 300
+    content: l
+  - delay: 500
+    content: e
+  - delay: 223
+    content: s
+  - delay: 1462
+    content: ' '
+  - delay: 532
+    content: '-'
+  - delay: 751
+    content: D
+  - delay: 1472
+    content: ' '
+  - delay: 1294
+    content: I
+  - delay: 1483
+    content: 'N'
+  - delay: 400
+    content: O
+  - delay: 673
+    content: "\b\e[K"
+  - delay: 260
+    content: P
+  - delay: 347
+    content: U
+  - delay: 269
+    content: T
+  - delay: 1701
+    content: "\r\n\e[?2004l\r"
+  - delay: 14
+    content: "\e]3008;start=c217c675-a7ca-45a0-86c8-7245442851c3;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 21
+    content: "iptables: Bad rule (does a matching rule exist in that chain?).\r\n\e]3008;end=c217c675-a7ca-45a0-86c8-7245442851c3;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 15581
+    content: sudo iptables -D INPUT
+  - delay: 1143
+    content: "\b"
+  - delay: 282
+    content: "\b"
+  - delay: 368
+    content: "\b"
+  - delay: 248
+    content: "\b"
+  - delay: 3352
+    content: "\e[C"
+  - delay: 271
+    content: "\e[C"
+  - delay: 208
+    content: "\e[C"
+  - delay: 308
+    content: "\e[C"
+  - delay: 10394
+    content: ' '
+  - delay: 1890
+    content: '1'
+  - delay: 1177
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=c45d6dcc-ca2c-45f3-8bb2-446f33e1dd67;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 44
+    content: "\e]3008;end=c45d6dcc-ca2c-45f3-8bb2-446f33e1dd67;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 3424
+    content: sudo iptables -D INPUT 1
+  - delay: 298
+    content: "\b\b\e[K"
+  - delay: 335
+    content: "\b\b\b\b\b\b\bL --line-numbers"
+  - delay: 632
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[1P\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 469
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\e[11Pdo iptables -L -n"
+  - delay: 1547
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=9be88c60-14e9-4a31-9ed0-c402dc5337e3;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\"
+  - delay: 19
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=9be88c60-14e9-4a31-9ed0-c402dc5337e3;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 23616
+    content: E
+  - delay: 446
+    content: X
+  - delay: 346
+    content: I
+  - delay: 251
+    content: T
+  - delay: 1473
+    content: "\r\n\e[?2004l\r"
+  - delay: 12
+    content: "\e]3008;start=f9fc870b-b503-4898-905c-def40ca81564;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\bash: EXIT: command not found\r\n\e]3008;end=f9fc870b-b503-4898-905c-def40ca81564;exit=failure;status=127\e\\"
+  - delay: 9
+    content: "\e]3008;start=70e3087d-5d41-4cfd-b9ef-4f2eea977d03;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=shell;cwd=/home/user\e\\\e]0;root@lenovosarah:/home/user\a\e[?2004h[root@lenovosarah user]# "
+  - delay: 2442
+    content: e
+  - delay: 548
+    content: x
+  - delay: 372
+    content: i
+  - delay: 219
+    content: t
+  - delay: 1131
+    content: "\r\n\e[?2004l\r"
+  - delay: 10
+    content: "\e]3008;start=4f208f4a-a872-4c47-ab02-62476f070a1a;machineid=29ab6b6739864cd9920aaf965a47524e;user=root;hostname=lenovosarah;bootid=22e98af2-0fbd-4e47-a0f3-b122cca20a42;pid=00000000000000029747;type=command;cwd=/home/user\e\\logout\r\n"

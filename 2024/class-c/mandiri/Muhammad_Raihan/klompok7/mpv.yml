@@ -1,0 +1,161 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 134
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 404
+    content: "\e]3008;start=49176e5b-d9ca-44f5-8b78-9f1235dc3fe1;machineid=01010fede8ba4d65b8d9a310e0ba321d;user=rehan;hostname=ThinkPadX260;bootid=61676523-b2ce-4511-ab33-c173404edb0b;pid=00000000000000006562;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://ThinkPadX260/home/user\e\\\e]0;rehan@ThinkPadX260:/home/user\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3# \e]133;B\e\\"
+  - delay: 1553
+    content: m
+  - delay: 219
+    content: p
+  - delay: 498
+    content: v
+  - delay: 416
+    content: ' '
+  - delay: 650
+    content: "\e[7mhttps://www.youtube.com/watch?v=J044R8kOCKk&pp=ygUDaXE3\e[27m"
+  - delay: 1204
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://www.youtube.com/watch?v=J044R8kOCKk&pp=ygUDaXE3\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\[1] 6578\r\n\e]3008;end=c2dba554-0bb6-4401-9387-6435262106fa;exit=success\e\\"
+  - delay: 38
+    content: "\e]3008;start=49176e5b-d9ca-44f5-8b78-9f1235dc3fe1;machineid=01010fede8ba4d65b8d9a310e0ba321d;user=rehan;hostname=ThinkPadX260;bootid=61676523-b2ce-4511-ab33-c173404edb0b;pid=00000000000000006562;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://ThinkPadX260/home/user\e\\\e]0;rehan@ThinkPadX260:/home/user\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3# \e]133;B\e\\"
+  - delay: 5827
+    content: "\e[0m● Video  --vid=1               (av1 1920x1080 24 fps) [default]\r\n\e[0m\e[0m● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]\r\n\e[0m\e[0mFile tags:\r\n\e[0m\e[0m Date: 20260604\r\n\e[0m\e[0m Uploader: IQ7\r\n\e[0m\e[0m Channel_URL: https://www.youtube.com/channel/UC0HZoP8gRR1nxPZVsBjmBcw\r\n\e[0m"
+  - delay: 151
+    content: "\e[0mAO: [pipewire] 48000Hz stereo 2ch floatp\r\n\e[0m"
+  - delay: 120
+    content: "\e[0mVO: [gpu-next] 1920x1080 yuv420p\r\n\e[0m"
+  - delay: 5265
+    content: "\e[0mExiting... (Quit)\r\n\e[0m"
+  - delay: 1690
+    content: "^C\e[?2004l\r\e[?2004h\e[?2004l\r\r\n[1]+  Exit 4                     mpv https://www.youtube.com/watch?v=J044R8kOCKk\r\n"
+  - delay: 8
+    content: "\e]3008;end=66fb2eea-30f6-4179-af5c-5cabe88fa22f;exit=failure;status=130;signal=SIGINT\e\\"
+  - delay: 27
+    content: "\e]3008;start=49176e5b-d9ca-44f5-8b78-9f1235dc3fe1;machineid=01010fede8ba4d65b8d9a310e0ba321d;user=rehan;hostname=ThinkPadX260;bootid=61676523-b2ce-4511-ab33-c173404edb0b;pid=00000000000000006562;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://ThinkPadX260/home/user\e\\\e]0;rehan@ThinkPadX260:/home/user\a\e[?2004h\e]133;D;130\e\\\e]133;A\e\\bash-5.3# \e]133;B\e\\"
+  - delay: 1509
+    content: e
+  - delay: 182
+    content: x
+  - delay: 360
+    content: i
+  - delay: 285
+    content: 'y'
+  - delay: 137
+    content: 'y'
+  - delay: 501
+    content: "\b\e[K"
+  - delay: 207
+    content: "\b\e[K"
+  - delay: 779
+    content: t
+  - delay: 743
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"

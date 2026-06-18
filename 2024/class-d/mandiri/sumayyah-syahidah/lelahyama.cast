@@ -1,0 +1,20 @@
+https://asciinema.org/a/hJ8WxbPtu5QneB3r
+asciinema play 1207862.cast
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/assets/asciinema-player.css" />
+</head>
+<body>
+  <div id="player"></div>
+  <script src="/assets/asciinema-player.min.js"></script>
+  <script>
+    AsciinemaPlayer.create(
+      '/assets/1207862.cast',
+      document.getElementById('player'),
+      { cols: 170, rows: 48 }
+    );
+  </script>
+</body>
+</html>

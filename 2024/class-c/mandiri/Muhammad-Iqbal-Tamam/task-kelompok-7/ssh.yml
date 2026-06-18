@@ -1,0 +1,899 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 187
+    content: "\e]3008;start=2b88ad81-834e-4621-9145-ced32beedd08;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012746;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4019
+    content: s
+  - delay: 125
+    content: u
+  - delay: 271
+    content: d
+  - delay: 160
+    content: o
+  - delay: 196
+    content: ' '
+  - delay: 199
+    content: s
+  - delay: 247
+    content: 'y'
+  - delay: 191
+    content: s
+  - delay: 411
+    content: t
+  - delay: 314
+    content: e
+  - delay: 231
+    content: m
+  - delay: 545
+    content: c
+  - delay: 233
+    content: t
+  - delay: 640
+    content: l
+  - delay: 311
+    content: ' '
+  - delay: 248
+    content: s
+  - delay: 161
+    content: t
+  - delay: 279
+    content: a
+  - delay: 178
+    content: r
+  - delay: 194
+    content: t
+  - delay: 834
+    content: ' '
+  - delay: 382
+    content: s
+  - delay: 182
+    content: s
+  - delay: 1968
+    content: h
+  - delay: 106
+    content: d
+  - delay: 478
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 47
+    content: '[sudo] password for iqbal: '
+  - delay: 2526
+    content: "\r\n"
+  - delay: 43
+    content: "\e]3008;end=7348711c-151d-43ad-9796-8848f49a2079;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=2b88ad81-834e-4621-9145-ced32beedd08;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012746;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 10319
+    content: sudo systemctl start sshd
+  - delay: 1307
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 180
+    content: "\b"
+  - delay: 217
+    content: "\b"
+  - delay: 382
+    content: "\b"
+  - delay: 752
+    content: "\e[C"
+  - delay: 785
+    content: "\b\e[1P"
+  - delay: 174
+    content: "\b\e[1P"
+  - delay: 192
+    content: "\b\e[1P"
+  - delay: 195
+    content: "\b\e[1P"
+  - delay: 933
+    content: "\e[1@t"
+  - delay: 99
+    content: "\e[1@a"
+  - delay: 123
+    content: "\e[1@t"
+  - delay: 254
+    content: "\e[1@u"
+  - delay: 143
+    content: "\e[1@s"
+  - delay: 201
+    content: "\e[C\e[1@ \b"
+  - delay: 692
+    content: "\e[1P\b"
+  - delay: 629
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 82
+    content: "\e[0;1;32m●\e[0m sshd.service - OpenSSH Daemon\r\n     Loaded: loaded (\e]8;;file://iqbal/usr/lib/systemd/system/sshd.service\e\\/usr/lib/systemd/system/sshd.service\e]8;;\e\\; \e[0;1;32menabled\e[0m; preset: \e[0;1;38:5:185mdisabled\e[0m)\r\n     Active: \e[0;1;32mactive (running)\e[0m since Fri 2026-06-05 15:12:32 WIB; 34min ago\r\n Invocation: 9208e6ce638c4c1384b98d394d0bf048\r\n       Docs: \e]8;;man:sshd(8)\e\\man:sshd(8)\e]8;;\e\\\r\n             \e]8;;man:sshd_config(5)\e\\man:sshd_config(5)\e]8;;\e\\\r\n   Main PID: 514 (sshd)\r\n      Tasks: 1\e[0;38:5:245m (limit: 18702)\e[0m\r\n     Memory: 2.1M (peak: 2.6M)\r\n        CPU: 7ms\r\n     CGroup: /system.slice/sshd.service\r\n             └─\e[0;38:5:245m514 \"sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups\"\e[0m\r\n\r\nJun 05 15:12:32 iqbal systemd[1]: Starting OpenSSH Daemon...\r\nJun 05 15:12:32 iqbal sshd[514]: Server listening on 0.0.0.0 port 22.\r\nJun 05 15:12:32 iqbal sshd[514]: Server listening on :: port 22.\r\nJun 05 15:12:32 iqbal systemd[1]: Started OpenSSH Daemon.\r\n\e]3008;end=124459ad-fdf1-4bb1-af06-bb99bbbd3ff9;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=2b88ad81-834e-4621-9145-ced32beedd08;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012746;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 10548
+    content: i
+  - delay: 276
+    content: p
+  - delay: 233
+    content: ' '
+  - delay: 177
+    content: a
+  - delay: 267
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 48
+    content: "1: \e[1;36mlo: \e[0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\r\n    link/loopback \e[1;33m00:00:00:00:00:00\e[0m brd \e[1;33m00:00:00:00:00:00\e[0m\r\n    inet \e[1;35m127.0.0.1\e[0m/8 scope host lo\r\n       valid_lft forever preferred_lft forever\r\n    inet6 \e[1;94m::1\e[0m/128 scope host noprefixroute \r\n       valid_lft forever preferred_lft forever\r\n2: \e[1;36meno1: \e[0m<NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state \e[1;31mDOWN \e[0mgroup default qlen 1000\r\n    link/ether \e[1;33mf8:ed:fc:2d:ab:8f\e[0m brd \e[1;33mff:ff:ff:ff:ff:ff\e[0m\r\n    altname enp4s0\r\n    altname enxf8edfc2dab8f\r\n3: \e[1;36mwlo1: \e[0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state \e[1;32mUP \e[0mgroup default qlen 1000\r\n    link/ether \e[1;33mb8:82:f2:77:47:f1\e[0m brd \e[1;33mff:ff:ff:ff:ff:ff\e[0m\r\n    altname wlp3s0\r\n    altname wlxb882f27747f1\r\n    inet \e[1;35m192.168.18.103\e[0m/24 brd \e[1;35m192.168.18.255 \e[0mscope global dynamic noprefixroute wlo1\r\n       valid_lft 2184sec preferred_lft 2184sec\r\n    inet6 \e[1;94mfe80::7763:cc74:6cc2:a730\e[0m/64 scope link noprefixroute \r\n       valid_lft forever preferred_lft forever\r\n\e]3008;end=6ae2f0a6-9beb-43c9-a94b-3296e7d8a252;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=2b88ad81-834e-4621-9145-ced32beedd08;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012746;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 11679
+    content: s
+  - delay: 208
+    content: s
+  - delay: 914
+    content: h
+  - delay: 249
+    content: ' '
+  - delay: 417
+    content: u
+  - delay: 133
+    content: s
+  - delay: 288
+    content: e
+  - delay: 278
+    content: r
+  - delay: 3481
+    content: '@'
+  - delay: 1777
+    content: '1'
+  - delay: 2054
+    content: '9'
+  - delay: 1572
+    content: '2'
+  - delay: 1777
+    content: .
+  - delay: 513
+    content: '1'
+  - delay: 1259
+    content: '6'
+  - delay: 163
+    content: '8'
+  - delay: 5681
+    content: .
+  - delay: 752
+    content: '1'
+  - delay: 187
+    content: '8'
+  - delay: 2235
+    content: .
+  - delay: 753
+    content: '1'
+  - delay: 173
+    content: '0'
+  - delay: 548
+    content: '3'
+  - delay: 8822
+    content: ' '
+  - delay: 3000
+    content: s
+  - delay: 229
+    content: e
+  - delay: 126
+    content: b
+  - delay: 70
+    content: e
+  - delay: 199
+    content: 'n'
+  - delay: 288
+    content: a
+  - delay: 348
+    content: r
+  - delay: 402
+    content: 'n'
+  - delay: 252
+    content: 'y'
+  - delay: 148
+    content: a
+  - delay: 192
+    content: ' '
+  - delay: 1121
+    content: k
+  - delay: 129
+    content: e
+  - delay: 326
+    content: t
+  - delay: 102
+    content: i
+  - delay: 382
+    content: k
+  - delay: 354
+    content: ' '
+  - delay: 1060
+    content: i
+  - delay: 679
+    content: "\b\e[K"
+  - delay: 467
+    content: 'n'
+  - delay: 172
+    content: o
+  - delay: 196
+    content: m
+  - delay: 126
+    content: o
+  - delay: 556
+    content: r
+  - delay: 141
+    content: ' '
+  - delay: 209
+    content: i
+  - delay: 156
+    content: 'n'
+  - delay: 136
+    content: e
+  - delay: 193
+    content: t
+  - delay: 824
+    content: ' '
+  - delay: 378
+    content: s
+  - delay: 251
+    content: e
+  - delay: 1121
+    content: s
+  - delay: 95
+    content: u
+  - delay: 652
+    content: a
+  - delay: 118
+    content: i
+  - delay: 322
+    content: ' '
+  - delay: 267
+    content: d
+  - delay: 197
+    content: e
+  - delay: 66
+    content: 'n'
+  - delay: 191
+    content: g
+  - delay: 132
+    content: a
+  - delay: 394
+    content: 'n'
+  - delay: 768
+    content: ' '
+  - delay: 843
+    content: l
+  - delay: 269
+    content: a
+  - delay: 443
+    content: p
+  - delay: 627
+    content: "t \r"
+  - delay: 108
+    content: o
+  - delay: 129
+    content: p
+  - delay: 1020
+    content: ' '
+  - delay: 560
+    content: t
+  - delay: 126
+    content: a
+  - delay: 612
+    content: r
+  - delay: 133
+    content: g
+  - delay: 131
+    content: e
+  - delay: 137
+    content: t
+  - delay: 803
+    content: ','
+  - delay: 173
+    content: ' '
+  - delay: 400
+    content: d
+  - delay: 124
+    content: i
+  - delay: 256
+    content: k
+  - delay: 123
+    content: a
+  - delay: 227
+    content: r
+  - delay: 198
+    content: e
+  - delay: 192
+    content: 'n'
+  - delay: 235
+    content: a
+  - delay: 102
+    content: k
+  - delay: 101
+    content: a
+  - delay: 149
+    content: 'n'
+  - delay: 334
+    content: ' '
+  - delay: 254
+    content: s
+  - delay: 215
+    content: a
+  - delay: 103
+    content: 'y'
+  - delay: 142
+    content: a
+  - delay: 208
+    content: ' '
+  - delay: 2131
+    content: h
+  - delay: 113
+    content: a
+  - delay: 89
+    content: 'n'
+  - delay: 209
+    content: 'y'
+  - delay: 119
+    content: a
+  - delay: 174
+    content: ' '
+  - delay: 608
+    content: '1'
+  - delay: 142
+    content: ' '
+  - delay: 649
+    content: d
+  - delay: 227
+    content: e
+  - delay: 336
+    content: v
+  - delay: 148
+    content: i
+  - delay: 169
+    content: c
+  - delay: 237
+    content: e
+  - delay: 2540
+    content: ' '
+  - delay: 1805
+    content: j
+  - delay: 91
+    content: a
+  - delay: 266
+    content: d
+  - delay: 156
+    content: i
+  - delay: 198
+    content: ' '
+  - delay: 176
+    content: s
+  - delay: 204
+    content: a
+  - delay: 154
+    content: 'y'
+  - delay: 90
+    content: a
+  - delay: 140
+    content: ' '
+  - delay: 251
+    content: m
+  - delay: 169
+    content: e
+  - delay: 127
+    content: 'n'
+  - delay: 220
+    content: j
+  - delay: 143
+    content: a
+  - delay: 437
+    content: "\b\e[K"
+  - delay: 139
+    content: e
+  - delay: 248
+    content: l
+  - delay: 167
+    content: a
+  - delay: 435
+    content: s
+  - delay: 320
+    content: k
+  - delay: 132
+    content: a
+  - delay: 94
+    content: 'n'
+  - delay: 875
+    content: ' '
+  - delay: 1422
+    content: h
+  - delay: 118
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 197
+    content: 'y'
+  - delay: 107
+    content: a
+  - delay: 116
+    content: ' '
+  - delay: 244
+    content: l
+  - delay: 151
+    content: e
+  - delay: 358
+    content: w
+  - delay: 204
+    content: a
+  - delay: 167
+    content: t
+  - delay: 155
+    content: ' '
+  - delay: 115
+    content: s
+  - delay: 819
+    content: "\b\e[K"
+  - delay: 372
+    content: i
+  - delay: 171
+    content: 'n'
+  - delay: 153
+    content: "i \r"
+  - delay: 2130
+    content: ','
+  - delay: 176
+    content: ' '
+  - delay: 600
+    content: k
+  - delay: 73
+    content: e
+  - delay: 336
+    content: t
+  - delay: 101
+    content: i
+  - delay: 231
+    content: k
+  - delay: 128
+    content: a
+  - delay: 170
+    content: ' '
+  - delay: 182
+    content: s
+  - delay: 134
+    content: u
+  - delay: 143
+    content: d
+  - delay: 262
+    content: a
+  - delay: 122
+    content: h
+  - delay: 142
+    content: ' '
+  - delay: 243
+    content: m
+  - delay: 91
+    content: a
+  - delay: 203
+    content: s
+  - delay: 154
+    content: u
+  - delay: 266
+    content: k
+  - delay: 1015
+    content: ' '
+  - delay: 2319
+    content: 'n'
+  - delay: 158
+    content: o
+  - delay: 163
+    content: m
+  - delay: 133
+    content: o
+  - delay: 331
+    content: r
+  - delay: 161
+    content: ' '
+  - delay: 506
+    content: i
+  - delay: 181
+    content: 'n'
+  - delay: 152
+    content: e
+  - delay: 140
+    content: t
+  - delay: 230
+    content: ' '
+  - delay: 1145
+    content: l
+  - delay: 120
+    content: a
+  - delay: 120
+    content: p
+  - delay: 378
+    content: t
+  - delay: 129
+    content: o
+  - delay: 178
+    content: p
+  - delay: 811
+    content: ' '
+  - delay: 202
+    content: t
+  - delay: 132
+    content: a
+  - delay: 130
+    content: r
+  - delay: 241
+    content: g
+  - delay: 61
+    content: e
+  - delay: 157
+    content: t
+  - delay: 338
+    content: ' '
+  - delay: 493
+    content: m
+  - delay: 127
+    content: a
+  - delay: 198
+    content: s
+  - delay: 48
+    content: u
+  - delay: 224
+    content: k
+  - delay: 94
+    content: a
+  - delay: 144
+    content: 'n'
+  - delay: 171
+    content: ' '
+  - delay: 892
+    content: p
+  - delay: 168
+    content: a
+  - delay: 260
+    content: s
+  - delay: 132
+    content: s
+  - delay: 473
+    content: w
+  - delay: 164
+    content: o
+  - delay: 288
+    content: e
+  - delay: 834
+    content: "\b\e[K"
+  - delay: 261
+    content: r
+  - delay: 444
+    content: d
+  - delay: 157
+    content: ' '
+  - delay: 741
+    content: r
+  - delay: 143
+    content: o
+  - delay: 157
+    content: o
+  - delay: 154
+    content: t
+  - delay: 234
+    content: ' '
+  - delay: 420
+    content: 'y'
+  - delay: 104
+    content: a
+  - delay: 128
+    content: 'n'
+  - delay: 244
+    content: g
+  - delay: 102
+    content: ' '
+  - delay: 716
+    content: s
+  - delay: 178
+    content: u
+  - delay: 159
+    content: d
+  - delay: 277
+    content: a
+  - delay: 42
+    content: h
+  - delay: 206
+    content: ' '
+  - delay: 330
+    content: "d \r"
+  - delay: 173
+    content: i
+  - delay: 249
+    content: b
+  - delay: 137
+    content: u
+  - delay: 107
+    content: a
+  - delay: 990
+    content: "\b\e[K"
+  - delay: 141
+    content: "\b\e[K"
+  - delay: 182
+    content: "\b\e[K"
+  - delay: 724
+    content: "\r\e[K"
+  - delay: 865
+    content: i
+  - delay: 711
+    content: b
+  - delay: 168
+    content: u
+  - delay: 59
+    content: a
+  - delay: 177
+    content: t
+  - delay: 730
+    content: "\b\e[K"
+  - delay: 500
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\r\e[K"
+  - delay: 50
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[K\r\n\r\e[K\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 191
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 474
+    content: "\r\n"
+  - delay: 919
+    content: "\r\n"
+  - delay: 921
+    content: "^\b"
+  - delay: 576
+    content: ^C
+  - delay: 1238
+    content: "\b \b\b \b"
+  - delay: 828
+    content: "^C\r\n\e]3008;end=fbe6e6d7-1579-445c-83c2-6cf834d6eae2;exit=failure;status=130;signal=SIGINT\e\\"
+  - delay: 8
+    content: "\e]3008;start=2b88ad81-834e-4621-9145-ced32beedd08;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000012746;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;130\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1216
+    content: e
+  - delay: 272
+    content: x
+  - delay: 99
+    content: i
+  - delay: 304
+    content: t
+  - delay: 343
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"
