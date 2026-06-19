@@ -161,3 +161,5 @@ podman ps -a
 ```
 http://(ip server):80
 ```
+
+<img width="1599" height="1200" alt="19c0abe3-9827-420b-9f31-7a7fae522c88" src="https://github.com/user-attachments/assets/bb9c702b-9dda-4021-9a21-e642e69db719" />
