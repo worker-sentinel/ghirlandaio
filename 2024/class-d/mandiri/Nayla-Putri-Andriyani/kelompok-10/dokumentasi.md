@@ -413,3 +413,279 @@ Sudo systemctl status podman
 ```
 
 ### 3.2 : INSTALASI SLIMS DI SERVER TAPI REMOTE OLEH ADMIN
+	Asciinema rec [nama].cast 
+Cari ip di server dulu
+	Ip a 
+
+Di keduanya : 
+	Sudo pacman -S openssh
+	Sudo systemctl enable sshd
+	Systemctl start sshd
+
+Di admin : 
+	Ssh [namauserserver]@[ip address server]
+Install podman compose
+Kenapa? Untuk menjalankan container dengan menggunakan file docker compose. buat satuin file-file yang dibutuhkan instalasi slims di satu file. 
+	Sudo pacman -S podman-compose 
+Kalau ditanyain password, masukin password si server
+	Cd .config/containers
+Download link zip yang disiapkan oleh developer slims 
+	Sudo pacman -S wget 
+	‘wget -c https://github.com/slims/docker-compose-for-slims/archive/master.zip’
+Cek apakah master.zip ada atau tidak
+	Ls
+Unzip file
+	Sudo pacman -S unzip
+	unzip master.zip
+Cek lagi 
+	Ls 
+(biru artinya folder)
+Masuk ke folder 
+	Cd docker-compose-for-slims-master
+Cek isinya 
+	Ls 
+Di arch linux ada port, jalur-jalur yang digunakan aplikasi untuk berinteraksi. Batasan untuk user biasa adalah 1024 ke atas, port ke bawahnya digunakan untuk aplikasi-aplikasi krusial. 
+	
+Mengatur bahwa port 80 adalah milik user 
+	Sudo nvim /etc/sysctl.d/99-custom.conf
+Isi seperti di bawah 
+	net.ipv4.ip_unprivileged_port_start=80
+Keluar esc :wq
+Restart konfigurasi yang dibuat
+	Sudo sysctl --system
+Cek 
+	Ls
+Gunakan file docker-compose-redis.yaml 
+Pada defaultnya baca yang docker compose dulu, jadi harus direname
+	Mv docker-compose.yaml docker-compose.yaml.back
+Ubah docker-compose-redis.yaml menjadi docker-compose.yaml
+	Mv docker-compose-redis.yaml docker-compose.yaml
+
+	Nvim docker-compose.yaml
+Hapus tagar yang terletak di sebelum ports, hapus juga tagar di line setelahnya
+Lalu tambahkan hingga “127.0.0.1:3306:3306”
+Lakukan langkah yang sama di port redis.
+Hapus line yang ada ipv4 || pencet saja esc lalu dd 
+||Shortcut :  kalau mau undo u || kalau copy itu yy || paste p || kalau blok v || 
+
+
+HAK AKSES WRITE, READ, EXECUTE
+### 3.1 :
+READ ditandai dengan angka (4), WRITE (2), EXECUTE (1) Jadilah 4+2+1 = 7
+
+USER punya akses WRITE, READ, EXECUTE
+GRUP punya akses WRITE, READ, EXECUTE
+OTHERS punya akses WRITE, READ, EXECUTE
+
+sudo chmod -R 777 app/slims
+podman compose up -d
+
+…
+Sudo Firewall-cmd –zone=public –add-port=80/tcp –permanent
+Sudo Firewall-cmd reload
+
+Lalu masuk ke firefox > masuk ke slims
+Caranya harus tahu masuk ip servernya 
+Buka browser
+http://(ip servernya):80
+
+NETWORK
+Client data itu buat mariadb
+Redis buat cache 
+===
+
+## Bagian 4 : Network 
+
+### 4.1 : Tentukan IP
+
+Buka terminal admin > kita tentukan dua user. Satu user admin, satu user operator. 
+IP adress admin, operator, server, wifi (wifi buat sendiri di laptop server)
+
+IP adress admin: 199.19.9.7
+IP address operator: 199.19.9.9
+IP address server: 199.19.9.8
+IP address wifi: 199.19.10.1
+IP address gateway: 199.19.9.1
+
+### 4.2 FOKUS UNTUK USER ADMIN
+	Useradd -m startop
+	Sudo passwd startop :1234
+
+#### 1. BIKIN KONEKSI UNTUK ADMIN
+Mencari interface:
+
+```bash
+nmcli device status
+sudo nmcli connection add type ethernet if name eno1 con-name ”admin” ipv4.method manual ipv4.adress 199.19.9.7/24 ipv4.gateway 199.19.9.1 ipv4.dns 8.8.8.8
+```
+	
+#### 2. BIKIN KONEKSI UNTUK OPERATOR
+```bash
+sudo nmcli connection add type ethernet if name eno1 con-name ”operator” ipv4.method manual ipv4.adress 199.19.9.9/24 ipv4.gateway 199.19.9.1 ipv4.dns 8.8.8.8
+```
+
+#### 3. USER ADMIN OPERATOR
+
+```bash
+	sudo su
+sudo echo
+	echo “nmcli connection up [nama koneksi yang dibuat]” >> /home/[nama user operator]/.bash_profile
+	echo “nmcli connection up [nama koneksi yang dibuat]” >> /home/[nama user operator]/.bash_profile
+```
+
+```bash
+echo “nmcli connection up [nama koneksi yang dibuat]” >> /home/[nama user admin]/.bash_profile
+echo “nmcli connection up [nama koneksi yang dibuat]” >> /home/[nama user admin]/.bash_profile
+cat /home/starfall/.bash
+```
+
+#### 4. SAMBUNGKAN KABEL LAN DARI LAPTOP ADMIN KE LAPTOP SERVER
+(lihat asciinema di laptop admin)
+
+#### 5. SETUP SSH SERVER 
+(lihat asciinema di laptop admin)
+
+```bash
+systemctl stop firewalld
+systemctl restart iwd
+systemctl start firewalld
+```
+
+[di laptop admin]
+```bash
+sudo su 
+[masukkan password] pw: 123
+nvim /etc/systemd/network/20-ethernet [pencet tab aja biar cepet]
+Systemctl restart sytemd-networkd 
+```
+
+[colok kabel lan]
+Cari ip 
+
+```bash
+Ip a
+```
+
+Masuk ke nvim lagi 
+```bash
+nvim /etc/systemd/network/20-ethernet [pencet tab aja biar cepet]
+```
+
+Konfigurasi Set Up Router
+
+```bash
+ssh [namauserserver]@[ip address server]
+sudo su 
+pacman -S hostapd
+nvim /etc/hostapd/hostapd.conf
+```
+
+Search menuju ke line 3200, scroll lagi sampai ke line terbawah. Masuk ke inspection (i)
+Isi : 
+
+```bash
+interface=wlan0
+driver=nl80211
+ssid=jatoh [nama wifi]
+hw_mode=g
+channel=7
+auth_algs=1
+wpa=2
+wpa_passphrase=[password/bintangjatuh]
+wpa_key_mgmt=WPA_PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
+```
+
+Keluar esc :wq
+
+Buat file konfigurasi 
+
+```bash
+nvim /etc/systemd/network/02-wireless-ap-network
+```
+
+Isi :
+
+```bash 
+[Match]
+Name=wlan0
+
+[Network]
+Address=[ip wifi]
+DHCPServer=yes
+```
+Keluar esc :wq
+
+Restart systemd-networkd
+
+```bash
+systemctl restart systemd-networkd
+```
+
+Buat file konfigurasi 
+
+```bash
+Nvim  /etc/sysctl.d/30-ipforward.conf
+```
+
+ISI
+```bash
+net.ipv4.ip_forward=1
+```
+
+Esc: wq
+
+```bash
+Sudo sysctl–system
+Systemctl enable hostapd
+```
+
+Ctrld sampai selesai asciinemanya terus reboot di server
+	
+## Bagian 5 : Konfigurasi Akhir Firewall
+
+Kami menggunakan command di bawah, sebagai berikut :
+
+systemctl enable firewalld
+
+system start firewalld
+
+firewall-cmd –list-all-zone
+
+firewall-cmd –info-zone=public
+
+firewall-cmd --zone=public –remove-service=dhcpv6-client –permanent
+
+firewall-cmd –reload
+
+firewall-cmd –info-zone=trusted
+
+firewall-cmd –info-zone=home
+firewall-cmd –zone=home –remove-service=dhcpv6-client –permanent
+firewall-cmd –reload
+firewall-cmd –info-zone=home
+firewall-cmd –info-zone=work
+firewall-cmd –zone=work –remove-service=dhcpv6-client –permanent
+firewall-cmd –reload
+firewall-cmd –info-zone=trusted
+firewall-cmd –info-zone=internal
+firewall-cmd –zone=internal –remove-service=dhcpv6-client –permanent
+firewall-cmd –reload
+firewall-cmd –info-zone=trusted
+firewall-cmd –info-zone=dmz
+firewall-cmd –info-zone=external
+firewall-cmd –info-zone=block
+firewall-cmd –info-zone=drop
+firewall-cmd –reload
+firewall-cmd –list-all-zone
+firewall-cmd –zone=internal –remove-service={mdns,samba-client} –permanent
+firewall-cmd –reload
+exit
+
+
+
+
+
+
+
