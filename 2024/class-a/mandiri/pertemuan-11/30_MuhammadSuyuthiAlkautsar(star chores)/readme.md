@@ -1,4 +1,8 @@
 copyright of kelompok 9 star chores
 
 
-do not read without permission
+membaca repo kelompok lain tanpa izin berpotensi 10 tahun dengan denda 500jt dollar zimbabwe
+
+Tindakan tersebut merupakan tindak pidana 67 UU Saranjana
+
+pelakunya berpotensi dipenjara 10 tahun
