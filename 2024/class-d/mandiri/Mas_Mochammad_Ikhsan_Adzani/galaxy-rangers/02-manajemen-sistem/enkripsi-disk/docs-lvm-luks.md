@@ -31,11 +31,11 @@ mount /dev/[nama grup]/root /mnt
 
 ### Partisi Boot (EFI/FAT32)
 ```
-mkfs.ext4 /dev/[partisi boot]
+mkfs.vfat -F32 /dev/[partisi boot]
 ```
 
 ```
-mount --mkdir -o uid=0.gid=0,fmask=0077,dmask=0077 /dev/[partisi boot /mnt/boot
+mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/[partisi boot /mnt/boot
 ```
 
 ### Partisi Data Variabel (/var)
