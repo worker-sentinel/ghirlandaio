@@ -121,3 +121,7 @@ nvim /home/operator/.bash_profile
 ```
 cat /home/operator/.bash_profile
 ```
+
+## Referensi 
+David aka joshua aka baihaqi
+

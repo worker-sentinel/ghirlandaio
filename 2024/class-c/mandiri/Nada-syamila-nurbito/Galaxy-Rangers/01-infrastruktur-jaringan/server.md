@@ -1,19 +1,21 @@
-# Membuat IP statis 
+# Buat dan Buka File Konfigurasi Jaringan
 ```
 nvim /etc/systemd/network/20-ethernet.network
 ```
+
+## Masukkan Pengaturan IP
 ```
 [Match]
 Type=ether
-# Exclude virtual Ethernet interfaces
+# Mengabaikan virtual Ethernet interface
 Kind=!*
 
 [Link]
 RequiredForOnline=routable
 
 [Network]
-Address=[ip address server]/CIDR
-Gateway=[ip address gateway]
+Address=<ip_server>/<angka_cidr>
+Gateway=<ip_gateway>
 DNS=1.1.1.1 8.8.8.8
 MulticastDNS=yes
 
@@ -29,18 +31,21 @@ RouteMetric=100
 RouteMetric=100
 ```
 # Membuat IP Saluran systemd 
-## Install Package
+## Instal Aplikasi Pemancar (Hostapd)
+Aplikasi ini bertugas mengelola pancaran sinyal Wi-Fi dan kata sandinya.
 ```
-pacman -S hostapd
+sudo pacman -S hostapd
 ```
-## cek interface
+## Cek Nama Perangkat Wi-Fi
+Cari tahu nama kartu jaringan Wi-Fi kamu (biasanya berawalan wl atau wlan, contoh: wlan0).
 ```
 ip link
 ```
+### Atur Nama Wi-Fi (SSID) dan Kata Sandi
 ```
 nvim /etc/hostapd/hostapd.conf
 ```
-isi
+Isi dengan teks berikut. Kamu bisa mengubah nama Wi-Fi pada baris ssid= dan kata sandinya pada baris wpa_passphrase=. (Pastikan interface= diisi dengan nama Wi-Fi kamu dari langkah sebelumnya).
 ```
 interface=wlan0
 driver=nl80211
@@ -54,28 +59,31 @@ wpa_key_mgmt=WPA-PSK
 wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 ```
+## Atur IP untuk Jaringan Hotspot
+Kita perlu memberi tahu sistem untuk membagikan IP ke perangkat yang terhubung ke hotspot ini.
 ```
 nvim /etc/systemd/network/02-wireless-ap.network
 ```
 ```
 systemctl restart systemd-networkd
 ```
-isi
+Isi file tersebut dengan teks di bawah ini. Ubah <nama_interface_wifi> (contoh: wlan0) dan <ip_hotspot>/<angka_cidr> (contoh: 192.168.4.1/24).
 ```
 [Match]
-Name=[wireless interface]
+Name=<nama_interface_wifi>
 
 [Network]
-Address=[ip address]/CIDR
+Address=<ip_hotspot>/<angka_cidr>
 DHCPServer=yes
 ```
 ```
 sudo systemctl enable --now systemd-networkd
 ```
+### Izinkan Berbagi Koneksi Internet (IP Forwarding)
 ```
 nvim /etc/sysctl.d/30-ipforward.conf
 ```
-isi
+Terapkan pengaturan tersebut langsung ke sistem:
 ```
 net.ipv4.ip_forward=1
 ```

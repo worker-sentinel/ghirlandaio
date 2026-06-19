@@ -6,7 +6,7 @@ ssh [username admin] @[ip server]
 
 ## list semua zone
 ```
-sudo firewalld-cmd --list-all-zone
+sudo firewall-cmd --list-all-zone
 ```
 
 ### hapus service zone work

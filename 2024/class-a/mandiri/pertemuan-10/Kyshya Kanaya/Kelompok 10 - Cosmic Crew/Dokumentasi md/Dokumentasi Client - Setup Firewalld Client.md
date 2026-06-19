@@ -42,3 +42,6 @@ Verifikasi ulang semua zone setelah reload, pastikan zone wifi2 sudah aktif deng
 ```
 exit
 ```
+
+## Referensi 
+David aka joshua aka baihaqi

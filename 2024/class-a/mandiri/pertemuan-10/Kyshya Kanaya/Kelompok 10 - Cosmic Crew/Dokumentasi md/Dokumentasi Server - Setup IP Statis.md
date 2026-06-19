@@ -143,3 +143,7 @@ Terapkan konfigurasi sysctl tanpa reboot.
 systemctl enable --now hostapd
 ```
 Aktifkan dan jalankan hostapd sebagai Access Point.
+
+
+## Referensi
+David aka joshua aka baihaqi

@@ -51,3 +51,6 @@ firewall-cmd --list-all-zones
 ```
 exit
 ```
+
+## Referensi 
+David aka joshua aka baihaqi

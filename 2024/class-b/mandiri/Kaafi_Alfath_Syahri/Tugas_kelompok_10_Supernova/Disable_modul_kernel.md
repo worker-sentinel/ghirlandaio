@@ -4,7 +4,7 @@
 
 Jalankan perintah berikut untuk mengecek keberadaan dan status modul yang akan dinonaktifkan:
 
-```bash
+```
 modprobe -n -v cramfs
 modprobe -n -v freevxfs
 modprobe -n -v hfs
@@ -29,13 +29,13 @@ modprobe -n -v tipc
 
 Buka file konfigurasi baru:
 
-```bash
+```
 sudo nvim /etc/modprobe.d/01-block.conf
 ```
 
 Masukkan konfigurasi berikut:
 
-```conf
+```
 install cramfs /bin/false
 blacklist cramfs
 
@@ -78,7 +78,7 @@ blacklist tipc
 
 Simpan perubahan dan keluar dari editor:
 
-```text
+```
 :wq
 ```
 
@@ -86,7 +86,7 @@ Simpan perubahan dan keluar dari editor:
 
 Jalankan perintah berikut untuk menghapus modul dari kernel yang sedang berjalan:
 
-```bash
+```
 modprobe -r cramfs 2>/dev/null
 modprobe -r hfs 2>/dev/null
 modprobe -r hfsplus 2>/dev/null
@@ -106,6 +106,9 @@ modprobe -r tipc 2>/dev/null
 
 Agar konfigurasi diterapkan saat sistem melakukan booting, bangun ulang initramfs dengan perintah:
 
-```bash
+```
 sudo mkinitcpio -P
 ```
+
+## Referensi 
+Dokumentasi Kelompok 9
