@@ -1,6 +1,6 @@
 # Instalasi OS Admin
 
-**1. Menyambungkan Wifi**
+##1. Menyambungkan Wifi
 ```
 iwctl
 station wlan0 get-networks
@@ -277,9 +277,3 @@ exit
 umount -R /mnt
 reboot
 ```
-
-
-
-
-
-
