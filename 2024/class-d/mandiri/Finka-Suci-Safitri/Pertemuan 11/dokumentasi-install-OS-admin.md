@@ -1,6 +1,6 @@
-# Instalasi OS Admin
+# Installasi OS Admin
 
-##1. Menyambungkan Wifi
+**1. Menyambungkan Wifi**
 ```
 iwctl
 station wlan0 get-networks
