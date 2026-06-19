@@ -82,4 +82,7 @@ arch-chroot /mnt
 8. Install Bootloader
 ```
 
+bootctl --path=/boot install  
+mkinitcpio -P       
+```
 
