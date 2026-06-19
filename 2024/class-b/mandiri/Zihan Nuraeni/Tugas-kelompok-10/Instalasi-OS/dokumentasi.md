@@ -193,15 +193,17 @@ HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-encrypt lvm2 sd
 
 
 prepare boot
+```bash
 etc/mkinitcpio.d/linux-lts.preset
+```
 
 Install bootloader
-
 systemd-boot adalah bootloader ringan yang sudah built-in di systemd:
  ```bash
 bootctl --path=/boot install
 ```
-Enable services
+
+#### Selesaiservices
 
 manajemen jaringan
 ```bash
@@ -222,7 +224,7 @@ firewall
 systemctl enable firewalld         
 ```
 
-Selesai Instalasi OS
+#### Selesai Instalasi OS
 
 ```bash
 exit
