@@ -3,7 +3,6 @@
 ```
 sudo su
 ```
-Masuk ke user root agar semua perintah berikutnya berjalan dengan hak akses penuh.
 
 ```
 ls
@@ -22,7 +21,6 @@ Karena kita menggunakan Podman (bukan Docker), direktori storage container harus
 ```
 mkinitcpio -P
 ```
-Regenerasi semua preset initramfs setelah perubahan fstab. Flag `-P` berarti semua preset diproses sekaligus.
 
 ```
 nvim /etc/mkinitcpio.d/default.conf
@@ -40,7 +38,6 @@ HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole sd-enc
 ```
 mkinitcpio -P
 ```
-Regenerasi ulang initramfs setelah urutan HOOKS diperbaiki agar perubahan diterapkan.
 
 ```
 lvrename /dev/openkm/dock /dev/openkm/pod
