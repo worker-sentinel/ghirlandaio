@@ -1,6 +1,6 @@
 ### Instalasi OS Server
 
-1.     Sudo Cryptsetup luksFormat /dev/nvme0n1p5
+1. Sudo Cryptsetup luksFormat /dev/nvme0n1p5
 
 YES
 
@@ -136,13 +136,23 @@ echo "nayla ALL=(ALL:ALL) ALL" > /etc/sudoers.d/nayla                           
 
 echo "rw" > /etc/cmdline.d/02-misc.conf 
 
-20.   nvim /etc/mkinitcpio.conf                                                                                                                                                                   
+20.   nvim /etc/mkinitcpio.conf
 
-HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block sd-encrypt lvm2 filesystems fsck) kmudian :wq
+ALL_config="/etc/mkinitcpio.conf"                                                                                                                                                                                                     
 
-21.  nvim /etc/mkinitcpio.d/linux-lts.preset
+ALL_kver="/boot/kernel/vmlinuz-linux-lts"                                                                                                                                                                                                       
+ALL_kerneldest="/boot/kernel/vmlinuz-linux-lts"
+ 
 
-ALL_config="/etc/mkinitcpio.conf"                                                                                                                                                                                                     ALL_kver="/boot/kernel/vmlinuz-linux-lts"                                                                                                                                                                                                                                                                                                                                                                                                               #default_image="/boot/initramfs-linux-lts.img"                                                                                                                                                                                                  default_uki="/boot/efi/Linux/arch-linux-lts.efi"                                                                                                                                                                                                #default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"                                                                                                                                                                         
+#default_config="/etc/mkinitcpio.conf"                                                                                                                                                                                                          
+
+#default_image="/boot/initramfs-linux-lts.img"                                                                                                                                                                                                  
+
+default_uki="/boot/efi/Linux/arch-linux-lts.efi"                                                                                                                                                                                                
+
+#default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"                                                                                                                                                                         
+
+HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block sd-encrypt lvm2 filesystems fsck) kmudian :wq                                                                                                                    
  
 22.  bootctl --path=/boot install
 pacman -S linux-lts linux-lts-headers
