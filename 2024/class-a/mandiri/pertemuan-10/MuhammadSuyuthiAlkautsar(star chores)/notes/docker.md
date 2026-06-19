@@ -14,12 +14,15 @@ VM meempunyai application layer dan OS kernel
 # Konsep utama docker
 
 
-### images
-
+### Docker images
+Paket yang berisi kode aplikasi, runtime, library, dan konfigurasi lingkungan. Ini adalah cetak biru untuk menjalankan aplikasi
 
 ### container
+Instansi yang berjalan dari sebuah image
 
+### Docker registry
+untuk mengundug docker image
 
-### registry
+### Docker hub slims
 
-
+https://hub.docker.com/r/slimsofficial/slims
