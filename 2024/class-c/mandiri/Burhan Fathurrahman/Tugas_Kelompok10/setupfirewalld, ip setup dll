@@ -1,0 +1,187 @@
+Disable kernel (asciinema 1)
+Asciinema rec desablekernel.cast
+1.     systemctl status networkmanager
+sudo systemctl enable NetworkManager
+Masukin password kel10
+sudo systemctl start NetworksManager
+nmcli device status
+-enp0s31f6 (connected)
+-lo (connected)
+-wlan0 (disconnected)
+-p2p-dev-wlan0 (disconnected)
+Ip a
+2.     sudo nmcli connection add type ethernet ifname enp0s31f6 con-name novaria-admin ipv4.method manual ipv4.address 9.9.9.2/24 ipv4.gateway 9.9.9.1 ipv4.dns 8.8.8.8
+(successfully added)
+echo “nmcli connection up Novaria-admin” >> /home/kel10.bash_profile
+ls
+Desktop   	    app         	dbdata           	installslims.cast	slims.cast          	test
+Downloads   | conf    |   desablekernel.cast  | setup-ip-admin.cast |slims_lanjutan.cast                                   	
+akses_slims.cast | db_default.env | docker-compose.yaml | slims-compose | slims_semoga_bisa.cast
+3.     ctrl+d
+asciinema upload desablekernel.cast
+ 
+ 
+Disable module kernel  (asciinema 2)
+ssh nayla@10.219.56.6
+masukin password (untuk mencoba lagi)
+2.     lsmod | grep cramfs
+lsmod | grep frefexfs
+lsmod | grep hfs
+lsmod | grep hfsplus
+lsmod | grep jffs2
+lsmod | grep overlayfs
+lsmod | grep squashhfs
+lsmod | grep hfsplus
+lsmod | grep squashfs
+lsmod | grep udf
+lsmod | grep usb-storage
+3.     sudo nvim /etc/modeprobe.d/disable.module.conf
+masukin passwd
+klik i
+install usb-storage /bin/false
+blacklist
+ternyata ada yang kurang
+4. lsmod | grep unused filesystem
+itu salah karena tidak ada file or directory
+lsmod | grep unused
+5.  logout
+exit
+ 
+Install slims (asciinema 3) 
+1.     ssh nayla@10.219.56.6
+masukin passwd
+
+sudo pacman -S podman-compose
+masukin passwd
+tahap install
+
+mkdir vit
+cd vit
+pacman -S wget (error)
+sudo pacman -S wget (berhasil)
+wget -c https://github.com/slims/docker-compose-for-slims/archive/master.zip
+
+sudo pacman -S unzip
+Masukin passwd
+unzip master.zip
+ls
+[docker-compose-for-slims-master] master.zip (muncul)
+Mv docker-compose-for-slims-master golda
+ls
+[golda] master.zip
+cd golda
+sudo nvim /etc/sysctl.d/nike.conf
+Masukin passwd
+Klik i
+net.ipv4.ip_unprivileged_port_start=80 
+Klik esc kemudian ketik :wq
+
+Sudo sysctl –system
+Sudah ada “net.ipv4.ip_unprivileged_port_start=80” di bagian paling bawah
+Ls
+Conf 
+Docker-compose-redis-elasticsearch.yaml | docker-compose-redis.yaml  | phpmyadmin.env
+App
+db_default.env | docker-compose-redis-load_balanced-haproxy.yaml | docker-compose.yaml 
+
+mv docker-compose.yaml doker-compose.yaml.golda 
+nvim docker-compose-redis.yaml docker-compose.yaml
+Ketik :q!
+mv docker-compose-redis.yaml doker-compose.yaml 
+Nvim do
+docker-compose-redis-elasticsearch.yaml | doker-compose.yaml                                                                   docker-compose-redis-load_balanced-haproxy.yaml | doker-compose.yaml.golda 
+nvim docker-compose.yaml
+Klik i
+Hapus hashtag pada bagian tulisan ports yang tadinya warna abu-abu berubah menjadi warna biru dan angka bawahnya juga hapus hastag sehingga angkanya berubah menjadi wana hijau
+:wq
+
+Sudo chmod -R 777 app/slims
+Msukin passwd
+Podman compose up -d (error)
+ls
+nvim docker-compose.yaml
+Scroll sampe networks klik i kemudian hapus config dan subnet :wq
+mv doker-compose.yaml docker-compose.yaml                                                                    podman compose up -d (masih error)
+sudo nvim /etc/containers/registries.conf 
+Msukin passwd
+Bagian # unqualified-search-registries = ["example.com"] hapus hastagnya dan diganti dengan unqualified-search-registries = ["docker.io"] tulisannya jd berwarna biru dan hijau stelah itu :wq
+
+podman compose up -d (msih error)
+nvim docker-compose.yaml
+Hapus bagian db, redis dan app01 ipv4_address, kemudian slims-net ditambahin - di dpnnya menjadi - slims-net
+Tambahkan - dan angka 127.0.0.1:
+Bagian db: 
+ports:                                                                                                                                    - "127.0.0.1:3306:3306" 
+Bagian redis:
+ports:                                 	                                                                                               - "127.0.0.1:6379:6379"  
+:wq
+
+podman compose up -d (berhasil)
+podman ps -a
+sudo nvim /etc/containers/registries.conf                                                                    password for nayla:                                                                                                              nvim docker-compose.yaml
+:q
+sudo nvim /etc/subuid
+nayla:100000:65536 
+:wq
+sudo nvim /etc/subgit                                                                                       
+sudo nvim /etc/subgid                                                                                      
+ cd ..                                                                                                    
+ nvim storage.conf
+
+ip a
+sudo pacman -S flatpak
+sudo pacman -S firefox
+sudo pacman -S firefox
+Msukin psswd  kel10
+ls
+ls -la
+cd .config/
+ls
+Thunar  asciinema  containers  dconf  kelompok10  mozilla  pulse  xfce4 (muncul)
+cd ..
+ssh nayla@10.219.56.6
+Mskin passwd
+
+Exit
+
+IP SERVER (ASCIINEMA KE 4)
+nvim /etc/systemd/network/20-ethernet.network
+sudo nvim /etc/systemd/network/20-ethernet.network
+ssh nayla@10.219.56.6
+ Iwctl
+Nmtui
+Nmtui
+Nmtui
+ssh nayla@10.219.56.6
+sudo nvim /etc/systemd/network/20-ethernet.network
+pacman -S hostapd
+sudo pacman -S hostapd
+sudo nvim /etc/hostapd/hostapd.conf
+sudo nvim /etc/systemd/network/02-wireless-ap.network
+systemctl restart systemd-networkd
+systemctl restart systemd-networkd
+systemctl restart systemd-networkd
+systemctl restart systemd-networkd
+systemctl restart systemd-networkd
+exit
+ 
+IP FORWARDING (ASCIINEMA 5)
+ssh nayla@10.219.56.6
+sudo systemctl enable --now systemd-networkd
+nvim /etc/sysctl.d/30-ipforward.conf
+sudo nvim /etc/sysctl.d/30-ipforward.conf
+sudo sysctl –system
+Logout
+exit
+
+
+
+
+
+
+ 
+
+
+
+ 
+
