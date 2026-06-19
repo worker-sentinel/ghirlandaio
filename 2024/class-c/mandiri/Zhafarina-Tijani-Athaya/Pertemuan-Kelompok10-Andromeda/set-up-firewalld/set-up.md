@@ -32,7 +32,7 @@ systemctl enable sshd
 ip a
 ```
 
-Lakukan ini di Server
+Lakukan ini di admin untuk mengakses akun root
 ```
 ssh [nama root server]@ip server
 ```
