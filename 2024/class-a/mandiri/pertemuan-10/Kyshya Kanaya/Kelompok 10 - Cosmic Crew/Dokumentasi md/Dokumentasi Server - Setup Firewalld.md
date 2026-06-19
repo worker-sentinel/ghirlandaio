@@ -116,3 +116,6 @@ firewall-cmd --info-zone=trusted
 ```
 exit
 ```
+
+## Referensi
+David aka joshua aka baihaqi

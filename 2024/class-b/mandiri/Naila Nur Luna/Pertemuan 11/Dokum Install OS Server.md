@@ -1,4 +1,4 @@
-# Panduan Instalasi OS Server 
+# Panduan Installasi OS Server 
 
 
 ---

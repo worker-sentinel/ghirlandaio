@@ -225,4 +225,4 @@ cd ..
 ```
 
 # Referensi 
-David aka Joshua aka Baihaqi  gitu aja brti?
+David aka Joshua aka Baihaqi

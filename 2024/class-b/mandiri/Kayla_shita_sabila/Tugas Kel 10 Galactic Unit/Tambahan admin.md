@@ -1,5 +1,7 @@
+
 ## 1. Mengecek Git
-git --version                                                                                                                                                          git version 2.54.0          
+git --version                                                                                                                                                         
+git version 2.54.0          
 
 ## 2. Mengecek Curl
 ```bash

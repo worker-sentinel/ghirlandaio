@@ -8,7 +8,7 @@ ip
 ```
 ## Membuat Koneksi Jaringan Baru
 ```
-Connection 'admin-connection' successfully added.
+ nmcli connection add type ethernet ifname enp2s0 con-name "admin-connection" ipv4.method manual ipv4.addresses 15.15.5.2/24 ipv4.gateway 15.15.5.1 ipv4.dns 8.8.8.8
 ```
 ## Membuat User Baru
 ```

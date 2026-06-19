@@ -223,3 +223,9 @@ Jalankan ulang container setelah image berhasil diunduh.
 ```
 cd ..
 ```
+```
+exit
+```
+
+## Referensi 
+David aka joshua aka baihaqi
