@@ -1,10 +1,9 @@
 # Zona wifi-client
 
 Misalnya static AP memberikan:
-
-text
-> 10.20.0.0/24
-
+```
+10.20.0.0/24
+```
 
 buat zona:
 
