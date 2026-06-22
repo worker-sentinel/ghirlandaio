@@ -8,7 +8,7 @@ Berdasarkan proses assesment terhadap penugasan, maka diharapkan hal berikut men
 
 
 ## presentator
-Anda adalah seorang Pegawai di perpustakaan Daerah, karena ada kebijakan Satu data, maka anda diminta mengerjakan sistem perpustakaan dan arsip dengan satu server untuk data dan satu server untuk aplikasi dengan metode remote. Beradasarkan informasi dari Kementerian Riset Dan Teknologi informasi,  Anda di haruskan mengimplementasikan protokol CIS pada layer workstation dan server.Berikut diagram arsitektur yang diberikan sebagai panduan anda dalam melakukan deployment.
+Anda adalah seorang Pegawai di perpustakaan Daerah, karena ada kebijakan Satu data, maka anda diminta mengerjakan sistem perpustakaan atau arsip dengan dua server. Beradasarkan informasi dari Kementerian Riset Dan Teknologi informasi,  Anda di haruskan mengimplementasikan protokol CIS pada layer workstation dan server.Berikut diagram arsitektur yang diberikan sebagai panduan anda dalam melakukan deployment.
 
 ### layout
 <img width="629" height="590" alt="Untitled Diagram-Copy of Page-2 drawio(1)" src="https://github.com/user-attachments/assets/946e6986-7f16-4bfd-8ba2-8a6a35573881" />
