@@ -27,8 +27,8 @@ nvim /etc/mkinitcpio.d/linux-hardened.preset
 > ALL_kver="/boot/vmlinuz-linux-hardened"
 > ALL_kerneldest="/boot/kernel/vmlimuz-linux-hardened"
 
->BAGIAN ENIH GANTI #default_image="/boot/initramfs-linux-hardened.img"
->MENJADI default_uki="/boot/efi/Linux/arch-linux-hardened.efi"
+- BAGIAN ENIH GANTI #default_image="/boot/initramfs-linux-hardened.img"
+- MENJADI default_uki="/boot/efi/Linux/arch-linux-hardened.efi"
 
 ## 4. Men-generate initramfs
 ```
