@@ -1,3 +1,45 @@
+# kita enable terlebih dahulu podman nya secara global
+```
+sudo systemctl enbale --global podman
+```
+# lalu kita masuk ke dalam directory containernya
+```
+cd /etc/containers
+```
+# lalu masuk ke configuration
+```
+sudo nvim /etc/containers/registries.conf
+```
+### lalu cari ada tulisa "unqualified"
+<img width="357" height="369" alt="image" src="https://github.com/user-attachments/assets/6e491ef1-fec2-42fe-9f0e-364fc061448a" />
+lalu bagian tersebut di hapus pagarnya dan "example.com" di ganti menajdi "docker.io"
+
+## setelah itu buar file configuration
+```
+sudo nvim /etc/sysctl.d/[namafile.conf]
+```
+lalu isi
+```
+kernel.unprivileged_userns_clone=1
+```
+# lalu cek apakah file directorynya
+```
+sysctl --system
+```
+<img width="414" height="301" alt="image" src="https://github.com/user-attachments/assets/79114f63-f686-43f0-bc48-6aac7396511f" />
+
+# install podman-compose nya
+```
+sudo pacman -S podman-compose
+```
+
+
+
+
+
+
+
+
 ```
 mkdir nova                          
 cd nova/
