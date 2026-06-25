@@ -151,3 +151,6 @@ jika compose sudah aktif, bisa cek di browser di device client
 ```
 http://[ip podman]:[port omeka]
 ```
+
+contoh jika telah berhasil muncul di browser
+![alt text](https://raw.githubusercontent.com/Rafly-87/Studying/refs/heads/main/WhatsApp%20Image%202026-06-25%20at%2013.57.03.jpeg)
