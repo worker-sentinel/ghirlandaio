@@ -66,3 +66,6 @@ firewall-cmd --zone=public \
 ```
 exit
 ```
+
+## Referensi
+2024/class-c/kelompok/Kelompok-11_4C/Dokumentasi/setup akses point, ip static dan set firewall.md
