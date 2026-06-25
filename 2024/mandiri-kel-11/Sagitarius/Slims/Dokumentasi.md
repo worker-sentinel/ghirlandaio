@@ -117,6 +117,7 @@ sudo chmod -R 777 app/slims
 ```
 sudo podman compose up -d
 ```
-## cek
-```                           sudo podman ps -a
-```
+
+<img width="1600" height="900" alt="WhatsApp Image 2026-06-26 at 5 09 16 AM" src="https://github.com/user-attachments/assets/2dca1182-cd7b-4341-a8eb-ae7d15c44ebd" />
+<img width="1280" height="963" alt="WhatsApp Image 2026-06-26 at 5 09 16 AM(1)" src="https://github.com/user-attachments/assets/858b84df-db0a-4442-a211-45b0b8f7b2c7" />
+
