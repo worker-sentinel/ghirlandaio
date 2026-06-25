@@ -23,6 +23,8 @@ sudo nvim /etc/nginx/nginx.conf
 sudo nvim /etc/nginx/sides-available/slims.conf
 ```
 <img width="1280" height="963" alt="WhatsApp Image 2026-06-26 at 04 27 18" src="https://github.com/user-attachments/assets/02841226-7475-4eec-a3c1-1347b759b93c" />
+
+
 ## mengaktifkan konfigurasi slims di nginx
 ```
 sudo ln -sf /etc/nginx/sites-available/slims.conf /etc/nginx/sites-enabled/
