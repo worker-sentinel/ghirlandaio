@@ -9,3 +9,25 @@
 | 7 | Bahasa dan Teknologi informasi: Studi Kasus Penggunaan Abreviasi | Darsita Suparno | 2017 | Teknologi informasi memengaruhi pola komunikasi masyarakat dengan munculnya penggunaan abreviasi atau singkatan dalam media digital. Pengguna perlu memahami penggunaan bahasa yang efektif agar komunikasi tetap berjalan dengan baik meskipun terjadi perubahan bentuk bahasa akibat perkembangan teknologi |
 | 8 | Pengelolaan Arsip Dinamis Berbasis Teknologi Informasi dalam Mnerapkan Efektivitas Kerja di Kementerian Pertanian | Chika Permataku | 2024 | Pengelolaan arsip dinamis berbasis teknologi infromasi mampu meningkatkan efektivitas kerja melalui proses penciptaan, penyimpanan, pencarian, dan temu kembali arsip yang lebih cepat dan efesien. Namun, penerapan sistem masih memerlukan penguatan infrastruktut, peningkatan kompetensi SDM, serta pengawasan dan pemeliharaan sistem secara berkelanjutan agar pengelolaan arsip digital berjalan optimal |
 | 9 | Penerapan Otomasi Perpustakaan Berbasis Teknologi Senayan Librabry Information Management System (SLIMS) di UPT Universtitas Pembangunan Nasional Veteran Jakarta | Khoerul Umam | 2014 | Penerapan otomasi perpustakaan menggunakan SLiMS berhasil meningkatkan kualitas layanan perpustakaan, mempermudah pengelolaan koleksi, sirkulasi, keanggotaan, dan penelusuran informasi melalui OPAC, agar penerapan sistem berjalan optimal, diperlukan dukungan perangkat keras, perangkat lunak, jaringan komputer serta SDA yang mempu mengelola sistem otomasi secara berkelanjutan |
+
+## Analisis Tiga Permasalahan Utama Perpustakaan dan Arsip dalam Kaitannya dengan Implementasi Teknologi Informasi:
+1. Kemampuan SDM yang Masih Perlu Ditingkatkan
+Banyak penelitian menunjukkan bahwa kemampuan pustakawan dan pengelola arsip dalam menggunakan teknologi informasi masih belum merata. Hal ini dipengaruhi oleh perbedaan pendidikan, pengalaman, serta kesempatan mengikuti pelatihan. Akibatnya, pemanfaatan teknologi belum dapat dilakukan secara maksimal.
+
+2. Keterbatasan Infrastruktur Teknologi
+Penerapan teknologi informasi memerlukan dukungan perangkat keras, perangkat lunak, dan jaringan yang memadai. Namun, masih terdapat kendala berupa fasilitas yang kurang lengkap, pemeliharaan sistem yang belum optimal, serta dukungan institusi yang belum maksimal.
+
+3. Sulit Mengikuti Perkembangan Teknologi
+Perkembangan teknologi yang sangat cepat menuntut perpustakaan dan lembaga arsip untuk terus menyesuaikan diri. Munculnya berbagai teknologi baru membuat pengelola dan pengguna harus terus belajar agar dapat memanfaatkan layanan dan sistem informasi dengan baik.
+
+## Sumber
+
+1. Kemampuan Teknologi Informasi SDM Perpustakaan di Lingkungan UIN Jakarta (https://repository.uinjkt.ac.id/dspace/bitstream/123456789/32808/1/Kemampuan%20Teknologi%20Informasi%20SDM%20Perpustakaan.pdf)
+2. Terjemahan Artificial Intelligence Gpt-4 Dalam Media Massa: Analisis Diksi Terjemahan Teks Berita Ekonomi Bbc Arabic (https://repository.uinjkt.ac.id/dspace/handle/123456789/85964)
+3. Pengaruh task technology fit terhadap pemanfaatan e-book mahasiswa ilmu perpustakaan uin Jakarta (https://repository.uinjkt.ac.id/dspace/handle/123456789/78603)
+4. Teknik dan keterbacaan terjemahan pada Takarir Film Kartun di YouTube (Studi atas Kanal Silfah Fitri Haqqani) (https://repository.uinjkt.ac.id/dspace/handle/123456789/86218)
+5. Komparasi Teknik Penerjemahan Chatgpt Dan Bing Chat Pada Teks Berita Kesehatan Jiwa Mawdoo3.Com (https://repository.uinjkt.ac.id/dspace/handle/123456789/78272)
+6. Pustakawan dan Teknologi Informasi (https://repository.uinjkt.ac.id/dspace/bitstream/123456789/33080/1/HANI%20QONITA)
+7. Bahasa dan Teknologi informasi: Studi Kasus Penggunaan Abreviasi (https://repository.uinjkt.ac.id/dspace/bitstream/123456789/33963/1/DARSITA-FAH.pdf)
+8. Pengelolaan Arsip Dinamis Berbasis Teknologi Informasi dalam Mnerapkan Efektivitas Kerja di Kementerian Pertanian (https://repository.uinjkt.ac.id/dspace/bitstream/123456789/85701/1/Chika%20Permataku_FAH.pdf)
+9. Penerapan Otomasi Perpustakaan Berbasis Teknologi Senayan Librabry Information Management System (SLiMS) di UPT Universtitas Pembangunan Nasional Veteran Jakarta (https://repository.uinjkt.ac.id/dspace/bitstream/123456789/71674/1/KHOERUL%20UMAM-FAH.pdf)
