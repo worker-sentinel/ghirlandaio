@@ -76,8 +76,11 @@ nvim hospot2.ap
 [General]
 Enable=true
 SSID=hotspot2
+
 [Security]
-Passphrase=12345678                                                                                                                                                                                                                                                                                                                                                                         [IPV4
+Passphrase=12345678
+
+[IPV4]
 Address=10.11.3.4
 Netmask=255.255.255.0 
 ``` 
@@ -109,7 +112,7 @@ exit
 
 ## Menambahkan firewall untuk layanan HTTP
 ``` 
-sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="192.168.1.234" port port="80" protocol=tcp accept'
+sudo firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="ip admin" port port="80" protocol=tcp accept'
 ``` 
 
 ## Memuat ulang konfigurasi firewall

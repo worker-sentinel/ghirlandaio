@@ -1,4 +1,5 @@
-## Instal nginx
+# Dokumentasi penginstalan nginx pada admin
+## Install nginx
 ```
 sudo pacman -S nginx
 ```

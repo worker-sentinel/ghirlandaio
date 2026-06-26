@@ -1,4 +1,4 @@
-# Server 1
+# Dokumentasi Server 1 (Aplikasi)
 ```
 cd/var/lib/iwd/
 ```
