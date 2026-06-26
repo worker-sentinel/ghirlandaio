@@ -1,0 +1,28 @@
+# lihat semua zone
+```
+sudo firewalld-cmd --list-all-zone
+```
+# hapus service zone work
+```
+sudo firewall-cmd --zone=work --remove-service={dhcpv6-client,ssh} --permanent
+```
+# hapus service zone public
+```
+sudo firewall-cmd --zone=public --remove-service=dhcpv6-client --permanent
+```
+# hapus service zone home
+```
+sudo firewall-cmd --zone=home --remove-service={dhcpv6-client,mdns,samba-client,ssh} --permanent
+```
+# hapus service zone internal
+```
+sudo firewall-cmd --zone=internal --remove-service={dhcpv6-client,mdns,samba-client,ssh} --permanent
+```
+# hapus service zone external
+```
+sudo firewall-cmd --zone=external --remove-service=ssh --permanent
+```
+# setelah di remove, kita perlu reload
+```
+sudo firewall-cmd --reload
+```
