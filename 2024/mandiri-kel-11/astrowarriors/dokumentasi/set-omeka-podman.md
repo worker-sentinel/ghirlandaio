@@ -60,11 +60,11 @@ nvim database.ini
 ```
 isi
 ```
-user = "root"
-password = "buat-sendiri"
-dbname = "omeka"
-host = "sesusaikan-dengan-komputer"
-port = "3306"
+user     = "omeka"
+password = "omeka"
+dbname   = "omeka"
+host     = "db"
+port     = "3306"
 ```
 
 ```
@@ -77,35 +77,28 @@ nvim docker-compose.yml
 ```
 isi
 ```
+version: '2'
 services:
-  omeka:
-    image: elestio/omeka:latest
-    container_name: omeka-app
+  db:
+    image: mysql:5.7
     restart: always
-    ports:
-      -"sesuaikan-dengan-ip-a:8080:80"
-    network_mode: "host"
     environment:
-      -APACHE_SERVER_NAME=localhost
-    volumes:
-        - ./files:/var/www/html/omeka-s/files
-        - ./config/database.ini:/var/www/html/omeka-s/config/database.ini
-    depends_on:
-      - mariadb
+      MYSQL ROOT PASSWORD: omeka
+      MYSQL DATABASE: omeka
+      MYSQL USER: omeka
+      MYSQL PASSWORD: omeka
 
-  mariadb:
-    image: mariadb:latest
-    container_name: database-omeka
-    ports:
-      - "3306"
-    network_mode: "host"
-    environment:
-      - MYSQL_ROOT_PASSWORD=buat-sendiri
-    volumes:
-      - mariadb_data:/var/lib/mysql
-
-volumes:
-  mariadb_data:
+omeka-s:
+  depends_on:
+    - db
+  build: ./
+  image: elestio/omeka:latest
+  ports:
+    - "8081:80"
+  volumes:
+    - ./files:/var/www/html/omeka-s/files
+    - ./config/database.ini:/var/www/html/omeka-s/config/database.ini
+  restart: always
 ```
 
 pull image

@@ -14,3 +14,8 @@ setting firewall
 
 
 https://asciinema.org/a/MN1YZbv7d17jMrL1
+
+disablemodulekernel
+
+
+https://asciinema.org/a/yE0b9ZiA7QlT9xOg

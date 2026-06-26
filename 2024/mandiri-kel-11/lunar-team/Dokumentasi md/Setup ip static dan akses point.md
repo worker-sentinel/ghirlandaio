@@ -21,8 +21,8 @@ sshusername@ipserver2
 nano /etc/systemd/network/20-ethernet.network
 ```
 ```
-Address=10.10.10.3/24
-Gateway=10.10.10.1
+Address=11.11.11.2/24
+Gateway=11.11.11.1
 DNS=1.1.1.1 8.8.8.8
 ```
 ```
@@ -84,3 +84,7 @@ ap wlan0 start-profile myhotspot
 ```
 exit
 ```
+
+# Cek WIFI
+
+periksa koneksi WIFI, stelah itu pastikan jaringan bernama "myhotspot" muncul di daftar wifi yg tersedia
