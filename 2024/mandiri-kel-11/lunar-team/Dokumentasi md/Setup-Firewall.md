@@ -61,13 +61,3 @@ firewall-cmd --reload
 firewall-cmd --info-zone=public 
 ```
 
-## 3. Cek Konfigurasi
-```bash
-cd /var/lib/iwd
-cd ap
-nano myhotspot.ap 
-```
-## 4. Keluar
-```bash
-exit
-```

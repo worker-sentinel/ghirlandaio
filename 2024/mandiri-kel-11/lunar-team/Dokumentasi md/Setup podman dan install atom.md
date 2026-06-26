@@ -45,37 +45,5 @@ export COMPOSE_FILE="$PWD/docker/docker-compose.dev.yml"
 ```
 ```
 podman compose -f docker/docker-compose.dev.yml up -d
-```
-## Install overlay
-```
-sudo pacman -S fuse-overlayfs
-```
-```
-nvim docker/docker-compose.dev.yml
-```
-## Cek Filesystem
-```
-df -h
-```
-```
-cat /etc/fstab
-```
-## Jalankan ulang container
-```
-podman compose -f docker/docker-compose.dev.yml up -d
-```
-```
-masuk kebrowser, masukin http://[ip server:63001]
-```
-## Admin
-```
-ssh (username)@(ip server) 
-```
-## Status firewall
-```
-sudo systemctl status firewalld
-```
-## Liat service apa aja yang udah di daftarin sama firewall
-```
-sudo firewall-cmd –list-all-zone
+http://[ip server:63001]
 ```

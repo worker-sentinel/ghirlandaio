@@ -36,7 +36,7 @@ lalu masukan
 ```
 server {
     listen 8080;
-    sever_name slims.dhia.test;
+    sever_name slims.stardust.test;
 
     location / {
         proxy_pass http://8.8.8.3:63001;

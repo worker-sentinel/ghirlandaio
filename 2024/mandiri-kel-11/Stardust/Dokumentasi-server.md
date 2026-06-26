@@ -13,7 +13,6 @@
 - lvcreate -l50%FREE [nama grup] -n [nama home untuk internal]
 - lsblk
 ```
-Luks on lvm home nya ada dua (eksternal dan internal) 
 
 ## 2. FORMAT PARTISI
 ```

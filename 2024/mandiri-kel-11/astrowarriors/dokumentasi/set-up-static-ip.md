@@ -17,7 +17,7 @@ Samakan IP Address dan IP Gateway dengan server 1 namun bedakan bagian oktat ter
 Contoh:
 ```
 [Network]                                                                                                                                                                 
-Address=15.10.10.4/24                                                                                                                                                     
+Address=10.10.10.4/24                                                                                                                                                     
 Gateway=10.10.10.1
 ```
 

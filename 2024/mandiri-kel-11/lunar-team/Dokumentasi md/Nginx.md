@@ -35,14 +35,14 @@ nvim /etc/nginx/sites-avilable/atom.conf
 ```
 ```
 server {
-        listen 8080
-        server_name atom.sebelas.test;
+        listen 8080;
+        server_name atom.local;
  
 location / {
-       proxy_pass http://(2.3.4.17):63001;
+       proxy_pass http://10.10.10.2:63001;
        proxy_set_header X-Real-IP $remote_addr;
        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-       proxy_set_header X-Forwarded-Proto $schema;
+       proxy_set_header X-Forwarded-Proto $scheme;
        }
 }
 ```

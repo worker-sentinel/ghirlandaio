@@ -156,3 +156,7 @@ ip a
 ```
 
 Digunakan untuk memastikan alamat IP statis berhasil terpasang pada server.
+
+### Bukti Slims bisa diakses
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/ba3474db-cfcb-4b54-be03-626514a6b2aa" />
+
