@@ -65,10 +65,3 @@ firewall-cmd --reload
 ```
 exit
 ```
-
-
-# Trouble Shooting
-Konfigurasi setup firewalld yang benar
-
-<img width="1600" height="520" alt="Setup Firewalld Fix" src="https://github.com/user-attachments/assets/d023c395-455d-44cd-8987-cee0547f70b0" /> 
-
