@@ -8,6 +8,7 @@ nvim /etc/modprobe.d/01-custom.conf
 ```
 
 # Disable module
+```
 
 ```
 lsmod | grep crampfs
@@ -20,6 +21,7 @@ lsmod | grep udf
 lsmod | grep usb-storage
 lsmod | grep bluetooth
 ```
+
 ## Mengedit file konfigurasi
 
 ```

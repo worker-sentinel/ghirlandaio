@@ -1,4 +1,6 @@
 # Tugas Skripsi
+
+## Daftar Skripsi
 | NO | JUDUL | PENULIS | TAHUN | KESIMPULAN | SARAN |
 |------|-----------|------------|------------|--------------|-----------------|
 | 1 | Pengaruh task technology fit terhadap pemanfaatan e-book mahasiswa ilmu perpustakaan uin Jakarta | Dandy Julian | 16 November 2022 | Studi ini mengonfirmasi bahwa karakteristik tugas dan karakteristik teknologi, baik secara parsial maupun simultan, berpengaruh positif dan signifikan terhadap pemanfaatan e-book melalui task-technology fit (TTF). Kesesuaian antara fitur teknologi e-book dengan kebutuhan akademis mahasiswa terbukti meningkatkan keyakinan mereka akan manfaat media interaktif ini dalam menyelesaikan berbagai tugas pembelajaran. Menggunakan TTF sebagai konstruk reflektif tingkat tinggi yang mengintegrasikan karakteristik tugas dan teknologi, penelitian ini berhasil menyusun sebuah model empiris baru. Model ini sangat berguna bagi peneliti lain maupun penyedia informasi untuk menilai, mengevaluasi, dan mendalami perilaku civitas akademika dalam memanfaatkan ekosistem digital e-book yang kini terintegrasi luas dengan internet. | Berdasarkan kesimpulan diharapkan mahasiswa dapat terus meningkatkan kapabilitas teknologi informasinya, khususnya dalam menggunakan e-book, karena keselarasan ini akan memperkuat keyakinan mereka akan manfaat positif teknologi dalam menyelesaikan berbagai tugas akademik. Ke depannya teknologi informasi akan menjadi sebuah hal yang sangat penting bagi civitas akademik dalam proses pembelajaran. Dengan meningkatnya kemampuan mahasiswa dalam menggunakan teknologi yang terdapat pada e-book, maka keperluan mereka dalam menyelesaikan tugasnya yang beragam akan membuat mereka lebih memiliki keyakinan bahwa e-book memiliki manfaat yang positif bagi diri mereka. |
@@ -35,3 +37,10 @@ Tingkat keterampilan teknis para pegawai maupun mahasiswa dalam mengoperasikan s
 
 3. Lemahnya Strategi Adopsi, Sosialisasi, dan Penegakan Regulasi oleh Manajemen:
 Implementasi teknologi baru sering kali tidak dibarengi dengan strategi adopsi yang efektif, sosialisasi yang intensif, serta pelatihan yang berkelanjutan bagi para pengguna. Selain itu, tidak adanya ketegasan berupa sanksi atau evaluasi bagi unit kerja atau individu yang lambat mematuhi kebijakan digitalisasi membuat proses transisi ke sistem elektronik menjadi tersendat.
+
+## Referensi
+1. https://repository.uinjkt.ac.id/dspace/handle/123456789/78603
+2. http://repository.uinjkt.ac.id/dspace/handle/123456789/29278
+3. https://repository.uinjkt.ac.id/dspace/handle/123456789/64565
+4. https://repository.uinjkt.ac.id/dspace/handle/123456789/71674
+5. https://repository.uinjkt.ac.id/dspace/handle/123456789/85701
