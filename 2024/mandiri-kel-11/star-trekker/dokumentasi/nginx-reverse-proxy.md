@@ -1,5 +1,5 @@
 **di sini kami menggunakan server 2 sebagai reverse proxy dari aplikasi yang di deploy di server 1**
-
+ ### di sisi server 2
 ```
 sudo pacman -S nginx
 ```
@@ -23,7 +23,7 @@ server {
     server_name agoy.local.test;
 
     location / {
-        proxy_pass http://192.168.2.100:8081;
+        proxy_pass http://10.10.1.3:8081;
 
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
@@ -39,17 +39,30 @@ sudo ln -s /etc/nginx/sites-available/omeka.conf /etc/nginx/sites-enabled/
 sudo nginx -t
 ```
 ```
+sudo systemctl restart nginx
+```
+
+### di sisi client
+
+```
 sudo nvim /etc/hosts
 ```
 > tambahkan domain sesuai di nginx
+> contoh
 ```
-server_ip agoy.local.test
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1        localhost
+::1              localhost
+
+10.10.1.4(sesuaikan dengan ip wireless server 2)      	 agoy.local.test
+
 ```
 ```
 sudo systemctl restart nginx
 ```
 
-akses browser:
+> contoh akses browser:
 ```
-http://domainanda.com
+http://agoy.local.test.com
 ```
