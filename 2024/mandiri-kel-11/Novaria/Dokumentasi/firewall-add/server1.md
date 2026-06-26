@@ -5,3 +5,10 @@ firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="1
 ```
 firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="173.33.46.9" port port="0001" protocol="tcp" accept'
 ```
+```
+firewall-cmd --reload
+```
+
+```
+firewall-cmd --info-zone=public
+```
