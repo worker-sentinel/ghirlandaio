@@ -63,9 +63,6 @@ ls /boot/efi/linux/arch-linux-hardened.efi
 exit
 ```
 
-
-# Setup Firewall
-
 # Hardening Module Kernel
 ```
 lsmod | grep cramfs
