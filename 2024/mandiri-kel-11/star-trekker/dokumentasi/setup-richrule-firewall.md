@@ -8,6 +8,9 @@ firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="i
 ```
 firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="ipadminyangnyambungkeaccesspointserver1" port="8081" protocol="tcp" accept' --permanent
 ```
+```
+firewall-cmd --reload
+```
 
 **di server 2**
 ```
@@ -18,7 +21,8 @@ firewall-cmd --zone=public --add-rich-rule='rule family="ipv4" source address="i
 firewall-cmd --zone=public --add-port="80"/tcp
 ```
 ```
-firewall
+firewall-cmd --reload
+```
 
 
 
