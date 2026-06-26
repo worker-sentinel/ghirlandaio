@@ -28,6 +28,7 @@ sudo mkdir -p /etc/nginx/sites-enabled
 sudo nvim /etc/nginx/sites-available/slims.conf
 ```
 insert
+
 <img width="480" height="255" alt="65504a19-361f-424a-a9f6-a988a814c982" src="https://github.com/user-attachments/assets/a7b9b3ad-6f91-480b-b8cd-718eb9ab47fc" />
 
 
