@@ -16,7 +16,7 @@ Tiga permasalahan utama perpustakaan dan arsip dengan kaitannya terhadap impleme
 
 
 ## Daftar Pustaka
-[https://repository.uinjkt.ac.id/dspace/bitstream/123456789/2035/1/93323-BAMBANG%20SURYO%20PUTRO-FAH.pdf)
+(https://repository.uinjkt.ac.id/dspace/bitstream/123456789/8234/1/RATIH%20AGUSTIN%20KUSUMA%20WARDANI-FAH.pdf)
 https://repository.uinjkt.ac.id/dspace/bitstream/123456789/2035/1/93323-BAMBANG%20SURYO%20PUTRO-FAH.pdf
 https://repository.uinjkt.ac.id/dspace/bitstream/123456789/71674/1/KHOERUL%20UMAM-FAH.pdf
 https://repository.uinjkt.ac.id/dspace/bitstream/123456789/27626/1/FAUZIAH-FAH.pdf
