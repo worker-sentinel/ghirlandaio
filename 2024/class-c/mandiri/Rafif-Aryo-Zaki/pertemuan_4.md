@@ -1,0 +1,29 @@
+**<h1 align="center">Apa Kepanjangan dari ARPA dan Apa yang dilakukan Peneliti di ARPA</h1>**
+<p align="justify"> Pada pertemuan mata kuliah Perpustakaan dan Arsip Digital kali ini, kelompok presentator membahas materi tentang "Evolusi Hubungan Negara, Swasta dan Teknologi (1960-Sekarang): Peran Hacking Culture serta Open dan Closed Sources"</p>
+
+## PENDAHULUAN
+<p align="justify"> Perkembangan teknologi informasi dan komunikasi yang kita nikmati sekarang ini tidaklah muncul secara tiba-tiba melainkan muncul dari sebuah inovasi-inovasi yang dilakukan oleh para peneliti di luar sana. Semua ini adalah hasil dari perjalanan panjang dan hasil kerja keras dari berbagai pihak, mulai dari para ilmuwan sampai dengan lembaga penelitian yang ada pada saat itu. Mereka menghabiskan waktu bertahun-tahun untuk bereksperimen dan meneliti hingga teknologi tersebut bisa sampai secanggih sekaarang ini.</p>
+<p align="justify"> Salah satu lembaga yang memiliki peran penting dalam sejarah perkembangan teknologi informasi dan komunikasi ini adalah lembaga riset asal Amerika Serikat bernama Advanced Research Projects Agency (ARPA). Lembaga milik pemerintah ini memiliki peran yang sangat besar karena fokus mereka adalah menciptakan teknologi masa depan. Karya mereka yang paling berpengaruh adalah pengembangan sistem komputer dan jaringan komunikasi, yang menjaadi cikal bakal lahirnya internet yang kita gunakan setiap hari pada saat ini.</p>
+
+## PEMBAHASAN
+<P align="justify"> Advanced Research Projects Agency (ARPA) adalah sebuah lembaga penelitian yang didirikan oleh pemerintahan Amerika Serikat. Pada awalnya, lembaga ini hadir karena adanya kebutuhan mendesak untuk menciptakan sebuah teknologi yang kuat di masa persaingan dunia dalam hal teknologi dan militer yang sedang memanas. Namun, sebenarnya ARPA sendiri mempunyai cara kerja yang unik dan berbeda dari lembaga penelitian yang lain. Dibanding terlalu mengekang, lembaga tersebut justru memberikan kebebasan penuh kepada para peneliti untuk mencoba ide-ide baru yang mungkin terdengar mustahil dilakukan pada masa itu, dan juga berani ambil resiko untuk memberikan modal yang besar untuk proyek-proyek yang terlihat inovatif dan punya potensi untuk dapat mengubah masa depan ke arah yang lebih maju.</P>
+<p align="justify"> Dalam bukunya yang berjudul *Troublemakers*, Leslie Berlin mengatakan bahwa peran ARPA jauh lebih besar daripada sekedar penyedia dana. Lembaga ini bertindak seperti penghubung atau jembatan yang mempertemukan orang-orang pintar (ilmuwan) dari berbagai universitas dan laboratorium teknologi. Dengan cara mengajak mereka bekerja bersama dan saling berbagi ide, ARPA berhasil menciptakan lingkungan kerja yang sangat hidup dan penuh semangat untuk melangkah maju. Kerjasama yang erat inilah yang akhirnya membuat mereka berhasil menciptakan berbagai penemuan luar biasa, terutama dalam dunia komputer dan cara kita berkomunikasi lewat jaringan digital yanng kita gunakan hingga saat ini.</p>
+
+### Peran Peneliti ARPA
+
+**1. Mencetuskan Ide Jaringan Komputer (APARNET)**
+<p align="justify"> Salah satu terobosan terbesar yang dilakukan oleh para peneliti di ARPA adalah mencetuskan ide untuk menghubungkan berbagai komputer ke dalam satu jaringan yang sama. Pada saat itu, komputer masih bekerja secara terpisah dan tidak dapat saling berkomunikasi atau bertukar data. Dalam buku *Troublemakers*, Bob Taylor melihat bahwa di kantornya ada beberapa komputer dari berbagai proyek berbeda yang letaknya itu berjauhan dan juga tidak saling terhubung, Taylor melihat permasalahan ini sebagai hambatan besar dalam kemajuan teknologi karena informasi menjadi sulit dibagikan.</p>
+<p align="justify"> Melaui pemikiran tersebut, munculah ide untuk menciptakan sebuah sistem yang memungkinkan komputer-komputer tersebut saling terhubung dan berbagi informasi secara instan. Ide tersebut itu kemudian diwujudkan dalam proyek ARPANET (Advanced Research Projects Agency Network), yang menjadi titik awal lahirnya internet yang kita gunakan saat ini, di mana awalnya hanya sekedar menyambungkan beberapa komputer di kantor, hingga akhirnya kini bisa menyambungkan seluruh orang di dunia.</p>
+
+**2. Mendanai dan Menginisiasi Proyek Riset**
+<p align="justify"> Selain menjadi tempat lahirnya ide-ide hebat, para peneliti ARPA juga berperan sebagai pendukung utama dalam memulai dan mendanai berbagai proyek penelitian. ARPA memberikan bantuan modal yang sangat besar dan sengaja memotong aturan-aturan kantor yang berbelit-belit. Tujuannya sederhana yaitu agar para peneliti tidak pusing dengan urusan administrasi yang rumit dan bisa benar-benar fokus pada pengembangan tekonologi.</p>
+<p align="justify"> Cara kerja tersebut ikut mendukung penemuan-penemuan besar bisa tercipta dalam waktu yang tergolong cepat. Dalam situisasi seperti ini, para peneliti tidak hanya bekerja sebagai orang pintar di balik meja saja, tetapi mereka juga menjadi roda penggerak utama yang memastikan kemudahan teknologi baru benar-benar terwujud dan bisa digunakan. Tanpa dukungan dana dan kemudahan yang diberikan ARPA, mungkin banyak teknologi hebat yang kita kenal sekarang tidak akan pernah selesai dibuat.</p>
+
+## KESIMPULAN
+<p align="justify"> 
+Advanced Research Projects Agency (ARPA) memiliki peran penting dalam perkembangan teknologi informasi dan komunikasi. Lembaga ini menjadi penghubung antara para ilmuwan dari berbagai universitas dan laboratorium teknologi. Lewat ARPA para peneliti berhasil mencetuskan ide jaringan komputer yang bernama ARPANET (Advanced Research Projects Agency Network) dan juga menginisiasi proyek penelitian salah satunya adalah sistem penggunaan komputer bersama yang dikembangkan oleh peneliti di ARPA.
+</p>
+
+-------
+## DAFTAR PUSTAKA
+- Berlin, Leslie. 2017. *Troublemakers: Sillicon Valley's Coming of Age*. Simon and Schuster.

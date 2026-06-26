@@ -1,0 +1,37 @@
+| No | Judul | Penulis | Tahun | Kesimpulan dan Saran |
+|------|-----------|------------|------------|-------------------------------|
+| 1 | Penerapan otomasi perpustakaan berbasis teknologi Senayan Library Information Management System (SLiMS) di UPT Perpustakaan Universitas Pembangunan Nasional Veteran Jakarta | Khoerul Umam | 2014 | Penerapan SLIMS di Perpustakaan UPN Veteran Jakarta sudah berjalan dengan baik dan membantu berbagai kegiatan perpustakaan, seperti pengolahan koleksi, sirkulasi, keanggotaan, dan pencarian informasi. Penggunaan SLIMS juga membuat layanan perpustakaan menjadi lebih efektif, efisien, dan memudahkan pustakawan maupun pengguna dalam mengakses informasi.Untuk ke depannya, perpustakaan perlu terus mengembangkan sistem SLIMS, meningkatkan kerja sama dengan perpustakaan lain, menambah tenaga yang memiliki kemampuan di bidang teknologi informasi, serta mengadakan pelatihan agar pemanfaatan SLIMS dapat lebih optimal. |
+| 2 | Pemanfaatan Database online bidang kedokteran (EBSCO, proquest, Gale Cengange) Oleh Mahasiswa Fakultas Kedokteraan Di Universitas YARSI | Dita Parwitasari | 2016 | Dapat disimpulkan bahwa sebagian besar mahasiswa sudah mengetahui dan menggunakan database online bidang kedokteran. Namun,pemanfaatannya masih belum maksimal karena mahasiswaumumnya hanya mengaksesnya saat ada tugas atau kebutuhantertentu. Kendala yang sering dihadapi adalah kesulitan mencari kata kunci, koneksi internet, dan artikel yang berbahasa asing. Oleh karena itu, perpustakaan perlumeningkatkan sosialisasi dan pelatihanpenggunaan database online agar mahasiswa lebih terbiasa memanfaatkannya sebagai sumber referensi akademik. |
+| 3 | Pemanfaatan E-Resources oleh mahasiswa di Perpustakaan Nasional Republik Indonesia | Fitri Vebiyanti | 2017 | Hasil penelitian menunjukkan bahwa E-Resources Perpustakaan Nasional RI telah dimanfaatkan oleh mahasiswa sebagai sumber informasi untuk mendukung kegiatan perkuliahan, penyusunan tugas, dan skripsi. Keberadaan layanan ini membantu mahasiswa memperoleh referensi yang lebih lengkap dan mudah diakses. Namun, dalam pemanfaatannya masih terdapat beberapa kendala, seperti keterbatasan kemampuan bahasa Inggris serta masalah teknis saat mengakses layanan. Oleh karena itu, Perpustakaan Nasional RI perlu terus meningkatkan kualitas layanan E-Resources, baik melalui promosi yang lebih luas, penambahan koleksi yang sesuai dengan kebutuhan pengguna, maupun penyelenggaraan pelatihan agar mahasiswa lebih terampil dalam memanfaatkan sumber informasi yang tersedia. |
+| 4 | Kualitas Aplikasi Digilib Sebagai Sistem Otomasi Perpustakaan : Studi Kasus Perpustakaan Badan Pengkajian Dan Penerapan Teknologi (Bppt) | Arik Suprapti | 2018 | Hasilnya menunjukkan bahwa aplikasi Digilib sebagai sistem otomasi perpustakaan BPPT secara umum telah memenuhi sebagian besar standar kualitas model McCall dan mampu mendukung kegiatan perpustakaan dengan baik. Namun, beberapa aspek seperti reliability, integrity, dan usability masih perlu ditingkatkan. Selain itu, efektivitas penggunaan sistem juga dipengaruhi oleh kemampuan pustakawan dalam mengoperasikan aplikasi. Oleh karena itu, perlu dilakukan pengembangan dan evaluasi secara berkelanjutan terhadap Digilib, disertai peningkatan kemampuan pustakawan melalui pelatihan. Perbaikan pada fitur pencarian dan penyediaan panduan penggunaan juga diperlukan agar pemanfaatan sistem dapat berjalan lebih optimal. |
+| 5 | Pengaruh Kualitas Website Perpustakaan Universitas Indonesia Terhadap Pemeringkatan Webometric | Husnul Wafa | 2022 | Hasil penelitian menunjukkan bahwa kualitas website Perpustakaan Universitas Indonesia, baik dari aspek kemudahan penggunaan, kualitas informasi, maupun kualitas layanan, berada dalam kategori sangat baik. Selain itu, kualitas website terbukti berpengaruh positif dan signifikan terhadap pemeringkatan Webometrics. Semakin baik kualitas website yang dimiliki, semakin baik pula pemeringkatan Webometrics universitas. 
+
+
+### Berdasarkan kesimpulan dan saran dari skripsi yang didapatkan terdapat beberapa permasalahan yang dihadapi perpustakaan dan arsip terkait teknologi informasi 
+
+1. Perpustakaan kekurangan tenaga berkompetensi TI (SLIMS – UPN Veteran), dan pustakawan belum sepenuhnya mahir mengoperasikan sistem otomasi seperti Digilib (BPPT), sehingga masih terjadi kesalahan dalam penggunaan sistem.
+2. Aplikasi Digilib masih lemah pada aspek reliability, integrity, dan usability. Fitur pencarian belum berfungsi maksimal dan belum tersedia panduan penggunaan bagi pustakawan maupun pengguna.
+3. Mahasiswa kesulitan menelusur informasi menggunakan kata kunci yang tepat pada database online maupun E-Resources, dan pemanfaatannya tidak rutin, hanya dilakukan saat ada kebutuhan mendesak.
+4. Konten pada database online dan E-Resources PNRI sebagian besar berbahasa Inggris, sehingga menjadi kendala bagi pengguna yang kemampuan bahasa Inggrisnya terbatas.
+5. Pengguna mengalami kendala koneksi internet saat mengakses database online, serta gangguan teknis (troubleshooting) pada provider E-Resources PNRI.
+Layanan seperti E-Resources dan database online belum dipromosikan secara maksimal, sehingga banyak pengguna yang tidak memanfaatkannya secara optimal meskipun layanan sudah tersedia.
+
+
+
+### 3 Permasalahan utama perpustakaan dan arsip dalam kaitannya dengan implementasi teknologi informasi, yaitu : 
+
+1. Keterbatasan Kompetensi SDM dalam Pemanfaatan Teknologi Informasi
+Permasalahan ini muncul di hampir seluruh konteks. Pustakawan masih mengalami kesalahan dalam mengoperasikan sistem otomasi seperti Digilib, mahasiswa kesulitan menggunakan database online karena tidak terbiasa menentukan kata kunci, dan pengguna E-Resources PNRI pun terkendala karena kurang memahami metode penelusuran seperti Operator Boolean. Ini menunjukkan bahwa kehadiran teknologi informasi di perpustakaan belum diimbangi dengan kesiapan sumber daya manusia yang memadai, baik dari sisi pustakawan maupun pengguna.
+2. Kendala Teknis dan Kualitas Sistem yang Belum Optimal
+Sistem teknologi yang diterapkan di perpustakaan masih menghadapi berbagai masalah teknis. Aplikasi Digilib belum memenuhi standar reliability, integrity, dan usability; fitur pencarian OPAC belum berfungsi optimal; serta E-Resources PNRI kerap mengalami troubleshooting pada provider. Hal ini menunjukkan bahwa implementasi teknologi informasi di perpustakaan masih memerlukan pengembangan dan evaluasi berkelanjutan agar benar-benar dapat mendukung layanan secara maksimal.
+3. Rendahnya Intensitas dan Kedalaman Pemanfaatan Layanan Digital oleh Pengguna
+Meskipun layanan berbasis teknologi seperti E-Resources, database online, dan SLIMS telah tersedia, pemanfaatannya oleh pengguna masih belum maksimal. Mahasiswa umumnya hanya mengakses database online saat ada tugas tertentu, pencarian informasi pada E-Resources masih terbatas, dan sosialisasi layanan digital dinilai belum memadai. Ini mengindikasikan bahwa ketersediaan teknologi saja tidak cukup tanpa disertai promosi, pelatihan, dan pendampingan yang sistematis kepada pengguna.
+
+
+SUMBER
+
+1. https://repository.uinjkt.ac.id/dspace/handle/123456789/71674
+2. https://repository.uinjkt.ac.id/dspace/bitstream/123456789/64571/1/DITA%20PARWITASARI%20-%20FAH.pdf
+3. https://repository.uinjkt.ac.id/dspace/handle/123456789/36659
+4. https://repository.uinjkt.ac.id/dspace/handle/123456789/40590
+5. https://repository.uinjkt.ac.id/dspace/handle/123456789/78307

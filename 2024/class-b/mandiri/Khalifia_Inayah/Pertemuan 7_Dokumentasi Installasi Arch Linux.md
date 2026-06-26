@@ -1,0 +1,20 @@
+# Dokumentasi Installasi Arch Linux
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/3589f5dd-8cf6-4f68-89e7-e47ce7a7ceea" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/fd2dcf99-300e-4675-8a01-8b7d5f5b122f" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/270a36a6-b2e6-4516-986c-e3ed140a585d" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b353467-b057-445d-8d90-dac691b84a01" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f92c1321-bcd8-430b-b50a-60496a2f7b94" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/432d4556-8f43-4074-aa17-a071eaa95834" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/46e174fc-3dc2-459a-9624-29717f62656e" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/1d3d7d05-bdc0-45b7-a8d2-6902a92cc711" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/0677dfea-6302-4da6-88ac-a7a12d8a946f" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/881048b1-b2a3-421d-8214-e4cff2895f60" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/4978219d-e90f-4771-8085-cb3846464dbc" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/5d1beced-1db4-4f30-a61a-52c9590d780e" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/ae08946e-a183-4aa1-a9e2-37edf209c3c7" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d1642de4-845f-4202-bee3-dfab20aa3a22" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/06ee0bab-5d3c-4613-b5e6-fe97fd5a9151" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/81c75a84-341c-4b60-91e0-1a692bdc57e3" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/61086793-ceeb-49b5-b81e-6a8e82491cf1" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/3effb8a2-8d92-472d-860d-def0e5f93959" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/08374b03-88ba-472b-a937-a4a769deeac8" />

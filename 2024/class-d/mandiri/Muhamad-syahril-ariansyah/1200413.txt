@@ -1,0 +1,756 @@
+[root@nisa khairunnisa]# systemctl enable firewalld
+[root@nisa khairunnisa]# systemctl start firewalld
+[root@nisa khairunnisa]# systemctl enable firewalld
+[root@nisa khairunnisa]# systemctl start firewalld
+[root@nisa khairunnisa]# firewall-cmd --list-all-zone
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: yes
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+public (default, active)
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+trusted
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+work
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+[root@nisa khairunnisa]# firewall-cmd --zone=work --add-port=8080/tcp --permanent
+success
+[root@nisa khairunnisa]# firewall-cmd --reload
+success
+[root@nisa khairunnisa]# firewall-cmd --list-all-zone
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: yes
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+public (default, active)
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+trusted
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+work
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports: 8080/tcp
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+[root@nisa khairunnisa]# firewall-cmd --zone=work --add-service=ssh --permanent
+Warning: ALREADY_ENABLED: ssh
+success
+[root@nisa khairunnisa]# firewall-cmd --zone=trusted --add-service=ssh --permanent
+success
+[root@nisa khairunnisa]# firewall-cmd --reload
+success
+[root@nisa khairunnisa]# firewall-cmd --list-all-zone
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: yes
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+public (default, active)
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+trusted
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+work
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports: 8080/tcp
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+[root@nisa khairunnisa]# firewall-cmd --zone=trusted --remove-service=ssh --permanent
+success
+[root@nisa khairunnisa]# firewall-cmd --zone=work --remove-port=8080/tcp --permanent
+success
+[root@nisa khairunnisa]# firewall-cmd --reload
+success
+[root@nisa khairunnisa]# firewall-cmd --list-all-zone
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: yes
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  target: default
+  ingress-priority: 0
+install usb-storage /bin/false
+blacklist usb-storage
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+/etc/modprobe.d/01-hard.conf [+]                                                                                                                                                                                              2,21           All
+[root@nisa khairunnisa]# modprobe -r usb-storage
+[root@nisa khairunnisa]# mkinitcpio -P
+==> Building image from preset: /etc/mkinitcpio.d/linux-hardened.preset: 'default'
+==> Using configuration file: '/etc/mkinitcpio.d/default.conf'
+  -> -k /boot/kernel/vmlinuz-linux-hardened -c /etc/mkinitcpio.d/default.conf -U /boot/efi/linux/arch-linux-hardened.efi
+==> Starting build: '7.0.11-hardened1-1-hardened'
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [autodetect]
+  -> Running build hook: [microcode]
+  -> Running build hook: [modconf]
+  -> Running build hook: [kms]
+  -> Running build hook: [keyboard]
+  -> Running build hook: [sd-vconsole]
+==> WARNING: sd-vconsole: "/etc/vconsole.conf" not found, will use default values
+  -> Running build hook: [sd-encrypt]
+==> WARNING: Possibly missing firmware for module: 'qat_6xxx'
+  -> Running build hook: [lvm2]
+  -> Running build hook: [block]
+  -> Running build hook: [filesystems]
+  -> Running build hook: [fsck]
+==> Generating module dependencies
+install usb-storage /bin/false
+blacklist usb-storage
+install iwlwifi /bin/false
+blacklist iwlwifi
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+/etc/modprobe.d/01-hard.conf [+]                                                                                                                                                                                              4,17           All
+[root@nisa khairunnisa]# modprobe -r iwlwifi
+modprobe: FATAL: Module iwlwifi is in use.
+[root@nisa khairunnisa]# mkinitcpio -P
+==> Building image from preset: /etc/mkinitcpio.d/linux-hardened.preset: 'default'
+==> Using configuration file: '/etc/mkinitcpio.d/default.conf'
+  -> -k /boot/kernel/vmlinuz-linux-hardened -c /etc/mkinitcpio.d/default.conf -U /boot/efi/linux/arch-linux-hardened.efi
+==> Starting build: '7.0.11-hardened1-1-hardened'
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [autodetect]
+  -> Running build hook: [microcode]
+  -> Running build hook: [modconf]
+  -> Running build hook: [kms]
+  -> Running build hook: [keyboard]
+  -> Running build hook: [sd-vconsole]
+==> WARNING: sd-vconsole: "/etc/vconsole.conf" not found, will use default values
+  -> Running build hook: [sd-encrypt]
+==> WARNING: Possibly missing firmware for module: 'qat_6xxx'
+  -> Running build hook: [lvm2]
+  -> Running build hook: [block]
+  -> Running build hook: [filesystems]
+  -> Running build hook: [fsck]
+==> Generating module dependencies
+==> Creating zstd-compressed initcpio image
+  -> Early uncompressed CPIO image generation successful
+==> Initcpio image generation successful
+==> Creating unified kernel image: '/boot/efi/linux/arch-linux-hardened.efi'
+==> Unified kernel image generation successful
+[root@nisa khairunnisa]# exit
+exit

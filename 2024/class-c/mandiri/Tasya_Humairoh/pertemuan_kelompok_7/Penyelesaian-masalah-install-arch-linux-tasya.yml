@@ -1,0 +1,3753 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Windows\System32
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 172
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 834
+    content: "\e[?9001h\e[?1004h"
+  - delay: 244
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 12
+    content: "\e[?25l\e[6;1H\e]0;Administrator: C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 417
+    content: 'PS C:\Windows\System32> '
+  - delay: 3331
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93ms\e[?25h"
+  - delay: 226
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bss\e[?25h"
+  - delay: 713
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;25Hssh\e[?25h"
+  - delay: 30271
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[?25h"
+  - delay: 761
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;25Hssh \e[37mr\e[?25h"
+  - delay: 438
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;25Hssh \e[37mro\e[?25h"
+  - delay: 145
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hssh \e[37mroo\e[?25h"
+  - delay: 302
+    content: "\e[?25l\e[m\e[93m\e[6;25Hssh \e[37mroot"
+  - delay: 19
+    content: "\e[m\e[?25h"
+  - delay: 3753
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;25Hssh \e[37mroot@\e[?25h"
+  - delay: 873064
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 346
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 420
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 1979
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.8\e[?25h"
+  - delay: 319
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83\e[?25h"
+  - delay: 652
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.\e[?25h"
+  - delay: 1618
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.1\e[?25h"
+  - delay: 688
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.15\e[?25h"
+  - delay: 246
+    content: "\e[m\e[?25l"
+  - delay: 26
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.151\e[?25h"
+  - delay: 1584
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.151.\e[?25h"
+  - delay: 1380
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.151.8\e[?25h"
+  - delay: 354
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hssh \e[37mroot@10.83.151.84\e[?25h"
+  - delay: 2388
+    content: "\e[m"
+  - delay: 23
+    content: "\r\n"
+  - delay: 373
+    content: "The authenticity of host '10.83.151.84 (10.83.151.84)' can't be established.\r\nED25519 key fingerprint is SHA256:XWNX0D+kCzFRQZWF2C5CxAyHlZ9YUoA9k4mGeLGjNPI.\r\nThis key is not known by any other names.\r\nAre you sure you want to continue connecting (yes/no/[fingerprint])? "
+  - delay: 6322
+    content: 'y'
+  - delay: 164
+    content: e
+  - delay: 268
+    content: s
+  - delay: 675
+    content: "\r\n"
+  - delay: 21
+    content: "Warning: Permanently added '10.83.151.84' (ED25519) to the list of known hosts.\r\n"
+  - delay: 231
+    content: 'root@10.83.151.84''s password: '
+  - delay: 34175
+    content: "\r\n"
+  - delay: 3238
+    content: "Permission denied, please try again.\r\n"
+  - delay: 22
+    content: 'root@10.83.151.84''s password: '
+  - delay: 9409
+    content: "\r\n"
+  - delay: 3267
+    content: "Permission denied, please try again.\r\n"
+  - delay: 17
+    content: 'root@10.83.151.84''s password: '
+  - delay: 114478
+    content: "\r\n"
+  - delay: 23
+    content: "Connection closed by 10.83.151.84 port 22\r\n"
+  - delay: 44
+    content: 'PS C:\Windows\System32> '
+  - delay: 28270
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93ms\e[?25h"
+  - delay: 164
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\bss\e[?25h"
+  - delay: 331
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh\e[?25h"
+  - delay: 1449
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[18;25Hssh \e[?25h"
+  - delay: 407
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[18;25Hssh \e[37mr\e[?25h"
+  - delay: 429
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[18;25Hssh \e[37mro\e[?25h"
+  - delay: 145
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[18;25Hssh \e[37mroo\e[?25h"
+  - delay: 300
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[18;25Hssh \e[37mroot\e[?25h"
+  - delay: 2929
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[18;25Hssh \e[37mroot@\e[?25h"
+  - delay: 3852
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[18;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 620
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 878
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 2824
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.8\e[?25h"
+  - delay: 374
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83\e[?25h"
+  - delay: 1781
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.\e[?25h"
+  - delay: 806
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.1\e[?25h"
+  - delay: 383
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.15\e[?25h"
+  - delay: 384
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.151\e[?25h"
+  - delay: 1528
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.151.\e[?25h"
+  - delay: 1144
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.151.8\e[?25h"
+  - delay: 338
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[18;25Hssh \e[37mroot@10.83.151.84\e[?25h"
+  - delay: 1531
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 223
+    content: 'root@10.83.151.84''s password: '
+  - delay: 3158
+    content: "\r\n"
+  - delay: 379
+    content: "\e[?25lTo install \e[38;2;23;147;209mArch Linux \e[mfollow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\e[23;1HFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl \e[mutility.\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli \e[mutility.\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\e[27;1HAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[m.\e[41m\e[30;1H   \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m  \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m  \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \r\n\e[?25h"
+  - delay: 11
+    content: "\e[m"
+  - delay: 77
+    content: "\e[?1h\e=\e[?2004h\e[?25l\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[31;18H\e]0;root@archiso: ~\a\e[?25h"
+  - delay: 37200
+    content: l
+  - delay: 623
+    content: "\bls"
+  - delay: 316
+    content: b
+  - delay: 422
+    content: l
+  - delay: 148
+    content: k
+  - delay: 996
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 15
+    content: "\r\n\e]0;root@archiso: lsblk\a"
+  - delay: 26
+    content: "NAME          MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\nloop0           7:0    0 973.1M  1 loop /run/archiso/airootfs\r\nsda             8:0    1  14.3G  0 disk \r\n└─sda1          8:1    1  14.3G  0 part \r\nnvme0n1       259:0    0 238.5G  0 disk \r\n├─nvme0n1p1   259:1    0   100M  0 part \r\n├─nvme0n1p2   259:2    0    16M  0 part \r\n├─nvme0n1p3   259:3    0 188.5G  0 part \r\n├─nvme0n1p4   259:4    0   512M  0 part \r\n├─nvme0n1p5   259:5    0     1G  0 part\r\n├─nvme0n1p6   259:6    0     3G  0 part\r\n└─nvme0n1p7   259:7    0  45.3G  0 part\r\n  ├─proc-root 253:0    0     5G  0 lvm\r\n  ├─proc-vars 253:1    0     5G  0 lvm\r\n  ├─proc-vtmp 253:2    0     1G  0 lvm\r\n  ├─proc-vlog 253:3    0     1G  0 lvm\r\n  ├─proc-vaud 253:4    0   512M  0 lvm\r\n  ├─proc-home 253:5    0     1G  0 lvm\r\n  └─proc-priv 253:6    0  15.9G  0 lvm\r"
+  - delay: 22
+    content: "\n\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 7463
+    content: m
+  - delay: 318
+    content: "\bmo"
+  - delay: 264
+    content: u
+  - delay: 569
+    content: 'n'
+  - delay: 368
+    content: t
+  - delay: 2352
+    content: ' '
+  - delay: 5345
+    content: /
+  - delay: 390
+    content: d
+  - delay: 232
+    content: e
+  - delay: 711
+    content: v
+  - delay: 1874
+    content: /
+  - delay: 391
+    content: p
+  - delay: 443
+    content: r
+  - delay: 449
+    content: o
+  - delay: 622
+    content: c
+  - delay: 3284
+    content: /
+  - delay: 615
+    content: r
+  - delay: 349
+    content: o
+  - delay: 161
+    content: o
+  - delay: 266
+    content: t
+  - delay: 4755
+    content: ' '
+  - delay: 289
+    content: /
+  - delay: 838
+    content: mn
+  - delay: 124
+    content: t
+  - delay: 2459
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount /dev/proc/root /mnt\a"
+  - delay: 9
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 10
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 7530
+    content: m
+  - delay: 160
+    content: "\bmo"
+  - delay: 264
+    content: u
+  - delay: 173
+    content: 'n'
+  - delay: 370
+    content: t
+  - delay: 6406
+    content: ' '
+  - delay: 434
+    content: '-'
+  - delay: 912
+    content: o
+  - delay: 1810
+    content: ' '
+  - delay: 410
+    content: u
+  - delay: 157
+    content: i
+  - delay: 499
+    content: d
+  - delay: 396
+    content: '='
+  - delay: 3270
+    content: '0'
+  - delay: 1269
+    content: ','
+  - delay: 834
+    content: g
+  - delay: 23
+    content: i
+  - delay: 371
+    content: d
+  - delay: 2929
+    content: ','
+  - delay: 796
+    content: f
+  - delay: 568
+    content: mm
+  - delay: 193
+    content: a
+  - delay: 185
+    content: s
+  - delay: 570
+    content: k
+  - delay: 5982
+    content: "\b \b"
+  - delay: 160
+    content: "\b \b"
+  - delay: 202
+    content: "\b \b"
+  - delay: 372
+    content: "\e[?25l\e[40;38H  \e[40;38H\e[?25h"
+  - delay: 128
+    content: "\b \b"
+  - delay: 163
+    content: "\b \b"
+  - delay: 1004
+    content: '='
+  - delay: 2784
+    content: '0'
+  - delay: 2662
+    content: ','
+  - delay: 719
+    content: f
+  - delay: 213
+    content: m
+  - delay: 418
+    content: a
+  - delay: 191
+    content: s
+  - delay: 412
+    content: k
+  - delay: 2243
+    content: '='
+  - delay: 1519
+    content: '0'
+  - delay: 273
+    content: '0'
+  - delay: 359
+    content: '7'
+  - delay: 111
+    content: '7'
+  - delay: 1982
+    content: ','
+  - delay: 1036
+    content: d
+  - delay: 823
+    content: m
+  - delay: 271
+    content: a
+  - delay: 170
+    content: s
+  - delay: 1017
+    content: k
+  - delay: 964
+    content: '='
+  - delay: 1204
+    content: '0'
+  - delay: 90
+    content: '0'
+  - delay: 634
+    content: '7'
+  - delay: 496
+    content: '7'
+  - delay: 1100
+    content: ' '
+  - delay: 298
+    content: /
+  - delay: 468
+    content: d
+  - delay: 202
+    content: e
+  - delay: 688
+    content: v
+  - delay: 3192
+    content: /
+  - delay: 614
+    content: 'n'
+  - delay: 249
+    content: v
+  - delay: 1717
+    content: m
+  - delay: 501
+    content: e
+  - delay: 3269
+    content: '0'
+  - delay: 919
+    content: 'n'
+  - delay: 1133
+    content: '1'
+  - delay: 784
+    content: p
+  - delay: 4945
+    content: '6'
+  - delay: 6759
+    content: ' '
+  - delay: 289
+    content: /
+  - delay: 419
+    content: m
+  - delay: 190
+    content: 'n'
+  - delay: 348
+    content: t
+  - delay: 1700
+    content: /
+  - delay: 555
+    content: b
+  - delay: 1207
+    content: o
+  - delay: 248
+    content: o
+  - delay: 447
+    content: t
+  - delay: 1312
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/nvme0n1p6 /mnt/boot\a"
+  - delay: 18
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 44776
+    content: m
+  - delay: 281
+    content: "\bmo"
+  - delay: 280
+    content: u
+  - delay: 661
+    content: 'n'
+  - delay: 1255
+    content: t
+  - delay: 1072
+    content: ' '
+  - delay: 687
+    content: '-'
+  - delay: 325
+    content: '-'
+  - delay: 696
+    content: m
+  - delay: 194
+    content: k
+  - delay: 647
+    content: d
+  - delay: 35
+    content: i
+  - delay: 373
+    content: r
+  - delay: 1945
+    content: ' '
+  - delay: 501
+    content: '-'
+  - delay: 469
+    content: '0'
+  - delay: 1530
+    content: "\e[?25l\e[40;18H\e[?25h"
+  - delay: 4811
+    content: "\e[1C"
+  - delay: 228
+    content: "\e[1C"
+  - delay: 185
+    content: "\e[1C"
+  - delay: 394
+    content: "\e[1C"
+  - delay: 322
+    content: "\e[1C"
+  - delay: 57
+    content: "\e[1C"
+  - delay: 95
+    content: "\e[1C"
+  - delay: 9
+    content: "\e[3C"
+  - delay: 21
+    content: "\e[1C"
+  - delay: 45
+    content: "\e[1C"
+  - delay: 380
+    content: "\e[1C"
+  - delay: 131
+    content: "\e[1C"
+  - delay: 193
+    content: "\e[1C"
+  - delay: 1561
+    content: "\e[?25l\b0 \e[40;32H\e[?25h"
+  - delay: 1112
+    content: "\e[?25l\b0 \e[40;31H\e[?25h"
+  - delay: 818
+    content: "\e[1C"
+  - delay: 878
+    content: "\b \b"
+  - delay: 2377
+    content: ' '
+  - delay: 2355
+    content: "\b"
+  - delay: 234
+    content: "\b \b"
+  - delay: 1081
+    content: r
+  - delay: 1673
+    content: ' '
+  - delay: 803
+    content: '-'
+  - delay: 603
+    content: o
+  - delay: 1042
+    content: ' '
+  - delay: 354
+    content: r
+  - delay: 382
+    content: w
+  - delay: 1411
+    content: ','
+  - delay: 252
+    content: 'n'
+  - delay: 317
+    content: o
+  - delay: 493
+    content: s
+  - delay: 242
+    content: u
+  - delay: 222
+    content: i
+  - delay: 382
+    content: d
+  - delay: 2189
+    content: ','
+  - delay: 609
+    content: 'n'
+  - delay: 135
+    content: o
+  - delay: 510
+    content: d
+  - delay: 276
+    content: e
+  - delay: 732
+    content: v
+  - delay: 2852
+    content: ','
+  - delay: 378
+    content: r
+  - delay: 76
+    content: e
+  - delay: 878
+    content: l
+  - delay: 147
+    content: a
+  - delay: 362
+    content: t
+  - delay: 423
+    content: i
+  - delay: 267
+    content: m
+  - delay: 702
+    content: e
+  - delay: 1488
+    content: ' '
+  - delay: 1007
+    content: /
+  - delay: 1218
+    content: d
+  - delay: 123
+    content: e
+  - delay: 1179
+    content: v
+  - delay: 804
+    content: /
+  - delay: 985
+    content: p
+  - delay: 352
+    content: r
+  - delay: 543
+    content: o
+  - delay: 222
+    content: c
+  - delay: 1284
+    content: /
+  - delay: 883
+    content: v
+  - delay: 607
+    content: a
+  - delay: 32
+    content: r
+  - delay: 263
+    content: s
+  - delay: 954
+    content: ' '
+  - delay: 510
+    content: /
+  - delay: 227
+    content: m
+  - delay: 207
+    content: 'n'
+  - delay: 354
+    content: t
+  - delay: 2366
+    content: /
+  - delay: 1658
+    content: v
+  - delay: 417
+    content: a
+  - delay: 488
+    content: r
+  - delay: 1300
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount --mkdir -o rw,nosuid,nodev,relatime /dev/proc/vars /mnt/var\a"
+  - delay: 26
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 13
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 4393
+    content: m
+  - delay: 18
+    content: "\bmo"
+  - delay: 189
+    content: u
+  - delay: 224
+    content: 'n'
+  - delay: 493
+    content: t
+  - delay: 1328
+    content: ' '
+  - delay: 780
+    content: '-'
+  - delay: 195
+    content: '-'
+  - delay: 536
+    content: m
+  - delay: 220
+    content: k
+  - delay: 342
+    content: d
+  - delay: 337
+    content: i
+  - delay: 334
+    content: r
+  - delay: 2579
+    content: ' '
+  - delay: 391
+    content: '-'
+  - delay: 1050
+    content: o
+  - delay: 2144
+    content: ' '
+  - delay: 369
+    content: r
+  - delay: 378
+    content: w
+  - delay: 985
+    content: ','
+  - delay: 636
+    content: 'n'
+  - delay: 262
+    content: o
+  - delay: 570
+    content: d
+  - delay: 257
+    content: e
+  - delay: 1360
+    content: v
+  - delay: 747
+    content: ','
+  - delay: 437
+    content: 'n'
+  - delay: 294
+    content: o
+  - delay: 564
+    content: s
+  - delay: 187
+    content: u
+  - delay: 225
+    content: i
+  - delay: 510
+    content: d
+  - delay: 4915
+    content: ','
+  - delay: 819
+    content: 'n'
+  - delay: 296
+    content: o
+  - delay: 641
+    content: e
+  - delay: 350
+    content: x
+  - delay: 255
+    content: e
+  - delay: 404
+    content: c
+  - delay: 4198
+    content: ','
+  - delay: 513
+    content: r
+  - delay: 150
+    content: e
+  - delay: 382
+    content: l
+  - delay: 385
+    content: a
+  - delay: 413
+    content: t
+  - delay: 526
+    content: i
+  - delay: 116
+    content: m
+  - delay: 444
+    content: e
+  - delay: 2193
+    content: /
+  - delay: 2455
+    content: "\b \b"
+  - delay: 782
+    content: ' '
+  - delay: 755
+    content: /
+  - delay: 149
+    content: d
+  - delay: 239
+    content: e
+  - delay: 542
+    content: v
+  - delay: 992
+    content: /
+  - delay: 1115
+    content: p
+  - delay: 671
+    content: r
+  - delay: 80
+    content: o
+  - delay: 372
+    content: c
+  - delay: 1668
+    content: /
+  - delay: 726
+    content: v
+  - delay: 71
+    content: t
+  - delay: 464
+    content: m
+  - delay: 1580
+    content: p
+  - delay: 1981
+    content: ' '
+  - delay: 337
+    content: /
+  - delay: 379
+    content: m
+  - delay: 127
+    content: 'n'
+  - delay: 1126
+    content: t
+  - delay: 795
+    content: /
+  - delay: 753
+    content: v
+  - delay: 125
+    content: a
+  - delay: 218
+    content: r
+  - delay: 1553
+    content: /
+  - delay: 304
+    content: t
+  - delay: 527
+    content: m
+  - delay: 316
+    content: p
+  - delay: 2760
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 17
+    content: "\e]0;root@archiso: mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vtmp /mnt/var/tmp\a"
+  - delay: 6
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 9
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 5084
+    content: m
+  - delay: 482
+    content: "\bmo"
+  - delay: 221
+    content: u
+  - delay: 207
+    content: 'n'
+  - delay: 526
+    content: t
+  - delay: 1025
+    content: ' '
+  - delay: 412
+    content: '-'
+  - delay: 301
+    content: '-'
+  - delay: 609
+    content: m
+  - delay: 488
+    content: k
+  - delay: 1020
+    content: d
+  - delay: 281
+    content: i
+  - delay: 287
+    content: r
+  - delay: 3378
+    content: ' '
+  - delay: 612
+    content: '-'
+  - delay: 465
+    content: o
+  - delay: 2121
+    content: ' '
+  - delay: 460
+    content: r
+  - delay: 325
+    content: w
+  - delay: 879
+    content: ','
+  - delay: 628
+    content: 'n'
+  - delay: 135
+    content: o
+  - delay: 2137
+    content: d
+  - delay: 39
+    content: e
+  - delay: 540
+    content: v
+  - delay: 494
+    content: ','
+  - delay: 1023
+    content: 'n'
+  - delay: 260
+    content: o
+  - delay: 442
+    content: s
+  - delay: 301
+    content: u
+  - delay: 183
+    content: i
+  - delay: 317
+    content: d
+  - delay: 1083
+    content: ','
+  - delay: 1519
+    content: 'n'
+  - delay: 250
+    content: o
+  - delay: 613
+    content: e
+  - delay: 667
+    content: x
+  - delay: 239
+    content: e
+  - delay: 325
+    content: c
+  - delay: 1944
+    content: ','
+  - delay: 880
+    content: r
+  - delay: 233
+    content: e
+  - delay: 417
+    content: l
+  - delay: 305
+    content: a
+  - delay: 524
+    content: t
+  - delay: 348
+    content: i
+  - delay: 366
+    content: m
+  - delay: 595
+    content: e
+  - delay: 3105
+    content: ' '
+  - delay: 497
+    content: /
+  - delay: 790
+    content: d
+  - delay: 336
+    content: e
+  - delay: 489
+    content: v
+  - delay: 517
+    content: /
+  - delay: 2421
+    content: p
+  - delay: 386
+    content: r
+  - delay: 284
+    content: o
+  - delay: 718
+    content: c
+  - delay: 931
+    content: /
+  - delay: 892
+    content: v
+  - delay: 286
+    content: l
+  - delay: 261
+    content: o
+  - delay: 408
+    content: g
+  - delay: 1915
+    content: ' '
+  - delay: 333
+    content: /
+  - delay: 502
+    content: m
+  - delay: 36
+    content: 'n'
+  - delay: 338
+    content: t
+  - delay: 1116
+    content: /
+  - delay: 1582
+    content: v
+  - delay: 106
+    content: a
+  - delay: 206
+    content: r
+  - delay: 1053
+    content: /
+  - delay: 544
+    content: l
+  - delay: 9
+    content: o
+  - delay: 335
+    content: g
+  - delay: 1538
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 10
+    content: "\e]0;root@archiso: mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vlog /mnt/var/log\a"
+  - delay: 15
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 51175
+    content: m
+  - delay: 596
+    content: "\bmo"
+  - delay: 342
+    content: u
+  - delay: 194
+    content: 'n'
+  - delay: 288
+    content: t
+  - delay: 737
+    content: ' '
+  - delay: 643
+    content: '-'
+  - delay: 86
+    content: '-'
+  - delay: 292
+    content: m
+  - delay: 188
+    content: k
+  - delay: 414
+    content: d
+  - delay: 220
+    content: i
+  - delay: 322
+    content: r
+  - delay: 1822
+    content: ' '
+  - delay: 687
+    content: '-'
+  - delay: 225
+    content: '0'
+  - delay: 1728
+    content: ' '
+  - delay: 738
+    content: re
+  - delay: 2148
+    content: "\b \b"
+  - delay: 192
+    content: "\b \b"
+  - delay: 479
+    content: "\b"
+  - delay: 386
+    content: "\b \b"
+  - delay: 938
+    content: o
+  - delay: 740
+    content: ' '
+  - delay: 789
+    content: r
+  - delay: 117
+    content: w
+  - delay: 1465
+    content: ','
+  - delay: 1306
+    content: 'n'
+  - delay: 246
+    content: o
+  - delay: 717
+    content: de
+  - delay: 258
+    content: v
+  - delay: 608
+    content: ','
+  - delay: 414
+    content: 'n'
+  - delay: 459
+    content: o
+  - delay: 208
+    content: s
+  - delay: 318
+    content: u
+  - delay: 164
+    content: i
+  - delay: 363
+    content: d
+  - delay: 307
+    content: ','
+  - delay: 2429
+    content: 'n'
+  - delay: 95
+    content: o
+  - delay: 525
+    content: e
+  - delay: 445
+    content: x
+  - delay: 245
+    content: e
+  - delay: 326
+    content: c
+  - delay: 2564
+    content: ','
+  - delay: 830
+    content: re
+  - delay: 40
+    content: l
+  - delay: 368
+    content: a
+  - delay: 325
+    content: t
+  - delay: 304
+    content: i
+  - delay: 512
+    content: m
+  - delay: 253
+    content: e
+  - delay: 2112
+    content: ' '
+  - delay: 215
+    content: /
+  - delay: 570
+    content: d
+  - delay: 19
+    content: e
+  - delay: 340
+    content: v
+  - delay: 1698
+    content: /
+  - delay: 502
+    content: p
+  - delay: 338
+    content: r
+  - delay: 328
+    content: o
+  - delay: 562
+    content: c
+  - delay: 2560
+    content: /
+  - delay: 720
+    content: v
+  - delay: 362
+    content: a
+  - delay: 259
+    content: u
+  - delay: 282
+    content: d
+  - delay: 2679
+    content: ' '
+  - delay: 153
+    content: /
+  - delay: 648
+    content: m
+  - delay: 757
+    content: 'n'
+  - delay: 372
+    content: t
+  - delay: 1909
+    content: /
+  - delay: 502
+    content: v
+  - delay: 365
+    content: a
+  - delay: 236
+    content: r
+  - delay: 2330
+    content: /
+  - delay: 354
+    content: l
+  - delay: 192
+    content: o
+  - delay: 304
+    content: g
+  - delay: 1116
+    content: /
+  - delay: 886
+    content: a
+  - delay: 210
+    content: u
+  - delay: 420
+    content: d
+  - delay: 330
+    content: i
+  - delay: 123
+    content: t
+  - delay: 2621
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vaud \a"
+  - delay: 23
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 5
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 3448
+    content: m
+  - delay: 309
+    content: "\bmo"
+  - delay: 58
+    content: u
+  - delay: 230
+    content: 'n'
+  - delay: 339
+    content: t
+  - delay: 1577
+    content: ' '
+  - delay: 733
+    content: '-'
+  - delay: 162
+    content: '-'
+  - delay: 1133
+    content: m
+  - delay: 156
+    content: k
+  - delay: 321
+    content: d
+  - delay: 324
+    content: i
+  - delay: 264
+    content: r
+  - delay: 908
+    content: ' '
+  - delay: 2295
+    content: '-'
+  - delay: 288
+    content: o
+  - delay: 984
+    content: ' '
+  - delay: 746
+    content: r
+  - delay: 352
+    content: w
+  - delay: 662
+    content: ','
+  - delay: 859
+    content: 'n'
+  - delay: 347
+    content: o
+  - delay: 1120
+    content: d
+  - delay: 182
+    content: e
+  - delay: 422
+    content: v
+  - delay: 1059
+    content: ','
+  - delay: 900
+    content: 'n'
+  - delay: 326
+    content: o
+  - delay: 471
+    content: s
+  - delay: 105
+    content: u
+  - delay: 206
+    content: i
+  - delay: 316
+    content: d
+  - delay: 885
+    content: ','
+  - delay: 2161
+    content: 'no'
+  - delay: 440
+    content: e
+  - delay: 266
+    content: x
+  - delay: 369
+    content: e
+  - delay: 430
+    content: c
+  - delay: 2076
+    content: ','
+  - delay: 770
+    content: r
+  - delay: 563
+    content: e
+  - delay: 92
+    content: l
+  - delay: 385
+    content: a
+  - delay: 449
+    content: t
+  - delay: 300
+    content: i
+  - delay: 299
+    content: m
+  - delay: 425
+    content: e
+  - delay: 2147
+    content: ' '
+  - delay: 672
+    content: /
+  - delay: 2605
+    content: f
+  - delay: 1636
+    content: "\b \b"
+  - delay: 781
+    content: d
+  - delay: 208
+    content: e
+  - delay: 653
+    content: v
+  - delay: 1737
+    content: /
+  - delay: 716
+    content: p
+  - delay: 297
+    content: r
+  - delay: 283
+    content: o
+  - delay: 531
+    content: c
+  - delay: 908
+    content: /
+  - delay: 2390
+    content: h
+  - delay: 507
+    content: om
+  - delay: 369
+    content: e
+  - delay: 1447
+    content: ' '
+  - delay: 573
+    content: /
+  - delay: 447
+    content: m
+  - delay: 198
+    content: 'n'
+  - delay: 314
+    content: t
+  - delay: 3308
+    content: /
+  - delay: 925
+    content: ho
+  - delay: 138
+    content: m
+  - delay: 948
+    content: e
+  - delay: 4749
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/home /mnt/home\a"
+  - delay: 21
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 11
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 86185
+    content: l
+  - delay: 446
+    content: "\bls"
+  - delay: 781
+    content: b
+  - delay: 427
+    content: l
+  - delay: 291
+    content: k
+  - delay: 532
+    content: \
+  - delay: 34
+    content: "\e[?1l\e>\e[?2004l\r\e[?1h\e=\e[?2004h\n\\`>\e[1C"
+  - delay: 8355
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 15
+    content: "NAME          MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\e]0;root@archiso: lsblk\a\nloop0           7:0    0 973.1M  1 loop /run/archiso/airootfs\r\nsda             8:0    1  14.3G  0 disk\r\n└─sda1          8:1    1  14.3G  0 part\r\nnvme0n1       259:0    0 238.5G  0 disk\r\n├─nvme0n1p1   259:1    0   100M  0 part\r\n├─nvme0n1p2   259:2    0    16M  0 part\r\n├─nvme0n1p3   259:3    0 188.5G  0 part\r\n├─nvme0n1p4   259:4    0   512M  0 part\r\n├─nvme0n1p5   259:5    0     1G  0 part\r\n├─nvme0n1p6   259:6    0     3G  0 part /mnt/boot\r\n└─nvme0n1p7   259:7    0  45.3G  0 part\r\n  ├─proc-root 253:0    0     5G  0 lvm  /mnt\r\n  ├─proc-vars 253:1    0     5G  0 lvm  /mnt/var\r\n  ├─proc-vtmp 253:2    0     1G  0 lvm  /mnt/var/tmp\r\n  ├─proc-vlog 253:3    0     1G  0 lvm  /mnt/var/log\r\n  ├─proc-vaud 253:4    0   512M  0 lvm  /mnt/var/log/audit\r\n  ├─proc-home 253:5    0     1G  0 lvm  /mnt/home\r\n  └─proc-priv 253:6    0  15.9G  0 lvm\r\e[?1h\e=\e[?2004h"
+  - delay: 5
+    content: "\n\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 7645
+    content: g
+  - delay: 322
+    content: "\bge"
+  - delay: 182
+    content: 'n'
+  - delay: 421
+    content: ' '
+  - delay: 306
+    content: f
+  - delay: 411
+    content: s
+  - delay: 162
+    content: t
+  - delay: 187
+    content: a
+  - delay: 290
+    content: b
+  - delay: 2422
+    content: "\b \b"
+  - delay: 923
+    content: "\b \b"
+  - delay: 58
+    content: "\b \b"
+  - delay: 190
+    content: "\b \b"
+  - delay: 201
+    content: "\b \b"
+  - delay: 472
+    content: "\b"
+  - delay: 5640
+    content: f
+  - delay: 1108
+    content: s
+  - delay: 349
+    content: t
+  - delay: 592
+    content: a
+  - delay: 94
+    content: b
+  - delay: 1741
+    content: ' '
+  - delay: 2863
+    content: '-'
+  - delay: 937
+    content: U
+  - delay: 1567
+    content: ' '
+  - delay: 1939
+    content: s
+  - delay: 266
+    content: l
+  - delay: 352
+    content: i
+  - delay: 1259
+    content: "\b \b"
+  - delay: 225
+    content: "\b \b"
+  - delay: 222
+    content: "\b \b"
+  - delay: 1315
+    content: /
+  - delay: 1556
+    content: m
+  - delay: 195
+    content: 'n'
+  - delay: 302
+    content: t
+  - delay: 1903
+    content: ' '
+  - delay: 4970
+    content: '>'
+  - delay: 2253
+    content: ' '
+  - delay: 1345
+    content: /
+  - delay: 1626
+    content: m
+  - delay: 223
+    content: 'n'
+  - delay: 320
+    content: t
+  - delay: 1909
+    content: /
+  - delay: 2974
+    content: e
+  - delay: 86
+    content: t
+  - delay: 348
+    content: c
+  - delay: 1435
+    content: /
+  - delay: 1820
+    content: f
+  - delay: 613
+    content: s
+  - delay: 218
+    content: t
+  - delay: 256
+    content: a
+  - delay: 194
+    content: b
+  - delay: 3843
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: genfstab -U /mnt > /mnt/etc/fstab\a"
+  - delay: 221
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 9
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 208657
+    content: e
+  - delay: 738
+    content: "\bec"
+  - delay: 349
+    content: h
+  - delay: 315
+    content: o
+  - delay: 1945
+    content: ' '
+  - delay: 1614
+    content: '"'
+  - delay: 2421
+    content: t
+  - delay: 340
+    content: m
+  - delay: 286
+    content: p
+  - delay: 890
+    content: f
+  - delay: 399
+    content: s
+  - delay: 2173
+    content: ' '
+  - delay: 638
+    content: /
+  - delay: 637
+    content: t
+  - delay: 412
+    content: m
+  - delay: 501
+    content: p
+  - delay: 2638
+    content: ' '
+  - delay: 474
+    content: t
+  - delay: 2074
+    content: m
+  - delay: 1150
+    content: p
+  - delay: 541
+    content: f
+  - delay: 341
+    content: s
+  - delay: 1942
+    content: ' '
+  - delay: 313
+    content: d
+  - delay: 227
+    content: e
+  - delay: 184
+    content: f
+  - delay: 266
+    content: a
+  - delay: 361
+    content: u
+  - delay: 288
+    content: l
+  - delay: 480
+    content: t
+  - delay: 2320
+    content: s
+  - delay: 1939
+    content: ','
+  - delay: 700
+    content: r
+  - delay: 363
+    content: w
+  - delay: 1026
+    content: ','
+  - delay: 2509
+    content: 'n'
+  - delay: 187
+    content: o
+  - delay: 380
+    content: s
+  - delay: 318
+    content: u
+  - delay: 204
+    content: i
+  - delay: 406
+    content: d
+  - delay: 2393
+    content: ','
+  - delay: 213
+    content: 'n'
+  - delay: 259
+    content: o
+  - delay: 332
+    content: d
+  - delay: 175
+    content: e
+  - delay: 384
+    content: v
+  - delay: 2122
+    content: ','
+  - delay: 554
+    content: 'n'
+  - delay: 337
+    content: o
+  - delay: 397
+    content: e
+  - delay: 369
+    content: x
+  - delay: 269
+    content: e
+  - delay: 322
+    content: c
+  - delay: 2458
+    content: ','
+  - delay: 487
+    content: r
+  - delay: 193
+    content: e
+  - delay: 380
+    content: l
+  - delay: 435
+    content: a
+  - delay: 367
+    content: t
+  - delay: 364
+    content: i
+  - delay: 274
+    content: m
+  - delay: 411
+    content: e
+  - delay: 1722
+    content: ','
+  - delay: 578
+    content: s
+  - delay: 348
+    content: i
+  - delay: 796
+    content: z
+  - delay: 260
+    content: e
+  - delay: 3012
+    content: '='
+  - delay: 1148
+    content: '1'
+  - delay: 2739
+    content: G
+  - delay: 1460
+    content: ' '
+  - delay: 906
+    content: '0'
+  - delay: 1498
+    content: ' '
+  - delay: 192
+    content: '0'
+  - delay: 1560
+    content: '"'
+  - delay: 95865
+    content: ' '
+  - delay: 4200
+    content: '>'
+  - delay: 1156
+    content: '>'
+  - delay: 2732
+    content: ' '
+  - delay: 484
+    content: /
+  - delay: 509
+    content: m
+  - delay: 699
+    content: 'n'
+  - delay: 561
+    content: t
+  - delay: 204596
+    content: /
+  - delay: 322
+    content: r
+  - delay: 1319
+    content: "\b \b"
+  - delay: 318
+    content: e
+  - delay: 241
+    content: t
+  - delay: 377
+    content: c
+  - delay: 2541
+    content: /
+  - delay: 514
+    content: f
+  - delay: 407
+    content: s
+  - delay: 248
+    content: t
+  - delay: 411
+    content: a
+  - delay: 612
+    content: b
+  - delay: 7641
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 11
+    content: "                                                                                                                                                                            \e[40;1H\e]0;root@archiso: echo \"tmpfs /tmp tmpfs defaults,rw,nosuid,nodev,noexec,relatime,size=1G 0 0\" \a"
+  - delay: 10
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 11850
+    content: b
+  - delay: 452
+    content: "\bboo"
+  - delay: 324
+    content: t
+  - delay: 2523
+    content: c
+  - delay: 41
+    content: t
+  - delay: 472
+    content: l
+  - delay: 1395
+    content: ' '
+  - delay: 2677
+    content: '--'
+  - delay: 2422
+    content: p
+  - delay: 592
+    content: a
+  - delay: 221
+    content: t
+  - delay: 286
+    content: h
+  - delay: 2314
+    content: '='
+  - delay: 2254
+    content: /
+  - delay: 1013
+    content: m
+  - delay: 361
+    content: 'n'
+  - delay: 340
+    content: t
+  - delay: 1971
+    content: /
+  - delay: 978
+    content: b
+  - delay: 287
+    content: o
+  - delay: 109
+    content: o
+  - delay: 291
+    content: t
+  - delay: 1725
+    content: ' '
+  - delay: 1015
+    content: i
+  - delay: 270
+    content: 'n'
+  - delay: 423
+    content: s
+  - delay: 341
+    content: t
+  - delay: 609
+    content: a
+  - delay: 605
+    content: l
+  - delay: 1980
+    content: l
+  - delay: 1854
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: bootctl --path=/mnt/boot install\a"
+  - delay: 60
+    content: "Created directory \"/mnt/boot/EFI\".\r\nCreated directory \"/mnt/boot/EFI/systemd\".\r\nCreated directory \"/mnt/boot/EFI/BOOT\".\r\nCreated directory \"/mnt/boot/loader\".\r\nCreated directory \"/mnt/boot/loader/keys\".\r\nCreated directory \"/mnt/boot/loader\".\r\nCreated directory \"/mnt/boot/loader/entries\".\r\nCreated directory \"/mnt/boot/EFI\".\r\nCreated directory \"/mnt/boot/EFI/Linux\".\r"
+  - delay: 21
+    content: "\nCopied \"/usr/lib/systemd/boot/efi/systemd-bootx64.efi\" to \"/mnt/boot/EFI/systemd/systemd-bootx64.efi\".\r"
+  - delay: 5
+    content: "\nCopied \"/usr/lib/systemd/boot/efi/systemd-bootx64.efi\" to \"/mnt/boot/EFI/BOOT/BOOTX64.EFI\".\r"
+  - delay: 7
+    content: |+
+
+  - delay: 8
+    content: "Random seed file /mnt/boot/loader/random-seed successfully refreshed (32 bytes).\r\nSuccessfully initialized system token in EFI variable with 32 bytes.\r"
+  - delay: 8
+    content: |+
+
+  - delay: 54
+    content: "Created EFI boot entry \"Linux Boot Manager\".\r\n"
+  - delay: 20
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 6
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 9593
+    content: u
+  - delay: 415
+    content: "\bum"
+  - delay: 256
+    content: o
+  - delay: 287
+    content: u
+  - delay: 270
+    content: 'n'
+  - delay: 354
+    content: t
+  - delay: 2308
+    content: ' '
+  - delay: 2559
+    content: '-'
+  - delay: 1568
+    content: R
+  - delay: 2134
+    content: ' '
+  - delay: 1799
+    content: /
+  - delay: 1049
+    content: m
+  - delay: 216
+    content: 'n'
+  - delay: 503
+    content: t
+  - delay: 1951
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: umount -R /mnt\a"
+  - delay: 67
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 20
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 1953
+    content: r
+  - delay: 226
+    content: "\bre"
+  - delay: 687
+    content: b
+  - delay: 794
+    content: o
+  - delay: 15
+    content: o
+  - delay: 1315
+    content: t
+  - delay: 145349
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: reboot\a"
+  - delay: 40
+    content: "\e[?1h\e=\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a\e[?2004h"
+  - delay: 6
+    content: "Connection to 10.83.151.84 closed by remote host.\r\nConnection to 10.83.151.84 closed.\r"
+  - delay: 7
+    content: |+
+
+  - delay: 15
+    content: "PS C:\\Windows\\System32> \e]0;Administrator: C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a"
+  - delay: 201947
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93ms\e[?25h"
+  - delay: 178
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\bss\e[?25h"
+  - delay: 361
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[40;25Hssh\e[?25h"
+  - delay: 894
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[40;25Hssh \e[?25h"
+  - delay: 407
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh \e[37mr\e[?25h"
+  - delay: 453
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh \e[37mro\e[?25h"
+  - delay: 1137
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hssh \e[37mr \b\e[?25h"
+  - delay: 343
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh  \b\e[?25h"
+  - delay: 215
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[40;25Hssh \b\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[40;25Hss \b\e[?25h"
+  - delay: 256
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hs \b\e[?25h"
+  - delay: 421
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\b \b\e[?25h"
+  - delay: 300191
+    content: "\e[?25l"
+  - delay: 25
+    content: "\e[93ms\e[?25h"
+  - delay: 186
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\bss\e[?25h"
+  - delay: 1170
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hssh\e[?25h"
+  - delay: 303
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25Hssh \e[?25h"
+  - delay: 329
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh \e[37mr\e[?25h"
+  - delay: 467
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hssh \e[37mro\e[?25h"
+  - delay: 159
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25Hssh \e[37mroo\e[?25h"
+  - delay: 257
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot\e[?25h"
+  - delay: 2155
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[40;25Hssh \e[37mroot@\e[?25h"
+  - delay: 1487
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 653
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 983
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 1583
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.8\e[?25h"
+  - delay: 416
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83\e[?25h"
+  - delay: 1119
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.\e[?25h"
+  - delay: 769
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.1\e[?25h"
+  - delay: 594
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.15\e[?25h"
+  - delay: 350
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151\e[?25h"
+  - delay: 1078
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.\e[?25h"
+  - delay: 1383
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.8\e[?25h"
+  - delay: 4548
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.85\e[?25h"
+  - delay: 2050
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 246
+    content: "The authenticity of host '10.83.151.85 (10.83.151.85)' can't be established.\r\nED25519 key fingerprint is SHA256:MCDSKnKsiKuTa3ZLCmCj8DAS4ZPSFFmr74hWXSKhQYE.\r\nThis key is not known by any other names.\r\nAre you sure you want to continue connecting (yes/no/[fingerprint])?\e[1C"
+  - delay: 2326
+    content: 'y'
+  - delay: 305
+    content: e
+  - delay: 234
+    content: s
+  - delay: 722
+    content: "\r\nWarning: Permanently added '10.83.151.85' (ED25519) to the list of known hosts.\r"
+  - delay: 7
+    content: |+
+
+  - delay: 221
+    content: 'root@10.83.151.85''s password: '
+  - delay: 3722
+    content: "\r\n"
+  - delay: 307
+    content: "To install \e[38;2;23;147;209mArch Linux \e[mfollow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\r\n\nFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl \e[mutility.\e[K\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli \e[mutility.\e[K\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\r\n\nAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[m.\e[K\r\n\n\e[41m   \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m  \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m  \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \e[m\e[K\r\n"
+  - delay: 86
+    content: "                                                                                                                                                                            \e[40;1H"
+  - delay: 5
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 13
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 238706
+    content: m
+  - delay: 24
+    content: "\bmp"
+  - delay: 150
+    content: u
+  - delay: 1215
+    content: "\b \b"
+  - delay: 128
+    content: "\e[?25l\e[40;18Hm \b\e[?25h"
+  - delay: 197
+    content: "\b \b"
+  - delay: 820
+    content: m
+  - delay: 148
+    content: "\bmo"
+  - delay: 194
+    content: u
+  - delay: 184
+    content: 'n'
+  - delay: 247
+    content: t
+  - delay: 129
+    content: ' '
+  - delay: 830
+    content: /
+  - delay: 704
+    content: d
+  - delay: 114
+    content: e
+  - delay: 658
+    content: v
+  - delay: 144
+    content: /
+  - delay: 251
+    content: ' '
+  - delay: 796
+    content: "\b"
+  - delay: 1669
+    content: "\b \b"
+  - delay: 322
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 57
+    content: "\b \b"
+  - delay: 32
+    content: "\b \b"
+  - delay: 31
+    content: "\b"
+  - delay: 48
+    content: "\e[?25l\e[40;21H  \e[40;21H\e[?25h"
+  - delay: 47
+    content: "\e[?25l\e[40;18Hm  \e[40;19H\e[?25h"
+  - delay: 29
+    content: "\b \b"
+  - delay: 902
+    content: l
+  - delay: 90
+    content: "\bls"
+  - delay: 353
+    content: b
+  - delay: 119
+    content: l
+  - delay: 156
+    content: k
+  - delay: 346
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 8
+    content: "\e]0;root@archiso: lsblk\a"
+  - delay: 37
+    content: "NAME          MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\nloop0           7:0    0 973.1M  1 loop /run/archiso/airootfs\r\nsda             8:0    1  14.3G  0 disk\r\n└─sda1          8:1    1  14.3G  0 part\r\nnvme0n1       259:0    0 238.5G  0 disk\r\n├─nvme0n1p1   259:1    0   100M  0 part\r\n├─nvme0n1p2   259:2    0    16M  0 part\r\n├─nvme0n1p3   259:3    0 188.5G  0 part\r\n├─nvme0n1p4   259:4    0   512M  0 part\r\n├─nvme0n1p5   259:5    0     1G  0 part\r\n├─nvme0n1p6   259:6    0     3G  0 part\r\n└─nvme0n1p7   259:7    0  45.3G  0 part\r\n  ├─proc-root 253:0    0     5G  0 lvm\r\n  ├─proc-vars 253:1    0     5G  0 lvm\r\n  ├─proc-vtmp 253:2    0     1G  0 lvm\r\n  ├─proc-vlog 253:3    0     1G  0 lvm\r\n  ├─proc-vaud 253:4    0   512M  0 lvm\r\n  ├─proc-home 253:5    0     1G  0 lvm\r\n  └─proc-priv 253:6    0  15.9G  0 lvm\r\e[?1h\e="
+  - delay: 6
+    content: "\n\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a\e[?2004h"
+  - delay: 5576
+    content: m
+  - delay: 96
+    content: "\bmo"
+  - delay: 218
+    content: i
+  - delay: 2348
+    content: m
+  - delay: 104
+    content: o
+  - delay: 1044
+    content: "\b \b"
+  - delay: 125
+    content: "\b \b"
+  - delay: 189
+    content: "\b \b"
+  - delay: 863
+    content: u
+  - delay: 192
+    content: 'n'
+  - delay: 176
+    content: t
+  - delay: 526
+    content: ' '
+  - delay: 214
+    content: /
+  - delay: 437
+    content: d
+  - delay: 194
+    content: e
+  - delay: 130
+    content: v
+  - delay: 194
+    content: /
+  - delay: 1784
+    content: 'n'
+  - delay: 157
+    content: v
+  - delay: 224
+    content: e
+  - delay: 189
+    content: m
+  - delay: 1042
+    content: '0'
+  - delay: 1901
+    content: "\b \b"
+  - delay: 160
+    content: "\b \b"
+  - delay: 257
+    content: "\b \b"
+  - delay: 1212
+    content: m
+  - delay: 348
+    content: e
+  - delay: 360
+    content: '0'
+  - delay: 207
+    content: 'n'
+  - delay: 502
+    content: '1'
+  - delay: 281
+    content: p
+  - delay: 648
+    content: '5'
+  - delay: 868
+    content: ' '
+  - delay: 208
+    content: /
+  - delay: 3084
+    content: "\b \b"
+  - delay: 581
+    content: "\b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 969
+    content: '6'
+  - delay: 180
+    content: ' '
+  - delay: 1097
+    content: /
+  - delay: 1345
+    content: ','
+  - delay: 125
+    content: m
+  - delay: 672
+    content: "\b \b"
+  - delay: 258
+    content: "\b \b"
+  - delay: 510
+    content: m
+  - delay: 130
+    content: 'n'
+  - delay: 397
+    content: t
+  - delay: 365
+    content: /
+  - delay: 480
+    content: b
+  - delay: 282
+    content: o
+  - delay: 100
+    content: o
+  - delay: 124
+    content: t
+  - delay: 423
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount /dev/nvme0n1p6 /mnt/boot\a"
+  - delay: 15
+    content: "mount: /mnt/boot: mount point does not exist.\r\n       dmesg(1) may have more information after failed mount system call.\r\e[?1h\e=\e[?2004h"
+  - delay: 6
+    content: "\n\e[31m\e[1m32 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                      :( \e[40;21H\e]0;root@archiso: ~\a"
+  - delay: 8596
+    content: mount /dev/nvme0n1p6 /mnt/boot
+  - delay: 6351
+    content: "\b"
+  - delay: 134
+    content: "\b"
+  - delay: 253
+    content: "\b"
+  - delay: 1050
+    content: "\b"
+  - delay: 305
+    content: "\b"
+  - delay: 225
+    content: "\b"
+  - delay: 284
+    content: "\b"
+  - delay: 746
+    content: "\b"
+  - delay: 7034
+    content: "\e[1C"
+  - delay: 321
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 46
+    content: "\e[2C"
+  - delay: 53
+    content: "\e[2C"
+  - delay: 22
+    content: "\e[1C"
+  - delay: 1541
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n"
+  - delay: 9
+    content: "\e]0;root@archiso: mount /dev/nvme0n1p6 /mnt/boot\a"
+  - delay: 7
+    content: "mount: /mnt/boot: mount point does not exist.\r\n       dmesg(1) may have more information after failed mount system call.\r\e[?1h\e=\e[?2004h"
+  - delay: 9
+    content: "\n\e[31m\e[1m32 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                      :( \e[40;21H\e]0;root@archiso: ~\a"
+  - delay: 14139
+    content: m
+  - delay: 63
+    content: "\bmo"
+  - delay: 180
+    content: u
+  - delay: 377
+    content: 'n'
+  - delay: 144
+    content: t
+  - delay: 401
+    content: t
+  - delay: 1086
+    content: "\b \b"
+  - delay: 384
+    content: ' '
+  - delay: 668
+    content: /
+  - delay: 160
+    content: d
+  - delay: 97
+    content: e
+  - delay: 320
+    content: v
+  - delay: 92
+    content: /
+  - delay: 5857
+    content: p
+  - delay: 125
+    content: r
+  - delay: 128
+    content: o
+  - delay: 221
+    content: c
+  - delay: 1634
+    content: /
+  - delay: 1627
+    content: r
+  - delay: 123
+    content: o
+  - delay: 212
+    content: t
+  - delay: 162
+    content: t
+  - delay: 254
+    content: ' '
+  - delay: 588
+    content: "\b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 163
+    content: "\b \b"
+  - delay: 445
+    content: "\b \b"
+  - delay: 956
+    content: o
+  - delay: 691
+    content: o
+  - delay: 175
+    content: t
+  - delay: 205
+    content: ' '
+  - delay: 687
+    content: /
+  - delay: 618
+    content: m
+  - delay: 146
+    content: 'n'
+  - delay: 228
+    content: t
+  - delay: 892
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n\e]0;root@archiso: mount /dev/proc/root /mnt\a"
+  - delay: 27
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 12
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 1586
+    content: mount /dev/proc/root /mnt
+  - delay: 303
+    content: "\e[?25l\e[40;29Hnvme0n1p6\e[5C/boot\e[?25h"
+  - delay: 1843
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: mount /dev/nvme0n1p6 /mnt/boot\a"
+  - delay: 18
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 9314
+    content: a
+  - delay: 233
+    content: "\bar"
+  - delay: 171
+    content: c
+  - delay: 196
+    content: h
+  - delay: 566
+    content: '-'
+  - delay: 471
+    content: c
+  - delay: 318
+    content: h
+  - delay: 485
+    content: r
+  - delay: 137
+    content: o
+  - delay: 153
+    content: o
+  - delay: 126
+    content: t
+  - delay: 417
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 24
+    content: "\e]0;root@archiso: arch-chroot\a"
+  - delay: 49
+    content: "==> ERROR: No chroot directory specified\r\e[?1h\e=\e[?2004h\n\e[31m\e[1m1 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                       :( \e[40;20H\e]0;root@archiso: ~\a"
+  - delay: 1695
+    content: arch-chroot
+  - delay: 691
+    content: ' '
+  - delay: 637
+    content: /
+  - delay: 225
+    content: m
+  - delay: 197
+    content: 'n'
+  - delay: 345
+    content: t
+  - delay: 226
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n"
+  - delay: 23
+    content: "\e]0;root@archiso: arch-chroot /mnt\a"
+  - delay: 130
+    content: "\e[?2004h[root@archiso /]# \e]0;root@archiso:/\a"
+  - delay: 2314
+    content: p
+  - delay: 383
+    content: a
+  - delay: 154
+    content: s
+  - delay: 642
+    content: s
+  - delay: 256
+    content: w
+  - delay: 721
+    content: d
+  - delay: 410
+    content: ' '
+  - delay: 3579
+    content: t
+  - delay: 85
+    content: a
+  - delay: 91
+    content: s
+  - delay: 349
+    content: 'y'
+  - delay: 188
+    content: a
+  - delay: 760
+    content: "\r\e[?2004l\n"
+  - delay: 21
+    content: "passwd: user 'tasya' does not exist\r\e[?2004h\n[root@archiso /]#\e[1C"
+  - delay: 10176
+    content: passwd tasya
+  - delay: 273
+    content: "\e[?25l\e[40;19Hexit\e[K\e[?25h"
+  - delay: 227
+    content: "\e[?25l\e[40;19Hgenfstab -U /mnt > /mnt/etc/fstab\e[?25h"
+  - delay: 857
+    content: "\e[?25l\e[40;19Hexit\e[K\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[40;19Hpasswd tasya\e[?25h"
+  - delay: 60
+    content: "\e[?25l\e[40;19H\e[K\e[?25h"
+  - delay: 31
+    content: "\a"
+  - delay: 50
+    content: "\a\a"
+  - delay: 64
+    content: "\a\a"
+  - delay: 523
+    content: "\a"
+  - delay: 3767
+    content: l
+  - delay: 18
+    content: s
+  - delay: 449
+    content: b
+  - delay: 188
+    content: l
+  - delay: 161
+    content: k
+  - delay: 454
+    content: "\r\e[?2004l\n"
+  - delay: 26
+    content: "NAME          MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\r\nloop0           7:0    0 973.1M  1 loop\r\nsda             8:0    1  14.3G  0 disk\r\n└─sda1          8:1    1  14.3G  0 part\r\nnvme0n1       259:0    0 238.5G  0 disk\r\n├─nvme0n1p1   259:1    0   100M  0 part\r\n├─nvme0n1p2   259:2    0    16M  0 part\r\n├─nvme0n1p3   259:3    0 188.5G  0 part\r\n├─nvme0n1p4   259:4    0   512M  0 part\r\n├─nvme0n1p5   259:5    0     1G  0 part\r\n├─nvme0n1p6   259:6    0     3G  0 part /boot\r\n└─nvme0n1p7   259:7    0  45.3G  0 part\r\n  ├─proc-root 253:0    0     5G  0 lvm  /\r\n  ├─proc-vars 253:1    0     5G  0 lvm\r\n  ├─proc-vtmp 253:2    0     1G  0 lvm\r\n  ├─proc-vlog 253:3    0     1G  0 lvm\r\n  ├─proc-vaud 253:4    0   512M  0 lvm  \r\n  ├─proc-home 253:5    0     1G  0 lvm\r\n  └─proc-priv 253:6    0  15.9G  0 lvm\r\e[?2004h"
+  - delay: 21
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 13220
+    content: e
+  - delay: 124
+    content: x
+  - delay: 248
+    content: i
+  - delay: 407
+    content: ty
+  - delay: 424
+    content: "\r\e[?2004l\n"
+  - delay: 6
+    content: "bash: exity: command not found\r\e[?2004h"
+  - delay: 10
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 3695
+    content: e
+  - delay: 361
+    content: x
+  - delay: 282
+    content: i
+  - delay: 258
+    content: t
+  - delay: 1069
+    content: "\r\e[?2004l\nexit\r\n"
+  - delay: 38
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1m127 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                     :( \e[40;22H\e]0;root@archiso: ~\a"
+  - delay: 1281
+    content: arch-chroot /mnt
+  - delay: 261
+    content: "\e[?25l\e[40;34H    \e[40;33H\e[?25h"
+  - delay: 1249
+    content: "\e[?25l\e[40;22Hmount /dev/nvme0n1p6 /mnt/boot\e[?25h"
+  - delay: 1206
+    content: "\e[?25l\e[40;22Harch-chroot\e[19X\e[?25h"
+  - delay: 498
+    content: ' /mnt'
+  - delay: 60
+    content: "\e[?25l\e[40;22H\e[16X\e[?25h"
+  - delay: 11463
+    content: arch-chroot /mnt
+  - delay: 716
+    content: "\e[?25l\e[40;34H    \e[40;33H\e[?25h"
+  - delay: 383
+    content: "\e[?25l\e[40;22Hmount /dev/nvme0n1p6 /mnt/boot\e[?25h"
+  - delay: 1229
+    content: "\e[?25l\e[40;33Hproc/root\e[5C     \e[40;47H\e[?25h"
+  - delay: 930
+    content: "\b"
+  - delay: 671
+    content: "\b"
+  - delay: 250
+    content: "\b"
+  - delay: 308
+    content: "\b"
+  - delay: 294
+    content: "\b"
+  - delay: 759
+    content: "\e[?25l\b /mnt \e[40;41H\e[?25h"
+  - delay: 160
+    content: "\e[?25l\b /mnt \e[40;40H\e[?25h"
+  - delay: 195
+    content: "\e[?25l\b /mnt \e[40;39H\e[?25h"
+  - delay: 445
+    content: "\e[?25l\b /mnt \e[40;38H\e[?25h"
+  - delay: 545
+    content: "\e[?25lh /mnt\e[40;39H\e[?25h"
+  - delay: 253
+    content: "\e[?25lo /mnt\e[40;40H\e[?25h"
+  - delay: 163
+    content: "\e[?25lm /mnt\e[40;41H\e[?25h"
+  - delay: 213
+    content: "\e[?25lr /mnt\e[40;42H\e[?25h"
+  - delay: 728
+    content: "\e[?25l\b /mnt \e[40;41H\e[?25h"
+  - delay: 194
+    content: "\e[?25le /mnt\e[40;42H\e[?25h"
+  - delay: 1299
+    content: "\e[1C"
+  - delay: 507
+    content: "\e[2C"
+  - delay: 30
+    content: "\e[1C"
+  - delay: 35
+    content: "\e[1C"
+  - delay: 801
+    content: /
+  - delay: 538
+    content: h
+  - delay: 194
+    content: o
+  - delay: 195
+    content: m
+  - delay: 380
+    content: e
+  - delay: 930
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n\e]0;root@archiso: mount /dev/proc/home /mnt/home\a"
+  - delay: 19
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 10380
+    content: c
+  - delay: 57
+    content: "\bcr"
+  - delay: 467
+    content: 'y'
+  - delay: 1378
+    content: p
+  - delay: 291
+    content: t
+  - delay: 447
+    content: s
+  - delay: 352
+    content: e
+  - delay: 15849
+    content: t
+  - delay: 332
+    content: u
+  - delay: 499
+    content: p
+  - delay: 277
+    content: ' '
+  - delay: 256
+    content: l
+  - delay: 256
+    content: u
+  - delay: 202
+    content: k
+  - delay: 199
+    content: s
+  - delay: 768
+    content: O
+  - delay: 153
+    content: p
+  - delay: 700
+    content: e
+  - delay: 439
+    content: 'n'
+  - delay: 188
+    content: ' '
+  - delay: 1156
+    content: /
+  - delay: 158
+    content: d
+  - delay: 127
+    content: e
+  - delay: 225
+    content: v
+  - delay: 189
+    content: /
+  - delay: 2110
+    content: s
+  - delay: 163
+    content: 'y'
+  - delay: 64
+    content: s
+  - delay: 1295
+    content: /
+  - delay: 1537
+    content: p
+  - delay: 156
+    content: r
+  - delay: 108
+    content: o
+  - delay: 676
+    content: "\b \b"
+  - delay: 666
+    content: i
+  - delay: 606
+    content: v
+  - delay: 2366
+    content: ' '
+  - delay: 3789
+    content: v
+  - delay: 29
+    content: a
+  - delay: 164
+    content: t
+  - delay: 147
+    content: e
+  - delay: 912
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: cryptsetup luksOpen /dev/sys/priv vate\a"
+  - delay: 32
+    content: "Device /dev/sys/priv does not exist or access denied.\r\n                                                                                                                                                                            \e[40;1H"
+  - delay: 6
+    content: "\e[?1h\e=\e[?2004h"
+  - delay: 14
+    content: "\e[31m\e[1m4 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                       :( \e[40;20H\e]0;root@archiso: ~\a"
+  - delay: 3201
+    content: cryptsetup luksOpen /dev/sys/priv vate
+  - delay: 51815
+    content: "\b \b"
+  - delay: 177
+    content: "\b \b"
+  - delay: 265
+    content: "\b \b"
+  - delay: 460
+    content: "\b \b"
+  - delay: 64428
+    content: i
+  - delay: 746
+    content: 'n'
+  - delay: 320
+    content: t
+  - delay: 156
+    content: e
+  - delay: 66
+    content: r
+  - delay: 183
+    content: 'n'
+  - delay: 121
+    content: a
+  - delay: 290
+    content: l
+  - delay: 1471
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n"
+  - delay: 10
+    content: "Device /dev/sys/priv does not exist or access denied.\r\e]0;root@archiso: cryptsetup luksOpen /dev/sys/priv internal\a\e[?1h\e=\e[?2004h"
+  - delay: 12
+    content: "\n\e[31m\e[1m4 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                       :( \e[40;20H\e]0;root@archiso: ~\a"
+  - delay: 15873
+    content: cryptsetup luksOpen /dev/sys/priv internal
+  - delay: 442
+    content: "\b"
+  - delay: 513
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 37
+    content: "\b"
+  - delay: 22
+    content: "\b"
+  - delay: 36
+    content: "\b"
+  - delay: 44
+    content: "\e[?25l\e[40;54H\e[?25h"
+  - delay: 49
+    content: "\e[?25l\e[40;52H\e[?25h"
+  - delay: 33
+    content: "\b"
+  - delay: 22
+    content: "\b"
+  - delay: 33
+    content: "\b"
+  - delay: 27
+    content: "\b"
+  - delay: 60
+    content: "\e[?25l\e[40;46H\e[?25h"
+  - delay: 45
+    content: "\b"
+  - delay: 785
+    content: "\e[1C"
+  - delay: 273
+    content: "\e[1C"
+  - delay: 398
+    content: "\e[1C"
+  - delay: 770
+    content: "\e[?25l\b/priv internal \e[40;47H\e[?25h"
+  - delay: 183
+    content: "\e[?25l\b/priv internal \e[40;46H\e[?25h"
+  - delay: 226
+    content: "\e[?25l\b/priv internal \e[40;45H\e[?25h"
+  - delay: 1887
+    content: "\e[?25lp/priv internal\e[40;46H\e[?25h"
+  - delay: 141
+    content: "\e[?25lo/priv internal\e[40;47H\e[?25h"
+  - delay: 260
+    content: "\e[?25lr/priv internal\e[40;48H\e[?25h"
+  - delay: 382
+    content: "\e[?25lc/priv internal\e[40;49H\e[?25h"
+  - delay: 1360
+    content: "\e[?25l\b/priv internal \e[40;48H\e[?25h"
+  - delay: 175
+    content: "\e[?25l\b/priv internal \e[40;47H\e[?25h"
+  - delay: 160
+    content: "\e[?25l\b/priv internal \e[40;46H\e[?25h"
+  - delay: 1161
+    content: "\e[?25lr/priv internal\e[40;47H\e[?25h"
+  - delay: 165
+    content: "\e[?25lo/priv internal\e[40;48H\e[?25h"
+  - delay: 432
+    content: "\e[?25lc/priv internal\e[40;49H\e[?25h"
+  - delay: 1080
+    content: "\e[?1l\e>\e[?2004l\e[14C\e[K\r\n"
+  - delay: 14
+    content: "\e]0;root@archiso: cryptsetup luksOpen /dev/proc/priv internal\a"
+  - delay: 31
+    content: 'Enter passphrase for /dev/proc/priv: '
+  - delay: 37783
+    content: "\r\n"
+  - delay: 2028
+    content: "cryptsetup luksOpen /dev/proc/priv internal  6.89s user 0.09s system 17% cpu 39.865 total\r\n                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 12
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 6437
+    content: p
+  - delay: 181
+    content: "\bpa"
+  - delay: 163
+    content: s
+  - delay: 568
+    content: s
+  - delay: 255
+    content: w
+  - delay: 604
+    content: d
+  - delay: 547
+    content: ' '
+  - delay: 830
+    content: t
+  - delay: 123
+    content: a
+  - delay: 100
+    content: s
+  - delay: 630
+    content: 'y'
+  - delay: 144
+    content: a
+  - delay: 719
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 8
+    content: "passwd: user 'tasya' does not exist\r\e]0;root@archiso: passwd tasya\a\e[?1h\e=\e[?2004h"
+  - delay: 15
+    content: "\n\e[31m\e[1m1 root\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                       :( \e[40;20H\e]0;root@archiso: ~\a"
+  - delay: 12314
+    content: ar
+  - delay: 137
+    content: c
+  - delay: 608
+    content: h
+  - delay: 887
+    content: '-'
+  - delay: 423
+    content: c
+  - delay: 196
+    content: h
+  - delay: 511
+    content: r
+  - delay: 159
+    content: o
+  - delay: 127
+    content: o
+  - delay: 294
+    content: t
+  - delay: 311
+    content: ' '
+  - delay: 512
+    content: /
+  - delay: 547
+    content: m
+  - delay: 123
+    content: 'n'
+  - delay: 481
+    content: t
+  - delay: 867
+    content: "\e[?1l\e>\e[?2004l\e[K\r\n"
+  - delay: 23
+    content: "\e]0;root@archiso: arch-chroot /mnt\a"
+  - delay: 25
+    content: "\e[?2004h[root@archiso /]# \e]0;root@archiso:/\a"
+  - delay: 2720
+    content: p
+  - delay: 83
+    content: a
+  - delay: 283
+    content: s
+  - delay: 151
+    content: s
+  - delay: 240
+    content: w
+  - delay: 1463
+    content: d
+  - delay: 218
+    content: ' '
+  - delay: 385
+    content: t
+  - delay: 127
+    content: a
+  - delay: 114
+    content: s
+  - delay: 300
+    content: 'y'
+  - delay: 97
+    content: a
+  - delay: 959
+    content: "\r\e[?2004l\n"
+  - delay: 7
+    content: "passwd: user 'tasya' does not exist\r\e[?2004h"
+  - delay: 18
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 9539
+    content: ls
+  - delay: 498
+    content: b
+  - delay: 192
+    content: l
+  - delay: 127
+    content: k
+  - delay: 511
+    content: "\r\e[?2004l\n"
+  - delay: 9
+    content: "NAME           MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS\r\nloop0            7:0    0 973.1M  1 loop\r\nsda              8:0    1  14.3G  0 disk\r\n└─sda1           8:1    1  14.3G  0 part\r\nnvme0n1        259:0    0 238.5G  0 disk\r\n├─nvme0n1p1    259:1    0   100M  0 part\r\n├─nvme0n1p2    259:2    0    16M  0 part\r\n├─nvme0n1p3    259:3    0 188.5G  0 part\r\n├─nvme0n1p4    259:4    0   512M  0 part\r\n├─nvme0n1p5    259:5    0     1G  0 part\r\n├─nvme0n1p6    259:6    0     3G  0 part  /boot\r\n└─nvme0n1p7    259:7    0  45.3G  0 part\r\n  ├─proc-root  253:0    0     5G  0 lvm   /\r\n  ├─proc-vars  253:1    0     5G  0 lvm\r\n  ├─proc-vtmp  253:2    0     1G  0 lvm\r\n  ├─proc-vlog  253:3    0     1G  0 lvm\r\n  ├─proc-vaud  253:4    0   512M  0 lvm\r\n  ├─proc-home  253:5    0     1G  0 lvm   /home\r\n  └─proc-priv  253:6    0  15.9G  0 lvm\r\n    └─internal 253:7    0  15.9G  0 crypt\r\e[?2004h"
+  - delay: 23
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 23830
+    content: us
+  - delay: 186
+    content: e
+  - delay: 273
+    content: r
+  - delay: 1378
+    content: a
+  - delay: 987
+    content: "\b\e[K"
+  - delay: 6803
+    content: a
+  - delay: 31
+    content: d
+  - delay: 195
+    content: d
+  - delay: 348118
+    content: "client_loop: send disconnect: Connection reset\r"
+  - delay: 5
+    content: "\n\e]0;Administrator: C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\aPS C:\\Windows\\System32> "
+  - delay: 61
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[91m\e[40;23H> \e[93m@\e[?25h"
+  - delay: 198
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\b@\e[37m@\e[?25h"
+  - delay: 206
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25H@\e[37m@@\e[?25h"
+  - delay: 161
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25H@\e[37m@@@\e[?25h"
+  - delay: 170
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25H@\e[37m@@@@\e[?25h"
+  - delay: 139
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[40;25H@\e[37m@@@@@\e[?25h"
+  - delay: 155
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@\e[?25h"
+  - delay: 164
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@@\e[?25h"
+  - delay: 141
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@@@\e[?25h"
+  - delay: 168
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@@@@\e[?25h"
+  - delay: 16835
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@@@ \b\e[?25h"
+  - delay: 495
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@@ \b\e[?25h"
+  - delay: 17
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25H@\e[37m@@@@@@ \b\e[?25h"
+  - delay: 16
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25H@\e[37m@@@@@ \b\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[m\e[93m\e[40;25H@\e[37m@@@@ \b\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[40;25H@\e[37m@@@ \b\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[m\e[93m\e[40;25H@\e[37m@@ \b\e[?25h"
+  - delay: 24
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25H@\e[37m@ \b\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[m\e[93m\e[40;25H@ \b\e[?25h"
+  - delay: 19
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[40;23H>  \b\e[?25h"
+  - delay: 11550
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93ms\e[?25h"
+  - delay: 135
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bss\e[?25h"
+  - delay: 80
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh\e[?25h"
+  - delay: 3507
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hss \b\e[?25h"
+  - delay: 318
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[40;25Hs \b\e[?25h"
+  - delay: 198
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\b \b\e[?25h"
+  - delay: 2623
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93ms\e[?25h"
+  - delay: 123
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\bss\e[?25h"
+  - delay: 91
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25Hssh\e[?25h"
+  - delay: 3276
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh@\e[?25h"
+  - delay: 1843
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh \b\e[?25h"
+  - delay: 728
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hsshr\e[?25h"
+  - delay: 161
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hsshro\e[?25h"
+  - delay: 114
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hsshroo\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hsshroot\e[?25h"
+  - delay: 1832
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[40;25Hsshroot@\e[?25h"
+  - delay: 1263
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[40;25Hsshroot \b\e[?25h"
+  - delay: 153
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hsshroo \b\e[?25h"
+  - delay: 146
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hsshro \b\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25Hsshr \b\e[?25h"
+  - delay: 500
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh \b\e[?25h"
+  - delay: 286
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25Hssh \e[?25h"
+  - delay: 664
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25Hssh \e[37mr\e[?25h"
+  - delay: 180
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[40;25Hssh \e[37mro\e[?25h"
+  - delay: 101
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[40;25Hssh \e[37mroo\e[?25h"
+  - delay: 443
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[40;25Hssh \e[37mroot\e[?25h"
+  - delay: 854
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh \e[37mroot@\e[?25h"
+  - delay: 274
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hssh \e[37mroot@ \e[?25h"
+  - delay: 1354
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[40;25Hssh \e[37mroot@ \b\e[?25h"
+  - delay: 9430
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hssh \e[37mroot@1\e[?25h"
+  - delay: 97
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10\e[?25h"
+  - delay: 338
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.\e[?25h"
+  - delay: 1888
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.8\e[?25h"
+  - delay: 442
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83\e[?25h"
+  - delay: 413
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.\e[?25h"
+  - delay: 1426
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83..\e[?25h"
+  - delay: 658
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83. \b\e[?25h"
+  - delay: 679
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.1\e[?25h"
+  - delay: 111
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.15\e[?25h"
+  - delay: 100
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151\e[?25h"
+  - delay: 405
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.\e[?25h"
+  - delay: 3606
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.8\e[?25h"
+  - delay: 263
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.85\e[?25h"
+  - delay: 1021
+    content: "\e[m"
+  - delay: 18
+    content: "\r\n"
+  - delay: 50472
+    content: "kex_exchange_identification: read: Connection aborted\r\n"
+  - delay: 23
+    content: "banner exchange: Connection to 10.83.151.85 port 22: Connection aborted\r\n"
+  - delay: 66
+    content: 'PS C:\Windows\System32> '
+  - delay: 24038
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93mssh \e[37mroot@10.83.151.85\e[?25h"
+  - delay: 224
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.84\e[?25h"
+  - delay: 870
+    content: "\e[m"
+  - delay: 24
+    content: "\r\n"
+  - delay: 12022
+    content: 'PS C:\Windows\System32> '
+  - delay: 923
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93mssh \e[37mroot@10.83.151.84\e[?25h"
+  - delay: 1032
+    content: "\e[m\b"
+  - delay: 507
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 32
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 30
+    content: "\b"
+  - delay: 31
+    content: "\b"
+  - delay: 373
+    content: "\e[1C"
+  - delay: 240
+    content: "\e[1C"
+  - delay: 723
+    content: "\e[1C"
+  - delay: 505
+    content: "\e[1C"
+  - delay: 29
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 29
+    content: "\e[1C"
+  - delay: 31
+    content: "\e[1C"
+  - delay: 715
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.8 \b\e[?25h"
+  - delay: 2785
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[40;25Hssh \e[37mroot@10.83.151.85\e[?25h"
+  - delay: 945
+    content: "\e[m"
+  - delay: 14
+    content: "\r\n"
+  - delay: 665
+    content: 'root@10.83.151.85''s password: '
+  - delay: 3879
+    content: "\r\n"
+  - delay: 225
+    content: "To install \e[38;2;23;147;209mArch Linux \e[mfollow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\r\n\nFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl \e[mutility.\e[K\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli \e[mutility.\e[K\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\r\n\nAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[m.\e[K\r\n\n\e[41m   \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m  \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m  \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \e[m\e[K\r"
+  - delay: 5
+    content: |+
+
+  - delay: 207
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 8
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 6107
+    content: l
+  - delay: 60
+    content: "\bls"
+  - delay: 454
+    content: b
+  - delay: 1242
+    content: l
+  - delay: 89
+    content: k
+  - delay: 386
+    content: "\e[?1l\e>\e[?2004l\r\n\e]0;root@archiso: lsblk\a"
+  - delay: 9
+    content: "NAME           MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS\r\nloop0            7:0    0 973.1M  1 loop  /run/archiso/airootfs\r\nsda              8:0    1  14.3G  0 disk\r\n└─sda1           8:1    1  14.3G  0 part\r\nnvme0n1        259:0    0 238.5G  0 disk\r\n├─nvme0n1p1    259:1    0   100M  0 part\r\n├─nvme0n1p2    259:2    0    16M  0 part\r\n├─nvme0n1p3    259:3    0 188.5G  0 part\r\n├─nvme0n1p4    259:4    0   512M  0 part\r\n├─nvme0n1p5    259:5    0     1G  0 part\r\n├─nvme0n1p6    259:6    0     3G  0 part  /mnt/boot\r\n└─nvme0n1p7    259:7    0  45.3G  0 part\r\n  ├─proc-root  253:0    0     5G  0 lvm   /mnt\r\n  ├─proc-vars  253:1    0     5G  0 lvm\r\n  ├─proc-vtmp  253:2    0     1G  0 lvm\r\n  ├─proc-vlog  253:3    0     1G  0 lvm\r\n  ├─proc-vaud  253:4    0   512M  0 lvm\r\n  ├─proc-home  253:5    0     1G  0 lvm   /mnt/home\r\n  └─proc-priv  253:6    0  15.9G  0 lvm\r\n    └─internal 253:7    0  15.9G  0 crypt\r\e[?1h\e=\e[?2004h"
+  - delay: 9
+    content: "\n\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 17756
+    content: A
+  - delay: 113
+    content: "\bAC"
+  - delay: 251
+    content: R
+  - delay: 548
+    content: H
+  - delay: 950
+    content: '-'
+  - delay: 1031
+    content: "\b \b"
+  - delay: 653
+    content: "\e[?25l\e[40;18H    \e[40;18H\e[?25h"
+  - delay: 1009
+    content: a
+  - delay: 170
+    content: "\bar"
+  - delay: 320
+    content: c
+  - delay: 542
+    content: h
+  - delay: 977
+    content: '-'
+  - delay: 782
+    content: c
+  - delay: 91
+    content: h
+  - delay: 409
+    content: r
+  - delay: 175
+    content: o
+  - delay: 218
+    content: o
+  - delay: 1430
+    content: t
+  - delay: 211
+    content: ' '
+  - delay: 424
+    content: /
+  - delay: 340
+    content: m
+  - delay: 120
+    content: 'n'
+  - delay: 536
+    content: t
+  - delay: 116
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 18
+    content: "\e]0;root@archiso: arch-chroot /mnt\a"
+  - delay: 68
+    content: "\e[?2004h[root@archiso /]# \e]0;root@archiso:/\a"
+  - delay: 18156
+    content: us
+  - delay: 214
+    content: e
+  - delay: 127
+    content: r
+  - delay: 973
+    content: a
+  - delay: 295
+    content: d
+  - delay: 126
+    content: d
+  - delay: 813
+    content: ' '
+  - delay: 741
+    content: '-'
+  - delay: 279
+    content: d
+  - delay: 704
+    content: ' '
+  - delay: 8250
+    content: /
+  - delay: 960
+    content: h
+  - delay: 139
+    content: p
+  - delay: 749
+    content: "\b\e[K"
+  - delay: 541
+    content: o
+  - delay: 187
+    content: m
+  - delay: 187
+    content: e
+  - delay: 843
+    content: /
+  - delay: 768
+    content: u
+  - delay: 158
+    content: s
+  - delay: 163
+    content: e
+  - delay: 151
+    content: r
+  - delay: 2302
+    content: ' '
+  - delay: 546
+    content: t
+  - delay: 163
+    content: a
+  - delay: 73
+    content: s
+  - delay: 213
+    content: 'y'
+  - delay: 94
+    content: a
+  - delay: 602
+    content: "\r\e[?2004l\n"
+  - delay: 97
+    content: "\e[?2004h"
+  - delay: 23
+    content: '[root@archiso /]# '
+  - delay: 3918
+    content: c
+  - delay: 98
+    content: h
+  - delay: 992
+    content: o
+  - delay: 145
+    content: w
+  - delay: 391
+    content: 'n'
+  - delay: 201
+    content: ' '
+  - delay: 2390
+    content: '-'
+  - delay: 565
+    content: R
+  - delay: 1425
+    content: ' '
+  - delay: 1111
+    content: t
+  - delay: 65
+    content: a
+  - delay: 98
+    content: s
+  - delay: 194
+    content: 'y'
+  - delay: 160
+    content: a
+  - delay: 950
+    content: ':'
+  - delay: 511
+    content: t
+  - delay: 94
+    content: a
+  - delay: 121
+    content: s
+  - delay: 222
+    content: t
+  - delay: 1293
+    content: "\b\e[K"
+  - delay: 323
+    content: 'y'
+  - delay: 116
+    content: a
+  - delay: 551
+    content: ' '
+  - delay: 2654
+    content: /
+  - delay: 548
+    content: h
+  - delay: 139
+    content: o
+  - delay: 210
+    content: m
+  - delay: 162
+    content: e
+  - delay: 789
+    content: /
+  - delay: 392
+    content: u
+  - delay: 159
+    content: s
+  - delay: 160
+    content: e
+  - delay: 134
+    content: r
+  - delay: 748
+    content: "\r\e[?2004l\nchown: cannot access '/home/user': No such file or directory\r\e[?2004h\n[root@archiso /]#\e[1C"
+  - delay: 8299
+    content: m
+  - delay: 27
+    content: k
+  - delay: 1326
+    content: d
+  - delay: 173
+    content: i
+  - delay: 63
+    content: r
+  - delay: 3330
+    content: ' '
+  - delay: 1096
+    content: /
+  - delay: 418
+    content: h
+  - delay: 213
+    content: o
+  - delay: 206
+    content: m
+  - delay: 146
+    content: e
+  - delay: 633
+    content: /
+  - delay: 1500
+    content: u
+  - delay: 93
+    content: s
+  - delay: 231
+    content: e
+  - delay: 127
+    content: r
+  - delay: 413
+    content: "\r\e[?2004l\e[?2004h\n[root@archiso /]#\e[1C"
+  - delay: 1293
+    content: mkdir /home/user
+  - delay: 374
+    content: "\e[?25l\e[40;19Hchown -R tasya:tasya /home/user\e[K\e[?25h"
+  - delay: 685
+    content: "\e[?25l\e[40;19Huseradd -d /home/user tasya\e[K\e[?25h"
+  - delay: 1105
+    content: "\r\e[?2004l\n"
+  - delay: 6
+    content: "useradd: user 'tasya' already exists\r\e[?2004h"
+  - delay: 10
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 4145
+    content: useradd -d /home/user tasya
+  - delay: 641
+    content: "\e[?25l\e[40;19Hmkdir /home/user\e[K\e[?25h"
+  - delay: 502
+    content: "\e[?25l\e[40;19Hchown -R tasya:tasya /home/user\e[K\e[?25h"
+  - delay: 1220
+    content: "\r\e[?2004l\n"
+  - delay: 7
+    content: "\e[?2004h"
+  - delay: 13
+    content: '[root@archiso /]# '
+  - delay: 3349
+    content: p
+  - delay: 107
+    content: a
+  - delay: 276
+    content: s
+  - delay: 725
+    content: s
+  - delay: 705
+    content: w
+  - delay: 143
+    content: d
+  - delay: 310
+    content: ' '
+  - delay: 399
+    content: t
+  - delay: 149
+    content: a
+  - delay: 250
+    content: s
+  - delay: 317
+    content: 'y'
+  - delay: 132
+    content: a
+  - delay: 1130
+    content: "\r\e[?2004l\n"
+  - delay: 34
+    content: 'New password: '
+  - delay: 8615
+    content: "\r\nRetype new password:\e[1C"
+  - delay: 1723
+    content: "\r\n"
+  - delay: 6
+    content: "passwd: password updated successfully\r\e[?2004h"
+  - delay: 13
+    content: "\n[root@archiso /]#\e[1C"
+  - delay: 3806
+    content: ec
+  - delay: 192
+    content: h
+  - delay: 365
+    content: o
+  - delay: 247
+    content: ' '
+  - delay: 1359
+    content: '"'
+  - delay: 134
+    content: '"'
+  - delay: 824
+    content: "\b"
+  - delay: 3228
+    content: "ta\"\b"
+  - delay: 158
+    content: "s\"\b"
+  - delay: 190
+    content: "y\"\b"
+  - delay: 89
+    content: "a\"\b"
+  - delay: 1899
+    content: " \"\b"
+  - delay: 1668
+    content: "A\"\b"
+  - delay: 555
+    content: "L\"\b"
+  - delay: 126
+    content: "L\"\b"
+  - delay: 4642
+    content: "=\"\b"
+  - delay: 283
+    content: "A\"\b"
+  - delay: 475
+    content: "L\"\b"
+  - delay: 150
+    content: "L\"\b"
+  - delay: 1230
+    content: ":\"\b"
+  - delay: 345
+    content: "A\"\b"
+  - delay: 413
+    content: "L\"\b"
+  - delay: 137
+    content: "L\"\b"
+  - delay: 3615
+    content: "\b"
+  - delay: 184
+    content: "\b"
+  - delay: 148
+    content: "\b"
+  - delay: 171
+    content: "\b"
+  - delay: 211
+    content: "\b"
+  - delay: 149
+    content: "\b"
+  - delay: 306
+    content: "\b"
+  - delay: 1175
+    content: "\e[?25l(ALL:ALL\"\e[K\e[40;36H\e[?25h"
+  - delay: 879
+    content: "\e[1C"
+  - delay: 203
+    content: "\e[1C"
+  - delay: 219
+    content: "\e[1C"
+  - delay: 166
+    content: "\e[1C"
+  - delay: 215
+    content: "\e[1C"
+  - delay: 232
+    content: "\e[1C"
+  - delay: 1275
+    content: "\e[?25l)L\"\e[K\e[40;43H\e[?25h"
+  - delay: 1368
+    content: "\e[?25l\bL\"\e[K\e[40;42H\e[?25h"
+  - delay: 748
+    content: "\e[1C"
+  - delay: 1223
+    content: ")\"\b"
+  - delay: 4444
+    content: "\e[1C"
+  - delay: 50
+    content: "\a"
+  - delay: 966
+    content: ' '
+  - delay: 359
+    content: '>'
+  - delay: 216
+    content: ' '
+  - delay: 2090
+    content: /
+  - delay: 350
+    content: E
+  - delay: 164
+    content: T
+  - delay: 148
+    content: C
+  - delay: 432
+    content: /
+  - delay: 1115
+    content: "\b\e[K"
+  - delay: 135
+    content: "\b\e[K"
+  - delay: 150
+    content: "\b\e[K"
+  - delay: 458
+    content: "\b\e[K"
+  - delay: 914
+    content: e
+  - delay: 161
+    content: t
+  - delay: 194
+    content: e
+  - delay: 964
+    content: "\b\e[K"
+  - delay: 119
+    content: c
+  - delay: 902
+    content: /
+  - delay: 1997
+    content: s
+  - delay: 149
+    content: u
+  - delay: 321
+    content: d
+  - delay: 164
+    content: o
+  - delay: 457
+    content: "\a"
+  - delay: 910
+    content: e
+  - delay: 209
+    content: r
+  - delay: 286
+    content: s
+  - delay: 1301
+    content: "\a"
+  - delay: 549
+    content: .
+  - delay: 201
+    content: d
+  - delay: 3020
+    content: /
+  - delay: 397
+    content: t
+  - delay: 213
+    content: a
+  - delay: 17
+    content: s
+  - delay: 583
+    content: 'y'
+  - delay: 128
+    content: a
+  - delay: 906
+    content: "\r\e[?2004l\n\e[?2004h"
+  - delay: 9
+    content: '[root@archiso /]# '
+  - delay: 19261
+    content: r
+  - delay: 60
+    content: e
+  - delay: 525
+    content: b
+  - delay: 437
+    content: o
+  - delay: 2065
+    content: "\b\e[K"
+  - delay: 466
+    content: "\b\e[K"
+  - delay: 45
+    content: "\e[?25l\e[40;19H\e[K\e[?25h"
+  - delay: 47
+    content: "\a"
+  - delay: 31
+    content: "\a"
+  - delay: 35
+    content: "\a"
+  - delay: 35
+    content: "\a\a"
+  - delay: 70
+    content: "\a\a"
+  - delay: 50
+    content: "\a\a"
+  - delay: 66
+    content: "\a"
+  - delay: 221
+    content: e
+  - delay: 114
+    content: x
+  - delay: 220
+    content: i
+  - delay: 308
+    content: t
+  - delay: 1008
+    content: "\r\e[?2004l\nexit\r\n"
+  - delay: 44
+    content: "\e[?1h\e=\e[?2004h\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 1660
+    content: r
+  - delay: 33
+    content: "\bre"
+  - delay: 1634
+    content: b
+  - delay: 391
+    content: o
+  - delay: 119
+    content: o
+  - delay: 547
+    content: t
+  - delay: 5319
+    content: "\e[?1l\e>\e[?2004l\r\n"
+  - delay: 24
+    content: "\e]0;root@archiso: reboot\a"
+  - delay: 19
+    content: "                                                                                                                                                                            \e[40;1H\e[?1h\e=\e[?2004h"
+  - delay: 8
+    content: "\e[31m\e[1mroot\e[m@archiso \e[1m~ \e[22m#                                                                                                                                                            \e[40;18H\e]0;root@archiso: ~\a"
+  - delay: 5
+    content: "Connection to 10.83.151.85 closed by remote host.\r\nConnection to 10.83.151.85 closed.\r"
+  - delay: 11
+    content: |+
+
+  - delay: 53
+    content: "\e]0;Administrator: C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a"
+  - delay: 9
+    content: 'PS C:\Windows\System32> '
+  - delay: 1673726
+    content: "\e[93me\e[?25l\e[m\e[?25h"
+  - delay: 329
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\bex\e[?25h"
+  - delay: 287
+    content: "\e[?25l\e[m\e[93m\e[40;25Hexi"
+  - delay: 14
+    content: "\e[m\e[?25h"
+  - delay: 342
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[40;25Hexit\e[?25h"
+  - delay: 3020
+    content: "\e[m"
+  - delay: 17
+    content: "\r\n"

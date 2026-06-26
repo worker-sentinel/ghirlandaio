@@ -30,3 +30,7 @@ Pertanyaan dari presentator bahwa **bagaimana hubungan kemajuan teknologi dan pe
 Hubungan antara sains dan agama tidak selamanya tentang peperangan atau pertentangan. Keduanya memiliki peran masing-masing di mana sains tidak bisa hanya bergantung pada pemikiran dan inovasi, sebaliknya agama tidak sepenuhnya harus mengandalkan pedoman, masing-masing dari mereka bisa saling melengkapi untuk mengerti bagaimana dunia seharusnya bekerja, manusia butuh berkembang tidak hanya dengan moral atau pengetahuan saja.
 
 Pada era-era terdahulu terlihat kalau tanpa adanya sains dan hanya mengandalkan kepercayaan pada naskah kuno bisa mengarahkan manusia ke zaman yang gelap, dengan adanya sains, lebih mengarahkan manusia yang selalu menyalahkan segalanya pada Tuhan, menjadi mandiri, bangkit, dan mencari solusi lewat materi.
+
+Note:
+Saya salah menghapus markdown yang seharusnya di repository anomaly malah di utama, bukti:
+<img width="1353" height="72" alt="image" src="https://github.com/user-attachments/assets/d6e46f43-1991-4c15-9d44-32f1539a1710" />

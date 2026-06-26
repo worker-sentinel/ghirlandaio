@@ -1,0 +1,577 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 417
+    content: "\e]3008;start=afc3b8e1-afd2-4bac-8731-9ae67aeef38a;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000002970;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 8021
+    content: s
+  - delay: 1227
+    content: u
+  - delay: 225
+    content: d
+  - delay: 86
+    content: o
+  - delay: 751
+    content: ' '
+  - delay: 56
+    content: s
+  - delay: 109
+    content: u
+  - delay: 309
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 103
+    content: '[sudo] password for iqbal: '
+  - delay: 3143
+    content: "\r\n"
+  - delay: 1411
+    content: "Sorry, try again.\r\n"
+  - delay: 35
+    content: '[sudo] password for iqbal: '
+  - delay: 5348
+    content: "\r\n"
+  - delay: 63
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 4748
+    content: m
+  - delay: 485
+    content: p
+  - delay: 373
+    content: v
+  - delay: 1010
+    content: ' '
+  - delay: 873
+    content: "\e[7mhttps://www.youtube.com/watch?v=dtdPS0oBkCU\e[27m"
+  - delay: 2937
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Chttps://www.youtube.com/watch?v=dtdPS0oBkCU\r\n\e[?2004l\r"
+  - delay: 166
+    content: "\e="
+  - delay: 4005
+    content: "\e[0m● Video  --vid=1               (av1 1920x1080 25 fps) [default]\r\n\e[0m\e[0m● Audio  --aid=1  --alang=eng  (opus 2ch 48000 Hz) [default]\r\n\e[0m\e[0mFile tags:\r\n\e[0m\e[0m Date: 20260602\r\n\e[0m\e[0m Uploader: Raditya Dika\r\n\e[0m\e[0m Channel_URL: https://www.youtube.com/channel/UC0rzsIrAxF4kCsALP6J2EsA\r\n\e[0m"
+  - delay: 180
+    content: "\e[31m[ao/alsa] Playback open error: Host is down\r\n\e[0m\e[91m[ao/jack] cannot open server\r\n\e[0m"
+  - delay: 10
+    content: "[ALSOFT] (EE) Failed to connect PipeWire event context (errno: 112)\r\n\e[91m[ao/openal] could not open device\r\n\e[0m"
+  - delay: 27
+    content: "couldn't open play stream: No such file or directory\r\n\e[31m[ao/sndio] Can't open audio device default.\r\n\e[0m\e[31m[ao] Failed to initialize audio driver 'sndio'\r\n\e[0m\e[31mCould not open/initialize audio device -> no sound.\r\n\e[0m\e[0mAudio: no audio\r\n\e[0m"
+  - delay: 171
+    content: "\e[0mVO: [gpu-next] 1920x1080 yuv420p\r\n\e[0m"
+  - delay: 132
+    content: "\e[?25l\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.8s/53KB\e[0m\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.8s/50KB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.8s/49KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.7s/48KB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.6s/41KB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.6s/40KB\e[0m"
+  - delay: 116
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.5s/37KB\e[0m"
+  - delay: 43
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.4s/34KB\e[0m"
+  - delay: 121
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.4s/32KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.3s/10KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.2s/10KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.1s/3KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.1s/204KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:00 / 00:56:57 (0%) Cache: 0.2s/18KB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.2s/34KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.3s/50KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.2s/44KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.2s/16KB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.2s/23KB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.4s/63KB\e[0m"
+  - delay: 78
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 1.0s/76KB\e[0m"
+  - delay: 42
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.9s/68KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.8s/34KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 0.8s/33KB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 2.4s/109KB\e[0m"
+  - delay: 121
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 2.3s/106KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 2.2s/100KB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 2.1s/97KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:01 / 00:56:57 (0%) Cache: 2.0s/96KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.2s/192KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.3s/203KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.2s/203KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.3s/234KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.2s/234KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.4s/251KB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.6s/220KB\e[0m"
+  - delay: 122
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.6s/255KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.5s/253KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.4s/252KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.6s/302KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.7s/319KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.9s/343KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.8s/343KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:02 / 00:56:57 (0%) Cache: 2.8s/342KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 2.7s/340KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 2.7s/377KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 2.6s/375KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 2.8s/446KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.0s/461KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.4s/503KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.3s/501KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.4s/506KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.3s/505KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.2s/497KB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.7s/594KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.6s/591KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.5s/591KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:03 / 00:56:57 (0%) Cache: 3.6s/598KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 3.6s/597KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 3.5s/504KB\e[0m"
+  - delay: 30
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.1s/546KB\e[0m"
+  - delay: 130
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.0s/534KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 3.9s/533KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.2s/593KB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.2s/589KB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.7s/602KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.7s/601KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.0s/612KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.8s/593KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.8s/592KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.0s/637KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 4.9s/633KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.3s/637KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.2s/632KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.8s/664KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.7s/660KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.7s/657KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:04 / 00:56:57 (0%) Cache: 5.6s/656KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.8s/725KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.7s/649KB\e[0m"
+  - delay: 30
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.6s/646KB\e[0m"
+  - delay: 130
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.6s/684KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.5s/683KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.5s/673KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.4s/670KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.6s/728KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.6s/722KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.8s/744KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.8s/733KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.8s/732KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.1s/747KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.0s/740KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.9s/736KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 6.9s/698KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.2s/711KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.1s/711KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.3s/729KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:05 / 00:56:57 (0%) Cache: 7.2s/721KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.5s/757KB\e[0m"
+  - delay: 70
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.4s/755KB\e[0m"
+  - delay: 50
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.7s/770KB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.6s/765KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.9s/820KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 7.8s/819KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.2s/828KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.1s/828KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.4s/850KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.3s/841KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.3s/840KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.2s/838KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.2s/888KB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.0s/882KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.0s/880KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:06 / 00:56:57 (0%) Cache: 8.0s/879KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/811KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/810KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.8s/801KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.7s/801KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.7s/798KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.8s/939KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.8s/938KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 8.1s/973KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 8.0s/966KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/963KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 8.0s/967KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/949KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/948KB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/1001KB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 8.0s/1020KB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/1018KB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.8s/1012KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:07 / 00:56:57 (0%) Cache: 7.9s/1019KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 7.9s/1019KB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.2s/1MB\e[0m"
+  - delay: 32
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.0s/1MB\e[0m"
+  - delay: 128
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 7.9s/1007KB\e[0m"
+  - delay: 38
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 7.9s/1006KB\e[0m"
+  - delay: 122
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.0s/1MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.1s/1MB\e[0m"
+  - delay: 39
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.0s/1MB\e[0m"
+  - delay: 161
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 7.9s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 7.8s/1MB\e[0m"
+  - delay: 41
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m"
+  - delay: 79
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.4s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.7s/1MB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:08 / 00:56:57 (0%) Cache: 8.6s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.7s/1MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.6s/1MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.4s/1MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.3s/1MB\e[0m"
+  - delay: 127
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.2s/1MB\e[0m"
+  - delay: 113
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.1s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.0s/1MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.3s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:09 / 00:56:57 (0%) Cache: 8.2s/1MB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.4s/1MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.4s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m"
+  - delay: 120
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.6s/1MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m"
+  - delay: 80
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.4s/1MB\e[0m"
+  - delay: 160
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.6s/1MB\e[0m"
+  - delay: 40
+    content: "\e[1K\r\e[0mV: 00:00:10 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 8.5s/1MB\e[0m"
+  - delay: 89
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 8.9s/1MB\e[0m"
+  - delay: 207
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 9.2s/1MB\e[0m"
+  - delay: 100
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 9.3s/1MB\e[0m"
+  - delay: 300
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 9.4s/1MB\e[0m"
+  - delay: 119
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 9.9s/1MB\e[0m"
+  - delay: 51
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 10s/1MB\e[0m"
+  - delay: 473
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 11s/1MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 12s/1MB\e[0m"
+  - delay: 203
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 12s/2MB\e[0m"
+  - delay: 364
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 13s/2MB\e[0m"
+  - delay: 201
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 14s/2MB\e[0m"
+  - delay: 1486
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 15s/2MB\e[0m"
+  - delay: 486
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 16s/2MB\e[0m"
+  - delay: 765
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 17s/2MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 18s/2MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 19s/3MB\e[0m"
+  - delay: 500
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 20s/3MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 21s/3MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 22s/3MB\e[0m"
+  - delay: 501
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 23s/3MB\e[0m"
+  - delay: 251
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 24s/3MB\e[0m"
+  - delay: 1252
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 25s/3MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 26s/3MB\e[0m"
+  - delay: 250
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 26s/4MB\e[0m"
+  - delay: 136
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 27s/4MB\e[0m"
+  - delay: 351
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 28s/4MB\e[0m"
+  - delay: 1143
+    content: "\e[1K\r\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 29s/4MB\e[0m"
+  - delay: 490
+    content: "\e[?25h\e[1K\r\e[33m[ffmpeg/demuxer] mov,mp4,m4a,3gp,3g2,mj2: Packet corrupt (stream = 0, dts = 520704).\r\n\e[0m\e[?25l\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 29s/4MB\e[0m\e[?25h\e[1K\r\e[31m[ffmpeg] NULL: Invalid OBU length: 13492, but only 824 bytes remaining in fragment.\r\n\e[0m\e[?25l\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 29s/4MB\e[0m\e[?25h\e[1K\r\e[31m[ffmpeg] NULL: Failed to parse temporal unit.\r\n\e[0m\e[?25l\e[0m(Paused) V: 00:00:10 / 00:56:57 (0%) Cache: 29s/4MB\e[0m\e[?25h\r\n\e[0mExiting... (Quit)\r\n\e[0m"
+  - delay: 23
+    content: "\e>"
+  - delay: 26
+    content: "\e]0;root@iqbal:/home/user\a\e[?2004h[root@iqbal user]# "
+  - delay: 2853
+    content: e
+  - delay: 276
+    content: x
+  - delay: 203
+    content: i
+  - delay: 240
+    content: t
+  - delay: 307
+    content: "\r\n\e[?2004l\rexit\r\n"
+  - delay: 45
+    content: "\e]3008;end=234c5f36-0ae0-4234-a5de-eeb32798516b;exit=success\e\\"
+  - delay: 8
+    content: "\e]3008;start=afc3b8e1-afd2-4bac-8731-9ae67aeef38a;machineid=7f654e74d7864ab483cbb00968fe3358;user=iqbal;hostname=iqbal;bootid=c347e320-f10f-4afd-a248-188b3b26990b;pid=00000000000000002970;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://iqbal/home/user\e\\\e]0;iqbal@iqbal:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1921
+    content: e
+  - delay: 333
+    content: x
+  - delay: 219
+    content: i
+  - delay: 298
+    content: t
+  - delay: 599
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\logout\r\n"

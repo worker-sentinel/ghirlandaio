@@ -1,0 +1,281 @@
+[alyabalqis@archlinux ~]$ systemctl status firewalld
+● firewalld.service - firewalld - dynamic firewall daemon
+     Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; preset: disabled)
+     Active: active (running) since Fri 2026-06-26 02:58:31 WIB; 6h ago
+ Invocation: 2f9915c081f24409a0c792e431ddcf59
+       Docs: man:firewalld(1)
+   Main PID: 594 (firewalld)
+      Tasks: 2 (limit: 6709)
+     Memory: 45.2M (peak: 53.6M)
+        CPU: 1.362s
+     CGroup: /system.slice/firewalld.service
+             └─594 /usr/bin/python /usr/bin/firewalld --nofork --nopid
+
+Warning: some journal files were not opened due to insufficient permissions.
+[alyabalqis@archlinux ~]$ firewall-cmd --list-all-zone
+Authorization failed.
+    Make sure polkit agent is running or run the application as superuser.
+[alyabalqis@archlinux ~]$ sudo su
+[sudo] password for alyabalqis:
+[root@archlinux alyabalqis]# firewall-cmd --list-all-zone
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+dmz
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+external
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: yes
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+home
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+internal
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client mdns samba-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+nm-shared
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcp dns ssh
+  ports:
+  protocols: icmp ipv6-icmp
+  forward: no
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+        rule priority="32767" reject
+
+public (default, active)
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces: wlan0
+  sources:
+  services: dhcpv6-client http https ssh
+  ports: 22/tcp 80/tcp
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+trusted (active)
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources: 10.89.0.0/24
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+work
+  target: default
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services: dhcpv6-client ssh
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+
+[root@archlinux alyabalqis]# firewall-cmd --reload
+success
+[root@archlinux alyabalqis]# firewall-cmd --zone=public --remove-service={cockpit,dhcpv6-client} --permanent
+Warning: NOT_ENABLED: cockpit
+success
+[root@archlinux alyabalqis]# dhcpv6-client
+bash: dhcpv6-client: command not found
+[root@archlinux alyabalqis]# dhcpv6-client --permanent
+bash: dhcpv6-client: command not found
+[root@archlinux alyabalqis]# firewall-cmd --zone=public --remove-service={dhcpv6-client,mdns,samba-client}
+Warning: NOT_ENABLED: 'mdns' not in 'public'
+Warning: NOT_ENABLED: 'samba-client' not in 'public'
+success
+[root@archlinux alyabalqis]# firewall-cmd --zone=home --remove-service={dhcpv6-client,mdns,samba-client}
+success
+[root@archlinux alyabalqis]# firewall-cmd --zone=external --remove-service=ssh --permanent
+success
+[root@archlinux alyabalqis]# firewall-cmd --zone=dmz --remove-service=ssh --permanent
+success
+[root@archlinux alyabalqis]# firewall-cmd --zone=trusted --list-all
+trusted
+  target: ACCEPT
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+[root@archlinux alyabalqis]# firewall-cmd --zone=drop --list-all
+drop
+  target: DROP
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+[root@archlinux alyabalqis]# firewall-cmd --zone=block --list-all
+block
+  target: %%REJECT%%
+  ingress-priority: 0
+  egress-priority: 0
+  icmp-block-inversion: no
+  interfaces:
+  sources:
+  services:
+  ports:
+  protocols:
+  forward: yes
+  masquerade: no
+  forward-ports:
+  source-ports:
+  icmp-blocks:
+  rich rules:
+[root@archlinux alyabalqis]#
+exit
+[alyabalqis@archlinux ~]$ asciinema stop
+error: unrecognized subcommand 'stop'
+
+Usage: asciinema [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+[alyabalqis@archlinux ~]$ asciinema stop firewalld.cast
+error: unrecognized subcommand 'stop'
+
+Usage: asciinema [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+[alyabalqis@archlinux ~]$ sudo su
+[sudo] password for alyabalqis:
+[root@archlinux alyabalqis]#
+exit
+[alyabalqis@archlinux ~]$
+exit

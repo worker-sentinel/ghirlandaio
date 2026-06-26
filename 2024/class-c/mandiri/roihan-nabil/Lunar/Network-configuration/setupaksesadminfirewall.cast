@@ -1,0 +1,11 @@
+{"version":3,"term":{"cols":190,"rows":59,"type":"xterm-256color","version":"VTE(8400)","theme":{"fg":"#ffffff","bg":"#000000","palette":"#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"}},"timestamp":1781850496,"env":{"SHELL":"/usr/bin/bash"}}
+[0.011, "o", "\u001b]0;Lunar@archlinux:~\u0007"]
+[0.001, "o", "\u001b[?2004h[Lunar@archlinux ~]$ "]
+[52.626, "o", "e"]
+[0.339, "o", "x"]
+[0.349, "o", "i"]
+[0.429, "o", "t"]
+[1.022, "o", "\r\n\u001b[?2004l\r"]
+[0.000, "o", "exit"]
+[0.001, "o", "\r\n"]
+[0.008, "x", "0"]

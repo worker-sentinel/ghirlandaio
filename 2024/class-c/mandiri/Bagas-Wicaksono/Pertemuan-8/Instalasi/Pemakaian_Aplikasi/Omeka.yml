@@ -1,0 +1,801 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 288
+    content: "\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1543
+    content: s
+  - delay: 189
+    content: u
+  - delay: 152
+    content: d
+  - delay: 931
+    content: o
+  - delay: 300
+    content: ' '
+  - delay: 346
+    content: p
+  - delay: 201
+    content: a
+  - delay: 180
+    content: c
+  - delay: 797
+    content: m
+  - delay: 158
+    content: a
+  - delay: 304
+    content: 'n'
+  - delay: 201
+    content: ' '
+  - delay: 390
+    content: '-'
+  - delay: 348
+    content: S
+  - delay: 759
+    content: ' '
+  - delay: 598
+    content: p
+  - delay: 199
+    content: o
+  - delay: 172
+    content: d
+  - delay: 338
+    content: m
+  - delay: 162
+    content: a
+  - delay: 142
+    content: nb
+  - delay: 1695
+    content: "\b\e[K"
+  - delay: 4834
+    content: '-'
+  - delay: 522
+    content: c
+  - delay: 422
+    content: o
+  - delay: 295
+    content: m
+  - delay: 288
+    content: p
+  - delay: 209
+    content: o
+  - delay: 230
+    content: s
+  - delay: 289
+    content: e
+  - delay: 765
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 38
+    content: '[sudo] password for gass: '
+  - delay: 3426
+    content: "\r\n"
+  - delay: 259
+    content: "\e[?25lresolving dependencies...\r\n"
+  - delay: 8
+    content: "looking for conflicting packages...\r\n"
+  - delay: 5
+    content: "\r\nPackages (4) python-click-8.3.3-1  python-dotenv-1.2.2-1  python-yaml-6.0.3-2  podman-compose-1.5.0-2\r\n\r\nTotal Download Size:   0.60 MiB\r\nTotal Installed Size:  3.17 MiB\r\n\r\n:: Proceed with installation? [Y/n] \e[?25h"
+  - delay: 1393
+    content: 'y'
+  - delay: 624
+    content: "\r\n\e[?25l:: Retrieving packages...\r\n"
+  - delay: 7
+    content: " python-click-8.3.3-1-any\r\n Total (0/4)                                                                             0.0   B  0.00   B/s 00:00 [--------------------------------------------------------------------]   0%\r\r\n\e[1F python-yaml-6.0.3-2-x86_64\r\n Total (0/4)                                                                             0.0   B  0.00   B/s 00:00 [--------------------------------------------------------------------]   0%\r\r\n\e[1F podman-compose-1.5.0-2-any\r\n Total (0/4)                                                                             0.0   B  0.00   B/s 00:00 [--------------------------------------------------------------------]   0%\r\r\n\e[1F python-dotenv-1.2.2-1-any\r\n Total (0/4)                                                                             0.0   B  0.00   B/s 00:00 [--------------------------------------------------------------------]   0%\r\r\n"
+  - delay: 102
+    content: "\e[5F python-click-8.3.3-1-any                                                             1084.0   B  0.00   B/s --:-- [--------------------------------------------------------------------]   0%\r\e[4E Total (0/4)                                                                          1084.0   B  0.00   B/s --:-- [--------------------------------------------------------------------]   0%\r"
+  - delay: 9
+    content: "\e[3F python-yaml-6.0.3-2-x86_64                                                              5.4 KiB  0.00   B/s --:-- [#-------------------------------------------------------------------]   2%\r"
+  - delay: 5
+    content: "\e[1E podman-compose-1.5.0-2-any                                                              5.4 KiB  0.00   B/s --:-- [##------------------------------------------------------------------]   3%\r"
+  - delay: 10
+    content: "\e[1E python-dotenv-1.2.2-1-any                                                               8.1 KiB  0.00   B/s --:-- [############--------------------------------------------------------]  18%\r"
+  - delay: 28
+    content: " python-click-8.3.3-1-any                                                             1084.0   B  0.00   B/s --:-- [--------------------------------------------------------------------]   0%\r\e[3F python-dotenv-1.2.2-1-any                                                              43.3 KiB   283 KiB/s 00:00 [####################################################################] 100%\r"
+  - delay: 29
+    content: "\e[3E python-yaml-6.0.3-2-x86_64                                                              5.4 KiB  0.00   B/s --:-- [#-------------------------------------------------------------------]   2%\r\e[2F python-click-8.3.3-1-any                                                              235.5 KiB  1287 KiB/s 00:00 [####################################################################] 100%\r\e[1E podman-compose-1.5.0-2-any                                                            136.8 KiB   747 KiB/s 00:00 [####################################################################] 100%\r"
+  - delay: 19
+    content: "\e[1E python-yaml-6.0.3-2-x86_64                                                            198.3 KiB   977 KiB/s 00:00 [####################################################################] 100%\r"
+  - delay: 27
+    content: "\e[1E Total (4/4)                                                                           613.9 KiB  2.53 MiB/s 00:00 [####################################################################] 100%\r\r\n(0/4) checking keys in keyring                                                                                     [--------------------------------------------------------------------]   0%\r"
+  - delay: 96
+    content: "(1/4) checking keys in keyring                                                                                     [#################---------------------------------------------------]  25%\r"
+  - delay: 11
+    content: "(2/4) checking keys in keyring                                                                                     [##################################----------------------------------]  50%\r"
+  - delay: 10
+    content: "(3/4) checking keys in keyring                                                                                     [###################################################-----------------]  75%\r(4/4) checking keys in keyring                                                                                     [####################################################################] 100%\r\r\n(0/4) checking package integrity                                                                                   [--------------------------------------------------------------------]   0%\r"
+  - delay: 26
+    content: "(1/4) checking package integrity                                                                                   [#########################-------------------------------------------]  38%\r"
+  - delay: 17
+    content: "(2/4) checking package integrity                                                                                   [##############################--------------------------------------]  45%\r"
+  - delay: 19
+    content: "(3/4) checking package integrity                                                                                   [####################################################----------------]  77%\r"
+  - delay: 18
+    content: "(4/4) checking package integrity                                                                                   [####################################################################] 100%\r\r\n(0/4) loading package files                                                                                        [--------------------------------------------------------------------]   0%\r(1/4) loading package files                                                                                        [#########################-------------------------------------------]  38%\r(2/4) loading package files                                                                                        [##############################--------------------------------------]  45%\r(3/4) loading package files                                                                                        [####################################################----------------]  77%\r(4/4) loading package files                                                                                        [####################################################################] 100%\r\r\n(0/4) checking for file conflicts                                                                                  [--------------------------------------------------------------------]   0%\r(1/4) checking for file conflicts                                                                                  [#################---------------------------------------------------]  25%\r(2/4) checking for file conflicts                                                                                  [##################################----------------------------------]  50%\r(3/4) checking for file conflicts                                                                                  [###################################################-----------------]  75%\r"
+  - delay: 8
+    content: "(4/4) checking for file conflicts                                                                                  [####################################################################] 100%\r\r\n(0/4) checking available disk space                                                                                [--------------------------------------------------------------------]   0%\r(1/4) checking available disk space                                                                                [#################---------------------------------------------------]  25%\r(2/4) checking available disk space                                                                                [##################################----------------------------------]  50%\r(3/4) checking available disk space                                                                                [###################################################-----------------]  75%\r(4/4) checking available disk space                                                                                [####################################################################] 100%\r\r\n:: Processing package changes...\r\n(1/4) installing python-click                                                                                      [--------------------------------------------------------------------]   0%\r"
+  - delay: 24
+    content: "(1/4) installing python-click                                                                                      [####################################################################] 100%\r\r\n(2/4) installing python-dotenv                                                                                     [--------------------------------------------------------------------]   0%\r(2/4) installing python-dotenv                                                                                     [####################################################################] 100%\r\r\nOptional dependencies for python-dotenv\r\n    ipython: ipython support\r\n(3/4) installing python-yaml                                                                                       [--------------------------------------------------------------------]   0%\r"
+  - delay: 9
+    content: "(3/4) installing python-yaml                                                                                       [####################################################################] 100%\r\r\n(4/4) installing podman-compose                                                                                    [--------------------------------------------------------------------]   0%\r(4/4) installing podman-compose                                                                                    [####################################################################] 100%\r\r\nOptional dependencies for podman-compose\r\n    aardvark-dns: resolve hostnames of linked containers [installed]\r\n"
+  - delay: 115
+    content: ":: Running post-transaction hooks...\r\n(1/1) Arming ConditionNeedsUpdate...\r\n"
+  - delay: 60
+    content: "\e[?25h"
+  - delay: 42
+    content: "\e]3008;end=01c6a450-5f38-4333-b707-ce5fcae3ee8e;exit=success\e\\\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1939
+    content: m
+  - delay: 206
+    content: k
+  - delay: 223
+    content: d
+  - delay: 181
+    content: i
+  - delay: 221
+    content: r
+  - delay: 284
+    content: ' '
+  - delay: 559
+    content: '-'
+  - delay: 839
+    content: p
+  - delay: 693
+    content: ' '
+  - delay: 355
+    content: .
+  - delay: 1358
+    content: /
+  - delay: 519
+    content: f
+  - delay: 173
+    content: i
+  - delay: 264
+    content: l
+  - delay: 236
+    content: e
+  - delay: 1003
+    content: s
+  - delay: 2099
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 7
+    content: "\e]3008;end=5ed656b7-e7ee-4d14-ac94-d72bba2dd62a;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 956
+    content: c
+  - delay: 288
+    content: h
+  - delay: 1993
+    content: m
+  - delay: 249
+    content: o
+  - delay: 240
+    content: d
+  - delay: 615
+    content: ' '
+  - delay: 485
+    content: '-'
+  - delay: 1095
+    content: R
+  - delay: 1039
+    content: ' '
+  - delay: 689
+    content: '7'
+  - delay: 219
+    content: '7'
+  - delay: 218
+    content: '7'
+  - delay: 941
+    content: ' '
+  - delay: 910
+    content: .
+  - delay: 913
+    content: /
+  - delay: 781
+    content: f
+  - delay: 474
+    content: i
+  - delay: 412
+    content: l
+  - delay: 233
+    content: e
+  - delay: 304
+    content: s
+  - delay: 1013
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\\e]3008;end=538e545a-c9e2-43f2-b9ff-48fcda19392a;exit=success\e\\\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2063
+    content: 'n'
+  - delay: 274
+    content: v
+  - delay: 329
+    content: i
+  - delay: 304
+    content: m
+  - delay: 1120
+    content: ' '
+  - delay: 891
+    content: .
+  - delay: 1668
+    content: /
+  - delay: 766
+    content: c
+  - delay: 199
+    content: o
+  - delay: 324
+    content: 'n'
+  - delay: 464
+    content: f
+  - delay: 330
+    content: i
+  - delay: 1206
+    content: g
+  - delay: 722
+    content: /
+  - delay: 484
+    content: d
+  - delay: 278
+    content: a
+  - delay: 193
+    content: t
+  - delay: 148
+    content: a
+  - delay: 1179
+    content: b
+  - delay: 147
+    content: a
+  - delay: 313
+    content: s
+  - delay: 280
+    content: e
+  - delay: 1421
+    content: .
+  - delay: 386
+    content: i
+  - delay: 297
+    content: 'n'
+  - delay: 264
+    content: i
+  - delay: 2963
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 11
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 7
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \e[?2031h\e[>4;2m\e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 26
+    content: "\e[c\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h"
+  - delay: 7
+    content: "\eP+q4D73\e\\"
+  - delay: 55
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 2906
+    content: "\e[?25l\e[59;180Hu\e[H\e[?25h\e[?25l\e[58BAlready at oldest change\e[155C \e[H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e[59;180Hs\e[H\e[?25h\e[?25l\e[59;180H \bcl\e[4 q\e[H\e[?25h\e[?25l\e[59;180H  \r\e[59;1H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- INSERT --\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[12X\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1  \e[6 q\e[H\e[?25h"
+  - delay: 255
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[58;23H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m[+]                                                                                                                                                   1,2\e[1;2H\e[?25h"
+  - delay: 236
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 1072
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;2H\e[?25h"
+  - delay: 195
+    content: "\e[?25l\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[H\e[?25h"
+  - delay: 845
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mu\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;2H\e[?25h"
+  - delay: 223
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 235
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 299
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 4858
+    content: "\e[?25l\e[58;175H6\e[1;6H\e[?25h"
+  - delay: 576
+    content: "\e[?25l\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27muser\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m =\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[1;7H\e[?25h"
+  - delay: 568
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[1;8H\e[?25h"
+  - delay: 2238
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[1;9H\e[?25h"
+  - delay: 493
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mr\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[1;10H\e[?25h"
+  - delay: 197
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mo\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[1;11H\e[?25h"
+  - delay: 181
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mo\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;12H\e[?25h"
+  - delay: 341
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mt\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;13H\e[?25h"
+  - delay: 882
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;14H\e[?25h"
+  - delay: 627
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[K\e[58;173H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2,1 \r\e[56A\e[?25h"
+  - delay: 1945
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[2;2H\e[?25h"
+  - delay: 200
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[2;3H\e[?25h"
+  - delay: 667
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[2;4H\e[?25h"
+  - delay: 194
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[2;5H\e[?25h"
+  - delay: 742
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mw\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[2;6H\e[?25h"
+  - delay: 246
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[2;7H\e[?25h"
+  - delay: 307
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[2;8H\e[?25h"
+  - delay: 306
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[2;9H\e[?25h"
+  - delay: 4072
+    content: "\e[?25l\e[58;175H10\e[2;10H\e[?25h"
+  - delay: 535
+    content: "\e[?25l\r\e[2;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mpassword\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m =\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[2;11H\e[?25h"
+  - delay: 1308
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m \e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[2;12H\e[?25h"
+  - delay: 700
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[2;13H\e[?25h"
+  - delay: 3892
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m1\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[2;14H\e[?25h"
+  - delay: 1207
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[2;15H\e[?25h"
+  - delay: 1924
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[K\e[58;173H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3,1 \r\e[55A\e[?25h"
+  - delay: 2792
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[3;2H\e[?25h"
+  - delay: 594
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mb\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[3;3H\e[?25h"
+  - delay: 422
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mn\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[3;4H\e[?25h"
+  - delay: 170
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ma\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[3;5H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mm\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[3;6H\e[?25h"
+  - delay: 204
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27me\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[3;7H\e[?25h"
+  - delay: 1749
+    content: "\e[?25l\e[58;175H8\e[3;8H\e[?25h"
+  - delay: 759
+    content: "\e[?25l\r\e[3;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mdbname\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m =\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[3;9H\e[?25h"
+  - delay: 1950
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[3;10H\e[?25h"
+  - delay: 976
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m'\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[3;11H\e[?25h"
+  - delay: 1930
+    content: "\e[?25l\b\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m0\e[3;10H\e[?25h"
+  - delay: 749
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[3;11H\e[?25h"
+  - delay: 820
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mo\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[3;12H\e[?25h"
+  - delay: 651
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mm\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[3;13H\e[?25h"
+  - delay: 235
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27me\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[3;14H\e[?25h"
+  - delay: 182
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mk\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[3;15H\e[?25h"
+  - delay: 189
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27ma\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[3;16H\e[?25h"
+  - delay: 519
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[3;17H\e[?25h"
+  - delay: 1498
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[K\e[58;173H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4,1 \r\e[54A\e[?25h"
+  - delay: 1528
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[4;2H\e[?25h"
+  - delay: 285
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[4;3H\e[?25h"
+  - delay: 213
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[4;4H\e[?25h"
+  - delay: 201
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[4;5H\e[?25h"
+  - delay: 1299
+    content: "\e[?25l\e[58;175H6\e[4;6H\e[?25h"
+  - delay: 1043
+    content: "\e[?25l\r\e[4;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mhost\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m =\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[4;7H\e[?25h"
+  - delay: 1252
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[4;8H\e[?25h"
+  - delay: 1097
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[4;9H\e[?25h"
+  - delay: 12716
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27mg\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[4;10H\e[?25h"
+  - delay: 156
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27ma\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[4;11H\e[?25h"
+  - delay: 231
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27ms\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[4;12H\e[?25h"
+  - delay: 192
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27ms\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[4;13H\e[?25h"
+  - delay: 1205
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[4;14H\e[?25h"
+  - delay: 1918
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[K\e[58;173H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5,1 \r\e[53A\e[?25h"
+  - delay: 1446
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mp\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[5;2H\e[?25h"
+  - delay: 214
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mo\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;3H\e[?25h"
+  - delay: 362
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mr\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[5;4H\e[?25h"
+  - delay: 267
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mt\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[5;5H\e[?25h"
+  - delay: 2108
+    content: "\e[?25l\r\e[5;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mport\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m=\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[5;6H\e[?25h"
+  - delay: 1216
+    content: "\e[?25l\r\e[5;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mport \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[5;5H\e[?25h"
+  - delay: 702
+    content: "\e[?25l\e[58;175H6\e[5;6H\e[?25h"
+  - delay: 982
+    content: "\e[?25l\r\e[5;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mport\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m =\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[5;7H\e[?25h"
+  - delay: 1660
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m8\e[5;8H\e[?25h"
+  - delay: 723
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m9\e[5;9H\e[?25h"
+  - delay: 839
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m3\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m10\e[5;10H\e[?25h"
+  - delay: 199
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m3\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[5;11H\e[?25h"
+  - delay: 880
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m0\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[5;12H\e[?25h"
+  - delay: 545
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m6\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[5;13H\e[?25h"
+  - delay: 2086
+    content: "\e[?25l\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m\"\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[5;14H\e[?25h"
+  - delay: 13183
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\e[54B\e[12X\e[58;176H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[2 q\e[5;13H\e[?25h"
+  - delay: 1051
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m:\e[5;13H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 821
+    content: "\e[?25lw\e[?25h"
+  - delay: 303
+    content: "\e[?25lq\e[?25h"
+  - delay: 669
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 3020
+    content: "\e[?25l\r\e[3A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   5,13           All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[?1002h\e[?1006h\e[5;13H\e[?25h"
+  - delay: 7958
+    content: "\e[?25l\e[59;180H^[\e[5;13H\e[?25h\e[?25l\e[59;180H  \e[5;13H\e[?25h"
+  - delay: 762
+    content: "\e[?25l\e[59;180H:\e[5;13H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1448
+    content: "\e[?25lw\e[?25h"
+  - delay: 353
+    content: "\e[?25lq\e[?25h"
+  - delay: 1076
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 10289
+    content: "\e[?25l\r\e[3A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   5,13           All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[?1002h\e[?1006h\e[5;13H\e[?25h"
+  - delay: 2143
+    content: "\e[?25l\e[59;180H~@k\e[5;13H\e[?25h\e[?25l\e[59;180H   \e[5;13H\e[?25h"
+  - delay: 609
+    content: "\e[?25l\e[59;180H~@k\e[5;13H\e[?25h\e[?25l\e[59;180H   \e[5;13H\e[?25h"
+  - delay: 557
+    content: "\e[?25l\e[59;180H^M\e[5;13H\e[?25h\e[?25l\e[59;180H  \e[5;13H\e[?25h"
+  - delay: 2480
+    content: "\e[?25l\e[59;180H^[\e[5;13H\e[?25h\e[?25l\e[59;180H  \e[5;13H\e[?25h"
+  - delay: 1468
+    content: "\e[?25l\e[59;180H:\e[5;13H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1285
+    content: "\e[?25lw\e[?25h"
+  - delay: 822
+    content: "\e[?25lq\e[?25h"
+  - delay: 607
+    content: "\e[?25l!\e[?25h"
+  - delay: 1117
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 1754
+    content: "\e[?25l\r\e[3A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   5,13           All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[?1002h\e[?1006h\e[5;13H\e[?25h"
+  - delay: 11369
+    content: "\e[?25l\e[59;180H:\e[5;13H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1030
+    content: "\e[?25lw\e[?25h"
+  - delay: 499
+    content: "\e[?25lq\e[?25h"
+  - delay: 1449
+    content: "\e[?25l!\e[?25h"
+  - delay: 625
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 35136
+    content: "\e[?25l\r\e[3A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   5,13           All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[?1002h\e[?1006h\e[5;13H\e[?25h"
+  - delay: 2531
+    content: "\e[?25l\e[59;180H^[\e[5;13H\e[?25h\e[?25l\e[59;180H  \e[5;13H\e[?25h"
+  - delay: 2847
+    content: "\e[?25l\e[59;180H:\e[5;13H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 2070
+    content: "\e[?25lQ\e[?25h"
+  - delay: 1083
+    content: "\e[?25l\b \b\e[?25h"
+  - delay: 1569
+    content: "\e[?25lq\e[?25h"
+  - delay: 1931
+    content: "\e[?25l!\e[?25h"
+  - delay: 1211
+    content: "\e[?25l\r\e[59;1H\e[?25h"
+  - delay: 11
+    content: "\e[?25l\e[2 q\e[?1002h\e[?1006h\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h\e[?25l\e[?1049l\e[23;0;0t\e[?25h\e]3008;end=36f83153-2b20-423e-84d8-732bbf387e9f;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1512
+    content: nvim ./config/database.ini
+  - delay: 1132
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 10
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 7
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 13
+    content: "\e[c\e[?25l\e[?2031h\e[>4;2m\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h\eP+q4D73\e\\"
+  - delay: 72
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 10384
+    content: "\e[?25l\e[59;180H^[\e[H\e[?25h\e[?25l\e[59;180H  \e[H\e[?25h"
+  - delay: 462
+    content: "\e[?25l\e[59;180H:\e[H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 671
+    content: "\e[?25lq\e[?25h"
+  - delay: 1317
+    content: "\e[?25l\r\e[59;1H\e[?25h"
+  - delay: 17
+    content: "\e[?25l\e[2 q\e[?1002h\e[?1006h\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 15
+    content: "\e[?25l\e[?1049l\e[23;0;0t\e[?25h\e]3008;end=2c3b13ac-04c2-438e-b7b3-20908967fead;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 35472
+    content: nvim ./config/database.ini
+  - delay: 740
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 11
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\e[H\e[2J\e[?2004h\e[?69$p\e[?2026$p\e[?2027$p\e[?2031$p\e[?2048$p\e[?u\e[c\e]11;?\a\e[5n\e[?25h"
+  - delay: 7
+    content: "\e]11;?\a\e[5n\e[?25l\e(B\e[m\e[H                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \r\n                                                                                                                                                                                              \e[?2031h\e[>4;2m\e[1 q\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 13
+    content: "\e[c\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[2 q\e[2 q\e[H\e[K\n\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n~\e[K\r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini                                                                                                                                                       0,0-1          All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[H\e[?25h\eP+q4D73\e\\"
+  - delay: 71
+    content: "\e[?25l\e[?1004h\e[?25h"
+  - delay: 729
+    content: "\e[?25l\e[59;180Hh\e[H\e[?25h\e[?25l\e[59;180H \e[H\e[?25h\e[?25l\e[59;180Hd\e[H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 126
+    content: "\e[?25l\e[59;181Hi\e[H\e[?25h"
+  - delay: 75
+    content: "\e[?25l\e[59;181H \bih\e[H\e[?25h\e[?25l\e[59;180H   \e[2 q\e[H\e[?25h"
+  - delay: 38
+    content: "\e[?25l\e[59;180Hd\e[H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 110
+    content: "\e[?25l\e[59;181Hi\e[H\e[?25h"
+  - delay: 76
+    content: "\e[?25l\e[59;181H \biw\e[H\e[?25h\e[?25l\e[59;180H   \e[2 q\e[H\e[?25h"
+  - delay: 29
+    content: "\e[?25l\e[59;180Hh\e[H\e[?25h\e[?25l\e[59;180H \e[H\e[?25h"
+  - delay: 23
+    content: "\e[?25l\e[59;180Hd\e[H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 1085
+    content: "\e[?25l\e[59;181Hi\e[H\e[?25h"
+  - delay: 693
+    content: "\e[?25l\e[59;181H \bis\e[H\e[?25h"
+  - delay: 8
+    content: "\e[?25l\e[59;180H   \e[2 q\e[H\e[?25h"
+  - delay: 64
+    content: "\e[?25l\e[59;180Hh\e[H\e[?25h\e[?25l\e[59;180H \e[H\e[?25h"
+  - delay: 61
+    content: "\e[?25l\e[59;180Hd\e[H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 70
+    content: "\e[?25l\e[59;181Hi\e[H\e[?25h"
+  - delay: 115
+    content: "\e[?25l\e[59;181H \bih\e[H\e[?25h\e[?25l\e[59;180H   \e[2 q\e[H\e[?25h"
+  - delay: 45
+    content: "\e[?25l\e[59;180Hd\e[H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 63
+    content: "\e[?25l\e[59;181Hi\e[H\e[?25h"
+  - delay: 694
+    content: "\e[?25l\e[59;181H \bii\e[H\e[?25h\e[?25l\e[59;180H   \e[2 q\e[H\e[?25h"
+  - delay: 425
+    content: "\e[?25l\e[59;180Hi\e[H\e[?25h\e[?25l\e[59;180H \r\e[59;1H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- INSERT --\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1  \e[6 q\e[H\e[?25h"
+  - delay: 567
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27ms\e[58;23H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m[+]                                                                                                                                                   1,2\e[1;2H\e[?25h"
+  - delay: 72
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 52
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 172
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 31
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[1;6H\e[?25h"
+  - delay: 80
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m7\e[1;7H\e[?25h"
+  - delay: 4445
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\e[58B\e[12X\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[2 q\e[1;6H\e[?25h"
+  - delay: 1095
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m:\e[1;6H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 781
+    content: "\e[?25lw\e[?25h"
+  - delay: 248
+    content: "\e[?25lq\e[?25h"
+  - delay: 554
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 4882
+    content: "\e[?25l\r\e[3A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   1,6            All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[179Cc\e[?1002h\e[?1006h\e[1;6H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 1540
+    content: "\e[?25l\e[59;181Hc\e[1;6H\e[?25h\e[?25l\e[59;180H  \r\e[59;1H\e(B\e[m\e[38;2;179;246;192m\e[48;2;20;22;27m-- INSERT --\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[H\e[6X\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[6 q\e[H\e[?25h"
+  - delay: 1654
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;2H\e[?25h"
+  - delay: 1485
+    content: "\e[?25l\e[H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[H\e[?25h"
+  - delay: 446
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mj\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;2H\e[?25h"
+  - delay: 146
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27md\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 87
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 178
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mi\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[1;5H\e[?25h"
+  - delay: 69
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mh\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m6\e[1;6H\e[?25h"
+  - delay: 1549
+    content: "\e[?25l\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\e[58B\e[12X\e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m5\e[2 q\e[1;5H\e[?25h"
+  - delay: 668
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27mc\e[1;5H\e[?25h\e[?25l\e[4 q\e[?25h"
+  - delay: 1485
+    content: "\e[?25l\e[59;181Ho\e[1;5H\e[?25h\e[?25l\e[59;180H  \e[2 q\e[1;5H\e[?25h"
+  - delay: 671
+    content: "\e[?25l\e[59;180Hm\e[1;5H\e[?25h"
+  - delay: 846
+    content: "\e[?25l\e[59;181H~@k\e[1;5H\e[?25h\e[?25l\e[59;180H    \e[1;5H\e[?25h"
+  - delay: 211
+    content: "\e[?25l\e[59;180H~@k\e[1;5H\e[?25h\e[?25l\e[59;180H   \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m4\e[1;4H\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\e[1;4H\e[?25h\e[?25l\e[59;180H   \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m3\e[1;3H\e[?25h"
+  - delay: 188
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\e[1;3H\e[?25h\e[?25l\e[59;180H   \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m2\e[1;2H\e[?25h"
+  - delay: 193
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\e[1;2H\e[?25h\e[?25l\e[59;180H   \e[58;175H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m1\e[H\e[?25h"
+  - delay: 268
+    content: "\e[?25l\e[59;180H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m~@k\e[H\e[?25h\e[?25l\e[59;180H   \e[H\e[?25h"
+  - delay: 202
+    content: "\e[?25l\e[59;180H~@k\e[H\e[?25h\e[?25l\e[59;180H   \e[H\e[?25h"
+  - delay: 1376
+    content: "\e[?25l\e[59;180H:\e[H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1438
+    content: "\e[?25lw\e[?25h"
+  - delay: 759
+    content: "\e[?25lq\e[?25h"
+  - delay: 1204
+    content: "\e[?25l!\e[?25h"
+  - delay: 838
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[57;59r\e[57;1H\e[2M\e[r\e[56;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m                                                                                                                                                                                              \r\n\n\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 5673
+    content: "\e[?25l\e[140C:\e[?1002h\e[?1006h\e[H\e[?25h\e[?25l\e[58B\e[180X:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1890
+    content: "\e[?25lq\e[?25h"
+  - delay: 933
+    content: "\e[?25l1\e[?25h"
+  - delay: 1054
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE37: No write since last change\e[54;59r\e[54;1H\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\e[2M\e[r\e[58;1H\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE162: No write since last change for buffer \"./config/database.ini\"\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                           \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[2 q\e[59;40H\e[?25h"
+  - delay: 1603
+    content: "\e[?25l\e[140C:\e[?1002h\e[?1006h\e[H\e[?25h\e[?25l\e[58B\e[180X:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 1712
+    content: "\e[?25lw\e[?25h"
+  - delay: 706
+    content: "\e[?25l!\e[?25h"
+  - delay: 949
+    content: "\e[?25l\r\e[59;1H\e[?25h\e[?25l\"./config/database.ini\"\e[2 q\e[?1002h\e[?1006h\e[C\e[?25h\e[?25l\e[52;59r\e[52;1H\e[2M\e[r\e[58;1H\e(B\e[m\e[38;2;255;192;185m\e[48;2;20;22;27mE212: Can't open file for writing: no such file or directory\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                  \r\n\e(B\e[m\e[38;2;140;248;247m\e[48;2;20;22;27mPress ENTER or type command to continue\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m                                                                                                                                                       \e[?1002l\e[?1006l\e[59;40H\e[?25h"
+  - delay: 1604
+    content: "\e[?25l\r\e[7A\e(B\e[m\e[38;2;79;82;88m\e[48;2;20;22;27m~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n~                                                                                                                                                                                             \r\n\e(B\e[m\e[38;2;224;226;234m\e[48;2;79;82;88m./config/database.ini [+]                                                                                                                                                   1,1            All\e(B\e[m\e[38;2;224;226;234m\e[48;2;20;22;27m\r\n\e[J\e[?1002h\e[?1006h\e[H\e[?25h"
+  - delay: 1418
+    content: "\e[?25l\e[59;180H:\e[H\e[?25h\e[?25l\e[59;180H \r\e[59;1H:\e[2 q\e[?1002l\e[?1006l\e[?25h"
+  - delay: 2010
+    content: "\e[?25lq\e[?25h"
+  - delay: 1001
+    content: "\e[?25l!\e[?25h"
+  - delay: 1042
+    content: "\e[?25l\r\e[59;1H\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[2 q\e[?1002h\e[?1006h\e[?25h\e[?25l\e[?2031l\e[2 q\e[?1002l\e[?1006l\e(B\e[m\e[?25h\e[2 q\e[?1l\e>\e[>4;0m\e[?2004l\e[?1004l\e[c\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[?1049l\e[23;0;0t\e[?25h\e]3008;end=4bb9b9ca-6455-4e07-9d30-05377c6d86af;exit=success\e\\"
+  - delay: 12
+    content: "\e]3008;start=a0f95fd5-c1bc-4d7d-b7de-9dc903c73035;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000137231;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 8260
+    content: "\e[?2004l\r\r\nlogout\r\n"

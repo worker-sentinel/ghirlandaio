@@ -1,0 +1,25 @@
+# Resume Materi Hubungan Sains dan Agama
+## Nama: Nayla Putri Andriyani
+## NIM:12402051030093
+## Mata Kuliah: Perpustakaan dan Arsip Digital
+## Dosen Pengampu: Al Muhdil Karim, S. IP., M.Hum
+## Analisis
+ Resume ini dibuat dengan menyederhanakan poin-poin penting dari presentasi kelompok 1 agar lebih singkat, mudah dipahami, dan terstruktur dengan jelas. Penyusunan resume difokuskan pada inti pembahasan, yakni peran agama pada Abad Pertengahan, sehingga hanya informasi yang benar-benar terkait yang diambil, seperti pengaruh agama terhadap pendidikan, pengetahuan, dan kehidupan masyarakat.
+ ## Konteks
+ Resume ini disusun berdasarkan pertanyaan dari presentator sebelumnya, yaitu “Bagaimana peran agama pada Abad Pertengahan?”, sehingga isi pembahasan difokuskan untuk menjawab pertanyaan tersebut secara langsung tanpa meluas ke topik lain. Jawaban tersebut menegaskan bahwa agama memiliki peran besar dalam mengendalikan pendidikan, ilmu pengetahuan, dan kehidupan sosial pada masa itu. Oleh karena itu, resume ini tidak hanya menjadi ringkasan materi, tetapi juga merupakan bentuk tanggapan terhadap pertanyaan diskusi yang diberikan.
+ ## Opini dan Argumen
+ Saya setuju bahwa agama memiliki pengaruh besar pada Abad Pertengahan, terutama dalam pendidikan dan pengetahuan, karena lembaga keagamaan menjadi pusat kegiatan intelektual dan penentu kebenaran. Namun, pengaruh tersebut memiliki dua sisi: di satu sisi agama membantu menjaga dan menyebarkan ilmu pengetahuan, tetapi di sisi lain juga membatasi kebebasan berpikir karena perbedaan dengan ajaran agama sering ditolak.
+Argumen ini didukung oleh kajian ilmiah yang menyatakan bahwa perkembangan sains pada masa itu cenderung terhambat karena dominasi otoritas keagamaan. Perbedaan metode antara sains (berbasis observasi dan eksperimen) dan agama (berbasis wahyu dan kepercayaan) menjadi salah satu penyebab munculnya konflik.
+## Pendahuluan
+ Agama dan sains adalah dua aspek yang sangat penting dalam kehidupan manusia. Ilmu pengetahuan digunakan untuk menjelaskan berbagai kejadian di alam secara logis dan berdasarkan cara yang ilmiah, sedangkan agama memberikan arahan tentang nilai-nilai kehidupan, prinsip moral, serta tujuan hidup seseorang. Dalam perkembangan peradaban sepanjang sejarah, hubungan antara sains dan agama sering berubah-ubah, termasuk pada masa Abad Pertengahan. Pada masa ini, agama menjadi faktor utama yang memengaruhi hampir semua aspek kehidupan manusia, mulai dari pendidikan, pengetahuan, sosial, hingga politik. Sebab itu, penting untuk mengerti peran agama pada masa Abad Pertengahan dan dampaknya terhadap perkembangan kecerdasan manusia.
+## Pembahasan
+ Pada masa abad Pertengahan, agama memiliki peran yang sangat penting dalam mengendalikan kehidupan masyarakat. Lembaga keagamaan berperan sebagai pusat kekuasaan yang tidak hanya mengurus urusan spiritual, tetapi juga mengatur berbagai hal dalam kehidupan sehari-hari. Dalam bidang pendidikan dan pengetahuan, lembaga keagamaan menjadi pusat kegiatan belajar, sehingga materi pendidikan banyak dipengaruhi oleh ajaran agama. Ilmu pengetahuan berkembang dalam konteks keagamaan, dan para pemikir harus menyesuaikan gagasannya dengan ajaran yang sudah diterima. Pengaruh agama yang besar ini menyebabkan perkembangan ilmu pengetahuan berlangsung sesuai dengan ajaran agama. Istilah atau ide yang tidak sesuai dengan keyakinan agama bisa menyebabkan perbedaan pendapat atau konflik.
+
+ Dalam beberapa situasi, pendapat ilmiah yang berbeda dianggap tidak benar dan dibuang. Hal ini menunjukkan bahwa kemampuan berpikir bebas pada masa itu masih terbatas. Selain itu, agama juga berperan sebagai sumber legitimasi kekuasaan. Para penguasa sering menggunakan agama untuk memperkuat kedudukan mereka, sehingga muncul hubungan yang erat antara agama dan politik. Dalam hal ini, agama juga memengaruhi sistem pemerintahan dan kebijakan yang diambil. Dengan demikian, hubungan antara agama dan sains pada masa ini tidak selalu bertentangan, tetapi juga tidak sepenuhnya harmonis. Keduanya memiliki peran yang berbeda dan terkadang saling memengaruhi dalam perkembangan peradaban manusia.
+ ## Kesimpulan
+ Pada Abad Pertengahan, agama memiliki pengaruh yang sangat kuat dan mendominasi dalam berbagai bidang kehidupan, terutama dalam bidang pendidikan, ilmu pengetahuan, sosial, dan politik. Agama menjadi sumber kebenaran utama dan pedoman hidup bagi masyarakat. Meskipun agama berperan dalam menjaga dan menyebarkan ilmu pengetahuan, pengaruhnya yang terlalu kuat bisa membatasi kebebasan berpikir dan menyebabkan konflik dengan perkembangan sains. Oleh karena itu, peran agama pada masa ini dapat dipahami sebagai kekuatan yang memiliki dampak positif sekaligus negatif dalam perkembangan peradaban manusia.
+ ## Referensi
+1. Harari, Y. N. (2017). Homo Deus: A Brief History of Tomorrow. Harper.
+2. Kelompok 1. (2026). Hubungan sains dan agama (Materi presentasi)
+3. Kuhn, T. S. (2012). The Structure of Scientific Revolutions (4th ed.). University of Chicago Press.
+

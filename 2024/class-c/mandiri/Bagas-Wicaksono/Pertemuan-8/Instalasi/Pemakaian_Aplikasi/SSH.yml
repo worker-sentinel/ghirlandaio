@@ -1,0 +1,343 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 273
+    content: "\e]3008;start=7f9a1ea5-3332-4a9d-a635-2d7042da4628;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000136646;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2871
+    content: s
+  - delay: 149
+    content: u
+  - delay: 153
+    content: d
+  - delay: 132
+    content: o
+  - delay: 513
+    content: ' '
+  - delay: 262
+    content: s
+  - delay: 135
+    content: 'y'
+  - delay: 137
+    content: s
+  - delay: 205
+    content: t
+  - delay: 152
+    content: e
+  - delay: 328
+    content: m
+  - delay: 305
+    content: c
+  - delay: 234
+    content: t
+  - delay: 499
+    content: l
+  - delay: 763
+    content: ' '
+  - delay: 294
+    content: s
+  - delay: 168
+    content: t
+  - delay: 136
+    content: a
+  - delay: 165
+    content: r
+  - delay: 213
+    content: t
+  - delay: 504
+    content: ' '
+  - delay: 204
+    content: s
+  - delay: 191
+    content: s
+  - delay: 294
+    content: h
+  - delay: 381
+    content: d
+  - delay: 884
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 30
+    content: '[sudo] password for gass: '
+  - delay: 3648
+    content: "\r\n"
+  - delay: 165
+    content: "\e]3008;end=f4dedc1a-c4d5-47d5-830a-f1fc3cf1754b;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=7f9a1ea5-3332-4a9d-a635-2d7042da4628;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000136646;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2691
+    content: s
+  - delay: 159
+    content: u
+  - delay: 265
+    content: d
+  - delay: 210
+    content: o
+  - delay: 450
+    content: ' '
+  - delay: 266
+    content: s
+  - delay: 125
+    content: 'y'
+  - delay: 138
+    content: s
+  - delay: 139
+    content: t
+  - delay: 249
+    content: e
+  - delay: 190
+    content: m
+  - delay: 276
+    content: c
+  - delay: 190
+    content: t
+  - delay: 421
+    content: l
+  - delay: 575
+    content: ' '
+  - delay: 310
+    content: s
+  - delay: 168
+    content: t
+  - delay: 145
+    content: a
+  - delay: 119
+    content: t
+  - delay: 289
+    content: u
+  - delay: 174
+    content: s
+  - delay: 393
+    content: ' '
+  - delay: 328
+    content: s
+  - delay: 191
+    content: s
+  - delay: 197
+    content: h
+  - delay: 220
+    content: d
+  - delay: 1178
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 89
+    content: "\e[0;1;32m●\e[0m sshd.service - OpenSSH Daemon\r\n     Loaded: loaded (\e]8;;file://gass/usr/lib/systemd/system/sshd.service\e\\/usr/lib/systemd/system/sshd.service\e]8;;\e\\; \e[0;1;38:5:185mdisabled\e[0m; preset: \e[0;1;38:5:185mdisabled\e[0m)\r\n     Active: \e[0;1;32mactive (running)\e[0m since Fri 2026-06-05 07:01:30 WIB; 10s ago\r\n Invocation: f2157d2a09a44547919c071da4c2a61f\r\n       Docs: \e]8;;man:sshd(8)\e\\man:sshd(8)\e]8;;\e\\\r\n             \e]8;;man:sshd_config(5)\e\\man:sshd_config(5)\e]8;;\e\\\r\n   Main PID: 136681 (sshd)\r\n      Tasks: 1\e[0;38:5:245m (limit: 9174)\e[0m\r\n     Memory: 1.5M (peak: 2M)\r\n        CPU: 11ms\r\n     CGroup: /system.slice/sshd.service\r\n             └─\e[0;38:5:245m136681 \"sshd: /usr/bin/sshd -D [listener] 0 of 10-100 startups\"\e[0m\r\n\r\nJun 05 07:01:30 gass systemd[1]: Starting OpenSSH Daemon...\r\nJun 05 07:01:30 gass sshd[136681]: Server listening on 0.0.0.0 port 22.\r\nJun 05 07:01:30 gass sshd[136681]: Server listening on :: port 22.\r\nJun 05 07:01:30 gass systemd[1]: Started OpenSSH Daemon.\r\n"
+  - delay: 6
+    content: "\e]3008;end=2b33782e-cc56-446c-b653-ee9ca8ad0d73;exit=success\e\\"
+  - delay: 16
+    content: "\e]3008;start=7f9a1ea5-3332-4a9d-a635-2d7042da4628;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000136646;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2700
+    content: i
+  - delay: 255
+    content: p
+  - delay: 791
+    content: ' '
+  - delay: 206
+    content: a
+  - delay: 452
+    content: d
+  - delay: 1641
+    content: d
+  - delay: 734
+    content: r
+  - delay: 321
+    content: ew
+  - delay: 1195
+    content: "\b\e[K"
+  - delay: 1587
+    content: s
+  - delay: 180
+    content: s
+  - delay: 1395
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 5
+    content: "1: \e[1;36mlo: \e[0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\r\n    link/loopback \e[1;33m00:00:00:00:00:00\e[0m brd \e[1;33m00:00:00:00:00:00\e[0m\r\n    inet \e[1;35m127.0.0.1\e[0m/8 scope host lo\r\n       valid_lft forever preferred_lft forever\r\n    inet6 \e[1;94m::1\e[0m/128 scope host noprefixroute \r\n       valid_lft forever preferred_lft forever\r\n2: \e[1;36menp0s31f6: \e[0m<NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state \e[1;31mDOWN \e[0mgroup default qlen 1000\r\n    link/ether \e[1;33me8:6a:64:21:40:2b\e[0m brd \e[1;33mff:ff:ff:ff:ff:ff\e[0m\r\n    altname enxe86a6421402b\r\n3: \e[1;36mwlp2s0: \e[0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state \e[1;32mUP \e[0mgroup default qlen 1000\r\n    link/ether \e[1;33m48:a4:72:a9:87:2e\e[0m brd \e[1;33mff:ff:ff:ff:ff:ff\e[0m\r\n    altname wlx48a472a9872e\r\n    inet \e[1;35m192.168.2.133\e[0m/24 brd \e[1;35m192.168.2.255 \e[0mscope global dynamic noprefixroute wlp2s0\r\n       valid_lft 59238sec preferred_lft 59238sec\r\n    inet6 \e[1;94mfe80::decb:7eee:124d:847c\e[0m/64 scope link noprefixroute \r\n       valid_lft forever preferred_lft forever\r\n\e]3008;end=5c7ba0db-a2f9-40ac-a23e-0f29e30c9ff8;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=7f9a1ea5-3332-4a9d-a635-2d7042da4628;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000136646;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3226
+    content: s
+  - delay: 169
+    content: s
+  - delay: 202
+    content: h
+  - delay: 888
+    content: ' '
+  - delay: 105297
+    content: r
+  - delay: 615
+    content: o
+  - delay: 550
+    content: o
+  - delay: 664
+    content: t
+  - delay: 1982
+    content: '@'
+  - delay: 3404
+    content: '1'
+  - delay: 305
+    content: '9'
+  - delay: 417
+    content: '2'
+  - delay: 328
+    content: .
+  - delay: 14120
+    content: '1'
+  - delay: 281
+    content: '6'
+  - delay: 398
+    content: '8'
+  - delay: 897
+    content: .
+  - delay: 2640
+    content: '2'
+  - delay: 364
+    content: .
+  - delay: 2584
+    content: '1'
+  - delay: 212
+    content: '1'
+  - delay: 1092
+    content: '0'
+  - delay: 1586
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 195
+    content: "\rThe authenticity of host '192.168.2.110 (192.168.2.110)' can't be established.\r\nED25519 key fingerprint is: SHA256:miOIDq+KIC58UZJ4Jfk8ca5oJ9nuSdOxNe0In5ZZfBc\r\nThis key is not known by any other names.\r\nAre you sure you want to continue connecting (yes/no/[fingerprint])? "
+  - delay: 1948
+    content: 'y'
+  - delay: 155
+    content: e
+  - delay: 254
+    content: s
+  - delay: 604
+    content: "\r\nWarning: Permanently added '192.168.2.110' (ED25519) to the list of known hosts.\r\r\n"
+  - delay: 500
+    content: "\rroot@192.168.2.110's password: "
+  - delay: 3303
+    content: "\r\n"
+  - delay: 206
+    content: "To install \e[38;2;23;147;209mArch Linux\e[0m follow the installation guide:\r\nhttps://wiki.archlinux.org/title/Installation_guide\r\n\r\nFor Wi-Fi, authenticate to the wireless network using the \e[35miwctl\e[0m utility.\r\nFor mobile broadband (WWAN) modems, connect with the \e[35mmmcli\e[0m utility.\r\nEthernet, WLAN and WWAN interfaces using DHCP should work automatically.\r\n\r\nAfter connecting to the internet, the installation guide can be accessed\r\nvia the convenience script \e[35mInstallation_guide\e[0m.\r\n\r\n\e[41m \e[41m \e[41m \e[40m \e[44m \e[40m \e[41m \e[46m \e[45m \e[41m \e[46m \e[43m \e[41m \e[44m \e[45m \e[40m \e[44m \e[40m \e[41m \e[44m \e[41m \e[41m \e[46m \e[42m \e[41m \e[44m \e[43m \e[41m \e[45m \e[40m \e[40m \e[44m \e[40m \e[41m \e[44m \e[42m \e[41m \e[46m \e[44m \e[41m \e[46m \e[47m \e[0m\r\n"
+  - delay: 174
+    content: "\e[1m\e[7m#\e[27m\e[1m\e[0m                                                                                                                                                                                             \r \r\e]0;root@archiso: ~\a\r\e[0m\e[27m\e[24m\e[J\e[1m\e[31m\e[39m\e[0m\e[1m\e[31mroot\e[39m\e[0m@archiso \e[1m~ \e[0m# \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2049
+    content: e
+  - delay: 418
+    content: "\bex"
+  - delay: 240
+    content: i
+  - delay: 449
+    content: t
+  - delay: 2111
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]0;root@archiso: exit\aConnection to 192.168.2.110 closed.\r\r\n"
+  - delay: 5
+    content: "\e]3008;end=b427920a-2bda-44c1-bc88-add78f449081;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=7f9a1ea5-3332-4a9d-a635-2d7042da4628;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000136646;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 5243
+    content: "\e[?2004l\r\r\nlogout\r\n"

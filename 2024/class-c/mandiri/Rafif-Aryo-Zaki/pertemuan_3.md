@@ -1,0 +1,33 @@
+# DAMPAK DARI REALITAS YANG SUDAH DIEDIT DAN DIREKAYASA
+
+Pada pertemuan mata kuliah Perpustakaan dan Arsip Digital kali ini, kelompok presentator membahas materi tentang "Posisi Teknologi sebagai Mitos dan Hiperrealitas dalam Kehidupan Digital"
+
+## PENDAHULUAN 
+Perkembangan teknologi informasi dan komunikasi telah membawa perubahaan besar dalam kehidupan sehari-hari khususnya yaitu dari cara kita sebagai manusia memahami realitas. Kehadiran media sosial seperti Instagram, X, Facebook dan lain sebagainya serta berbagai platform digital yang ada memungkinkan manusia untuk tidak hanya menggambarkan sebuah realitas, tetapi juga mengedit dan merekayasanya. Dalam kondisi ini, realitas yang ditampilkan kepada publik melalui media sosial sering kali bukan lagi sebuah realitas yang apa adanya, melainkan sudah diubah melalui proses seleksi dan rekayasa. Dalam kondisi ini, manusia lebih sering berinteraksi dengan representasi dari realitas dibandingkan dengan realitas itu sendiri.
+
+Fenonema ini dapat dijelaskan melalui pemikiran Jean Baudrillard dalam karyanya *Simulacra and Simulation (1981)* yang mengatakan bahwa masyarakat modern hidup dalam dunia simulasi yang  dipenuhi oleh tanda dan citra. Dalam fenomena ini, realitas mengalami pergeseran menjadi hiperrealitas, yaitu kondisi ketika representasi atau tiruan justru dianggap lebih nyata dibandingkan si kenyataan itu sendiri. Realitas tidak lagi dialami secara langsung, tetapi melalui perantara media yang penuh manipulasi. Oleh karena itu, penting untuk memahami dampak dari realitas yang telah diedit dan direkayasa terhadap cara berpikir, perilaku, dan juga kehidupan sosial manusia.
+
+## PEMBAHASAN
+Dalam pemikiran Jean Baudrillard, *simulacrum* merupakan representasi atau tiruan dari realitas. Pada awalnya, *simulacrum* masih memiliki hubungan dengan realitas asli, namun dalam perkembangan masyarakat modern, *simulacrum* dapat kehilangan hubungan tersebut dan berdiri sendiri sebagai sebuah realitas yang baru. Ketika *simulacrum* diproduksi dan disebarkan secara masif melalui media massa, maka terbentuklah *simulacra*, yaitu kumpulan representasi yang mendominasi kehidupan manusia.
+
+Dari kondisi tersebut muncul dan berkembanglah konsep hiperrealitas, yaitu keadaan di mana batas antara realitas dan representasi menjadi kabur. Dalam hiperrealitas, manusia tidak lagi bisa membedakan antara sesuatu hal yang nyata dan yang tidak, bahkan manusia lebih cenderung menganggap representasi sebagai sesuatu yang lebih nyata dibandingkan realitas itu sendiri.
+
+Hal ini diperkuat oleh penelitian dalam jurnal __Media Sosial: *Hiperrealitas dan Simulacra Perkembangan Masyarakat Zaman Now*__, yang menyatakan bahwa penggunaan media sosial secara intensif dapat membuat individu lebih banyak berinteraksi dengan realitas virtual dibandingkan dengan mereka berinteraksi langsung dengan manusia lainnya di realitas nyata, sehingggal hal tersebut memicu keasingan dari diri sendiri dan bertolak belakang dengan konsep manusia adalah makhluk sosial.
+
+Realitas yang telah diedit dan direkayasa membawa dampak yang kompleks dalam kehidupan manusia modern, baik pada tingkat individu maupun sosial, Dampak tersebut tidak hanya mempengaruhi cara manusia melihat dunia, tetapi juga membentuk cara berpikir, identitas dan relasi sosial. Berikut beberapa dampak dari realitas yang sudah diedit dan direkayasa:
+
+**Pertama**, menjadi kaburnya batas antara realitas dan representasi. Dalam kondisi hiperrealitas, individu tidak lagi mampu secara jelas membedakan antara kenyataan yang autentik dan realitas yang telah dibangun oleh media. Informasi yang diterima sering kali merupakan hasil seleksi dan penyungtingan, sehingga realitas yang dipahami oleh individu bukanlah realitas yang utuh. Hal ini menyebabkan munculnya persepsi yang bias terhadap dunia sekitar. Contohnya pada saat melihat kehidupan seorang influencer di Instagram yang terlihat seolah-olah selalu bahagia dan juga sukses. Padahal hal tersebut merupakan versi diri yang ditampilkan di media sosial saja, identitas itu dibuat seolah nyata padahal bisa saja sebenarnya dibalik itu semua ada masalah ataupun kesulitan yang ditutupi dan tidak dibagikan di media sosialnya itu.
+
+**Kedua**, terjadi pergeseran makna dan nilai dalam masyarakat. Dalam dunia yang dipenuhi simulacra, makna tidak lagi bersumber dari realitas asli, melainkan dari bagaimana realitas tersebut direpresentasikan dan disebarkan. Sebagai contoh, simbol bendera dalam animasi "One Piece" yang awalnya merupakan bagian dari narasi fiksi saja dan tidak nyata, dapat berubah menjadi simbol kebebasan atau perlawanan di dunia nyata. Pegeseran ini menunjukkan bahwa realitas dapat dibangun ulang melalui media, sehingga makna menjadi relatif dan tidak lagi tetap.
+
+**Ketiga**, meningkatnya ketergantungan pada media dan pengalaman tidak langsung. Individu cenderung lebih mengandalkan informasi dari media dibandingkan dengan pengalaman langsung. Dalam jangka panjang, hal ini menyebabkan menurunnya kemampuan individu untuk memahami realitas secara kritis. Pengalaman hidup menjadi semakin dimediasi oleh teknologi, sehingga manusia lebih mengalami dunia melalui layar daripada melalui interaksi nyata. Contohnya yaitu pada saat mencari dan memilih tempat makan, tempat wisata, atau mungkin villa untuk liburan lewat media sosial seperti review influencer di sebuah konten dalam aplikasi tiktok ataupun instagram. Padahal individu tersebut belum pernah sama sekali mencoba hal-hal tersebut secara langsung tetapi ia sidah percaya hanya dengan melihat konten di media sosial sehingga membuatnya menjadi lebih percaya sebuah informasi dari media sosial dibandingkan pengalaman nyata. 
+
+## KESIMPULAN
+Realitas yang telah diedit dan direkayasa merupakan salah satu ciri utama kehidupan di era digital. Fenomena ini menunjukkan bahwa manusia tidak lagi berhadapan langsung dengan realitas, melainkan dengan representasi yang telah dibangun melalui media dan juga teknologi.
+
+Melalui konsep simulacrum dan hiperrealitas, dapat dipahami bahwa dominasi representasi delam kehidupan manusia membawa berbagai dampak, seperti kaburnya batas realitas, pergeseran nilai dan makna dalam masyarakat, dan meningkatnya ketergantungan pada media dan pengalaman tidak langsung. Oleh karena itu diperlukan sikap kritis dalam menyikapi realitas yang ditampilkan melalui media agar manusia tetap mampu memahami kenyataan secara lebih utuh.
+
+---------
+## DAFTAR PUSTAKA
+- Baudrillard, J. (1981). _Simulacra and Simulation_. University of Michigan Press
+- Jauhari, M. (2017). Media Sosial: Hiperrealitas dan Simulacra Perkembangan Masyarakat Zaman Now dalam Pemikiran Jean Baudrillard. *al-'adalah*, Volume 20(1), 117-136. 

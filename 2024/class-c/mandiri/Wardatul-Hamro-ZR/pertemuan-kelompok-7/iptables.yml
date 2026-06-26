@@ -1,0 +1,517 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 134
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 40
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1075
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 23058
+    content: s
+  - delay: 192
+    content: u
+  - delay: 86
+    content: d
+  - delay: 160
+    content: o
+  - delay: 341
+    content: ' '
+  - delay: 569
+    content: i
+  - delay: 236
+    content: p
+  - delay: 336
+    content: t
+  - delay: 132
+    content: a
+  - delay: 172
+    content: b
+  - delay: 250
+    content: l
+  - delay: 354
+    content: e
+  - delay: 123
+    content: s
+  - delay: 4290
+    content: ' '
+  - delay: 641
+    content: '-'
+  - delay: 814
+    content: L
+  - delay: 2245
+    content: ' '
+  - delay: 386
+    content: '-'
+  - delay: 337
+    content: 'n'
+  - delay: 4406
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=30e0631e-ffed-4864-ab1b-fedfadb5d5e2;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 82
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=30e0631e-ffed-4864-ab1b-fedfadb5d5e2;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 3878
+    content: s
+  - delay: 154
+    content: u
+  - delay: 113
+    content: d
+  - delay: 170
+    content: o
+  - delay: 292
+    content: ' '
+  - delay: 512
+    content: i
+  - delay: 230
+    content: p
+  - delay: 321
+    content: t
+  - delay: 139
+    content: a
+  - delay: 143
+    content: b
+  - delay: 281
+    content: l
+  - delay: 370
+    content: e
+  - delay: 113
+    content: s
+  - delay: 1896
+    content: ' '
+  - delay: 963
+    content: _
+  - delay: 1025
+    content: "\b\e[K"
+  - delay: 691
+    content: '-'
+  - delay: 678
+    content: A
+  - delay: 1046
+    content: ' '
+  - delay: 996
+    content: I
+  - delay: 229
+    content: 'N'
+  - delay: 232
+    content: P
+  - delay: 248
+    content: U
+  - delay: 214
+    content: T
+  - delay: 1496
+    content: ' '
+  - delay: 619
+    content: '-'
+  - delay: 460
+    content: P
+  - delay: 976
+    content: "\b\e[K"
+  - delay: 792
+    content: p
+  - delay: 393
+    content: ' '
+  - delay: 2462
+    content: t
+  - delay: 407
+    content: c
+  - delay: 318
+    content: p
+  - delay: 1554
+    content: ' '
+  - delay: 594
+    content: '-'
+  - delay: 134
+    content: '-'
+  - delay: 293
+    content: d
+  - delay: 210
+    content: p
+  - delay: 169
+    content: o
+  - delay: 339
+    content: r
+  - delay: 148
+    content: t
+  - delay: 2161
+    content: ' '
+  - delay: 540
+    content: '2'
+  - delay: 125
+    content: '2'
+  - delay: 548
+    content: ' '
+  - delay: 468
+    content: '-'
+  - delay: 1300
+    content: j
+  - delay: 437
+    content: ' '
+  - delay: 758
+    content: D
+  - delay: 180
+    content: R
+  - delay: 373
+    content: O
+  - delay: 181
+    content: P
+  - delay: 1496
+    content: "\r\n\e[?2004l\r"
+  - delay: 14
+    content: "\e]3008;start=669c6dfe-c11c-4853-8378-3c6894d2f086;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 66
+    content: "\e]3008;end=669c6dfe-c11c-4853-8378-3c6894d2f086;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 3256
+    content: sudo iptables -A INPUT -p tcp --dport 22 -j DROP
+  - delay: 682
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bL -n\e[K"
+  - delay: 884
+    content: "\r\n\e[?2004l\r"
+  - delay: 15
+    content: "\e]3008;start=cb6931a3-19ae-4345-98c3-42c14274b25e;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 43
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\nDROP       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:22\r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n"
+  - delay: 6
+    content: "\e]3008;end=cb6931a3-19ae-4345-98c3-42c14274b25e;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 4340
+    content: S
+  - delay: 185
+    content: U
+  - delay: 84
+    content: D
+  - delay: 169
+    content: O
+  - delay: 251
+    content: ' '
+  - delay: 617
+    content: "\b\e[K"
+  - delay: 179
+    content: "\b\e[K"
+  - delay: 153
+    content: "\b\e[K"
+  - delay: 128
+    content: "\b\e[K"
+  - delay: 305
+    content: "\b\e[K"
+  - delay: 998
+    content: s
+  - delay: 256
+    content: u
+  - delay: 143
+    content: d
+  - delay: 254
+    content: o
+  - delay: 280
+    content: ' '
+  - delay: 394
+    content: i
+  - delay: 209
+    content: p
+  - delay: 292
+    content: t
+  - delay: 130
+    content: a
+  - delay: 117
+    content: b
+  - delay: 250
+    content: l
+  - delay: 337
+    content: e
+  - delay: 115
+    content: s
+  - delay: 1273
+    content: ' '
+  - delay: 726
+    content: '-'
+  - delay: 391
+    content: L
+  - delay: 1866
+    content: ' '
+  - delay: 372
+    content: '-'
+  - delay: 142
+    content: '-'
+  - delay: 598
+    content: l
+  - delay: 217
+    content: i
+  - delay: 209
+    content: 'n'
+  - delay: 316
+    content: e
+  - delay: 1043
+    content: ' '
+  - delay: 578
+    content: "\b\e[K"
+  - delay: 497
+    content: '-'
+  - delay: 348
+    content: 'n'
+  - delay: 209
+    content: u
+  - delay: 222
+    content: m
+  - delay: 221
+    content: b
+  - delay: 286
+    content: e
+  - delay: 175
+    content: r
+  - delay: 121
+    content: s
+  - delay: 662
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=9fe0b536-4a38-441f-8750-90e7c27bc5cd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 24
+    content: "Chain INPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n"
+  - delay: 7
+    content: "1    DROP       tcp  --  anywhere             anywhere             tcp dpt:ssh\r\n\r\nChain FORWARD (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\nnum  target     prot opt source               destination         \r\n\e]3008;end=9fe0b536-4a38-441f-8750-90e7c27bc5cd;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 3922
+    content: s
+  - delay: 264
+    content: d
+  - delay: 140
+    content: o
+  - delay: 861
+    content: "\b\e[K"
+  - delay: 159
+    content: "\b\e[K"
+  - delay: 572
+    content: u
+  - delay: 248
+    content: d
+  - delay: 171
+    content: o
+  - delay: 1017
+    content: ' '
+  - delay: 2004
+    content: i
+  - delay: 257
+    content: p
+  - delay: 446
+    content: a
+  - delay: 152
+    content: b
+  - delay: 254
+    content: l
+  - delay: 346
+    content: e
+  - delay: 94
+    content: s
+  - delay: 1289
+    content: "\b\e[K"
+  - delay: 186
+    content: "\b\e[K"
+  - delay: 216
+    content: "\b\e[K"
+  - delay: 170
+    content: "\b\e[K"
+  - delay: 370
+    content: "\b\e[K"
+  - delay: 1179
+    content: t
+  - delay: 113
+    content: a
+  - delay: 158
+    content: b
+  - delay: 589
+    content: l
+  - delay: 311
+    content: e
+  - delay: 123
+    content: s
+  - delay: 1445
+    content: ' '
+  - delay: 645
+    content: '-'
+  - delay: 2531
+    content: D
+  - delay: 2527
+    content: ' '
+  - delay: 253
+    content: I
+  - delay: 176
+    content: 'N'
+  - delay: 759
+    content: U
+  - delay: 248
+    content: T
+  - delay: 315
+    content: ' '
+  - delay: 824
+    content: "\b\e[K"
+  - delay: 146
+    content: "\b\e[K"
+  - delay: 240
+    content: "\b\e[K"
+  - delay: 917
+    content: P
+  - delay: 356
+    content: U
+  - delay: 237
+    content: T
+  - delay: 729
+    content: '1'
+  - delay: 812
+    content: "\b\e[K"
+  - delay: 280
+    content: ' '
+  - delay: 441
+    content: '1'
+  - delay: 3395
+    content: "\r\n\e[?2004l\r"
+  - delay: 8
+    content: "\e]3008;start=d008baa5-ecc4-4998-ab8d-b24a5816bb6c;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 40
+    content: "\e]3008;end=d008baa5-ecc4-4998-ab8d-b24a5816bb6c;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 2654
+    content: sudo iptables -D INPUT 1
+  - delay: 357
+    content: "\b\b\b\b\b\b\b\b\bL --line-numbers"
+  - delay: 383
+    content: "\b\b\b\b\b\b\b\b\b\b\b\b\bn\e[K"
+  - delay: 816
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=8c901c71-08a6-4857-a8ef-5225234856d0;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\"
+  - delay: 25
+    content: "Chain INPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain FORWARD (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\r\nChain OUTPUT (policy ACCEPT)\r\ntarget     prot opt source               destination         \r\n\e]3008;end=8c901c71-08a6-4857-a8ef-5225234856d0;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=ee136d1c-cca8-494a-b3bb-5ba54a2efebd;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=shell;cwd=/home/user\e\\\e]0;root@hpwardah:/home/user\a\e[?2004h[root@hpwardah user]# "
+  - delay: 9335
+    content: E
+  - delay: 310
+    content: X
+  - delay: 1357
+    content: "\b\e[K"
+  - delay: 148
+    content: "\b\e[K"
+  - delay: 972
+    content: e
+  - delay: 131
+    content: x
+  - delay: 357
+    content: i
+  - delay: 215
+    content: t
+  - delay: 728
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=426caee2-4fc0-43a4-b715-8dfd4a25a37a;machineid=ff9da618e18d46a68f301c5b3c430333;user=root;hostname=hpwardah;bootid=8c87cda9-8b76-459a-9d45-7ade93fbb887;pid=00000000000000012918;type=command;cwd=/home/user\e\\logout\r\n"

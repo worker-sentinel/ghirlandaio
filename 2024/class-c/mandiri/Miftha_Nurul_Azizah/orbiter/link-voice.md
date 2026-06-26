@@ -1,0 +1,1 @@
+https://uinjktacid-my.sharepoint.com/personal/irfan_hakim24_mhs_uinjkt_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Firfan%5Fhakim24%5Fmhs%5Fuinjkt%5Fac%5Fid%2FDocuments%2FSemester%204%2FPERPUS%20ARSIP%20DIGITAL%2Fpertemuan%2010%2DOrbiters&ga=1

@@ -1,0 +1,3 @@
+# PEMBAHASAN
+
+Dari yang saya pahami **cyberethics** menjadi kunci untuk menjaga etika informasi, mencegah penyebaran konten berbahaya, sementara **keamanan cyber** menangani risiko seperti password lemah atau sistem usang. Jawaban saya selaras di sini—**ketersediaan akses** bukan hanya teknis, tapi fondasi keadilan sosial, karena pengetahuan adalah sumber daya yang mencegah kesenjangan jika akses merata. Kelompok 4 juga menyoroti **peningkatan SDM**, infrastruktur, dan keamanan informasi sebagai solusi, yang memperkuat keyakinan saya bahwa akses yang adil membuat informasi benar-benar bermanfaat.

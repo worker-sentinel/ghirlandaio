@@ -1,0 +1,13 @@
+# APAKAH SAINS DAPAT MEMBANTU LEBIH MEMAHAMI KEBESARAN TUHAN
+*resume hasil dari kelompok 1 terkait materi hubungan Sains dan Agama*
+## pendahuluan
+Hubungan antara sains dan agama sering kali dipandang sebagai dua kutub yang bersebrangan, padahal keduanya memiliki peran masing masing dan saling melengkapi satu sama lain. Mengacu pada Buku *Homo Deus* karya Yuval Noah Harari dan materi dari kelompok 1, sains berfokus pada fakta atau mekanisme teknis dari alam semesta, sedangkan agama memberikan panduan makna atau etika. Jika disatukan, sains sebenarnya tidak menjauhkan manusia dari aspek spiritual, akan tetapi bisa menjadi sarana untuk melihat bukti nyata dari kebesaran dan kehadiran Tuhan.
+## Pembahasan
+Dalam materi dijelaskan bahwa sains memberikan manusia energi atau kekuatan teknis untuk mengubah suatu keadaan. Sebagai contoh pada buku *Homo Deus* halaman 4-5 di jelaskan, pada masa Yunani atau Romawi, fenomena seperti wabah penyakit sering kali hanya dianggap sebagai takdir yang harus diterima secara pasrah karena minimnya pengetahuan. Namun, melalu sains, manusia kini mampu membongkar mekanisme detail di balik fenomena tersebut bahkan sampai ketingkat sel dan virus.
+
+Sains membantu manusia memahami bahwa Kebesaran Tuhan tidak hanya ada pada hal-hal yang bersifat mistis saja, akan tetapi melalui sistem yang sangat detail dan rapi di alam semesta. Meski begitu, sains juga memiliki batas. Ia mampu menyajikan data fisik yang luar biasa, akan tetapi tidak dapat memberikan tujuan serta rasa syukur. Di sinilah peran agama menjadi bagian penting sebagai kompas yang memberikan nilai mendalam pada setiap penemuan ilmiah yang ada.
+## Kesimpulan
+Pada akhirnya, sains dan agama dapat berjalan beriringan dalam membantu manusia memahami kebesaran Tuhan. Melalui penelitian sains yang membongkar fakta teknis alam semesta, manusia dapat melihat betapa detailnya sistem yang telah dirancang. Kejadian di masa lalu mungkin hanya dianggap sebagai sesuatu yang tidak dapat dijelaskan. Maka dari itu, sains memfasilitasi pemahaman tentang kebesaran Sang Pencipta melalui bukti fisik yang nyata. Namun, pemahaman tersebut tetap memerlukan landasan agama untuk memberikan makna dan rasa kagum, agar setiap temuan ilmiah yang dihasilkan tidak sekadar berakhir menjadi tumpukan data yang kehilangan nilai maknanya bagi kehidupan manusia.
+## Daftar Pustaka 
+**Harari, Y. N. (2018).** *Homo Deus: Masa Depan Umat Manusia* (Y. Musthofa, Penerj.). Jakarta: PT Pustaka Alvabet.
+**Kelompok 1. (2026).** *Hubungan Sains dan Agama: Sejarah Konflik, Perbedaan Metode, dan Analisa Keterkaitannya* [Slide PowerPoint].

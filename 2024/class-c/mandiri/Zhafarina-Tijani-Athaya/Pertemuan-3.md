@@ -1,0 +1,11 @@
+# **Apa Pengalaman Pribadi Kamu di Media Sosial yang Tidak Sesuai dengan Kehidupan Nyata?** 
+### **I. Pendahuluan**
+Pada masa saat ini, media sosial sudah menjadi bagian penting dalam kehidupan sehari-hari, penggunaan media sosial seperti instagram, Tiktok, dan Youtube digunakan untuk berbagi informasi atau aktivitas pribadi yang terjadi secara cepat dan meluas. Namun, pada kenyataannya apa yang ditampilkan di media sosial sering kali tidak sepenuhnya menunjukkan kehidupan nyata. Akibatnya apa yang ditampilkan di media sosial seringkali tidak sepenuhnya menunjukkan kehidupan aslinya.
+### **II. Metode**
+Pada resume saya, saya mengumpulkan informasi dengan menggunakan buku "Simuclara and Simulation" dari Jean Baudrilllard.
+### **III. Isi**
+Unggahan yang ditampilkan di media sosial yang seringkali tidak sepenuhnya sesuai dengan kehidupan aslinya, dapat dijelaskan dengan pengertian simulakra dan hiperrealitas. Baudrillad menyatakan bahwa dalam masyarakat modern, realitas telah digantikan oleh representasi. Representasi tersebut akan dianggap sebagai realitas nyata, bahkan hasil dari representasi tersebut akan menciptakan realitas baru yang tidak jelas asal usulnya yang dapat mendominasi di kehidupan nyata (seringkali lebih percaya pada representasi tersebut daripada realita aslinya). Dalam konteks media sosial, postingan berupa foto atau video merupakan bentuk simulasi yang telah dikontruksi sebagus mungkin. Dimana individu cenderung menampilkan sisi terbaik dari dirinya, sehingga menciptakan citra kehidupan yang tampak tidak nyata. Akibatnya, kondisi tersebut terbentuklah hiperrealitas. Dalam pengalaman pribadi saya yaitu saya memposting kebahagiaan saya di instagram, padahal aslinya saya sedang tidak didalam kondisi bahagia, melainkan sedang menghadapi berbagai masalah di kehidupan saya. Hal ini menunjukkan bahwa media sosial tidak lagi sekedar merefleksikan realitas, tetapi telah membentuk realitas baru yang bersifat semu.
+### **IV. Kesimpulan**
+Media sosial dapat membuat realitas baru yang menciptakan hiperrealitas, dimana apa yang ditampilkan di media sosial bukanlah realitas yang aslinya, melainkan dari hasil konstruksi citra yang kemudian diterima sebagai kebenaran. 
+#### **Daftar Pustaka**
+Baudrillard, J. (1994). _Simulacra and Simulation_. University of Michigan Press.

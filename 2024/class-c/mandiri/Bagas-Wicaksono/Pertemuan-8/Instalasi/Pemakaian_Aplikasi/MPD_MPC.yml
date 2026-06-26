@@ -1,0 +1,3091 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/user
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 190
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 59
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 288
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3325
+    content: m
+  - delay: 284
+    content: p
+  - delay: 277
+    content: d
+  - delay: 1172
+    content: "\b\e[K"
+  - delay: 181
+    content: "\b\e[K"
+  - delay: 182
+    content: "\b\e[K"
+  - delay: 165
+    content: "\a"
+  - delay: 451
+    content: s
+  - delay: 225
+    content: u
+  - delay: 155
+    content: d
+  - delay: 165
+    content: o
+  - delay: 357
+    content: ' '
+  - delay: 279
+    content: m
+  - delay: 293
+    content: p
+  - delay: 217
+    content: d
+  - delay: 562
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 74
+    content: '[sudo] password for gass: '
+  - delay: 3104
+    content: "\r\n"
+  - delay: 129
+    content: "exception: Failed to bind to '[::]:6600'; Failed to bind socket: Address already in use\r\n"
+  - delay: 5
+    content: "\e]3008;end=4f2ebe92-2d91-4b09-ba1e-f9dd8eca1850;exit=failure;status=1\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4561
+    content: m
+  - delay: 432
+    content: p
+  - delay: 498
+    content: c
+  - delay: 324
+    content: ' '
+  - delay: 353
+    content: u
+  - delay: 343
+    content: p
+  - delay: 249
+    content: d
+  - delay: 231
+    content: a
+  - delay: 153
+    content: t
+  - delay: 221
+    content: e
+  - delay: 822
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 12
+    content: "Updating DB (#3) ...\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=41f9f6d8-a766-4010-bec8-621b66dd5c20;exit=success\e\\"
+  - delay: 17
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2502
+    content: m
+  - delay: 327
+    content: p
+  - delay: 359
+    content: c
+  - delay: 245
+    content: ' '
+  - delay: 629
+    content: a
+  - delay: 321
+    content: d
+  - delay: 213
+    content: d
+  - delay: 1873
+    content: ' '
+  - delay: 37883
+    content: "\e[7mSheila On 7 – Dan... _ Lirik Lagu\e[27m"
+  - delay: 6773
+    content: "\r\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[CSheila On 7 – Dan... _ Lirik Lagu."
+  - delay: 2292
+    content: m
+  - delay: 418
+    content: p
+  - delay: 470
+    content: '3'
+  - delay: 1466
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 21
+    content: "error adding Sheila: No such directory\r\n\e]3008;end=455956fe-3b23-45c0-afbb-31ba5d3ff0f0;exit=failure;status=1\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 67900
+    content: mpc add Sheila On 7 – Dan... _ Lirik Lagu.mp3
+  - delay: 1741
+    content: "\b"
+  - delay: 201
+    content: "\b"
+  - delay: 253
+    content: "\b"
+  - delay: 1513
+    content: "\b\e[1P"
+  - delay: 499
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 50
+    content: "\b\e[1P"
+  - delay: 51
+    content: "\b\e[1P"
+  - delay: 145
+    content: "\b\e[1P"
+  - delay: 177
+    content: "\b\e[1P"
+  - delay: 175
+    content: "\b\e[1P"
+  - delay: 164
+    content: "\b\e[1P"
+  - delay: 155
+    content: "\b\e[1P"
+  - delay: 178
+    content: "\b\e[1P"
+  - delay: 179
+    content: "\b\e[1P"
+  - delay: 163
+    content: "\b\e[1P"
+  - delay: 357
+    content: "\b\e[1P"
+  - delay: 221
+    content: "\b\e[1P"
+  - delay: 1141
+    content: "\e[1@d"
+  - delay: 321
+    content: "\e[1@a"
+  - delay: 217
+    content: "\e[1@n"
+  - delay: 807
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 14
+    content: "error adding danmp3: No such directory\r\n\e]3008;end=7c9a3bbc-43de-4904-9c0c-7cfc6fe1b9ba;exit=failure;status=1\e\\"
+  - delay: 18
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 5127
+    content: mpc add danmp3
+  - delay: 499
+    content: "\b"
+  - delay: 214
+    content: "\b"
+  - delay: 201
+    content: "\b"
+  - delay: 1356
+    content: "\e[1@."
+  - delay: 1264
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 8
+    content: "error adding dan.mp3: No such directory\r\n\e]3008;end=72b6e9b2-2363-4ad7-827f-e4208e76053e;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 65538
+    content: 'n'
+  - delay: 597
+    content: "\b\e[K"
+  - delay: 516
+    content: m
+  - delay: 181
+    content: k
+  - delay: 246
+    content: f
+  - delay: 503
+    content: "\b\e[K"
+  - delay: 354
+    content: d
+  - delay: 201
+    content: i
+  - delay: 178
+    content: r
+  - delay: 799
+    content: ' '
+  - delay: 1171
+    content: '-'
+  - delay: 250
+    content: p
+  - delay: 563
+    content: ' '
+  - delay: 524
+    content: /
+  - delay: 547
+    content: h
+  - delay: 384
+    content: o
+  - delay: 266
+    content: m
+  - delay: 261
+    content: r
+  - delay: 1469
+    content: "\b\e[K"
+  - delay: 172
+    content: e
+  - delay: 1231
+    content: /
+  - delay: 679
+    content: g
+  - delay: 227
+    content: a
+  - delay: 251
+    content: s
+  - delay: 196
+    content: s
+  - delay: 747
+    content: /
+  - delay: 757
+    content: M
+  - delay: 699
+    content: u
+  - delay: 426
+    content: s
+  - delay: 171
+    content: i
+  - delay: 332
+    content: c
+  - delay: 794
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 7
+    content: "mkdir: cannot create directory ‘/home/gass’: Permission denied\r\n\e]3008;end=d0d16864-4679-45e8-8ce2-9ff50e9ccff7;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4258
+    content: mkdir -p /home/gass/Music
+  - delay: 317
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 48
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 49
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 49
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 482
+    content: "\e[1@s"
+  - delay: 271
+    content: "\e[1@u"
+  - delay: 365
+    content: "\e[1@d"
+  - delay: 190
+    content: "\e[1@o"
+  - delay: 496
+    content: "\e[1@ "
+  - delay: 353
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 29
+    content: "\e]3008;end=cde027b9-0b29-4921-a03c-12f77b05f689;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 8247
+    content: c
+  - delay: 495
+    content: p
+  - delay: 882
+    content: ' '
+  - delay: 1681
+    content: /
+  - delay: 789
+    content: h
+  - delay: 440
+    content: o
+  - delay: 311
+    content: m
+  - delay: 231
+    content: e
+  - delay: 1153
+    content: /
+  - delay: 462
+    content: u
+  - delay: 197
+    content: s
+  - delay: 233
+    content: e
+  - delay: 207
+    content: r
+  - delay: 1248
+    content: /
+  - delay: 579
+    content: M
+  - delay: 344
+    content: u
+  - delay: 411
+    content: s
+  - delay: 177
+    content: i
+  - delay: 500
+    content: c
+  - delay: 1135
+    content: /
+  - delay: 578
+    content: d
+  - delay: 337
+    content: a
+  - delay: 419
+    content: 'n'
+  - delay: 886
+    content: .
+  - delay: 475
+    content: m
+  - delay: 1109
+    content: p
+  - delay: 787
+    content: '3'
+  - delay: 262
+    content: ' '
+  - delay: 1458
+    content: /
+  - delay: 477
+    content: h
+  - delay: 322
+    content: o
+  - delay: 299
+    content: m
+  - delay: 246
+    content: e
+  - delay: 676
+    content: /
+  - delay: 562
+    content: g
+  - delay: 202
+    content: a
+  - delay: 263
+    content: s
+  - delay: 207
+    content: s
+  - delay: 670
+    content: /
+  - delay: 2094
+    content: M
+  - delay: 654
+    content: u
+  - delay: 269
+    content: s
+  - delay: 182
+    content: i
+  - delay: 347
+    content: c
+  - delay: 8306
+    content: /
+  - delay: 1102
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 9
+    content: "cp: cannot create regular file '/home/gass/Music/dan.mp3': Permission denied\r\n\e]3008;end=52430bb4-e276-478b-acdb-dd7acb163b9f;exit=failure;status=1\e\\"
+  - delay: 19
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3447
+    content: cp /home/user/Music/dan.mp3 /home/gass/Music/
+  - delay: 373
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 52
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 49
+    content: "\a"
+  - delay: 52
+    content: "\a"
+  - delay: 381
+    content: "\e[1@s"
+  - delay: 179
+    content: "\e[1@u"
+  - delay: 182
+    content: "\e[1@d"
+  - delay: 131
+    content: "\e[1@o"
+  - delay: 303
+    content: "\e[1@ "
+  - delay: 319
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 30
+    content: "\e]3008;end=6b18939b-5454-49ed-99f6-347502f7b080;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3746
+    content: m
+  - delay: 302
+    content: p
+  - delay: 466
+    content: c
+  - delay: 548
+    content: ' '
+  - delay: 523
+    content: a
+  - delay: 251
+    content: d
+  - delay: 251
+    content: d
+  - delay: 980
+    content: "\b\e[K"
+  - delay: 499
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\a"
+  - delay: 49
+    content: "\a"
+  - delay: 526
+    content: s
+  - delay: 169
+    content: u
+  - delay: 192
+    content: d
+  - delay: 120
+    content: o
+  - delay: 632
+    content: ' '
+  - delay: 248
+    content: m
+  - delay: 692
+    content: p
+  - delay: 468
+    content: c
+  - delay: 233
+    content: ' '
+  - delay: 190
+    content: a
+  - delay: 282
+    content: d
+  - delay: 207
+    content: d
+  - delay: 644
+    content: ' '
+  - delay: 559
+    content: d
+  - delay: 250
+    content: a
+  - delay: 809
+    content: .
+  - delay: 887
+    content: "\b\e[K"
+  - delay: 677
+    content: 'n'
+  - delay: 761
+    content: .
+  - delay: 439
+    content: m
+  - delay: 310
+    content: p
+  - delay: 663
+    content: '3'
+  - delay: 274
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 51
+    content: "error adding dan.mp3: No such directory\r\n\e]3008;end=8ba4ffd9-40ae-4454-93e3-7892c6d35b4e;exit=failure;status=1\e\\"
+  - delay: 11
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 37270
+    content: s
+  - delay: 119
+    content: u
+  - delay: 247
+    content: d
+  - delay: 168
+    content: o
+  - delay: 361
+    content: ' '
+  - delay: 249
+    content: 'n'
+  - delay: 153
+    content: a
+  - delay: 101
+    content: 'n'
+  - delay: 281
+    content: o
+  - delay: 730
+    content: ' '
+  - delay: 733
+    content: /
+  - delay: 542
+    content: s
+  - delay: 126
+    content: t
+  - delay: 507
+    content: c
+  - delay: 830
+    content: "\b\e[K"
+  - delay: 173
+    content: "\b\e[K"
+  - delay: 333
+    content: "\b\e[K"
+  - delay: 426
+    content: e
+  - delay: 231
+    content: t
+  - delay: 486
+    content: c
+  - delay: 2033
+    content: /
+  - delay: 347
+    content: m
+  - delay: 282
+    content: p
+  - delay: 256
+    content: d
+  - delay: 416
+    content: .
+  - delay: 377
+    content: c
+  - delay: 199
+    content: o
+  - delay: 297
+    content: 'n'
+  - delay: 539
+    content: f
+  - delay: 1328
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 27
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;89H\e(B\e[0;7m[ Reading... ]\e(B\e[m\e[57;88H\e(B\e[0;7m[ Read 7 lines ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc/mpd.conf                                                                                       \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d# See: /usr/share/doc/mpd/mpdconf.example\r\e[4dpid_file \"/run/mpd/mpd.pid\"\r\e[5ddb_file \"/var/lib/mpd/mpd.db\"\r\e[6dstate_file \"/var/lib/mpd/mpdstate\"\r\e[7dplaylist_directory \"/var/lib/mpd/playlists\"\r\e[8dmusic_directory \"/home/gass/Music\"\r\e[2d\e[?12l\e[?25h"
+  - delay: 6619
+    content: "\e[?25l\e[?12l\e[?25h\e[3d"
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25h\e[4d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[5d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[6d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[7d"
+  - delay: 49
+    content: "\e[?25l\e[?12l\e[?25h\e[8d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[9d"
+  - delay: 331
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 501
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 48
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 623
+    content: "\e[?25l\e[?12l\e[?25h\e[A"
+  - delay: 370
+    content: "\e[?25l\e[?12l\e[?25hm"
+  - delay: 500
+    content: "\e[?25l\e[57d\b\e[K\e[?12l\e[?25h\e[8dmu"
+  - delay: 52
+    content: "\e[?25l\e[?12l\e[?25hs"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hi"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h_"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hd"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hi"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hr"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25ho"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hr"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hy"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h/"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hh"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25ho"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hm"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h/"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hg"
+  - delay: 172
+    content: "\e[?25l\e[?12l\e[?25ha"
+  - delay: 153
+    content: "\e[?25l\e[?12l\e[?25hs"
+  - delay: 373
+    content: "\e[?25l\e[?12l\e[?25hs"
+  - delay: 883
+    content: "\e[?25l\e[1;181H\e(B\e[0;7mModified\e(B\e[m\e[?12l\e[?25h\e[8;26H\e[1Ps"
+  - delay: 335
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 299
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 326
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 1119
+    content: "\e[?25l\e[?12l\e[?25hu/Music\"\e[25G"
+  - delay: 351
+    content: "\e[?25l\e[?12l\e[?25hs/Music\"\e[26G"
+  - delay: 317
+    content: "\e[?25l\e[?12l\e[?25he/Music\"\e[27G"
+  - delay: 480
+    content: "\e[?25l\e[?12l\e[?25hr/Music\"\e[28G"
+  - delay: 3233
+    content: "\e[?25l\e[58;18H\e[21X\e[58;39H\e(B\e[0;7mM-D\e(B\e[m DOS Format     \e[58;69H        \e(B\e[0;7mM-A\e(B\e[m Append          \e[103G            \e(B\e[0;7mM-B\e(B\e[m Backup File\e[23X\e[58;153H\e(B\e[0;7m^T\e(B\e[m Browse\e[K\e[59;2H\e(B\e[0;7mC\e(B\e[m Cancel\e[59;18H\e[21X\e[59;39H\e(B\e[0;7mM-M\e(B\e[m Mac Format       \e[59;69H        \e(B\e[0;7mM-P\e(B\e[m Prepend\e[27X\e[59;115H\e(B\e[0;7m^Q\e(B\e[m Discard buffer\e[K\e[58;162H\r\e[A\e(B\e[0;7mWrite to File: /etc/mpd.conf                                                                                                                                                                  \e[57;29H\e(B\e[m\e[?12l\e[?25h"
+  - delay: 1512
+    content: "\e[?25l\e[57;88H\e[1K \e(B\e[0;7m[ Writing... ]\e(B\e[m\e[K"
+  - delay: 12
+    content: "\e[1;181H\e(B\e[0;7m        \e(B\e[m\e[57;87H\e(B\e[0;7m[ Wrote 7 lines ]\e(B\e[m\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is      \e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute       \e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo         \e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\e[59;2H\e(B\e[0;7mX\e(B\e[m Exit  \e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace       \e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify       \e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo         \e(B\e[0;7mM-6\e(B\e[m Copy         \e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\e[?12l\e[?25h\e[8;28H"
+  - delay: 2225
+    content: "\e[?25l\r\e[57d\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l"
+  - delay: 6
+    content: "\e]3008;end=865ec476-ea4e-4227-9510-2b12b60468f2;exit=success\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2712
+    content: s
+  - delay: 172
+    content: u
+  - delay: 178
+    content: d
+  - delay: 501
+    content: o
+  - delay: 335
+    content: ' '
+  - delay: 293
+    content: k
+  - delay: 197
+    content: i
+  - delay: 220
+    content: l
+  - delay: 167
+    content: l
+  - delay: 183
+    content: a
+  - delay: 134
+    content: l
+  - delay: 173
+    content: l
+  - delay: 666
+    content: ' '
+  - delay: 384
+    content: 'n'
+  - delay: 499
+    content: "\b\e[K"
+  - delay: 416
+    content: m
+  - delay: 269
+    content: p
+  - delay: 242
+    content: d
+  - delay: 305
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 62
+    content: "\e]3008;end=297e9d87-59cc-4b46-a850-110c85d45243;exit=success\e\\"
+  - delay: 10
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1840
+    content: s
+  - delay: 228
+    content: u
+  - delay: 182
+    content: d
+  - delay: 141
+    content: o
+  - delay: 663
+    content: ' '
+  - delay: 682
+    content: m
+  - delay: 273
+    content: p
+  - delay: 274
+    content: d
+  - delay: 272
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 116
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\noutput: No 'audio_output' defined in config file\r\n"
+  - delay: 5
+    content: "alsa_output: Error opening default ALSA device: Host is down\r\noss_output: Error opening OSS device \"/dev/dsp\": No such file or directory\r\noss_output: Error opening OSS device \"/dev/sound/dsp\": No such file or directory\r\noutput: Successfully detected a jack audio device\r\n"
+  - delay: 8
+    content: "\e]3008;end=54a7c2dc-646d-4e25-95d3-55c8c1134bfe;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 45335
+    content: p
+  - delay: 290
+    content: u
+  - delay: 1263
+    content: l
+  - delay: 450
+    content: s
+  - delay: 258
+    content: e
+  - delay: 327
+    content: a
+  - delay: 194
+    content: u
+  - delay: 217
+    content: d
+  - delay: 181
+    content: i
+  - delay: 197
+    content: o
+  - delay: 1148
+    content: ' '
+  - delay: 430
+    content: '-'
+  - delay: 169
+    content: '-'
+  - delay: 391
+    content: c
+  - delay: 302
+    content: h
+  - delay: 220
+    content: e
+  - delay: 257
+    content: c
+  - delay: 1107
+    content: k
+  - delay: 433
+    content: ' '
+  - delay: 2441
+    content: '&'
+  - delay: 290
+    content: '&'
+  - delay: 2631
+    content: ' '
+  - delay: 1722
+    content: e
+  - delay: 174
+    content: c
+  - delay: 666
+    content: h
+  - delay: 326
+    content: o
+  - delay: 2069
+    content: ' '
+  - delay: 819
+    content: '"'
+  - delay: 1282
+    content: J
+  - delay: 428
+    content: a
+  - delay: 172
+    content: l
+  - delay: 159
+    content: a
+  - delay: 180
+    content: 'n'
+  - delay: 941
+    content: '"'
+  - delay: 691
+    content: ' '
+  - delay: 948
+    content: '|'
+  - delay: 2964
+    content: '|'
+  - delay: 517
+    content: ' '
+  - delay: 1519
+    content: p
+  - delay: 330
+    content: u
+  - delay: 1704
+    content: l
+  - delay: 405
+    content: s
+  - delay: 260
+    content: e
+  - delay: 467
+    content: a
+  - delay: 176
+    content: u
+  - delay: 240
+    content: d
+  - delay: 216
+    content: i
+  - delay: 195
+    content: o
+  - delay: 1680
+    content: ' '
+  - delay: 446
+    content: '-'
+  - delay: 171
+    content: '-'
+  - delay: 219
+    content: s
+  - delay: 308
+    content: t
+  - delay: 170
+    content: a
+  - delay: 132
+    content: r
+  - delay: 238
+    content: t
+  - delay: 975
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\bash: pulseaudio: command not found\r\nbash: pulseaudio: command not found\r\n\e]3008;end=4cb7fa79-55c0-48ad-87cd-adae9284f2e4;exit=failure;status=127\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;127\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 23919
+    content: s
+  - delay: 195
+    content: u
+  - delay: 221
+    content: d
+  - delay: 158
+    content: o
+  - delay: 475
+    content: ' '
+  - delay: 713
+    content: p
+  - delay: 176
+    content: a
+  - delay: 211
+    content: c
+  - delay: 392
+    content: m
+  - delay: 159
+    content: a
+  - delay: 128
+    content: 'n'
+  - delay: 198
+    content: ' '
+  - delay: 406
+    content: '-'
+  - delay: 374
+    content: S
+  - delay: 1134
+    content: ' '
+  - delay: 534
+    content: p
+  - delay: 330
+    content: u
+  - delay: 309
+    content: l
+  - delay: 231
+    content: s
+  - delay: 258
+    content: e
+  - delay: 276
+    content: a
+  - delay: 210
+    content: u
+  - delay: 196
+    content: d
+  - delay: 164
+    content: i
+  - delay: 216
+    content: o
+  - delay: 916
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 269
+    content: "\e[?25lresolving dependencies...\r\n"
+  - delay: 7
+    content: "looking for conflicting packages...\r\n:: pulseaudio-17.0+r98+gb096704c0-1 and pipewire-pulse-1:1.6.6-1 are in conflict. Remove pipewire-pulse? [y/N] \e[?25h"
+  - delay: 1983
+    content: 'y'
+  - delay: 148
+    content: "\r\n\e[?25l"
+  - delay: 35
+    content: "\r\nPackages (2) pipewire-pulse-1:1.6.6-1 [removal]  pulseaudio-17.0+r98+gb096704c0-1\r\n\r\nTotal Download Size:   1.19 MiB\r\nTotal Installed Size:  6.30 MiB\r\nNet Upgrade Size:      5.75 MiB\r\n\r\n:: Proceed with installation? [Y/n] \e[?25h"
+  - delay: 1193
+    content: 'y'
+  - delay: 131
+    content: "\r\n\e[?25l:: Retrieving packages...\r\n"
+  - delay: 7
+    content: " pulseaudio-17.0+r98+gb096704c0-1-x86_64\r\n"
+  - delay: 71
+    content: "\e[1F pulseaudio-17.0+r98+gb096704c0-1-x86_64                                                 0.0   B  0.00   B/s --:-- [--------------------------------------------------------------------]   0%\r"
+  - delay: 163
+    content: " pulseaudio-17.0+r98+gb096704c0-1-x86_64                                              1218.8 KiB  5.02 MiB/s 00:00 [####################################################################] 100%\r"
+  - delay: 23
+    content: "\e[1E(0/1) checking keys in keyring                                                                                     [--------------------------------------------------------------------]   0%\r"
+  - delay: 99
+    content: "(1/1) checking keys in keyring                                                                                     [####################################################################] 100%\r\r\n(0/1) checking package integrity                                                                                   [--------------------------------------------------------------------]   0%\r"
+  - delay: 23
+    content: "(1/1) checking package integrity                                                                                   [####################################################################] 100%\r\r\n(0/1) loading package files                                                                                        [--------------------------------------------------------------------]   0%\r(1/1) loading package files                                                                                        [####################################################################] 100%\r\r\n(0/1) checking for file conflicts                                                                                  [--------------------------------------------------------------------]   0%\r"
+  - delay: 10
+    content: "(1/1) checking for file conflicts                                                                                  [####################################################################] 100%\r\r\n(0/2) checking available disk space                                                                                [--------------------------------------------------------------------]   0%\r(1/2) checking available disk space                                                                                [##################################----------------------------------]  50%\r(2/2) checking available disk space                                                                                [####################################################################] 100%\r\r\n:: Processing package changes...\r\n"
+  - delay: 66
+    content: "Removed '/etc/systemd/user/sockets.target.wants/pipewire-pulse.socket'.\r\n(1/1) removing pipewire-pulse                                                                                      [--------------------------------------------------------------------]   0%\r(1/1) removing pipewire-pulse                                                                                      [--------------------------------------------------------------------]   0%\r"
+  - delay: 33
+    content: "(1/1) removing pipewire-pulse                                                                                      [####################################################################] 100%\r\r\n(1/1) installing pulseaudio                                                                                        [--------------------------------------------------------------------]   0%\r"
+  - delay: 30
+    content: "(1/1) installing pulseaudio                                                                                        [####################################################################] 100%\r\r\n"
+  - delay: 80
+    content: "Created symlink '/etc/systemd/user/sockets.target.wants/pulseaudio.socket' → '/usr/lib/systemd/user/pulseaudio.socket'.\r\nOptional dependencies for pulseaudio\r\n    pulseaudio-alsa: ALSA configuration (recommended)\r\n    pulseaudio-bluetooth: Bluetooth support\r\n    pulseaudio-equalizer: Graphical equalizer\r\n    pulseaudio-jack: Jack support\r\n    pulseaudio-lirc: IR (lirc) support\r\n    pulseaudio-rtp: RTP and RAOP support\r\n    pulseaudio-zeroconf: Zeroconf support\r\n"
+  - delay: 135
+    content: ":: Running post-transaction hooks...\r\n(1/5) Reloading user manager configuration...\r\n"
+  - delay: 374
+    content: "(2/5) Reloading device manager configuration...\r\n"
+  - delay: 663
+    content: "(3/5) Arming ConditionNeedsUpdate...\r\n"
+  - delay: 81
+    content: "(4/5) Reloading system bus configuration...\r\n"
+  - delay: 107
+    content: "(5/5) Compiling GSettings XML schema files...\r\n"
+  - delay: 109
+    content: "\e[?25h"
+  - delay: 52
+    content: "\e]3008;end=81a2d2d7-d976-4892-8089-d221964bd753;exit=success\e\\\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3065
+    content: s
+  - delay: 145
+    content: u
+  - delay: 144
+    content: d
+  - delay: 130
+    content: o
+  - delay: 310
+    content: ' '
+  - delay: 234
+    content: 'n'
+  - delay: 141
+    content: a
+  - delay: 96
+    content: 'n'
+  - delay: 264
+    content: o
+  - delay: 2593
+    content: ' '
+  - delay: 439
+    content: /
+  - delay: 393
+    content: e
+  - delay: 208
+    content: t
+  - delay: 307
+    content: c
+  - delay: 1259
+    content: /
+  - delay: 463
+    content: m
+  - delay: 293
+    content: p
+  - delay: 237
+    content: d
+  - delay: 677
+    content: .
+  - delay: 391
+    content: c
+  - delay: 193
+    content: o
+  - delay: 346
+    content: 'n'
+  - delay: 536
+    content: f
+  - delay: 815
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 31
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;89H\e(B\e[0;7m[ Reading... ]\e(B\e[m\e[57;88H\e(B\e[0;7m[ Read 7 lines ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc/mpd.conf                                                                                       \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d# See: /usr/share/doc/mpd/mpdconf.example\r\e[4dpid_file \"/run/mpd/mpd.pid\"\r\e[5ddb_file \"/var/lib/mpd/mpd.db\"\r\e[6dstate_file \"/var/lib/mpd/mpdstate\"\r\e[7dplaylist_directory \"/var/lib/mpd/playlists\"\r\e[8dmusic_directory \"/home/user/Music\"\r\e[2d\e[?12l\e[?25h"
+  - delay: 1781
+    content: "\e[?25l\e[?12l\e[?25h\e[3d"
+  - delay: 501
+    content: "\e[?25l\e[?12l\e[?25h\e[4d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[5d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[6d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[7d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[8d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[9d"
+  - delay: 1152
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 5426
+    content: "\e[?25l\e[1;181H\e(B\e[0;7mModified\e(B\e[m\e[?12l\e[?25h\r\e[9da"
+  - delay: 236
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 776
+    content: "\e[?25l\e[?12l\e[?25hd"
+  - delay: 279
+    content: "\e[?25l\e[?12l\e[?25hi"
+  - delay: 238
+    content: "\e[?25l\e[?12l\e[?25ho"
+  - delay: 1553
+    content: "\e[?25l\e[?12l\e[?25h_"
+  - delay: 1047
+    content: "\e[?25l\e[?12l\e[?25ho"
+  - delay: 227
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 353
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 471
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 293
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 340
+    content: "\e[?25l\r\e[57d\e[K\e[?12l\e[?25h\e[9;12Ht"
+  - delay: 1136
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 8361
+    content: "\e[?25l\e[?12l\e[?25h{"
+  - delay: 3898
+    content: "\e[?25l\r\e[10d\e[?12l\e[?25h"
+  - delay: 1539
+    content: "\e[?25l\e[?12l\e[?25h\e[10;9H"
+  - delay: 2363
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 199
+    content: "\e[?25l\e[?12l\e[?25hy"
+  - delay: 454
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 196
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 3412
+    content: "\e[?25l\e[?12l\e[?25h\b"
+  - delay: 637
+    content: "\e[?25l\e[?12l\e[?25h\b"
+  - delay: 169
+    content: "\e[?25l\e[?12l\e[?25h\b"
+  - delay: 186
+    content: "\e[?25l\e[?12l\e[?25h\b"
+  - delay: 903
+    content: "\e[?25l\rtype\e[K\r\e[?12l\e[?25h"
+  - delay: 954
+    content: "\e[?25l\e[?12l\e[?25h type\r "
+  - delay: 244
+    content: "\e[?25l\e[?12l\e[?25h\b  type\r  "
+  - delay: 2545
+    content: "\e[?25l\e[?12l\e[?25h\r   type\b\b\b\b"
+  - delay: 343
+    content: "\e[?25l\e[?12l\e[?25h\r    type\b\b\b\b"
+  - delay: 1228
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25hy"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\r\e[11d"
+  - delay: 1081
+    content: "\e[?25l\e[?12l\e[?25h\e[10;9H"
+  - delay: 5304
+    content: "\e[?25l\e[?12l\e[?25h\e[10;17H"
+  - delay: 1112
+    content: "\e[?25l\e[?12l\e[?25h\e[10;9H"
+  - delay: 489
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 254
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 273
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 2494
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 1309
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 989
+    content: "\e[?25l\e[?12l\e[?25hj"
+  - delay: 369
+    content: "\e[?25l\e[?12l\e[?25ha"
+  - delay: 637
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 1445
+    content: "\e[?25l\e[?12l\e[?25hk"
+  - delay: 950
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 880
+    content: "\e[?25l\r\e[11d\e[?12l\e[?25h"
+  - delay: 1891
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 194
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 197
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 214
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 1321
+    content: "\e[?25l\e[?12l\e[?25hn"
+  - delay: 188
+    content: "\e[?25l\e[?12l\e[?25ha"
+  - delay: 185
+    content: "\e[?25l\e[?12l\e[?25hm"
+  - delay: 361
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 539
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 223
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 231
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 207
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 1313
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 779
+    content: "\e[?25l\e[?12l\e[?25hJ"
+  - delay: 1322
+    content: "\e[?25l\e[?12l\e[?25hA"
+  - delay: 372
+    content: "\e[?25l\e[?12l\e[?25hK"
+  - delay: 782
+    content: "\e[?25l\e[?12l\e[?25h\b \b"
+  - delay: 317
+    content: "\e[?25l\e[?12l\e[?25hC"
+  - delay: 196
+    content: "\e[?25l\e[?12l\e[?25hK"
+  - delay: 1613
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 1814
+    content: "\e[?25l\e[?12l\e[?25hO"
+  - delay: 633
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 276
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 467
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 299
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 320
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 1568
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 1950
+    content: "\e[?25l\r\e[12d\e[?12l\e[?25h"
+  - delay: 1270
+    content: "\e[?25l\e[?12l\e[?25h}"
+  - delay: 48402
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 1072
+    content: "\e[?25l\b \b\e[?12l\e[?25h"
+  - delay: 194
+    content: "\e[?25l\b \b\e[?12l\e[?25h"
+  - delay: 2152
+    content: "\e[?25l\e[58;18H\e[21X\e[58;39H\e(B\e[0;7mM-D\e(B\e[m DOS Format     \e[58;69H        \e(B\e[0;7mM-A\e(B\e[m Append          \e[103G            \e(B\e[0;7mM-B\e(B\e[m Backup File\e[23X\e[58;153H\e(B\e[0;7m^T\e(B\e[m Browse\e[K\e[59;2H\e(B\e[0;7mC\e(B\e[m Cancel\e[59;18H\e[21X\e[59;39H\e(B\e[0;7mM-M\e(B\e[m Mac Format       \e[59;69H        \e(B\e[0;7mM-P\e(B\e[m Prepend\e[27X\e[59;115H\e(B\e[0;7m^Q\e(B\e[m Discard buffer\e[K\e[58;162H\r\e[A\e(B\e[0;7mWrite to File: /etc/mpd.conf                                                                                                                                                                  \e[57;29H\e(B\e[m\e[?12l\e[?25h"
+  - delay: 807
+    content: "\e[?25l\e[57;88H\e[1K \e(B\e[0;7m[ Writing... ]\e(B\e[m\e[K\e[1;181H\e(B\e[0;7m        \e(B\e[m\e[57;87H\e(B\e[0;7m[ Wrote 11 lines ]\e(B\e[m\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is      \e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute       \e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo         \e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\e[59;2H\e(B\e[0;7mX\e(B\e[m Exit  \e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace       \e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify       \e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo         \e(B\e[0;7mM-6\e(B\e[m Copy         \e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\e[?12l\e[?25h\r\e[12d}"
+  - delay: 803
+    content: "\e[?25l\e[57d\b\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l"
+  - delay: 7
+    content: "\e]3008;end=869319e7-f5fc-4402-85dd-66c835772405;exit=success\e\\"
+  - delay: 18
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3416
+    content: s
+  - delay: 175
+    content: u
+  - delay: 211
+    content: d
+  - delay: 130
+    content: o
+  - delay: 439
+    content: ' '
+  - delay: 325
+    content: k
+  - delay: 203
+    content: i
+  - delay: 206
+    content: l
+  - delay: 178
+    content: l
+  - delay: 276
+    content: a
+  - delay: 189
+    content: l
+  - delay: 164
+    content: l
+  - delay: 336
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 27
+    content: "Usage: killall [OPTION]... [--] NAME...\r\n       killall -l, --list\r\n       killall -V, --version\r\n\r\n  -e,--exact          require exact match for very long names\r\n  -I,--ignore-case    case insensitive process name match\r\n  -g,--process-group  kill process group instead of process\r\n  -y,--younger-than   kill processes younger than TIME\r\n  -o,--older-than     kill processes older than TIME\r\n  -i,--interactive    ask for confirmation before killing\r\n  -l,--list           list all known signal names\r\n  -q,--quiet          don't print complaints\r\n  -r,--regexp         interpret NAME as an extended regular expression\r\n  -s,--signal SIGNAL  send this signal instead of SIGTERM\r\n  -u,--user USER      kill only process(es) running as USER\r\n  -v,--verbose        report if the signal was successfully sent\r\n  -V,--version        display version information\r\n  -w,--wait           wait for processes to die\r\n  -n,--ns PID         match processes that belong to the same namespaces\r\n                      as PID\r\n  -Z,--context REGEXP kill only process(es) having context\r\n                      (must precede other arguments)\r\n\r\n\e]3008;end=4b4166df-9157-49de-9df6-14883869406b;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3799
+    content: sudo killall
+  - delay: 1636
+    content: ' '
+  - delay: 247
+    content: m
+  - delay: 327
+    content: p
+  - delay: 256
+    content: d
+  - delay: 1434
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 31
+    content: "\e]3008;end=69102a9c-c1ad-41f8-8a78-4712d3f92c33;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2061
+    content: s
+  - delay: 128
+    content: u
+  - delay: 193
+    content: d
+  - delay: 181
+    content: o
+  - delay: 291
+    content: ' '
+  - delay: 683
+    content: m
+  - delay: 264
+    content: p
+  - delay: 203
+    content: d
+  - delay: 1144
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 121
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\n"
+  - delay: 8
+    content: "\e]3008;end=0497ca52-1ca7-4431-bfd9-ec2436b03e1c;exit=success\e\\\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 30428
+    content: p
+  - delay: 349
+    content: u
+  - delay: 836
+    content: l
+  - delay: 204
+    content: s
+  - delay: 317
+    content: e
+  - delay: 260
+    content: a
+  - delay: 180
+    content: u
+  - delay: 187
+    content: d
+  - delay: 163
+    content: i
+  - delay: 189
+    content: o
+  - delay: 845
+    content: ' '
+  - delay: 393
+    content: '-'
+  - delay: 150
+    content: '-'
+  - delay: 230
+    content: s
+  - delay: 195
+    content: t
+  - delay: 185
+    content: a
+  - delay: 115
+    content: r
+  - delay: 211
+    content: t
+  - delay: 599
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 313
+    content: "E: [pulseaudio] main.c: \e[1;31mDaemon startup failed.\e[0m\r\n"
+  - delay: 8
+    content: "\e]3008;end=ffae8913-a48e-4452-9f27-8f2abc0e7292;exit=failure;status=1\e\\"
+  - delay: 8
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 39856
+    content: s
+  - delay: 157
+    content: 'y'
+  - delay: 162
+    content: s
+  - delay: 392
+    content: t
+  - delay: 293
+    content: e
+  - delay: 170
+    content: m
+  - delay: 323
+    content: c
+  - delay: 242
+    content: t
+  - delay: 919
+    content: l
+  - delay: 531
+    content: ' '
+  - delay: 537
+    content: '-'
+  - delay: 168
+    content: '-'
+  - delay: 386
+    content: u
+  - delay: 144
+    content: s
+  - delay: 223
+    content: e
+  - delay: 330
+    content: r
+  - delay: 541
+    content: ' '
+  - delay: 356
+    content: s
+  - delay: 188
+    content: t
+  - delay: 163
+    content: a
+  - delay: 126
+    content: r
+  - delay: 222
+    content: t
+  - delay: 569
+    content: ' '
+  - delay: 489
+    content: p
+  - delay: 333
+    content: u
+  - delay: 254
+    content: l
+  - delay: 209
+    content: s
+  - delay: 217
+    content: e
+  - delay: 262
+    content: a
+  - delay: 188
+    content: u
+  - delay: 182
+    content: d
+  - delay: 169
+    content: i
+  - delay: 213
+    content: o
+  - delay: 349
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 373
+    content: "\e]3008;end=c5fff7bf-ce27-4cf0-aa7a-6abf96b860c9;exit=success\e\\"
+  - delay: 14
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2292
+    content: s
+  - delay: 176
+    content: u
+  - delay: 254
+    content: b
+  - delay: 1504
+    content: "\b\e[K"
+  - delay: 952
+    content: ' '
+  - delay: 413
+    content: '-'
+  - delay: 1319
+    content: ' '
+  - delay: 326
+    content: u
+  - delay: 197
+    content: s
+  - delay: 307
+    content: e
+  - delay: 211
+    content: r
+  - delay: 530
+    content: ' '
+  - delay: 534
+    content: '-'
+  - delay: 479
+    content: c
+  - delay: 659
+    content: ' '
+  - delay: 1226
+    content: '"'
+  - delay: 486
+    content: p
+  - delay: 325
+    content: u
+  - delay: 276
+    content: l
+  - delay: 245
+    content: s
+  - delay: 210
+    content: e
+  - delay: 276
+    content: a
+  - delay: 186
+    content: u
+  - delay: 253
+    content: d
+  - delay: 856
+    content: i
+  - delay: 1749
+    content: o
+  - delay: 1051
+    content: ' '
+  - delay: 473
+    content: '-'
+  - delay: 171
+    content: '-'
+  - delay: 162
+    content: s
+  - delay: 202
+    content: t
+  - delay: 172
+    content: a
+  - delay: 140
+    content: r
+  - delay: 199
+    content: t
+  - delay: 1195
+    content: '"'
+  - delay: 1027
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 8
+    content: "su: user user does not exist or the user entry does not contain all the required fields\r\n\e]3008;end=7b91fb4b-b845-46a8-a923-b0264e7ecaa1;exit=failure;status=1\e\\"
+  - delay: 7
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 34211
+    content: w
+  - delay: 186
+    content: h
+  - delay: 907
+    content: o
+  - delay: 465
+    content: a
+  - delay: 187
+    content: m
+  - delay: 487
+    content: i
+  - delay: 1599
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 18
+    content: "gass\r\n\e]3008;end=3f30517f-7b68-4ab9-b083-b199aacb1b88;exit=success\e\\"
+  - delay: 17
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2785
+    content: s
+  - delay: 135
+    content: u
+  - delay: 299
+    content: ' '
+  - delay: 1072
+    content: '-'
+  - delay: 542
+    content: ' '
+  - delay: 259
+    content: g
+  - delay: 187
+    content: a
+  - delay: 194
+    content: s
+  - delay: 198
+    content: s
+  - delay: 1049
+    content: ' '
+  - delay: 485
+    content: '-'
+  - delay: 476
+    content: c
+  - delay: 2279
+    content: ' '
+  - delay: 745
+    content: '"'
+  - delay: 533
+    content: p
+  - delay: 319
+    content: u
+  - delay: 260
+    content: l
+  - delay: 234
+    content: s
+  - delay: 561
+    content: e
+  - delay: 318
+    content: a
+  - delay: 200
+    content: u
+  - delay: 190
+    content: d
+  - delay: 186
+    content: i
+  - delay: 219
+    content: o
+  - delay: 1390
+    content: ' '
+  - delay: 420
+    content: '-'
+  - delay: 156
+    content: '-'
+  - delay: 189
+    content: s
+  - delay: 183
+    content: t
+  - delay: 146
+    content: a
+  - delay: 171
+    content: r
+  - delay: 208
+    content: t
+  - delay: 1044
+    content: '"'
+  - delay: 1504
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 18
+    content: 'Password: '
+  - delay: 4124
+    content: "\r\n"
+  - delay: 83
+    content: "\e]3008;end=b31337f9-691a-4238-ab90-b03e49287fec;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 27889
+    content: m
+  - delay: 378
+    content: p
+  - delay: 1462
+    content: c
+  - delay: 508
+    content: ' '
+  - delay: 313
+    content: u
+  - delay: 328
+    content: p
+  - delay: 306
+    content: d
+  - delay: 240
+    content: a
+  - delay: 176
+    content: t
+  - delay: 272
+    content: e
+  - delay: 707
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 9
+    content: "Updating DB (#1) ...\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=2cc5a384-d801-4e34-b191-4913844f7c77;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3403
+    content: m
+  - delay: 300
+    content: p
+  - delay: 1649
+    content: c
+  - delay: 1121
+    content: ' '
+  - delay: 321
+    content: d
+  - delay: 265
+    content: a
+  - delay: 200
+    content: 'n'
+  - delay: 660
+    content: .
+  - delay: 407
+    content: m
+  - delay: 361
+    content: p
+  - delay: 1605
+    content: '3'
+  - delay: 679
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\unknown command \"dan.mp3\"\r\nUsage: mpc [options] <command> [--] [<arguments>]\r\nmpc version: 0.35\r\nSee man 1 mpc or use 'mpc help' for more help.\r\n\e]3008;end=8d7692b5-8e25-4738-b371-f53acd1db4e8;exit=failure;status=1\e\\"
+  - delay: 18
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 5968
+    content: mpc dan.mp3
+  - delay: 504
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 52
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 3649
+    content: "\e[1@s"
+  - delay: 147
+    content: "\e[1@u"
+  - delay: 193
+    content: "\e[1@d"
+  - delay: 123
+    content: "\e[1@o"
+  - delay: 771
+    content: "\e[C"
+  - delay: 363
+    content: "\e[C"
+  - delay: 201
+    content: "\e[C"
+  - delay: 1329
+    content: "\b"
+  - delay: 214
+    content: "\b"
+  - delay: 172
+    content: "\b"
+  - delay: 836
+    content: "\e[1@ "
+  - delay: 815
+    content: "\e[C"
+  - delay: 227
+    content: "\e[C"
+  - delay: 688
+    content: "\e[C"
+  - delay: 643
+    content: "\e[C\e[1@ \b"
+  - delay: 202
+    content: "\e[1@a"
+  - delay: 213
+    content: "\e[1@d"
+  - delay: 193
+    content: "\e[1@d"
+  - delay: 938
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 68
+    content: "\e]3008;end=1f280d97-9bbe-4793-b66b-392af3be80be;exit=success\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2471
+    content: m
+  - delay: 520
+    content: p
+  - delay: 271
+    content: c
+  - delay: 539
+    content: ' '
+  - delay: 434
+    content: p
+  - delay: 217
+    content: l
+  - delay: 156
+    content: a
+  - delay: 807
+    content: 'y'
+  - delay: 1452
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 35
+    content: "dan.mp3\r\n[paused]  #1/1   0:00/4:45 (0%)\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\nERROR: Failed to enable output \"JACK Output\" (jack); Failed to connect to JACK server, status=17\r\n\e]3008;end=90d3c3ab-09c7-46b9-8552-9d93ed408a95;exit=success\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 32822
+    content: s
+  - delay: 195
+    content: u
+  - delay: 195
+    content: d
+  - delay: 325
+    content: o
+  - delay: 442
+    content: ' '
+  - delay: 275
+    content: 'n'
+  - delay: 144
+    content: a
+  - delay: 111
+    content: 'n'
+  - delay: 240
+    content: o
+  - delay: 258
+    content: ' '
+  - delay: 387
+    content: /
+  - delay: 447
+    content: e
+  - delay: 178
+    content: t
+  - delay: 313
+    content: c
+  - delay: 1587
+    content: /
+  - delay: 398
+    content: m
+  - delay: 235
+    content: p
+  - delay: 211
+    content: d
+  - delay: 1125
+    content: /
+  - delay: 1070
+    content: "\b\e[K"
+  - delay: 896
+    content: .
+  - delay: 376
+    content: c
+  - delay: 179
+    content: o
+  - delay: 302
+    content: 'n'
+  - delay: 310
+    content: f
+  - delay: 1889
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 25
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;89H\e(B\e[0;7m[ Reading... ]\e(B\e[m\e[57;87H\e(B\e[0;7m[ Read 11 lines ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc/mpd.conf                                                                                       \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d# See: /usr/share/doc/mpd/mpdconf.example\r\e[4dpid_file \"/run/mpd/mpd.pid\"\r\e[5ddb_file \"/var/lib/mpd/mpd.db\"\r\e[6dstate_file \"/var/lib/mpd/mpdstate\"\r\e[7dplaylist_directory \"/var/lib/mpd/playlists\"\r\e[8dmusic_directory \"/home/user/Music\"\r\e[9daudio_output {\e[10;5Htype    \"jack\"\e[11;5Hname    \"JACK Output\"\r\e[12d}\e[2d\b\e[?12l\e[?25h"
+  - delay: 2927
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 291
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 1073
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 488
+    content: "\e[?25l\e[?12l\e[?25h\e[3d"
+  - delay: 361
+    content: "\e[?25l\e[?12l\e[?25h\e[4d"
+  - delay: 501
+    content: "\e[?25l\e[?12l\e[?25h\e[5d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[6d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[7d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[8d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[9d"
+  - delay: 49
+    content: "\e[?25l\e[?12l\e[?25h\e[10d"
+  - delay: 175
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 52
+    content: "\e[?25l\e[?12l\e[?25hy"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 51
+    content: "\e[?25l\r\e[57d\e[K\e[?12l\e[?25h\e[10;10H"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 49
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 224
+    content: "\e[?25l\e[?12l\e[?25hj"
+  - delay: 172
+    content: "\e[?25l\e[?12l\e[?25ha"
+  - delay: 181
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 486
+    content: "\e[?25l\e[?12l\e[?25hk"
+  - delay: 2034
+    content: "\e[?25l\e[1;181H\e(B\e[0;7mModified\e(B\e[m\e[?12l\e[?25h\e[10;17H\"\e[K\b"
+  - delay: 178
+    content: "\e[?25l\e[?12l\e[?25h\b\"\e[K\b"
+  - delay: 250
+    content: "\e[?25l\e[?12l\e[?25h\b\"\e[K\b"
+  - delay: 306
+    content: "\e[?25l\e[?12l\e[?25h\b\"\e[K\b"
+  - delay: 585
+    content: "\e[?25l\e[?12l\e[?25ha\"\b"
+  - delay: 175
+    content: "\e[?25l\e[?12l\e[?25hl\"\b"
+  - delay: 163
+    content: "\e[?25l\e[?12l\e[?25hs\"\b"
+  - delay: 206
+    content: "\e[?25l\e[?12l\e[?25ha\"\b"
+  - delay: 1665
+    content: "\e[?25l\e[?12l\e[?25h\e[11d"
+  - delay: 1591
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 187
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 187
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 247
+    content: "\e[?25l\e[?12l\e[?25h\b\e[1P"
+  - delay: 496
+    content: "\e[?25l\e[?12l\e[?25hA Output\"\e[11;15H"
+  - delay: 305
+    content: "\e[?25l\e[?12l\e[?25hL Output\"\e[11;16H"
+  - delay: 271
+    content: "\e[?25l\e[?12l\e[?25hS Output\"\e[11;17H"
+  - delay: 232
+    content: "\e[?25l\e[?12l\e[?25hA Output\"\e[11;18H"
+  - delay: 6452
+    content: "\e[?25l\e[58;18H\e[21X\e[58;39H\e(B\e[0;7mM-D\e(B\e[m DOS Format     \e[58;69H        \e(B\e[0;7mM-A\e(B\e[m Append          \e[103G            \e(B\e[0;7mM-B\e(B\e[m Backup File\e[23X\e[58;153H\e(B\e[0;7m^T\e(B\e[m Browse\e[K\e[59;2H\e(B\e[0;7mC\e(B\e[m Cancel\e[59;18H\e[21X\e[59;39H\e(B\e[0;7mM-M\e(B\e[m Mac Format       \e[59;69H        \e(B\e[0;7mM-P\e(B\e[m Prepend\e[27X\e[59;115H\e(B\e[0;7m^Q\e(B\e[m Discard buffer\e[K\e[58;162H\r\e[A\e(B\e[0;7mWrite to File: /etc/mpd.conf                                                                                                                                                                  \e[57;29H\e(B\e[m\e[?12l\e[?25h"
+  - delay: 691
+    content: "\e[?25l\e[57;88H\e[1K \e(B\e[0;7m[ Writing... ]\e(B\e[m\e[K"
+  - delay: 12
+    content: "\e[1;181H\e(B\e[0;7m        \e(B\e[m\e[57;87H\e(B\e[0;7m[ Wrote 11 lines ]\e(B\e[m\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is      \e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute       \e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo         \e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\e[59;2H\e(B\e[0;7mX\e(B\e[m Exit  \e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace       \e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify       \e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo         \e(B\e[0;7mM-6\e(B\e[m Copy         \e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\e[?12l\e[?25h\e[11;18H"
+  - delay: 644
+    content: "\e[?25l\r\e[57d\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l"
+  - delay: 7
+    content: "\e]3008;end=994ea3b2-1afe-4b1f-b50f-d1a7581f11f2;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1196
+    content: S
+  - delay: 206
+    content: U
+  - delay: 167
+    content: D
+  - delay: 134
+    content: O
+  - delay: 295
+    content: ' '
+  - delay: 235
+    content: K
+  - delay: 189
+    content: I
+  - delay: 207
+    content: L
+  - delay: 169
+    content: L
+  - delay: 181
+    content: A
+  - delay: 190
+    content: L
+  - delay: 174
+    content: L
+  - delay: 510
+    content: ' '
+  - delay: 362
+    content: M
+  - delay: 253
+    content: P
+  - delay: 234
+    content: D
+  - delay: 733
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\bash: SUDO: command not found\r\n\e]3008;end=790c717b-ad17-4c18-8b4c-5d52b65a89ec;exit=failure;status=127\e\\"
+  - delay: 18
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\"
+  - delay: 5
+    content: "\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;127\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 990
+    content: SUDO KILLALL MPD
+  - delay: 1093
+    content: "\b\e[K"
+  - delay: 500
+    content: "\b\e[K"
+  - delay: 52
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 49
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 50
+    content: "\b\e[K"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 51
+    content: "\a"
+  - delay: 49
+    content: "\a"
+  - delay: 50
+    content: "\a"
+  - delay: 329
+    content: s
+  - delay: 213
+    content: u
+  - delay: 157
+    content: d
+  - delay: 131
+    content: o
+  - delay: 401
+    content: ' '
+  - delay: 355
+    content: k
+  - delay: 192
+    content: i
+  - delay: 190
+    content: l
+  - delay: 171
+    content: l
+  - delay: 165
+    content: a
+  - delay: 156
+    content: l
+  - delay: 166
+    content: l
+  - delay: 432
+    content: ' '
+  - delay: 372
+    content: m
+  - delay: 282
+    content: p
+  - delay: 233
+    content: d
+  - delay: 315
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 64
+    content: "\e]3008;end=0b402876-631a-461f-87ff-bae2583cae87;exit=success\e\\"
+  - delay: 11
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1664
+    content: s
+  - delay: 114
+    content: u
+  - delay: 241
+    content: d
+  - delay: 129
+    content: o
+  - delay: 438
+    content: ' '
+  - delay: 273
+    content: m
+  - delay: 263
+    content: p
+  - delay: 206
+    content: d
+  - delay: 285
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 142
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\n"
+  - delay: 9
+    content: "\e]3008;end=f535ec60-6cbd-4470-832f-3fd670a9bdf3;exit=success\e\\\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 55083
+    content: sudo mpd
+  - delay: 268
+    content: "\b\b\b\e[8@killall \e[C\e[C\e[C"
+  - delay: 3251
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 35
+    content: "\e]3008;end=7725c463-fd5d-4c12-95f2-e3394e80abc7;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1926
+    content: s
+  - delay: 195
+    content: u
+  - delay: 274
+    content: d
+  - delay: 167
+    content: o
+  - delay: 506
+    content: ' '
+  - delay: 484
+    content: m
+  - delay: 271
+    content: p
+  - delay: 239
+    content: d
+  - delay: 565
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 116
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\n"
+  - delay: 8
+    content: "\e]3008;end=7880328e-b7dc-449d-8763-09297fa6c6e9;exit=success\e\\\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 14669
+    content: a
+  - delay: 1064
+    content: p
+  - delay: 225
+    content: l
+  - delay: 410
+    content: a
+  - delay: 369
+    content: 'y'
+  - delay: 321
+    content: ' '
+  - delay: 401
+    content: '-'
+  - delay: 315
+    content: l
+  - delay: 497
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\bash: aplay: command not found\r\n\e]3008;end=77135dc5-25d1-417b-ad91-067916b60d9a;exit=failure;status=127\e\\"
+  - delay: 11
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;127\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 23736
+    content: s
+  - delay: 187
+    content: i
+  - delay: 183
+    content: d
+  - delay: 145
+    content: o
+  - delay: 373
+    content: ' '
+  - delay: 1511
+    content: "\b\e[K"
+  - delay: 187
+    content: "\b\e[K"
+  - delay: 210
+    content: "\b\e[K"
+  - delay: 184
+    content: "\b\e[K"
+  - delay: 769
+    content: u
+  - delay: 420
+    content: d
+  - delay: 144
+    content: o
+  - delay: 306
+    content: ' '
+  - delay: 353
+    content: p
+  - delay: 187
+    content: a
+  - delay: 196
+    content: c
+  - delay: 378
+    content: m
+  - delay: 195
+    content: a
+  - delay: 140
+    content: 'n'
+  - delay: 284
+    content: ' '
+  - delay: 619
+    content: '-'
+  - delay: 529
+    content: S
+  - delay: 739
+    content: ' '
+  - delay: 503
+    content: a
+  - delay: 193
+    content: l
+  - delay: 597
+    content: s
+  - delay: 219
+    content: a
+  - delay: 817
+    content: '-'
+  - delay: 1820
+    content: u
+  - delay: 460
+    content: t
+  - delay: 377
+    content: i
+  - delay: 366
+    content: l
+  - delay: 220
+    content: s
+  - delay: 331
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 234
+    content: "\e[?25lresolving dependencies...\r\n"
+  - delay: 6
+    content: "looking for conflicting packages...\r\n\r\nPackages (1) alsa-utils-1.2.16-1\r\n\r\nTotal Download Size:   1.19 MiB\r\nTotal Installed Size:  2.47 MiB\r\n\r\n:: Proceed with installation? [Y/n] \e[?25h"
+  - delay: 1064
+    content: 'y'
+  - delay: 289
+    content: "\r\n\e[?25l:: Retrieving packages...\r\n"
+  - delay: 8
+    content: " alsa-utils-1.2.16-1-x86_64\r\n"
+  - delay: 75
+    content: "\e[1F alsa-utils-1.2.16-1-x86_64                                                              0.0   B  0.00   B/s --:-- [--------------------------------------------------------------------]   0%\r"
+  - delay: 163
+    content: " alsa-utils-1.2.16-1-x86_64                                                           1221.7 KiB  4.97 MiB/s 00:00 [####################################################################] 100%\r"
+  - delay: 22
+    content: "\e[1E(0/1) checking keys in keyring                                                                                     [--------------------------------------------------------------------]   0%\r"
+  - delay: 88
+    content: "(1/1) checking keys in keyring                                                                                     [####################################################################] 100%\r\r\n(0/1) checking package integrity                                                                                   [--------------------------------------------------------------------]   0%\r"
+  - delay: 31
+    content: "(1/1) checking package integrity                                                                                   [####################################################################] 100%\r\r\n(0/1) loading package files                                                                                        [--------------------------------------------------------------------]   0%\r(1/1) loading package files                                                                                        [####################################################################] 100%\r\r\n(0/1) checking for file conflicts                                                                                  [--------------------------------------------------------------------]   0%\r(1/1) checking for file conflicts                                                                                  [####################################################################] 100%\r\r\n(0/1) checking available disk space                                                                                [--------------------------------------------------------------------]   0%\r(1/1) checking available disk space                                                                                [####################################################################] 100%\r\r\n:: Processing package changes...\r\n(1/1) installing alsa-utils                                                                                        [--------------------------------------------------------------------]   0%\r"
+  - delay: 13
+    content: "(1/1) installing alsa-utils                                                                                        [####################################################################] 100%\r\r\n"
+  - delay: 112
+    content: ":: Running post-transaction hooks...\r\n(1/4) Creating temporary files...\r\n"
+  - delay: 111
+    content: "(2/4) Reloading system manager configuration...\r\n"
+  - delay: 373
+    content: "(3/4) Reloading device manager configuration...\r\n"
+  - delay: 650
+    content: "(4/4) Arming ConditionNeedsUpdate...\r\n"
+  - delay: 57
+    content: "\e[?25h"
+  - delay: 43
+    content: "\e]3008;end=5e870b32-2142-4ed6-97c2-aedf22873ff5;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2862
+    content: a
+  - delay: 236
+    content: p
+  - delay: 200
+    content: l
+  - delay: 133
+    content: a
+  - delay: 229
+    content: 'y'
+  - delay: 291
+    content: ' '
+  - delay: 420
+    content: '-'
+  - delay: 342
+    content: l
+  - delay: 622
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 7
+    content: "**** List of PLAYBACK Hardware Devices ****\r\ncard 0: PCH [HDA Intel PCH], device 0: ALC285 Analog [ALC285 Analog]\r\n  Subdevices: 1/1\r\n  Subdevice #0: subdevice #0\r\ncard 0: PCH [HDA Intel PCH], device 3: HDMI 0 [HDMI 0]\r\n  Subdevices: 1/1\r\n  Subdevice #0: subdevice #0\r\ncard 0: PCH [HDA Intel PCH], device 7: HDMI 1 [HDMI 1]\r\n  Subdevices: 1/1\r\n  Subdevice #0: subdevice #0\r\ncard 0: PCH [HDA Intel PCH], device 8: HDMI 2 [HDMI 2]\r\n  Subdevices: 1/1\r\n  Subdevice #0: subdevice #0\r\n\e]3008;end=6fad0f5e-f584-43e4-9b5f-111be497c0fa;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 23009
+    content: s
+  - delay: 419
+    content: u
+  - delay: 1200
+    content: d
+  - delay: 164
+    content: o
+  - delay: 285
+    content: ' '
+  - delay: 212
+    content: 'n'
+  - delay: 124
+    content: a
+  - delay: 111
+    content: 'n'
+  - delay: 209
+    content: o
+  - delay: 722
+    content: ' '
+  - delay: 567
+    content: /
+  - delay: 645
+    content: e
+  - delay: 229
+    content: t
+  - delay: 291
+    content: c
+  - delay: 1064
+    content: .
+  - delay: 320
+    content: m
+  - delay: 264
+    content: p
+  - delay: 226
+    content: d
+  - delay: 621
+    content: .
+  - delay: 351
+    content: c
+  - delay: 191
+    content: o
+  - delay: 324
+    content: 'n'
+  - delay: 287
+    content: f
+  - delay: 338
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 29
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;90H\e(B\e[0;7m[ New File ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc.mpd.conf                                                                                       \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d\e[?12l\e[?25h"
+  - delay: 6907
+    content: "\e[?25l\e[57d\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l"
+  - delay: 7
+    content: "\e]3008;end=147ce0d4-93ad-4489-8526-e0bd1716e693;exit=success\e\\"
+  - delay: 16
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4567
+    content: sudo nano /etc.mpd.conf
+  - delay: 282
+    content: "\b"
+  - delay: 500
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 49
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 242
+    content: "\b"
+  - delay: 868
+    content: "\e[1@/"
+  - delay: 969
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 26
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;90H\e(B\e[0;7m[ New File ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc/.mpd.conf                                                                                      \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d\e[?12l\e[?25h"
+  - delay: 4090
+    content: "\e[?25l\e[57d\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l\e]3008;end=97fc9080-7bb6-4d67-88e3-abe4b822781d;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 652
+    content: "\a"
+  - delay: 810
+    content: sudo nano /etc/.mpd.conf
+  - delay: 790
+    content: "\b"
+  - delay: 501
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 50
+    content: "\b"
+  - delay: 51
+    content: "\b"
+  - delay: 279
+    content: "\b"
+  - delay: 640
+    content: "\b\e[1P"
+  - delay: 878
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 26
+    content: "\e[?2004h\e[?1049h\e[22;0;0t\e[1;59r\e(B\e[m\e[4l\e[?7h\e[39;49m\e[?1h\e=\e[?1h\e=\e[?25l\e[39;49m\e(B\e[m\e[H\e[2J\e[57;89H\e(B\e[0;7m[ Reading... ]\e(B\e[m\e[57;87H\e(B\e[0;7m[ Read 11 lines ]\e(B\e[m\e[H\e(B\e[0;7m  GNU nano 9.0                                                                            /etc/mpd.conf                                                                                       \e[1;189H\e(B\e[m\r\e[58d\e(B\e[0;7m^G\e(B\e[m Help\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is\e[52G\e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute\e[86G\e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo\e[58;120H\e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\r\e[59d\e(B\e[0;7m^X\e(B\e[m Exit\e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace\e[52G\e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify\e[86G\e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo\e[59;120H\e(B\e[0;7mM-6\e(B\e[m Copy\e[59;137H\e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\r\e[2d# See: /usr/share/doc/mpd/mpdconf.example\r\e[4dpid_file \"/run/mpd/mpd.pid\"\r\e[5ddb_file \"/var/lib/mpd/mpd.db\"\r\e[6dstate_file \"/var/lib/mpd/mpdstate\"\r\e[7dplaylist_directory \"/var/lib/mpd/playlists\"\r\e[8dmusic_directory \"/home/user/Music\"\r\e[9daudio_output {\e[10;5Htype    \"alsa\"\e[11;5Hname    \"ALSA Output\"\r\e[12d}\e[2d\b\e[?12l\e[?25h"
+  - delay: 1472
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 502
+    content: "\e[?25l\e[?12l\e[?25h\e[3d"
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25h\e[4d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[5d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[6d"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h\e[7d"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h\e[8d"
+  - delay: 323
+    content: "\e[?25l\e[?12l\e[?25h\e[9d"
+  - delay: 1330
+    content: "\e[?25l\e[13d\e[?12l\e[?25h"
+  - delay: 1800
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 277
+    content: "\e[?25l\e[?12l\e[?25h"
+  - delay: 1266
+    content: "\e[?25l\e[?12l\e[?25h\e[A"
+  - delay: 581
+    content: "\e[?25l\e[?12l\e[?25h}"
+  - delay: 413
+    content: "\e[?25l\e[?12l\e[?25h\e[A"
+  - delay: 347
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 500
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hn"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25ha"
+  - delay: 51
+    content: "\e[?25l\r\e[57d\e[K\e[?12l\e[?25h\e[11;8H"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 52
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 49
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hA"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hL"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hS"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hA"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25hO"
+  - delay: 49
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 51
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 50
+    content: "\e[?25l\e[?12l\e[?25hp"
+  - delay: 52
+    content: "\e[?25l\e[?12l\e[?25hu"
+  - delay: 226
+    content: "\e[?25l\e[?12l\e[?25ht"
+  - delay: 181
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 1034
+    content: "\e[?25l\e[1;181H\e(B\e[0;7mModified\e(B\e[m\e[12;57r\e[12;1H\eM\e[1;59r\e[12;1H\e[?12l\e[?25h"
+  - delay: 1400
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 193
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 182
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 1783
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 748
+    content: "\e[?25l\e[?12l\e[?25hd"
+  - delay: 216
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 340
+    content: "\e[?25l\e[?12l\e[?25hv"
+  - delay: 412
+    content: "\e[?25l\e[?12l\e[?25hi"
+  - delay: 345
+    content: "\e[?25l\e[?12l\e[?25hc"
+  - delay: 210
+    content: "\e[?25l\e[?12l\e[?25he"
+  - delay: 905
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 218
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 233
+    content: "\e[?25l\e[?12l\e[?25h "
+  - delay: 753
+    content: "\e[?25l\e[?12l\e[?25h\b"
+  - delay: 1789
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 763
+    content: "\e[?25l\e[?12l\e[?25hh"
+  - delay: 307
+    content: "\e[?25l\e[?12l\e[?25hw"
+  - delay: 1479
+    content: "\e[?25l\e[?12l\e[?25h:"
+  - delay: 1192
+    content: "\e[?25l\e[?12l\e[?25h0"
+  - delay: 1175
+    content: "\e[?25l\e[?12l\e[?25h,"
+  - delay: 944
+    content: "\e[?25l\e[?12l\e[?25h0"
+  - delay: 937
+    content: "\e[?25l\e[?12l\e[?25h\""
+  - delay: 13404
+    content: "\e[?25l\e[58;18H\e[21X\e[58;39H\e(B\e[0;7mM-D\e(B\e[m DOS Format     \e[58;69H        \e(B\e[0;7mM-A\e(B\e[m Append          \e[103G            \e(B\e[0;7mM-B\e(B\e[m Backup File\e[23X\e[58;153H\e(B\e[0;7m^T\e(B\e[m Browse\e[K\e[59;2H\e(B\e[0;7mC\e(B\e[m Cancel\e[59;18H\e[21X\e[59;39H\e(B\e[0;7mM-M\e(B\e[m Mac Format       \e[59;69H        \e(B\e[0;7mM-P\e(B\e[m Prepend\e[27X\e[59;115H\e(B\e[0;7m^Q\e(B\e[m Discard buffer\e[K\e[58;162H\r\e[A\e(B\e[0;7mWrite to File: /etc/mpd.conf                                                                                                                                                                  \e[57;29H\e(B\e[m\e[?12l\e[?25h"
+  - delay: 676
+    content: "\e[?25l\e[57;88H\e[1K \e(B\e[0;7m[ Writing... ]\e(B\e[m\e[K"
+  - delay: 13
+    content: "\e[1;181H\e(B\e[0;7m        \e(B\e[m\e[57;87H\e(B\e[0;7m[ Wrote 12 lines ]\e(B\e[m\e[58;18H\e(B\e[0;7m^O\e(B\e[m Write Out     \e(B\e[0;7m^F\e(B\e[m Where Is      \e(B\e[0;7m^K\e(B\e[m Cut\e[58;69H\e(B\e[0;7m^T\e(B\e[m Execute       \e(B\e[0;7m^C\e(B\e[m Location\e[103G\e(B\e[0;7mM-U\e(B\e[m Undo         \e(B\e[0;7mM-A\e(B\e[m Set Mark     \e(B\e[0;7mM-]\e(B\e[m To Bracket   \e(B\e[0;7mM-B\e(B\e[m Previous     \e(B\e[0;7m◂\e(B\e[m Back\e[59;2H\e(B\e[0;7mX\e(B\e[m Exit  \e[59;18H\e(B\e[0;7m^R\e(B\e[m Read File     \e(B\e[0;7m^\\\e(B\e[m Replace       \e(B\e[0;7m^U\e(B\e[m Paste\e[59;69H\e(B\e[0;7m^J\e(B\e[m Justify       \e(B\e[0;7m^/\e(B\e[m Go To Line    \e(B\e[0;7mM-E\e(B\e[m Redo         \e(B\e[0;7mM-6\e(B\e[m Copy         \e(B\e[0;7m^B\e(B\e[m Where Was     \e(B\e[0;7mM-F\e(B\e[m Next\e[59;171H\e(B\e[0;7m▸\e(B\e[m Forward\e[?12l\e[?25h\e[12;21H"
+  - delay: 845
+    content: "\e[?25l\r\e[57d\e[J\e[59d\e[?12l\e[?25h\e[59;1H\e[?1049l\e[23;0;0t\r\e[?1l\e>\e[?2004l\e]3008;end=f7348374-17d6-4460-86a1-53d338336c36;exit=success\e\\"
+  - delay: 15
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1691
+    content: s
+  - delay: 248
+    content: u
+  - delay: 179
+    content: d
+  - delay: 136
+    content: o
+  - delay: 305
+    content: ' '
+  - delay: 265
+    content: k
+  - delay: 201
+    content: i
+  - delay: 226
+    content: l
+  - delay: 179
+    content: l
+  - delay: 488
+    content: a
+  - delay: 204
+    content: l
+  - delay: 180
+    content: l
+  - delay: 346
+    content: ' '
+  - delay: 261
+    content: m
+  - delay: 286
+    content: p
+  - delay: 205
+    content: d
+  - delay: 610
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 32
+    content: "\e]3008;end=cba9353e-e888-4b77-ae96-040f1daaa43b;exit=success\e\\"
+  - delay: 5
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2481
+    content: s
+  - delay: 167
+    content: u
+  - delay: 174
+    content: d
+  - delay: 135
+    content: o
+  - delay: 271
+    content: ' '
+  - delay: 300
+    content: m
+  - delay: 274
+    content: p
+  - delay: 204
+    content: d
+  - delay: 567
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 120
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\n"
+  - delay: 9
+    content: "\e]3008;end=5b152a1e-525f-450f-a11c-2f418d9af40f;exit=success\e\\\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 32970
+    content: c
+  - delay: 203
+    content: a
+  - delay: 160
+    content: t
+  - delay: 778
+    content: ' '
+  - delay: 711
+    content: /
+  - delay: 320
+    content: e
+  - delay: 366
+    content: t
+  - delay: 301
+    content: c
+  - delay: 801
+    content: /
+  - delay: 700
+    content: m
+  - delay: 342
+    content: p
+  - delay: 331
+    content: d
+  - delay: 522
+    content: .
+  - delay: 579
+    content: c
+  - delay: 199
+    content: o
+  - delay: 327
+    content: 'n'
+  - delay: 292
+    content: f
+  - delay: 639
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 6
+    content: "# See: /usr/share/doc/mpd/mpdconf.example\r\n\r\npid_file \"/run/mpd/mpd.pid\"\r\ndb_file \"/var/lib/mpd/mpd.db\"\r\nstate_file \"/var/lib/mpd/mpdstate\"\r\nplaylist_directory \"/var/lib/mpd/playlists\"\r\nmusic_directory \"/home/user/Music\"\r\naudio_output {\r\n    type    \"alsa\"\r\n    name    \"ALSA Output\"\r\n    device  \"hw:0,0\"\r\n}\r\n\e]3008;end=200d288a-0f32-4d8a-bfa5-f0a8a78acf87;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 32351
+    content: a
+  - delay: 153
+    content: m
+  - delay: 246
+    content: i
+  - delay: 342
+    content: x
+  - delay: 312
+    content: e
+  - delay: 262
+    content: r
+  - delay: 484
+    content: ' '
+  - delay: 1090
+    content: s
+  - delay: 166
+    content: s
+  - delay: 465
+    content: e
+  - delay: 277
+    content: t
+  - delay: 596
+    content: ' '
+  - delay: 655
+    content: M
+  - delay: 314
+    content: a
+  - delay: 248
+    content: s
+  - delay: 226
+    content: t
+  - delay: 183
+    content: e
+  - delay: 227
+    content: r
+  - delay: 923
+    content: ' '
+  - delay: 384
+    content: u
+  - delay: 301
+    content: 'n'
+  - delay: 1069
+    content: m
+  - delay: 1303
+    content: u
+  - delay: 279
+    content: t
+  - delay: 212
+    content: e
+  - delay: 951
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 13
+    content: "Simple mixer control 'Master',0\r\n  Capabilities: pvolume pswitch pswitch-joined\r\n  Playback channels: Front Left - Front Right\r\n  Limits: Playback 0 - 65536\r\n  Mono:\r\n  Front Left: Playback 26090 [40%] [on]\r\n  Front Right: Playback 26090 [40%] [on]\r\n\e]3008;end=942457cb-ff60-4d08-9bb5-a607f65ae4e8;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4380
+    content: a
+  - delay: 216
+    content: m
+  - delay: 1481
+    content: i
+  - delay: 416
+    content: x
+  - delay: 315
+    content: e
+  - delay: 311
+    content: r
+  - delay: 878
+    content: ' '
+  - delay: 432
+    content: s
+  - delay: 161
+    content: s
+  - delay: 233
+    content: e
+  - delay: 363
+    content: t
+  - delay: 495
+    content: ' '
+  - delay: 621
+    content: M
+  - delay: 1033
+    content: a
+  - delay: 189
+    content: s
+  - delay: 270
+    content: t
+  - delay: 157
+    content: e
+  - delay: 218
+    content: r
+  - delay: 958
+    content: ' '
+  - delay: 1898
+    content: '7'
+  - delay: 391
+    content: '0'
+  - delay: 1677
+    content: '%'
+  - delay: 677
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 32
+    content: "Simple mixer control 'Master',0\r\n  Capabilities: pvolume pswitch pswitch-joined\r\n  Playback channels: Front Left - Front Right\r\n  Limits: Playback 0 - 65536\r\n  Mono:\r\n  Front Left: Playback 45875 [70%] [on]\r\n  Front Right: Playback 45875 [70%] [on]\r\n\e]3008;end=8aa52efd-26ad-4834-9128-c508178c139d;exit=success\e\\"
+  - delay: 9
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 2417
+    content: s
+  - delay: 185
+    content: u
+  - delay: 143
+    content: d
+  - delay: 256
+    content: o
+  - delay: 330
+    content: ' '
+  - delay: 273
+    content: k
+  - delay: 196
+    content: i
+  - delay: 212
+    content: l
+  - delay: 161
+    content: l
+  - delay: 236
+    content: a
+  - delay: 143
+    content: l
+  - delay: 166
+    content: l
+  - delay: 598
+    content: ' '
+  - delay: 284
+    content: m
+  - delay: 299
+    content: p
+  - delay: 197
+    content: d
+  - delay: 672
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 31
+    content: "\e]3008;end=ea7e6b4c-e920-450c-9317-1c0c4468f792;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1444
+    content: s
+  - delay: 183
+    content: u
+  - delay: 139
+    content: d
+  - delay: 151
+    content: o
+  - delay: 475
+    content: ' '
+  - delay: 264
+    content: m
+  - delay: 1073
+    content: p
+  - delay: 466
+    content: d
+  - delay: 560
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 117
+    content: "server_socket: bind to '0.0.0.0:6600' failed (continuing anyway, because binding to '[::]:6600' succeeded): Failed to bind socket: Address already in use\r\ndecoder: Decoder plugin \"wildmidi\" is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg\r\n"
+  - delay: 8
+    content: "\e]3008;end=1321d141-67ee-4c3a-addb-136d552b8766;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 42572
+    content: m
+  - delay: 317
+    content: p
+  - delay: 458
+    content: c
+  - delay: 253
+    content: ' '
+  - delay: 527
+    content: p
+  - delay: 210
+    content: l
+  - delay: 140
+    content: a
+  - delay: 232
+    content: 'y'
+  - delay: 866
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 110
+    content: "dan.mp3\r\n[playing] #1/1   0:00/4:45 (0%)\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=8699ae55-07ed-4835-8a05-182f1eddcbce;exit=success\e\\"
+  - delay: 19
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 24539
+    content: m
+  - delay: 608
+    content: p
+  - delay: 682
+    content: c
+  - delay: 886
+    content: ' '
+  - delay: 554
+    content: s
+  - delay: 288
+    content: t
+  - delay: 456
+    content: o
+  - delay: 859
+    content: p
+  - delay: 1244
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 11
+    content: "volume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=ade56f7b-2c78-46c0-8595-58c2a5c5d7dc;exit=success\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3011
+    content: mpc stop
+  - delay: 403
+    content: "\b\b\b\bplay"
+  - delay: 729
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 13
+    content: "dan.mp3\r\n[playing] #1/1   0:00/4:45 (0%)\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=a839eec9-95e4-4d27-a5e9-fd68dab08942;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 3226
+    content: m
+  - delay: 261
+    content: p
+  - delay: 330
+    content: c
+  - delay: 583
+    content: ' '
+  - delay: 1474
+    content: p
+  - delay: 157
+    content: a
+  - delay: 217
+    content: u
+  - delay: 181
+    content: s
+  - delay: 261
+    content: e
+  - delay: 647
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 10
+    content: "dan.mp3\r\n[paused]  #1/1   0:08/4:45 (2%)\r\nvolume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=b17f5518-57e3-4f75-8740-cb86f30a044d;exit=success\e\\"
+  - delay: 7
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1868
+    content: m
+  - delay: 280
+    content: o
+  - delay: 2153
+    content: "\b\e[K"
+  - delay: 602
+    content: p
+  - delay: 313
+    content: c
+  - delay: 360
+    content: ' '
+  - delay: 194
+    content: s
+  - delay: 147
+    content: t
+  - delay: 154
+    content: a
+  - delay: 118
+    content: r
+  - delay: 210
+    content: t
+  - delay: 402
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\unknown command \"start\"\r\nUsage: mpc [options] <command> [--] [<arguments>]\r\nmpc version: 0.35\r\nSee man 1 mpc or use 'mpc help' for more help.\r\n\e]3008;end=c59bc0ca-9db5-4c98-8fc5-b1124b93d291;exit=failure;status=1\e\\"
+  - delay: 6
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;1\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 1515
+    content: mpc start
+  - delay: 1403
+    content: "\b\b\b\b\bpause"
+  - delay: 761
+    content: "\b\b\b\b\e[1Play"
+  - delay: 1089
+    content: "\b\b\b\bstop"
+  - delay: 773
+    content: "\r\n\e[?2004l\r\e]133;C\e\\\r\e]666;vte.shell.preexec!\e\\"
+  - delay: 13
+    content: "volume: n/a   repeat: off   random: off   single: off   consume: off\r\n\e]3008;end=1a0dd390-3597-462f-98a0-9b349c8d6ec0;exit=success\e\\"
+  - delay: 20
+    content: "\e]3008;start=d987deac-cdba-4f19-80f7-54b3e6404d40;machineid=ae24511773954b6cb2537518dd337f07;user=gass;hostname=gass;bootid=f668b1b1-facf-4531-92f0-b115b04dd09a;pid=00000000000000129506;type=shell;cwd=/home/user\e\\\e]666;vte.shell.postexec=0\e\\\e]666;vte.shell.precmd!\e\\\e]7;file://gass/home/user\e\\\e]0;gass@gass:~\a\e[?2004h\e]133;D;0\e\\\e]133;A\e\\bash-5.3$ \e]133;B\e\\"
+  - delay: 4360
+    content: "\e[?2004l\r\r\nlogout\r\n"
