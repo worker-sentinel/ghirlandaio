@@ -163,3 +163,37 @@ nvim /etc/security/pam_mount.conf.xml
 ```
 nvim /etc/pam.d/system-login 
 ```
+```
+mkdir /etc/mkinitcpio.d
+```
+```
+nvim /etc/cmdline.d/boot.conf 
+```
+```
+nvim /etc/mkinitcpio.conf 
+```
+```
+nvim /etc/mkinitcpio.d/linux-hardened.preset
+```
+
+```
+bootctl --path=/boot install 
+```
+```
+mkinitcpio -P 
+```
+```
+systemctl enable systemd-networkd 
+```
+```
+systemctl enable iwd
+```
+```
+systemctl enable firewalld 
+```
+```
+systemctl enable sshd
+```
+```
+reboot
+```

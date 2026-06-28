@@ -13,7 +13,6 @@
 - lvcreate -l50%FREE [nama grup] -n [nama home untuk internal]
 - lsblk
 ```
-Luks on lvm home nya ada dua (eksternal dan internal) 
 
 ## 2. FORMAT PARTISI
 ```
@@ -27,7 +26,7 @@ Luks on lvm home nya ada dua (eksternal dan internal)
 ```
 kalo lupa partisi pake command lsblk -o name,fstype
 ```
-- mkfs.vfat -F32 /dev/[nama partisi boot]
+mkfs.vfat -F32 /dev/[nama partisi boot]
 ```
 
 ## 3. MOUNTING
@@ -43,8 +42,10 @@ kalo lupa partisi pake command lsblk -o name,fstype
 (home untuk internal ga perlu dimounting, karena nanti mounting otomatis pake aplikasi pam_mount)
 - cryptsetup luksFormat /dev/[nama grup]/[nama home internal]
 - YES
-- bikin password. password nya harus sama kayak password user 
+- bikin password
 ```
+password nya harus sama kayak password user 
+
 
 ## 4. INSTALL PACKAGE
 ```
@@ -104,8 +105,8 @@ pacstrap /mnt intel-ucode base linux-hardened linux-hardened-headers linux-firmw
 
 Untuk Lenovo
 ```
-- bootctl —path=/mnt/boot install
+bootctl —path=/mnt/boot install
 ```
 ```
-- reboot
+reboot
 ```

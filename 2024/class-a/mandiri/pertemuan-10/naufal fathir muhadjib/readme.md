@@ -1,8 +1,9 @@
 kelompok 19 meteorites
 
-1. naufal fathir muhadjib
-2. iqbal tamam
-3. shevaya
-4. nur ahdiafani
-5. naila ahnafani
-6. kenari
+1. Naila Ahnafani
+2. Nur Ahdiayani
+3. Muhammad Iqbal Tamam
+4. Kenari Namora Pratiwi Simanjuntak
+5. Naufal Fathir Muhadjib
+6. Shevaya Rubyfirlie
+
