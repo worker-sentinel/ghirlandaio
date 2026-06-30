@@ -21,7 +21,7 @@ Perintah
 digunakan untuk mengubah nama host secara permanen. 
 
 Fungsinya untuk  Memberikan identitas server sesuai dengan pembagian region.
----
+
 
 ## 3. Memastikan Hostname Sudah Berubah
 
@@ -110,7 +110,7 @@ Perintah `uname -r` digunakan untuk menampilkan versi kernel Linux yang sedang d
 
 ---
 
-## 10. Cek distro
+## 9. Cek distro
 
 ```
 cat /etc/os-release
