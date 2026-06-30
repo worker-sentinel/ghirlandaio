@@ -371,25 +371,51 @@ lsmod | grep namamodule
 ```
 systemctl enable --now firewalld
 ```
-sudo firewall-cmd --zone=public --add-service=http --permanent 
 ```
-sudo firewall-cmd --zone=public --add-port=2377/tcp --permanent
+sudo firewall-cmd --list-all-zone
 ```
-sudo firewall-cmd --zone=public --add-port=7946/tcp --permanent
 ```
-sudo firewall-cmd --zone=public --add-port=4789/tcp --permanent
+sudo firewall-cmd --permanent --remove-service=ssh --zone=work
 ```
-sudo firewall-cmd --zone=public --add-port=8000/tcp --permanent
 ```
-sudo firewall-cmd --zone=public --add-port=5432/tcp --permanent
+sudo firewall-cmd --permanent --remove-service=dhcpv6-client --zone=work
 ```
-sudo firewall-cmd --zone=public --add-port=6379/tcp --permanent
+```
+sudo firewall-cmd --permanent --remove-service=dhcpv6-client --zone=public
+```
+```
+sudo firewall-cmd --permanent --remove-service=dhcpv6-client --zone=internal
+```
+```
+sudo firewall-cmd --permanent --remove-service=mdns --zone=internal
+```
+```
+sudo firewall-cmd --permanent --remove-service=samba-client --zone=internal
+```
+```
+sudo firewall-cmd --permanent --remove-service=ssh --zone=internal
+```
+```
+sudo firewall-cmd --permanent --remove-service=ssh --zone=home
+```
+```
+sudo firewall-cmd --permanent --remove-service=samba-client --zone=home
+```
+```
+sudo firewall-cmd --permanent --remove-service=mdns --zone=home
+```
+```
+sudo firewall-cmd --permanent --remove-service=dhcpv6-client --zone=home
+```
+```
+sudo firewall-cmd --permanent --remove-service=ssh --zone=external
+```
+```
+sudo firewall-cmd --permanent --remove-service=ssh --zone=dmz
+```
 ```
 sudo firewall-cmd --reload
 ```
-Selanjutnya, untuk melihat list-list port dan sistem yang sudah di enable ketik:
-```
-sudo firewall-cmd --list-ports
 
 
 
