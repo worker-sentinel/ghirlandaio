@@ -114,9 +114,6 @@ lvcreate -L MG nama -n vtmp
 lvcreate -L MG nama -n home
 ```
 
-Atau:
-
-
 
 Cek:
 
@@ -207,7 +204,7 @@ lsblk
 ## 8. Install Base System
 
 ```bash
-pacstrap /mnt base intel-ucode linux-lts linux-lts-headers linux-firmware mkinitcpio lvm2 neovim sudo curl iwd firewalld pacman which grep podman
+pacstrap /mnt base intel-ucode linux-hardened linux-hardened-headers linux-firmware mkinitcpio lvm2 neovim sudo curl iwd firewalld pacman which grep podman
 ```
 
 Generate fstab:
@@ -348,13 +345,13 @@ echo "rw" > /etc/cmdline.d/02-misc.conf
 Hapus initramfs lama:
 
 ```bash
-rm -fr /boot/initramfs-linux-lts.img
+rm -fr /boot/initramfs-linux-hardened.img
 ```
 
 Edit:
 
 ```bash
-nvim /etc/mkinitcpi.conf
+nvim /etc/mkinitcpio.conf
 ```
 
 
@@ -367,7 +364,7 @@ HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block 
 
 ---
 
-## 14. Preset Linux LTS
+## 14. Preset Linux Hardened
 
 Edit:
 
@@ -378,23 +375,23 @@ nvim /etc/mkinitcpio.d/linux-lts.preset
 Ubah menjadi:
 
 ```text
-# mkinitcpio preset file for the 'linux-lts' package
+# mkinitcpio preset file for the 'linux-hardened' package
 
 ALL_config="/etc/mkinitcpio.conf"
-ALL_kver="/boot/vmlinuz-linux-lts"
-ALL_kerneldest="/boot/vmlinuz-linux-lts"
+ALL_kver="/boot/vmlinuz-linux-hardened"
+ALL_kerneldest="/boot/vmlinuz-linux-hardened"
 
 PRESETS=('default')
 #PRESETS=('default' 'fallback')
 
 #default_config="/etc/mkinitcpio.conf"
-#default_image="/boot/initramfs-linux-lts.img"
-default_uki="/EFI/Linux/arch-linux-lts.efi"
+#default_image="/boot/initramfs-linux-hardened.img"
+default_uki="/boot/efi/linux/arch-linux-hardened.efi"
 #default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"
 
 #fallback_config="/etc/mkinitcpio.conf"
-#fallback_image="/boot/initramfs-linux-lts-fallback.img"
-#fallback_uki="/efi/EFI/Linux/arch-linux-lts-fallback.efi"
+#fallback_image="/boot/initramfs-linux-hardened-fallback.img"
+#fallback_uki="/efi/EFI/Linux/arch-linux-hardened-fallback.efi"
 #fallback_options="-S autodetect"
 ```
 
