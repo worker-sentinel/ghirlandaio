@@ -319,12 +319,12 @@ reboot
 ```
 nvim /etc/iwd/main.conf
 ```
->  nvim untuk menjalankan program neovim
-```
+> nvim untuk menjalankan program neovim
 > tambahkan
 ```
 [General]
 EnableNetworkConfiguration=true
+```
 
 ## disable module
 ```
