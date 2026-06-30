@@ -92,6 +92,11 @@ mkfs.ext4 -b 4096 /dev/group_name/home
 ```
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/group_name/home /mnt/home
 ```
+
+# pacstrap
+```
+pacstrap /mnt intel-ucode linux-lts linux-lts-headers linux-firmware mkinitcpio lvm2 base sudo curl neovim iwd firewalld pacman which grep podman openssh kubeadm kubectl kubelet
+```
 # tmpfs
 
 ```
