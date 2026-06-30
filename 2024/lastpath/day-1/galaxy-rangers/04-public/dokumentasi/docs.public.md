@@ -4,7 +4,7 @@
 pvcreate /dev/vda2
 ```
 ```
-vgcreate proc /vda2
+vgcreate proc /dev/vda2
 ```
 
 ## root

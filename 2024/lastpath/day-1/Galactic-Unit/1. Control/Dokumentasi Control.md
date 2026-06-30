@@ -3,9 +3,9 @@
 ```
 hostnamectl
 ```
-digunakan untuk menampilkan informasi lengkap mengenai identitas sistem (hostname) beserta informasi dasar sistem operasi.  
+> digunakan untuk menampilkan informasi lengkap mengenai identitas sistem (hostname) beserta informasi dasar sistem operasi.  
 
-Fungsinya untuk Mengetahui nama host yang sedang digunakan dan Memastikan server masih menggunakan hostname bawaan atau sudah sesuai dengan pembagian region.
+> Fungsinya untuk Mengetahui nama host yang sedang digunakan dan Memastikan server masih menggunakan hostname bawaan atau sudah sesuai dengan pembagian region.
 
 ---
 
@@ -18,10 +18,10 @@ Perintah
 
  `hostnamectl set-hostname` 
 
-digunakan untuk mengubah nama host secara permanen. 
+> digunakan untuk mengubah nama host secara permanen. 
 
-Fungsinya untuk  Memberikan identitas server sesuai dengan pembagian region.
----
+> Fungsinya untuk  Memberikan identitas server sesuai dengan pembagian region.
+
 
 ## 3. Memastikan Hostname Sudah Berubah
 
@@ -35,9 +35,9 @@ Sedangkan
 ```
 hostnamectl
 ```
-menampilkan informasi sistem secara lebih lengkap beserta hostname yang baru.
+> menampilkan informasi sistem secara lebih lengkap beserta hostname yang baru.
 
-Fungsinya untuk  Menghindari kesalahan identitas server sebelum melakukan konfigurasi berikutnya.
+> Fungsinya untuk  Menghindari kesalahan identitas server sebelum melakukan konfigurasi berikutnya.
 
 ---
 
@@ -47,29 +47,29 @@ Fungsinya untuk  Menghindari kesalahan identitas server sebelum melakukan konfig
 ```
 sudo pacman -Syu
 ```
-Perintah `pacman` merupakan package manager bawaan Arch Linux yang digunakan untuk mengelola paket perangkat lunak.
+> Perintah `pacman` merupakan package manager bawaan Arch Linux yang digunakan untuk mengelola paket perangkat lunak.
 
-Fungsinya untuk Memperbarui sistem ke versi terbaru dan Memperbaiki bug.
----
+> Fungsinya untuk Memperbarui sistem ke versi terbaru dan Memperbaiki bug.
 
 
-## 6. Aktifkan SSH
+
+## 5. Aktifkan SSH
 
 ```
 sudo systemctl enable sshd
 ```
 
-digunakan agar layanan SSH otomatis berjalan setiap kali sistem dinyalakan.
+> digunakan agar layanan SSH otomatis berjalan setiap kali sistem dinyalakan.
 
 ```
 sudo systemctl start sshd
 ```
 
-digunakan untuk langsung menjalankan layanan SSH tanpa perlu me-restart komputer.
+> digunakan untuk langsung menjalankan layanan SSH tanpa perlu me-restart komputer.
 
 ---
 
-## 7. Cek status SSH
+## 6. Cek status SSH
 
 ```
 systemctl status sshd
@@ -88,31 +88,31 @@ Kalau muncul
 active
 ```
 
-berarti layanan SSH telah aktif dan siap menerima koneksi dari perangkat lain.
+> berarti layanan SSH telah aktif dan siap menerima koneksi dari perangkat lain.
 
 ---
 
-## 8. Cek user
+## 7. Cek user
 
 ```
 whoami
 ```
-Perintah `whoami` digunakan untuk menampilkan nama pengguna (user) yang sedang aktif pada terminal.
+> Perintah `whoami` digunakan untuk menampilkan nama pengguna (user) yang sedang aktif pada terminal.
 
 ---
 
-## 9. Cek kernel
+## 8. Cek kernel
 
 ```
 uname -r
 ```
-Perintah `uname -r` digunakan untuk menampilkan versi kernel Linux yang sedang digunakan.
+> Perintah `uname -r` digunakan untuk menampilkan versi kernel Linux yang sedang digunakan.
 
 ---
 
-## 10. Cek distro
+## 9. Cek distro
 
 ```
 cat /etc/os-release
 ```
-Perintah ini digunakan untuk menampilkan isi file `/etc/os-release`, yaitu file yang berisi informasi identitas sistem operasi Linux.
+> Perintah ini digunakan untuk menampilkan isi file `/etc/os-release`, yaitu file yang berisi informasi identitas sistem operasi Linux.

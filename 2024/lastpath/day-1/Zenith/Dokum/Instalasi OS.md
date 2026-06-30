@@ -1,7 +1,7 @@
 # Install OS APP (Hardened)
 
 
-## 1. Record
+## 1. Rekam asciinema 
 
 ```bash
 asciinema rec nama.cast
@@ -9,7 +9,7 @@ asciinema rec nama.cast
 
 ---
 
-## 2. Koneksi Wi-Fi
+## 2. Menyambungkan Koneksi Wi-Fi
 
 ```bash
 iwctl
@@ -23,7 +23,7 @@ station wlan0 get-networks
 station wlan0 connect nama wifi
 ```
 
-Masukkan password Wi-Fi lalu:
+Masukkan password dari Wi-Fi kemudian:
 
 ```bash
 exit
@@ -37,7 +37,7 @@ ping 8.8.8.8
 
 ---
 
-## 3. Partisi Disk
+## 3. Membuat Partisi Disk
 
 ```bash
 cfdisk /dev/nvme0n1
@@ -58,7 +58,7 @@ lsblk
 
 ---
 
-## 4. Enkripsi LUKS
+## 4. Membuat Enkripsi LUKS
 
 ```bash
 cryptsetup luksFormat –sector-size=4096 /dev/p.root
@@ -91,13 +91,13 @@ Masukkan password
 pvcreate /dev/mapper/name
 ```
 
-### Volume Group
+### Membuat Volume Group
 
 ```bash
 vgcreate nama /dev/mapper/nama
 ```
 
-### Logical Volume
+### Membuat Logical Volume
 
 ```bash
 lvcreate -L MG nama -n root
@@ -139,7 +139,7 @@ lsblk
 
 ---
 
-## 6. Format Filesystem
+## 6. Membuat Format Filesystem
 
 ```bash
 mkfs.ext4 /dev/nama/root
@@ -180,7 +180,7 @@ lsblk
 
 ---
 
-## 7. Mount
+## 7. Melakukan Mount
 
 ```bash
 mount /dev/nama/root /mnt
@@ -223,7 +223,7 @@ lsblk
 
 ---
 
-## 8. Install Base System
+## 8. Menginstall Base System
 
 ```bash
 pacstrap /mnt intel-ucode linux-hardened linux-hardened-headers linux-firmware mkinitcpio lvm2 base sudo curl neovim iwd firewalld pacman which grep podman
@@ -251,7 +251,7 @@ arch-chroot /mnt
 
 ---
 
-## 9. Hostname dan Timezone
+## 9. Membuat Hostname dan Timezone
 
 ```bash
 nvim /etc/hostname
@@ -277,7 +277,7 @@ hwclock --systohc
 
 ---
 
-## 10. Locale
+## 10. Mengedit Locale
 
 Edit:
 
@@ -337,7 +337,7 @@ echo "user ALL=(ALL:ALL) ALL" > /etc/sudoers.d/user
 
 ---
 
-## 12. Kernel Command Line
+## 12. Membuat Kernel Command Line
 
 ```bash
 mkdir /etc/cmdline.d
@@ -395,7 +395,7 @@ mv /boot/intel-ucode.img /boot/vmlinuz-linux-* /boot/kernel/
 
 ---
 
-## 13. MKINITCPIO
+## 13. Mengedit MKINITCPIO
 
 
 ```bash
@@ -417,7 +417,7 @@ HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-vconsole block 
 
 ---
 
-## 14. Preset Linux Hardened
+## 14. Menginstal Preset Linux Hardened
 
 Edit:
 
@@ -450,7 +450,7 @@ default_uki="/boot/efi/linux/arch-linux-hardened.efi"
 
 ---
 
-## 15. Console dan Bootloader
+## 15. Menginstal Console dan Bootloader
 
 ```bash
 touch /etc/vconsole.conf
@@ -468,7 +468,7 @@ mkinitcpio -P
 
 ---
 
-## 16. Enable Services
+## 16. Melakukan Enable Services
 
 ```bash
 systemctl enable systemd-networkd
@@ -500,7 +500,7 @@ bootctl --path=/mnt/boot install
 
 ---
 
-## 17. Umount
+## 17. Melakukan Umount
 
 Unmount:
 
