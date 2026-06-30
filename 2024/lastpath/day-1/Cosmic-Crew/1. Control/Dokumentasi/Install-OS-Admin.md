@@ -450,9 +450,9 @@ lspci
 ```
 >Untuk melihat jenis hardware yang digunakan
 
-AMD
+Intel
 ```
-pacstrap /mnt amd-ucode base pacman sudo linux-lts linux-lts-headers lvm2 mkinitcpio linux-firmware-intel podman neovim git networkmanager asciinema linux-firmware-realtek firewalld
+pacstrap /mnt intel-ucode base pacman sudo linux-lts linux-lts-headers lvm2 mkinitcpio linux-firmware-intel podman neovim git networkmanager asciinema linux-firmware-realtek firewalld podman
 ```
 Menginstal sistem operasi beserta paket penting seperti kernel, firmware, NetworkManager, Podman, Git, Neovim, Firewalld, dan lain-lain.
 
