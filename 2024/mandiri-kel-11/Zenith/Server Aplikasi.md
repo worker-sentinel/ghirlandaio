@@ -43,7 +43,7 @@ sudo pacman -S podman-compose
 Buat direktori konfigurasi container.
 
 ```bash
-mkdir -p ~/.config/containers
+mkdir -p /.config/containers
 ```
 
 Periksa direktori yang tersedia.
@@ -55,7 +55,7 @@ ls -la
 Masuk ke direktori konfigurasi container.
 
 ```bash
-cd ~/.config/containers/
+cd /.config/containers/
 ```
 
 ---
@@ -155,7 +155,7 @@ sudo sysctl --system
 Buka konfigurasi penyimpanan Podman.
 
 ```bash
-nvim ~/.config/containers/storage.conf
+nvim /.config/containers/storage.conf
 ```
 
 ---

@@ -1,5 +1,7 @@
 # Set Access Point
 
+## server
+
 ```
 cd /var/lib/iwd
 ```
@@ -21,9 +23,11 @@ isi [untuk address hanya contoh]
 ```
 [General]
 Enable=true
+
 SSID=[terserah]
 [Security]
 Passphrase=[terserah]
+
 [IPv4]
 Address=17.17.17.17[hanya contoh]
 Netmask=255.255.255.0
@@ -42,9 +46,23 @@ ubah mode station menjadi ap
 device wlan0 set-property Mode ap
 ```
 
+
+
 start ap dengan nama file .ap yang sebelumnya telah dibuat
 ```
 ap wlan0 start-profile [terserah]
 ```
 
 cek di wifi di device client apakah hotspot telah muncul.
+
+## client
+
+sambungkan koneksi wifi ap dari server ke client
+```
+iwctl
+```
+
+```
+nvim /etc/hosts
+```
+> masukan ip server dan nama wifi

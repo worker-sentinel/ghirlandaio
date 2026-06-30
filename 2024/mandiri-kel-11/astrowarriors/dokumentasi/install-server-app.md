@@ -38,7 +38,7 @@ cfdisk /dev/partisi [sda/nvme0n1p1]
 ```
 Minimal partisi
 ```
-boot = 3G [EFI system}
+boot = 3G [EFI System}
 root = 70G [Linux filesystem]
 ```
 
