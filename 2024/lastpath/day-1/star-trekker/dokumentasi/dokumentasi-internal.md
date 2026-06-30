@@ -149,8 +149,9 @@ mkfs.ext4 /dev/[nama grup]/vaud
 mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/[nama grup]/vaud /mnt/var/log/audit
 ```
 >  membuat mounting untuk partisi audit,  nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut,  noexec untuk tidak dapat menjalankan semua binary di partisi tersebut
-```
+
 ## podman
+```
 lvcreate -L 10G [nama grup] -n podman
 ```
 > membuat  logical volume dan memberikan size pada podman
@@ -162,8 +163,9 @@ mkfs.ext4 /dev/[nama grup]/podman
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/[nama grup]/podman /mnt/var/lib/containers
 ```
 > membuat mounting podman, nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut, relatime untuk menghemat dan mempercepat kinerja hard disk
-```
+
 ## home 
+```
 lvcreate -l70%FREE [nama grup] -n home
 ```
 > membuat  logical volume dan memberikan size pada home
@@ -213,6 +215,7 @@ ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 hwclock --systohc
 ```
 > untuk generate waktu
+```
 nvim /etc/locale.gen
 ```
 > nvim untuk menjalankan program neovim
@@ -231,6 +234,7 @@ nvim /etc/locale.conf
 ```
 di line paling atas ganti 'C' menjadi en_US di line paling bawah tambahkan en_US.UTF-8
 # User
+```
 useradd -m 'nama_user'
 ```
 > membuat user (-m artinya untuk membuat folder otomatis untuk user)
@@ -241,9 +245,10 @@ passwd 'nama_user'
 ```
 echo "nama_user ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/nama_user
 ```
->
-```
+> untuk memberikan akses sudo kepada user yang dituju
+
 # Kernel Parameter
+```
 mkdir /etc/cmdline.d
 ```
 > membuat folder
@@ -259,7 +264,6 @@ echo "rd.luks.name=$(blkid -s UUID -o value /dev/[partisi_luks])=creamy root=/de
 echo "rw" > /etc/cmdline.d/02-rw.conf
 ```
 > untuk menambahkan "rw" di file rw.conf
-
 ```
 nvim /etc/mkinitcpio.conf
 ```
@@ -270,6 +274,7 @@ nvim /etc/mkinitcpio.conf
 nvim /etc/mkinitcpio.d/linux-lts.preset
 ```
 >  nvim untuk menjalankan program neovim, /etc/mkinitcpio.d/ adalah folder tempat menyimpan profile konfigurasi untuk alat bernama mkinitcpio
+```
 > sesuaikan
 
 ```
@@ -292,10 +297,12 @@ systemctl enable systemd-networkd.socket
 systemctl enable systemd-resolved
 ```
 > untuk mengaktifkan aplikasi yang dituju
-```
+
 # finish installation
 ```
 exit
+```
+> untuk keluar
 ```
 umount -R /mnt
 ```
@@ -304,11 +311,11 @@ umount -R /mnt
 reboot
 ```
 > menyalakan ulang
-```
 
 # after installation
 
 ## network
+```
 nvim /etc/iwd/main.conf
 ```
 >  nvim untuk menjalankan program neovim
@@ -317,9 +324,12 @@ nvim /etc/iwd/main.conf
 ```
 [General]
 EnableNetworkConfiguration=true
-```
+
 ## disable module
+```
 nvim /etc/modprobe.d/hardening.conf
+```
+> isi
 ```
 install    cramfs           /bin/false
 
@@ -357,6 +367,7 @@ lsmod | grep namamodule
 ```
 > mencamtukan modul yang dicari
 ## setup firewalld
+```
 systemctl enable --now firewalld
 ```
 sudo firewall-cmd --zone=public --add-service=http --permanent 
