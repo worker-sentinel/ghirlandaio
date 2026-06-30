@@ -1,5 +1,11 @@
 # Dokumentasi Instalasi OS
-
+**Kelompok 11 Pluto Pioneer**
+1. Silvi Nur Aini
+2. Salfa Firyal Hasanah
+3. Fatma Ramadhani
+4. Aditya Pangruwating Dhiyu
+5. Fauzan Azhiimi
+6. Ahmad Hafiz Baihaqi
 ## Persiapan
 
 ### 1. Merekam proses instalasi (opsional)
