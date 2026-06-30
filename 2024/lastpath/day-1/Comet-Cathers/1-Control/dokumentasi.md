@@ -83,6 +83,11 @@ pacstrap /mnt amd-ucode linux-lts linux-lts-headers linux-hardened linux-hardene
 ```
 
 ### Fungsi 
+amd-ucode untuk memasang microcode untuk prosesor AMD agar prosesor bekerja lebih stabil, aman, dan memperbaiki bug yang ada.
+linux-lts-headers untuk memasang file header untuk kernel LTS, biasanya diperlukan saat memasang driver atau modul tambahan.
+linux-hardened-headers untuk memasang file header untuk kernel Hardened agar driver atau modul tambahan bisa digunakan.
+linux-firmware untuk memasang firmware untuk berbagai perangkat keras seperti Wi-Fi, Bluetooth, VGA, dan perangkat lainnya agar dapat berfungsi dengan baik.
+lvm2 untuk menginstall Logical Volume Manager (LVM) yang digunakan untuk membuat dan mengelola partisi seperti root, home, var, dan lainnya.
 
 ## After install
 ```
