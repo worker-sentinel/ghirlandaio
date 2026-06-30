@@ -297,6 +297,11 @@ nvim /etc/pam.d/system-login
 
 ```
 ## Masuk Mode Root
+### install dekstop environment 
+
+```bash
+pacman -S plasma sddm pavucontrol wereclumber firefox kitty 
+```
 > description : 
 Beralih ke identitas superuser (root) sepenuhnya.
 
@@ -337,6 +342,7 @@ systemctl enable systemd-networkd
 systemctl enable iwd
 systemctl enable firewalld
 systemctl enable sshd
+sysytemctl enable sddm 
 exit
 
 ```
