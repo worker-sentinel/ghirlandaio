@@ -165,6 +165,10 @@ systemctl enable firewalld
 systemctl enable sshd
 
 exit
+
+umount -R
+
+reebot
 ```
 
 ### Khusus untuk Lenovo
