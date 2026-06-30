@@ -59,6 +59,7 @@ vgcreate [nama grup] /dev/mapper/[nama partisi]
 > membuat volume grup
 #  SETUP LVM
 ##  root
+```
 lvcreate -L 15G [nama grup] -n root
 ```
 > membuat logical volume dan memberikan size pada root
@@ -70,17 +71,17 @@ mkfs.ext4 /dev/[nama grup]/root
 mount /dev/pudding/root /mnt
 ```
 > membuat mounting untuk partisi mnt
-```
 ## boot
+```
 mkfs.vfat -F32 -n BOOT /dev/partisi_boot
 ```
 > membuat format 
 ```
-> mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/partisi_boot /mnt/boot
+mount --mkdir -o uid=0,gid=0 /dev/partisi_boot /mnt/boot
 ```
-> membuat mounting partisi boot
-```
+> membuat folder sekaligus mounting untuk partisi boot
 ## vars
+```
 lvcreate -L 15G [nama grup] -n vars
 ```
 > membuat logical volume dan memberikan size pada vars
@@ -91,9 +92,10 @@ mkfs.ext4 /dev/[nama grup]/vars
 ```
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/[nama grup]/vars /mnt/var
 ```
->  membuat mounting var, nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut,
-```
+>  membuat folder sekaligus mounting untuk partisi var, nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut,
+
 ## tmp 
+```
 lvcreate -L 2G [nama grup] -n tmp
 ```
 > membuat logical volume dan memberikan size pada tmp
@@ -105,8 +107,9 @@ mkfs.ext4 /dev/[nama grup]/tmp
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/[nama grup]/tmp /mnt/tmp
 ```
 >  membuat mounting tmp, nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut,
-```
+
 ## vtemp
+```
 lvcreate -L 1G [nama grup] -n vtemp
 ```
 > membuat logical volume dan memberikan size pada vtemp
@@ -119,8 +122,9 @@ mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/[nama grup]/vtemp /mnt/var
 ```
 > membuat mounting untuk partisi var tmp,  nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut,  noexec untuk tidak dapat menjalankan semua binary di partisi tersebut
 
-```
+
 ## vlog
+```
 lvcreate  -L 1G pudding -n vlog
 ```
 > membuat logical volume dan memberikan size pada vlog
@@ -171,32 +175,37 @@ mkfs.ext4 /dev/[nama grup]/home
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/[nama grup]/home /mnt/home
 ```
 > membuat mounting home, nodev untuk tidak mengizinkan device lainnya di partisi tersebut, nosuid untuk tidak dapat mengatur akses suid/sgid dipartisi tersebut, relatime untuk menghemat dan mempercepat kinerja hard disk
-```
+
 # Install Package
+```
 pacstrap /mnt intel-ucode base pacman sudo linux-lts linux-lts-headers lvm2 mkinitcpio linux-firmware-intel docker neovim git iwd asciinema linux-firmware-realtek firewalld
 ```
->
-```
+> install package yang di perlukan untuk os 
+
 # Regist Partisi
+```
 genfstab -U /mnt > /mnt/etc/fstab
 ```
 > mendaftarkan partisi 
 ```
 echo "tmpfs /tmp tmpfs defaults,rw,nosuid,nodev,noexec,relatime,size=1G 0 0" >> /mnt/etc/fstab
 ```
-> 
-```
+> memasukkan  tmpfs /tmp tmpfs defaults,rw,nosuid,nodev,noexec,relatime,size=1G 0 0 ke dalam folder /mnt/etc/fstab
+
 # Chroot
+```
 arch-chroot /mnt
 ```
-> masuk ke arch-chroot
-```
+> masuk supaya tidak perlu menggunakan /mnt di sertiap mau masuk ke dalam suatu folder
+
 # Buat Hostname
+```
 echo "hostnameanda" > /etc/hostname
 ```
 > untuk membuat hostname
-```
+
 # time 
+```
 ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 ```
 > data yang ada di /usr/share/zoneinfo/asia/jakarta di simlink ke /etc/localtime
@@ -214,17 +223,17 @@ locale-gen
 ```
 locale > /etc/locale.conf
 ```
-> untuk memasukkan data ke /etc/locale.conf
+> untuk memasukkan data locale ke /etc/locale.conf
 ```
 nvim /etc/locale.conf
 ```
-> edit file directory
+> edit file directory (di kasus ini edit file locale.conf)
 ```
 di line paling atas ganti 'C' menjadi en_US di line paling bawah tambahkan en_US.UTF-8
 # User
 useradd -m 'nama_user'
 ```
-> membuat user
+> membuat user (-m artinya untuk membuat folder otomatis untuk user)
 ```
 passwd 'nama_user'
 ```
@@ -239,62 +248,26 @@ mkdir /etc/cmdline.d
 ```
 > membuat folder
 ```
-touch /etc/cmdline.d/{01-boot.conf,06-misc.conf}
+touch /etc/cmdline.d/{01-boot.conf,02-rw.conf}
 ```
 > membuat file 
 ```
 echo "rd.luks.name=$(blkid -s UUID -o value /dev/[partisi_luks])=creamy root=/dev/[nama grup]/root" > /etc/cmdline.d/01-boot.conf
 ```
-> 
+> untuk mendeklareasikan uuid partisi luks dan partisi root
 ```
-echo "rw" > /etc/cmdline.d/06-misc.conf
+echo "rw" > /etc/cmdline.d/02-rw.conf
 ```
-> 
+> untuk menambahkan "rw" di file rw.conf
+
 ```
-# Mkinitcpio 
-cd /boot
+nvim /etc/mkinitcpio.conf
 ```
-> masuk ke partisi boot
-```
-mkdir kernel efi
-```
-> membuat folder kernel efi
-```
-cd efi
-```
-> masuk ke efi
-```
-mkdir linux
-```
-> membuat folder linux
-```
-cd ...
-```
-> buat balik ke folder sebelumnya 
-```
-mv vmlinuz-* intel-* kernel
-```
-> mv untuk memindahkan file atau folder ke directory lain
-```
->[!NOTE]
-> '*' (artinya klik tab)
-```
-rm -fr initramfs-*
-```
->[!NOTE]
-> '*' (artinya klik tab)
-```
-mv /etc/mkinitcpio.conf /etc/mkinitcpio.d/default.conf
-```
-> mv untuk memindahkan file atau folder ke directory lain,/etc/mkinitcpio.conf artinya file konfigurasi utama, /etc/mkinitcpio.d/ adalah folder tempat menyimpan profile konfigurasi untuk alat bernama mkinitcpio, default.conf adalah file yang berisi instruksi bagaimana kernel utama harus dibuat. 
-```
-nvim /etc/mkinitcpio.d/default.conf
-```
-> nvim untuk menjalankan program neovim, /etc/mkinitcpio.d/ adalah folder tempat menyimpan profile konfigurasi untuk alat bernama mkinitcpio, default.conf adalah file yang berisi instruksi bagaimana kernel utama harus dibuat 
+> nvim untuk menjalankan program neovim, /etc/mkinitcpio.confadalah folder tempat menyimpan profile konfigurasi untuk alat bernama mkinitcpio, default.conf adalah file yang berisi instruksi bagaimana kernel utama harus dibuat 
 ```
 > tambahkan lvm2 dan sd-encrypt setelah sd-vcondole di hooks paling bawah
 ```
-nvim /etc/mkinitcpio.d/linuxx-lts-preset
+nvim /etc/mkinitcpio.d/linux-lts.preset
 ```
 >  nvim untuk menjalankan program neovim, /etc/mkinitcpio.d/ adalah folder tempat menyimpan profile konfigurasi untuk alat bernama mkinitcpio
 > sesuaikan
