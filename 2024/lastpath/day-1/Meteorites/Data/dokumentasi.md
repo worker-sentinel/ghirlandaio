@@ -52,3 +52,23 @@ mkfs.vfat -F32 /dev/[nama grup]
 **Pejelasan:** menformat partisi boot kita setelah kita menformat partisi
 ---
 ## 7. Membuat mounting
+```
+mount /dev/internal/root /mnt
+mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/(partisi_boot) /mnt/boot
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/internal/vars /mnt/var
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/internal/vtmp /mnt/var/tmp
+mount --mkdir -o rw,nosuid,noexec,relatime /dev/internal/vlog /mnt/var/log
+mount --mkdir -o rw,nosuid,noexec,relatime /dev/internal/vaud /mnt/var/log/audit
+mount --mkdir -o rw,nosuid,relatime /dev/internal/home /mnt/home
+mount --mkdir -o rw,nosuid,noexec,relatime /dev/internal/podman /mnt/var/lib/containers
+```
+**Penjelasan:** untuk mounting partisi root 
+---
+## 7. Membuat Luks Format
+```
+cruptsetup luksFormat /dev/[nama grup]/[nama home internal]
+```
+**Penjelasan;** Menformat nama grup yang menjadi partisi kita menjadi home internal
+--
+## 8. install package
+```
