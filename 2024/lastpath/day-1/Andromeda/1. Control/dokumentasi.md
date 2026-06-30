@@ -113,7 +113,7 @@ cryptsetup luksFormat /dev/proc/andromeda
 
 ## Instal package
 ```
-pacstrap /mnt intel-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount
+pacstrap /mnt amd-ucode linux-lts linux-lts-headers linux-firmware lvm2 base base-devel neovim openssh superfile podman podman-desktop iptables mpd mpc mpv keepassxc secrets booster networkmanager pam_mount
 ```
 ## Generate fstab
 ```
@@ -128,7 +128,7 @@ echo "tmpfs /tmp tmpfs defaults,nosuid,noexec,size=1G 0 0" >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
 ```
-echo admin2 > /etc/hostname
+echo [nama hostname] > /etc/hostname
 ```
  
 ## Sinkronisasi Waktu
@@ -171,7 +171,7 @@ isi ALL=en_US.UTF-8
 ```
 
 ```
-cryptsetup luksOpen /dev/proc/andromeda andromeda
+cryptsetup luksOpen /dev/nvmen1p8 andromeda
 ```
 ```
 mkfs.ext4 /dev/mapper/andromeda
