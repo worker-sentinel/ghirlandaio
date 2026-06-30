@@ -21,7 +21,7 @@ Perintah
 digunakan untuk mengubah nama host secara permanen. 
 
 Fungsinya untuk  Memberikan identitas server sesuai dengan pembagian region.
----
+
 
 ## 3. Memastikan Hostname Sudah Berubah
 
@@ -50,10 +50,10 @@ sudo pacman -Syu
 Perintah `pacman` merupakan package manager bawaan Arch Linux yang digunakan untuk mengelola paket perangkat lunak.
 
 Fungsinya untuk Memperbarui sistem ke versi terbaru dan Memperbaiki bug.
----
 
 
-## 6. Aktifkan SSH
+
+## 5. Aktifkan SSH
 
 ```
 sudo systemctl enable sshd
@@ -69,7 +69,7 @@ digunakan untuk langsung menjalankan layanan SSH tanpa perlu me-restart komputer
 
 ---
 
-## 7. Cek status SSH
+## 6. Cek status SSH
 
 ```
 systemctl status sshd
@@ -92,7 +92,7 @@ berarti layanan SSH telah aktif dan siap menerima koneksi dari perangkat lain.
 
 ---
 
-## 8. Cek user
+## 7. Cek user
 
 ```
 whoami
@@ -101,7 +101,7 @@ Perintah `whoami` digunakan untuk menampilkan nama pengguna (user) yang sedang a
 
 ---
 
-## 9. Cek kernel
+## 8. Cek kernel
 
 ```
 uname -r
@@ -110,7 +110,7 @@ Perintah `uname -r` digunakan untuk menampilkan versi kernel Linux yang sedang d
 
 ---
 
-## 10. Cek distro
+## 9. Cek distro
 
 ```
 cat /etc/os-release

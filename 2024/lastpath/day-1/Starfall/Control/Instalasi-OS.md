@@ -20,18 +20,18 @@ cryptsetup luksOpen /dev/[partisi root] [nama]
 
 ### 3. Buat LVM
 
-Buat physical volume 
+#### Buat physical volume 
 ```bash
 pvcreate /dev/mapper/[nama]
 ```
 
-Buat volume grup lalu verifikasi apakah vg sudah muncul
+#### Buat volume grup lalu verifikasi apakah vg sudah muncul
 ```bash
 vgcreate [namavg] /dev/mapper/[nama]
 vgs
 ```
 
-Buat Logical Volume untuk root, vars, vlog, vaud, vtmp, home, dan podman 
+#### Buat Logical Volume untuk root, vars, vlog, vaud, vtmp, home, dan podman 
 
 ```bash
 lvcreate -L 10G fall -n root  
@@ -50,7 +50,7 @@ Format BOOT
 mkfs.vfat -F32 -n BOOT /dev/[partisiboot]
 ```
 
-Format sisa logical volume
+#### Format sisa logical volume
 ```bash
 mkfs.ext4 /dev/fall/root
 mkfs.ext4 /dev/fall/vars
@@ -111,55 +111,55 @@ Masuk ke dalam root
 arch-chroot /mnt                                                                                                                                      
 ```
 
-Set localtime
+#### Set localtime
 ```bash
 ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime     
 ```
 
-Set jam 
+#### Set jam 
 ```bash
 hwclock --systohc
 ```
 
-Konfigurasi
+#### Konfigurasi
 ```bash
 nvim /etc/locale.gen   
 ``` 
 
 Cari `en_US` dan hapus tanda tagar di depan keduanya. Setelah itu keluar `esc` + `:wq`
 
-Generate locale
+#### Generate locale
 ```bash
 locale-gen
 ```
 
-Masukkan locale ke dalam konfigurasi
+#### Masukkan locale ke dalam konfigurasi
 ```bash
 locale > /etc/locale.conf
 ```
 
-Masuk ke dalam /etc/locale.conf
+#### Masuk ke dalam /etc/locale.conf
 ```bash
 nvim /etc/locale.conf
 ```
 
-Ubah sehingga menjadi seperti berikut : 
+#### Ubah sehingga menjadi seperti berikut : 
 ```bash 
 LANG=en_US.UTF-8                                                                                                                                                          LC_CTYPE="C.UTF-8"                                                                                                                                                        LC_NUMERIC="C.UTF-8"                                                                                                                                                      LC_TIME="C.UTF-8"                                                                                                                                                         LC_COLLATE="C.UTF-8"                                                                                                                                                      LC_MONETARY="C.UTF-8"                                                                                                                                                     LC_MESSAGES=                                                                                                                                                              LC_PAPER="C.UTF-8"                                                                                                                                                        LC_NAME="C.UTF-8"                                                                                                                                                         LC_ADDRESS="C.UTF-8"                                                                                                                                                      LC_TELEPHONE="C.UTF-8"                                                                                                                                                    LC_MEASUREMENT="C.UTF-8"                                                                                                                                                  LC_IDENTIFICATION="C.UTF-8"                                                                                                                                               LC_ALL=en_US.UTF-8     
 ```
 
-Menambahkan User dan password
+#### Menambahkan User dan password
 ```bash
 useradd -m starfall
 passwd starfall
 ```
 
-Memberi hak akses ke user sehingga user bisa melakukan sudo su
+#### Memberi hak akses ke user sehingga user bisa melakukan sudo su
 ```bash
 echo "starfall ALL=(ALL:ALL) ALL" > /etc/sudoers.d/starfall
 ```
 
-Buat file directory 
+#### Buat file directory 
 ```bash
 mkdir /etc/cmdline.d   
 ```
@@ -179,55 +179,53 @@ Masukkan file ke conf
 echo "rw" > etc/cmdline.d/02-misc.conf
 ```
 
-Konfigurasi
+#### Konfigurasi
 ```bash
 nvim /etc/mkinitcpio.conf
 ```
 
-Cari hooks yang tidak ada tagarnya lalu tambahkan `sd-encrypt lvm2`. Sehingga menjadi: 
+#### Cari hooks yang tidak ada tagarnya lalu tambahkan `sd-encrypt lvm2`. Sehingga menjadi: 
 ```bash
 HOOKS=(base systemd autodetect microcode modconf kms keyboard sd-encrypt lvm2 sd-vconsole block filesystems fsck) 
 ```
 
-prepare boot
+#### prepare boot
 ```bash
 nvim /etc/mkinitcpio.d/linux-lts.preset
 ```
 
-Install Desktop
+#### Install Desktop
 ```bash
 pacman -S xfce4 sddm pipewire pipewire-pulse pipewire-jack networkmanager network-manager-applet firefox
 ```
 
-Install bootloader
-
+#### Install bootloader
 systemd-boot adalah bootloader ringan yang sudah built-in di systemd:
  ```bash
 bootctl --path=/boot install
 ```
 Enable services
 
-manajemen jaringan
+#### manajemen jaringan
 ```bash
 systemctl enable systemd-networkd 
 ```  
-manajemen DNS
+#### manajemen DNS
 ```bash
 systemctl enable systemd-resolved 
 ```
 
-WiFi daemon
+#### WiFi daemon
 ```bash
 systemctl enable iwd       
 ```
          
-enable firewall
+#### enable firewall
 ```bash
 systemctl enable firewalld         
 ```
 
-Selesai Instalasi OS
-
+#### Selesai Instalasi OS
 ```bash
 exit
 umount -R /mnt
