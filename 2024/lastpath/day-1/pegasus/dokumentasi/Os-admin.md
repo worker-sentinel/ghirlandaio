@@ -1,5 +1,5 @@
 
-# Install Arch Linux LTS + LUKS + LVM (Amanda Blackbird)
+
 
 ## 1. Rekam Instalasi (Opsional)
 
