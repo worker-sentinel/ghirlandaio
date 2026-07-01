@@ -7,12 +7,12 @@ pacman -Q curl
 ```
 curl -sfl https://get.k3s.io | sh -
 ```
-```
--s = silent, tidak tampilkan progress bar
--f = fail silently jika server error, biar script rusak tidak dieksekusi
--L = follow redirect (WAJIB, karena get.k3s.io redirect ke script asli)
-Hasil download langsung dieksekusi via "sh -"
-```
+
+>* -s = silent, tidak tampilkan progress bar
+>* -f = fail silently jika server error, biar script rusak tidak dieksekusi
+>* -L = follow redirect (WAJIB, karena get.k3s.io redirect ke script asli)
+>* Hasil download langsung dieksekusi via "sh -"
+
 ## Lalu kita cek kodenya
 ```
 sudo cat /var/lib/rancher/k3s/server/node-token
