@@ -76,7 +76,7 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
     
   ![alt text](Aset/aeroflash.png)
   
- - setelah itu cek pada bagian paling atas, apakah sudah ada device yang terscan
+- setelah itu cek pada bagian paling atas, apakah sudah ada device yang terscan
 
 - kemudian jika sudah ada, klik spasi
 
@@ -97,7 +97,7 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
 
 - sambungkan wifi pada android os tv
 
-- maka sudah berhasil menginstall android pada set top box
+- maka kita sudah berhasil menginstall android pada set top box
 
 - lalu keluarkan microsd dari set top box
 
@@ -109,14 +109,14 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
 - langkah pertama yakni keluarkan sdcard dari stb
 - masukan kembali ke cardreader
 - buka aplikasi rufus
-- lalu rufus seperti biasa dengan cara memilih ISO Armbian_5.91_Aml-s905_Debian_buster_default5.1.0, jika sudah klik start dan tunggu hingga selesai
+- lalu rufus seperti biasa pilih ISO Armbian_5.91_Aml-s905_Debian_buster_default5.1.0, jika sudah klik start dan tunggu hingga selesai
 
 
     ![alt text](Aset/rufus.png)
 
 - jika sudah selesai klik close
 - buka microsd di file manager
-- dan pindahkan file uboot_HG680P.bin pindahkan ke sdcard dan renameuntuk memudahkan kita menjadi bootloader.bin
+- dan pindahkan file uboot_HG680P.bin pindahkan ke sdcard dan rename untuk memudahkan kita menjadi bootloader.bin
 
 - kemudian buka folder extlinux
 
@@ -151,10 +151,6 @@ LABEL Armbian
   FDT /dtb/meson-gxl-s905x-p212.dtb
   APPEND root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 
 ```
-
-
-
-
 
 
 - setelah itu kita save
