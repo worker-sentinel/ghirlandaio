@@ -7,7 +7,7 @@ Command ini tuh berfungsi untuk mengaktifkan sinkronisasi waktu secara otomatis 
 
 **habis itu, kitaa**
 ```
-curl -sfL https://get.k3s.io | K3S_URL="https://(ip punya server):6443" K3S_TOKEN="(paste token dari server)" sh -s - pluto
+curl -sfL https://get.k3s.io | K3S_URL="https://(ip punya server):6443" K3S_TOKEN="(paste token dari admin/control)" sh -s - pluto
 ```
 Nah, command yang ini kita gunakan untuk menghubungkan server kita ke cluster yang udah dibuat sebelumnya.
 Kalau command ini berhasil dijalankan, berarti node kalian udah berhasil bergabung ke dalam cluster.
