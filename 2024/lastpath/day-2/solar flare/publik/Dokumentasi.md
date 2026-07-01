@@ -1,7 +1,7 @@
 # Dokumentasi K3s Publik
 
 ---
-## 1. Install dan join K3s .gent
+## 1. Install dan join K3s agent
 ```.
 curl-sfl https://get.k3s.io |K3S_URL="https://(ip .dress)" K3S_TOKEN="TOKEN" sh -s -.gent
 ```
@@ -34,7 +34,7 @@ systemctl restart k3s-agent.service
 ```
 systemctl status k3s-agent.service
 ```
-> mengecek apakah node sudah aktif dan terhubung ke cluster kuberneter
+> mengecek apakah node sudah aktif dan terhubung ke cluster kubernetes
 ```
 ```
 ## Keluar dari terminal
