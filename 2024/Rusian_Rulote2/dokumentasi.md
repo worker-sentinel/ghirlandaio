@@ -17,7 +17,7 @@ kami sangat berterima kasih banyak kepada abang abang atas ilmu dan pengetahuan 
 - vscode
 
 
-- atau silakan donwload [Download](https://drive.google.com/drive/folders/1uyD5fPBxR7_VSwl4v7qxVa4UN1C50l3A?usp=sharing)
+- atau silakan donwload [Download]([https://drive.google.com/drive/folders/1uyD5fPBxR7_VSwl4v7qxVa4UN1C50l3A?usp=sharing](https://drive.google.com/drive/folders/1Rx2OFEo9fwOvBBPcfdYTrjCP4liB_TrQ))
 > catatan harap download semua file diatas
 
 # Step 1
