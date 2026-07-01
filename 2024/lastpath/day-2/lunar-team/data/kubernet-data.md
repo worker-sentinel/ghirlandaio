@@ -1,4 +1,5 @@
 # Dokumentasi Join K3s Agent — kubernet data
+(Join node ke cluster k3s)
 
 ## 1. Install & Join K3s Agent ke Server
 ```
