@@ -107,13 +107,13 @@ Keluar dari Root dan mengakhiri sesi SSH di server ``` .23 ```.
 
 ## 4. Pengecekan Node dari Master Server
 
-Sekarang kamu kembali di Master Server (atau komputer lokal yang memiliki akses kubectl).
+Sekarang kembali di Master Server (atau komputer lokal yang memiliki akses kubectl).
 
 ```
 kubectl get nodes
 ```
 
-Menampilkan daftar semua node (baik master maupun worker) yang terhubung di dalam cluster Kubernetes. Di tahap ini, kamu memastikan apakah node ``` 192.168.1.23 ``` tadi sudah berstatus ``` Ready ``.
+Menampilkan daftar semua node (baik master maupun worker) yang terhubung di dalam cluster Kubernetes. Di tahap ini, memastikan apakah node ``` 192.168.1.23 ``` tadi sudah berstatus ``` Ready ``.
 
 ## 5. Investigasi Konfigurasi Internal K3s
 
@@ -121,7 +121,7 @@ Kembali masuk ke server ``` .23 ``` karena mendeteksi sesuatu atau ingin memerik
 
 
 ```
-ssh kel10@192.168.1.23
+ssh cos@192.168.1.23
 ```
 
 Melakukan remote akses menggunakan SSH ke server dengan IP ``` 192.168.1.23 ``` menggunakan username ``` cos ```
@@ -139,12 +139,6 @@ sudo su
 Mengubah hak akses dari user biasa ``` cos ``` menjadi Root / Superuser karena konfigurasi sistem memerlukan hak akses tertinggi.
 
 ``` masukkan password ``` input manual
-
-```
-cat /var/lib/
-```
-
-Perintah ini sebenarnya belum selesai/salah ketik. ``` cat ``` digunakan untuk melihat isi file, sedangkan ``` /var/lib/ ``` adalah sebuah direktori (folder).
 
 ```
 cat /var/lib/rancher/k3s/agent/etc/k3s-agent-load-balancer.json
