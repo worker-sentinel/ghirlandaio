@@ -1,4 +1,4 @@
-# Genrate Token Kubernetes
+# Generate Token Kubernetes
 
 # Root Accsess
 ```
