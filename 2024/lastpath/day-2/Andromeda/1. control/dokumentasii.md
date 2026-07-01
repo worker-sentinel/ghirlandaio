@@ -5,5 +5,6 @@ konek satu jaringan yang sama
 ssh [nama root]@ip a
 ```
 
-
+Instal Kubernet
+```
 
