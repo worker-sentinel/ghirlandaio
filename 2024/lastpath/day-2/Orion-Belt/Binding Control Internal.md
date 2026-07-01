@@ -40,6 +40,7 @@ Perintah utama ini digunakan untuk menginstal K3s Agent sekaligus menghubungkann
 
 Setelah itu tunggu hingga berhasil.
 
+```
 curl -sfL https://get.k3s.io | sudo sh -s - agent --server https://[ip data]:6443 --token [Token]
 ```
 Perintah utama ini digunakan untuk menginstal K3s Agent sekaligus menghubungkannya ke pusat. 
