@@ -26,7 +26,7 @@ meminta adapter Wi-Fi wlan0 mencari jaringan Wi-Fi di sekitar
 station wlan0 connect (nama wifi)
 ```
 ```
-station wlan0 connect "wifi sekolah"
+station wlan0 connect allysa
 ```
 jika nama wifi lebih dari 1 kata. gunakan tanda "..."
 ```
@@ -44,8 +44,8 @@ cfdiks /dev/nvme0n1p
 
 ## Jumlah partisi
 ```
-boot = 3g [efi system] nvme0n1p7
-root = 75.1g [linux filesystem] nvme0n1p8
+boot = 4g [efi system] nvme0n1p5
+root = 75.2g [linux filesystem] nvme0n1p6
 ```
 
 ## Cek kembali partisi
@@ -55,10 +55,10 @@ lsblk
 
 ## Setup lvm
 ```
-pvcreate /dev/mapper/sayyida
+pvcreate /dev/mapper/dumbo
 ```
 ```
-vgcreate proc /dev/mapper/nvme0n1p8
+vgcreate dumbo /dev/mapper/nvme0n1p6
 ```
 
 ## Membuat logical volume
@@ -77,7 +77,7 @@ lsblk
 
 ## Format
 ```
-mkfs.vfat -F32 -n boot /dev/nvmeon1p7
+mkfs.vfat -F32 -n boot /dev/nvmeon1p6
 mkfs.ext4 /dev/proc/root
 mkfs.ext4 /dev/proc/vars
 mkfs.ext4 /dev/proc/vlog
@@ -93,7 +93,7 @@ lsblk
 ## Mount
 ```
 mount /dev/proc/root /mnt
-mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/nvme0n1p7 /mnt/boot
+mount --mkdir -o uid=0,gid=0,fmask=0077,dmask=0077 /dev/nvme0n1p6 /mnt/boot
 mount --mkdir -o rw,nodev,nosuid,relatime /dev/proc/vars /mnt/var
 mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vtmp /mnt/var/tmp
 mount --mkdir -o rw,nosuid,noexec,relatime /dev/proc/vlog /mnt/var/log
