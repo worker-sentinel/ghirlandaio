@@ -43,7 +43,7 @@ exit
 Menutup koneksi SSH dan keluar dari server ``` 192.168.1.18 ``` kembali ke komputer lokal/master.
 
 ```
-ip 
+ip a
 ```
 
 Memeriksa IP address pada komputer lokal/master (tempat menjalankan perintah saat ini).
@@ -74,7 +74,7 @@ Mengubah hak akses dari user biasa ``` kel10 ``` menjadi Root / Superuser karena
 curl -sfL https://get.k3s.io | sudo sh -s - agent --server https://192.168.1.17:6443 --token <masukkan_token>
 ```
 
-Mengunduh script instalasi K3s secara otomatis (curl) lalu mengeksekusinya (sh). Perintah ini mendaftarkan server ini sebagai Agent yang berkiblat ke Master Server di IP ``` 192.168.1.17 ``` lewat port ``` 6443 ``` menggunakan token keamanan agar diizinkan bergabung ke cluster.
+Mengunduh script instalasi K3s secara otomatis (curl) lalu mengeksekusinya (sh). Perintah ini mendaftarkan server ini sebagai Agent yang berkiblat ke Master Server di IP ``` 192.168.1.18 ``` lewat port ``` 6443 ``` menggunakan token keamanan agar diizinkan bergabung ke cluster.
 
 ## 3. Manajemen Layanan K3s Agent
 
@@ -113,7 +113,7 @@ Sekarang kamu kembali di Master Server (atau komputer lokal yang memiliki akses 
 kubectl get nodes
 ```
 
-Menampilkan daftar semua node (baik master maupun worker) yang terhubung di dalam cluster Kubernetes. Di tahap ini, kamu memastikan apakah node ``` 192.168.1.18 ``` tadi sudah berstatus ``` Ready ``.
+Menampilkan daftar semua node (baik master maupun worker) yang terhubung di dalam cluster Kubernetes. Di tahap ini, disini memastikan apakah node ``` 192.168.1.18 ``` tadi sudah berstatus ``` Ready ```.
 
 ## 5. Investigasi Konfigurasi Internal K3s
 
@@ -150,7 +150,7 @@ Perintah ini sebenarnya belum selesai/salah ketik. ``` cat ``` digunakan untuk m
 cat /var/lib/rancher/k3s/agent/etc/k3s-agent-load-balancer.json
 ```
 
-Membaca isi file konfigurasi JSON milik load balancer internal K3s Agent. File ini berisi informasi bagaimana agent (worker) tersebut mendistribusikan trafik atau menghubungi master node (server ``` .17 ```).
+Membaca isi file konfigurasi JSON milik load balancer internal K3s Agent. File ini berisi informasi bagaimana agent (worker) tersebut mendistribusikan trafik atau menghubungi master node (server ``` .18 ```).
 
 
 ```
