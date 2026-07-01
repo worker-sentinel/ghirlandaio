@@ -53,7 +53,7 @@ ip a
 ```
 sudo systemctl status firewalld
 ```
-> Untuk memeriksa apakah firewall bawaan Linux (firewalld) sedang aktif atau tidak.
+> Untuk memeriksa apakah firewalld aktif atau tidak.
 
 ## Membuka Port Kubernetes di Firewall
 ```
@@ -62,7 +62,7 @@ sudo firewall-cmd --zone=public --add-port=6443/tcp --permanent
 ```
 sudo firewall-cmd --reload
 ```
-> Untuk mengizinkan lalu lintas data masuk lewat port 6443.
+> Untuk mengizinkan data masuk lewat port 6443.
 
 ## Mengecek Status Node Kubernetes
 ```
