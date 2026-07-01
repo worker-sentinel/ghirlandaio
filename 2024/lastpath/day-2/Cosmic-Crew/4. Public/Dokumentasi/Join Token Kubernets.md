@@ -20,7 +20,7 @@ Memasukkan kata sandi untuk autentikasi user crew secara manual.
 sudo su
 ```
 
-Mengubah hak akses dari user biasa ``` kel10 ``` menjadi Root / Superuser karena konfigurasi sistem memerlukan hak akses tertinggi.
+Mengubah hak akses dari user biasa ``` crew ``` menjadi Root / Superuser karena konfigurasi sistem memerlukan hak akses tertinggi.
 
 ``` masukkan password ``` input manual
 
