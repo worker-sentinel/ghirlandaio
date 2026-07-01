@@ -16,5 +16,4 @@ sudo cat /var/lib/rancher/k3s/server/node-token
 
 ```
 curl -sfl https://get.k3s.io | sudo sh -s - agent --server https://[ip a dari kontrol:6443 --token [kode token::server:kode token servernya]
-```
-## Setelah itu
+
