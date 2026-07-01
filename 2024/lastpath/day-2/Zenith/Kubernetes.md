@@ -1,4 +1,5 @@
 # set up
+
 ## Mengatur waktu
 ```
 sudo timedatectl set-ntp true
