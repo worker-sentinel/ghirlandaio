@@ -5,7 +5,7 @@ konek satu jaringan yang sama
 ssh [nama root]@ip a
 ```
 
-Instal Kubernet
+Instal K3s
 ```
 ip a
 ```
