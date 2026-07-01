@@ -24,7 +24,7 @@ kami sangat berterima kasih banyak kepada abang abang atas ilmu dan pengetahuan 
 - masukan sd card ke cardreader
 ![alt text](Aset/159636.jpg)
 
-![alt text](gasdg/usbcard.jpg)
+![alt text](Aset/usbcard.jpg)
 - setelah itu masukan ke laptop pastikan sdcard terbaca
 kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
 
