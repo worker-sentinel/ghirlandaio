@@ -31,6 +31,8 @@ sudo pacman -S ebtables iptables
 ```
 sudo pacman -S libguestfs
 ```
+# Menjalankan Layanan libvirtd
+Aktifkan libvirtd saat boot
 > mulai layanan KVM libvirt. Setelah instalasi selesai, jalankan dan aktifkan layanan libvirtd agar berjalan saat boot
 ```
 sudo systemctl enable libvirtd.service 
