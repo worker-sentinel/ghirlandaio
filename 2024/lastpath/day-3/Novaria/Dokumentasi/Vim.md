@@ -1,4 +1,4 @@
-## HOW TO INSTALL ATOM
+## HOW TO INSTALL VIM
 
 ```
 sudo pacman -Syy
