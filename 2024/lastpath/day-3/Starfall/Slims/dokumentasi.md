@@ -226,4 +226,6 @@ Buka ip server
 ip a 
 ```
 
-Buka browser lalu ketik `http://ipserver:80` untuk memunculkan tampilam installer slims. Apabila sudah ada, maka containers sudah running 
+Buka browser lalu ketik `http://ipserver:80` untuk memunculkan tampilam installer slims. Apabila sudah ada, maka containers sudah running dan slims sudah tersedia.
+
+<img width="1599" height="999" alt="image" src="https://github.com/user-attachments/assets/10034f65-e577-435a-bcd9-54eca063dc8a" />
