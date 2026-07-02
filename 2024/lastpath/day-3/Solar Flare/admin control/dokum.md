@@ -1,4 +1,4 @@
-# Install Aplikasi (SLiMS)
+# Dokumentasi install aplikasi slims
 
 ## Install Compose
 ```
