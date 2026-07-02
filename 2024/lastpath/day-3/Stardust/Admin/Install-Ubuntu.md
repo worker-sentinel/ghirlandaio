@@ -16,4 +16,5 @@ Masuk ke menu Settings VM, pilih bagian Storage, lalu masukkan file ISO Ubuntu y
 - Klik tombol start (Mulai) untuk menyalakan komputer virtual.
 - Pilih opsi try or install Ubuntu server, lalu ikuti setup di layar (pilih bahasa, isi username, dan password) sampai selesai
 
+## Menginstal ISO Ubuntu
 <img width="1572" height="938" alt="WhatsApp Image 2026-07-02 at 21 40 45" src="https://github.com/user-attachments/assets/76c1e84d-d1fa-4afd-8ee6-d250ed67efb4" />
