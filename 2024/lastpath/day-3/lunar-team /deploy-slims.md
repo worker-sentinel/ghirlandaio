@@ -4,17 +4,17 @@
 ```
 nano /etc/containers/registries.conf
 ```
+yang diedit:
+```
+# # An array of host[:port] registries to try when pulling an unqualified image, in order.             
+# unqualified-search-registries = ["docker.io"]
+``` 
 Membuka file konfigurasi registry containers (CRI-O/Podman) untuk mengatur dari registry mana image container akan ditarik (misalnya menambahkan docker.io sebagai unqualified-search registry). File ini penting di Arch Linux karena container runtime tidak otomatis tahu registry default seperti di Docker.
 
 ## 2. Edit manifest deployment SLiMS
 ```
 nano slims-test.yaml
 ```
-yang diedit:
-```
-# # An array of host[:port] registries to try when pulling an unqualified image, in order.             
-# unqualified-search-registries = ["docker.io"]
-``` 
 Membuka/menulis file manifest Kubernetes slims-test.yaml yang berisi definisi resource: Service dan Pod untuk database (slims-db), serta Deployment dan Service untuk web (slims-web).
 
 ## 3. Apply manifest ke cluster
