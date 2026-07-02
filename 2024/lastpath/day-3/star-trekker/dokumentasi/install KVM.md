@@ -4,10 +4,11 @@
 ```
 sudo pacman -Syy
 
-sudo reboot
 ```
 Reboot sistem
 ```
+sudo reboot
+
 
 sudo pacman -S archlinux-keyring
 ```
