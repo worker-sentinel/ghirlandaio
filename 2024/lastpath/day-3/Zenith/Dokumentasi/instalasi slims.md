@@ -205,3 +205,55 @@ Keluar dari akun root setelah proses instalasi selesai.
 ```bash
 exit
 ```
+
+### Tambahan untuk Laptop server control:
+
+Menampilkan daftar node (server/worker) yang tergabung dalam cluster K3s beserta status, role, umur, dan versinya
+
+
+```bash sudo k3s kubectl get nodes```
+
+
+Menginstal atau menginstal ulang package kubectl menggunakan package manager pacman pada Arch Linux
+
+
+```bash pacman -S kubectl```
+
+
+Menampilkan daftar file dan folder yang ada pada direktori saat ini
+
+
+```bash ls```
+
+
+Membuka atau mengedit file slims-multi-node.yaml menggunakan editor Neovim
+
+
+```bash nvim slims-multi-node.yaml```
+
+
+Menerapkan konfigurasi Kubernetes dari file YAML sehingga resource seperti Pod, Deployment, dan Service dibuat atau diperbarui
+
+
+```bash kubectl apply -f slims-multi-node.yaml```
+
+
+Menampilkan daftar Pod secara lebih lengkap, termasuk status, alamat IP, node tempat Pod berjalan, dan informasi lainnya
+
+
+```bash kubectl get pods -o wide```
+
+
+Menampilkan seluruh Pod yang berada pada namespace data
+
+
+```bash sudo k3s kubectl get pods -n data```
+
+
+Menampilkan seluruh Pod yang berada pada namespace sarsar
+
+```bash sudo k3s kubectl get pods -n sarsar```
+
+Menampilkan kembali daftar seluruh node pada cluster Kubernetes menggunakan kubectl bawaan K3s
+
+```bash sudo k3s kubectl get nodes```
