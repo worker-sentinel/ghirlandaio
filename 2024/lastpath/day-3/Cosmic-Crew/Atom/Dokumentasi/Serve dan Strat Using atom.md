@@ -66,3 +66,16 @@ Mengatur agar server web Nginx otomatis berjalan setiap kali sistem operasi diny
 sudo systemctl reload nginx
 ```
 Memuat ulang konfigurasi Nginx untuk menerapkan pengaturan blok server AtoM yang baru tanpa perlu mematikan koneksi yang sedang berjalan (tanpa downtime).
+
+# Menggunakan atom
+1. Akses Awal Aplikasi
+Langkah: Masukkan URL dasar (alamat IP server atau nama domain yang telah dikonfigurasi) ke dalam peramban web (web browser).
+Detail Login: Gunakan akun administrator yang sama dengan yang telah Anda tentukan saat proses konfigurasi penginstal awal.
+
+2. Tips Tambahan Pasca-Instalasi (Penting)
+Setelah Anda menerapkan semua perubahan konfigurasi di atas, ada langkah opsional namun sangat disarankan agar sistem berjalan normal tanpa kendala cache:
+Membersihkan Cache Aplikasi: Menghapus data sementara (cache) lama agar AtoM memuat konfigurasi terbaru.
+Memulai Ulang PHP-FPM: Menjalankan ulang layanan PHP-FPM untuk memastikan semua arahan (directives) baru di file atom.conf aktif sepenuhnya.
+
+3. Pemecahan Masalah (Troubleshooting)
+Jika Anda menemukan kendala, galat (error), atau halaman tidak terbuka sebagaimana mestinya setelah instalasi, panduan menyarankan untuk langsung merujuk ke dokumentasi resmi bagian Pemecahan Masalah (Troubleshooting) untuk melihat solusi dari masalah-masalah umum.
