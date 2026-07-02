@@ -15,7 +15,8 @@ Perbarui keyring Arch Linux
 
 sudo pacman -S archlinux-keyring
 ```
-Perbarui keyring Arch Linux
+Instal QEMU, Virt Manager, dan tools jaringan pendukung.
+
 ```
 
 sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat
