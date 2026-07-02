@@ -3,12 +3,12 @@
 ```
 iwctl
 ```
-> untuk mengelola koneksi wiffi
+untuk mengelola koneksi wiffi
 ```
 station wlan0 scan
 ```
-> untuk memindai jaringan wiffi sekitar
+untuk memindai jaringan wiffi sekitar
 ```
-> station wlan0 get-generator
+station wlan0 get-generator
 ```
 > 
