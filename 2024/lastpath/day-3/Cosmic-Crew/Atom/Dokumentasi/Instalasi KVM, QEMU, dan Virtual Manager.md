@@ -1,3 +1,29 @@
+# Mengaktifkan Virtualization di BIOS
+
+## Langkah-langkah
+
+Nyalakan laptop atau perangkat, lalu masuk ke mode BIOS.
+
+Pilih menu Security.
+
+Pilih menu Virtualization.
+
+Ubah opsi menjadi Enabled.
+
+Simpan perubahan dan keluar (Save & Exit).
+
+## Verifikasi di Arch Linux
+
+Cek status virtualization pada CPU.
+
+```
+lscpu | grep -i virtualization
+```
+
+Jika muncul output `VT-x` (Intel) atau `AMD-V` (AMD), virtualization sudah aktif dan siap dipakai untuk KVM/QEMU.
+
+___
+
 # Instalasi KVM, QEMU, dan Virt Manager di Arch Linux
 
 ## Update Sistem dan Keyring
