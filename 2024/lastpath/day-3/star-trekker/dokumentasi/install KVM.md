@@ -9,7 +9,6 @@ Reboot sistem
 ```
 sudo reboot
 
-```
 Perbarui keyring Arch Linux
 
 ```
