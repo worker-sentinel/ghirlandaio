@@ -132,8 +132,7 @@ asciinema upload nama file.cast
 http://[IP Server]:80
 ```
 # Tampilan Slims dari kacamata Client
-<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/1dc7144a-cc22-45d3-9464-f8e718bf3b93" />
+<img width="1280" height="542" alt="image" src="https://github.com/user-attachments/assets/a1bbea55-056f-4f91-921d-c6b1fb71e33c" />
 
-**Tampilan dari hp client**
-
-<img width="717" height="1600" alt="image" src="https://github.com/user-attachments/assets/6d55fab1-e1c3-4331-a58c-d7db791bc5eb" />
+# Tampilan dari hp client
+<img width="1080" height="2294" alt="image" src="https://github.com/user-attachments/assets/06db70c5-d9bb-40f4-a7d8-1c3dffd0f643" />
