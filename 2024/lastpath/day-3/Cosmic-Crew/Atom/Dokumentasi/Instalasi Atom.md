@@ -1,4 +1,4 @@
-## Install Dependensi
+# Install Dependensi
 
 1. Database: MySQL / Percona Server
 
@@ -45,10 +45,10 @@ sudo apt install -y openjdk-11-jre-headless apt-transport-https software-propert
 Menambahkan Repositori Elasticsearch:
 
 ```
-# Unduh GPG Key
+## Unduh GPG Key
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg
 
-# Tambahkan ke Source List
+## Tambahkan ke Source List
 echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/oss-7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
 ```
 
@@ -110,7 +110,7 @@ Paket-paket ini bersifat opsional namun sangat direkomendasikan agar AtoM dapat 
 sudo apt install -y imagemagick ghostscript poppler-utils ffmpeg
 ```
 
-## Install Atom
+# Install Atom
 
 1. Unduh Source Code (Pilih salah satu)
 
