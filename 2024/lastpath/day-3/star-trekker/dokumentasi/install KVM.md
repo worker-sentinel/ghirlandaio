@@ -2,8 +2,10 @@
   
 > menginstal semua paket yang dibutuhkan untuk menjalankan KVM
 ```
-Sinkronisasi database paket.
 sudo pacman -Syy
+```
+Sinkronisasi database paket.
+```
 
 sudo reboot 
 
