@@ -1,11 +1,8 @@
 # DOKUMENTASI INSTALL KVM
   
-> menginstal semua paket yang dibutuhkan untuk menjalankan KVM
+> menginstal semua paket yang dibutuhkan untuk menjalankan KVM, untuk Sinkronisasi database paket.
 ```
 sudo pacman -Syy
-```
-Sinkronisasi database paket.
-```
 
 sudo reboot
 ```
