@@ -48,8 +48,6 @@ sudo systemctl start libvirtd.service
 ```
 Cek status layanan
 
-```
-
 $ systemctl status libvirtd.service
 ```
 
