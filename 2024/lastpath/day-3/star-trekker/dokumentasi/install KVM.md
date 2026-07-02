@@ -2,11 +2,15 @@
   
 > menginstal semua paket yang dibutuhkan untuk menjalankan KVM
 ```
+sudo pacman -Syy
+```
 Sinkronisasi database paket.
 ```
-sudo pacman -Syy
 
-sudo reboot 
+sudo reboot
+```
+Reboot sistem
+```
 
 sudo pacman -S archlinux-keyring 
 
