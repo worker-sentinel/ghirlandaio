@@ -21,7 +21,7 @@ Instal QEMU, Virt Manager, dan tools jaringan pendukung.
 
 sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat
 ```
-> instal juga paket ebtables dan iptables
+> instal juga paket ebtables dan iptables, untuk firewall jaringan virtual.
 ```
 sudo pacman -S ebtables iptables
 ```
