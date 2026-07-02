@@ -37,6 +37,11 @@ Aktifkan libvirtd saat boot
 ```
 sudo systemctl enable libvirtd.service 
 
+```
+
+Jalankan libvirtd
+```
+
 sudo systemctl start libvirtd.service
 ```
 > status menunjukkan sedang berjalan
