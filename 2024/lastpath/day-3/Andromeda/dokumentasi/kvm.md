@@ -1,5 +1,3 @@
-# install atom
-
 ## mengaktifkan asciinema
 ```
 asciinema rec [nama file].cast
@@ -351,7 +349,7 @@ umount -R /mnt
 reboot
 ```
 
-## install kvm packages
+# install kvm packages
 ```
 sudo pacman -Syy
 
@@ -410,4 +408,66 @@ $ systemctl status libvirtd.service
             ├─25959 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/fed290.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leasesh>
 
             └─25960 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/fed290.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leasesh>
+```
+## Enable normal user account to use KVM
+```
+sudo pacman -S vim
+
+sudo vim /etc/libvirt/libvirtd.conf
+```
+```
+unix_sock_group = "libvirt"
+unix_sock_rw_perms = "0770"
+sudo usermod -a -G libvirt $(whoami)
+
+newgrp libvirt
+
+sudo systemctl restart libvirtd.service
+```
+
+## Enable Nested Virtualization (Optional)
+```
+### Intel Processor ###
+
+sudo modprobe -r kvm_intel
+
+sudo modprobe kvm_intel nested=1
+
+
+
+### AMD Processor ###
+
+sudo modprobe -r kvm_amd
+
+sudo modprobe kvm_amd nested=1
+```
+```
+echo "options kvm-intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
+```
+```
+### Intel Processor ###
+
+$ systool -m kvm_intel -v | grep nested
+
+    nested              = "Y"
+
+    nested_early_check  = "N"
+
+$ cat /sys/module/kvm_intel/parameters/nested 
+
+Y
+
+
+
+### AMD Processor ###
+
+$ systool -m kvm_amd -v | grep nested
+
+    nested              = "Y"
+
+    nested_early_check  = "N"
+
+$ cat /sys/module/kvm_amd/parameters/nested 
+
+Y
 ```
