@@ -109,3 +109,104 @@ Paket-paket ini bersifat opsional namun sangat direkomendasikan agar AtoM dapat 
 ```
 sudo apt install -y imagemagick ghostscript poppler-utils ffmpeg
 ```
+
+## Install Atom
+
+1. Unduh Source Code (Pilih salah satu)
+
+Opsi A: Menggunakan Tarball (Direkomendasikan untuk Produksi)
+
+```
+wget https://storage.accesstomemory.org/releases/atom-latest.tar.gz
+sudo mkdir -p /usr/share/nginx/atom
+sudo tar xzf atom-latest.tar.gz -C /usr/share/nginx/atom --strip 1
+```
+
+Opsi B: Menggunakan Git Clone (Direkomendasikan untuk Pengembangan)
+
+```
+sudo apt install -y git
+sudo mkdir -p /usr/share/nginx/atom
+sudo git clone -b stable/2.10.x --depth 1 http://github.com/artefactual/atom.git /usr/share/nginx/atom
+```
+
+2. Instalasi Dependensi PHP & Tema
+
+Masuk ke direktori root AtoM:
+
+```
+cd /usr/share/nginx/atom
+```
+
+Instal Pustaka PHP (Composer):
+
+```
+# Untuk Produksi:
+sudo composer install --no-dev
+
+# Untuk Pengembangan:
+sudo composer install
+```
+
+Kompilasi Tema (Hanya jika menggunakan Opsi B / Git):
+
+```
+sudo apt install -y npm
+sudo npm install
+sudo npm run build
+```
+
+3. Konfigurasi Basis Data MySQL
+
+Eksekusi perintah berikut di terminal untuk membuat database, user baru, dan mengatur hak akses:
+
+```
+sudo mysql -h localhost -u root -p -e "CREATE DATABASE atom CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;"
+sudo mysql -h localhost -u root -p -e "CREATE USER 'atom'@'localhost' IDENTIFIED BY '12345';"
+sudo mysql -h localhost -u root -p -e "GRANT ALL PRIVILEGES ON atom.* TO 'atom'@'localhost';"
+```
+
+4. Eksekusi CLI Installer
+
+Jalankan perintah instalasi otomatis via Symfony:
+
+```
+cd /usr/share/nginx/atom
+sudo php symfony tools:install
+```
+
+# Data Input Isian Konfigurasi (Untuk Dokumentasi GitHub)
+
+Saat proses ``` tools:install ``` berjalan, isi terminal dengan parameter berikut:
+
+Kredensial Sistem & Pencarian
+
+Database Host: ``` localhost ```
+
+Database Port: ``` 3306 ```
+
+Database Name: ``` atom ```
+
+Database User: ``` atom ```
+
+Database Password: ``` 12345 ```
+
+Search Host: ``` localhost ```
+
+Search Port: ``` 9200 ```
+
+Search Index: ``` atom ```
+
+Kredensial Admin Pembuat (Rekomendasi Aman)
+
+Penting: Demi keamanan repositori publik di GitHub, jangan gunakan kata sandi default yang mudah ditebak seperti admin/admin123. Gunakan rekomendasi berikut atau buat variasi serupa:
+
+Site Title: ``` Pusat Arsip Digital ``` (Silakan sesuaikan dengan nama institusi/perpustakaan)
+
+Site Base URL: ``` http://localhost ``` (atau domain Anda)
+
+Admin Email: ``` admin@domain.local ```
+
+Admin Username: ``` atom_admin ```
+
+Admin Password: ``` At0M_S3cur3_2026! ```
