@@ -44,12 +44,12 @@ Jalankan libvirtd
 
 sudo systemctl start libvirtd.service
 ```
-> status menunjukkan sedang berjalan
+> status menunjukkan sedang berjalan, lalu Cek status layanan
 ```
-Cek status layanan
 
 $ systemctl status libvirtd.service
 ```
+
 
  ● libvirtd.service - Daemon virtualisasi 
 
