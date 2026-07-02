@@ -12,8 +12,6 @@ sudo reboot
 Perbarui keyring Arch Linux
 
 ```
-Perbarui keyring Arch Linux
-```
 
 sudo pacman -S archlinux-keyring
 ```
