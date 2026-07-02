@@ -262,3 +262,19 @@ Installer akan meminta konfigurasi database dan pencarian. Isi sesuai setup di a
 - Indeks pencarian: `atom`
 
 Nilai-nilai ini akan berbeda jika MySQL/Elasticsearch berjalan di server terpisah. Konfigurasi lain (judul situs, deskripsi situs, URL dasar, email admin, username admin, password admin) bisa diisi bebas dan diubah kembali kapan saja lewat Admin > Pengaturan > [Informasi situs](https://www.accesstomemory.org/en/docs/2.10/user-manual/administer/settings/#site-information) atau [edit user](https://www.accesstomemory.org/en/docs/2.10/user-manual/administer/manage-user-accounts/#edit-user). Detail lengkap dan cara otomatisasi ada di [halaman CLI tools](https://www.accesstomemory.org/en/docs/2.10/admin-manual/maintenance/cli-tools/#cli-installer).
+
+## Konfigurasi dan Pertimbangan Keamanan
+
+# Konfigurasi
+
+>Terdapat berbagai pengaturan yang hanya dapat dikonfigurasi melalui baris perintah  misalnya, zona waktu dan budaya default aplikasi.
+
+>Tergantung pada kebutuhan lokal Anda, mungkin lebih baik untuk mengkonfigurasi beberapa di antaranya sekarang.
+
+>Untuk informasi lebih lanjut tentang pengaturan ini, lihat dokumentasi resmi: Kelola file konfigurasi Atom.
+
+# Pertimbangan Keamanan
+
+>Setelah AtoM dikonfigurasi dan diinstal, luangkan waktu sejenak untuk membaca bagian keamanan berikut, yang menunjukkan cara mengkonfigurasi firewall di Ubuntu dan opsi lain dalam konfigurasi AtoM: Bagian Keamanan Atom.
+
+>Catatan penting: Kami sangat menganjurkan pengguna untuk mengkonfigurasi firewall karena beberapa layanan yang dikonfigurasi tidak boleh diekspos ke publik. Contohnya, Elasticsearch tidak dirancang untuk dapat diakses dari jaringan yang tidak tepercaya, dan ini merupakan vektor serangan yang umum.
