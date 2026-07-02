@@ -337,7 +337,7 @@ systemctl enable sshd
 ctrl+D
 
 ```
-asciinema upload [nama file]
+asciinema upload [nama file].cast
 ```
 
 ## booting
