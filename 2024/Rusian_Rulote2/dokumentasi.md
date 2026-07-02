@@ -76,7 +76,7 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
     
   ![alt text](Aset/aeroflash.png)
   
- - setelah itu cek pada bagian paling atas, apakah sudah ada device yang terscan
+- setelah itu cek pada bagian paling atas, apakah sudah ada device yang terscan
 
 - kemudian jika sudah ada, klik spasi
 
@@ -97,7 +97,7 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
 
 - sambungkan wifi pada android os tv
 
-- maka sudah berhasil menginstall android pada set top box
+- maka kita sudah berhasil menginstall android pada set top box
 
 - lalu keluarkan microsd dari set top box
 
@@ -109,14 +109,14 @@ kalian dapat mengunakan cardreader seperti di gambar atau cardreader berupa usb
 - langkah pertama yakni keluarkan sdcard dari stb
 - masukan kembali ke cardreader
 - buka aplikasi rufus
-- lalu rufus seperti biasa dengan cara memilih ISO Armbian_5.91_Aml-s905_Debian_buster_default5.1.0, jika sudah klik start dan tunggu hingga selesai
+- lalu rufus seperti biasa pilih ISO Armbian_5.91_Aml-s905_Debian_buster_default5.1.0, jika sudah klik start dan tunggu hingga selesai
 
 
     ![alt text](Aset/rufus.png)
 
 - jika sudah selesai klik close
 - buka microsd di file manager
-- dan pindahkan file uboot_h980b pindahkan ke sdcard dan renameuntuk memudahkan kita menjadi bootloader.bin
+- dan pindahkan file uboot_HG680P.bin pindahkan ke sdcard dan rename untuk memudahkan kita menjadi bootloader.bin
 
 - kemudian buka folder extlinux
 
@@ -153,10 +153,6 @@ LABEL Armbian
 ```
 
 
-
-
-
-
 - setelah itu kita save
 
 
@@ -178,15 +174,9 @@ dtb_name=/dtb/meson-gxl-s905x-p212.dtb
 bootargs=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
-- selanjutnya kita kembali ke android pada set top box, kita bisa menggunakan mouse
-
-- lalu buka file manager
-
-- klik tombol sebelah icon home untuk bisa memilih file
-
-- kemudian cari file bootloader.bin
-
-- setelah itu klik, 2 tombol dari icon home untuk bisa menyalin file yang telah dipilih
+- selanjutnya kita kembali ke android pada set top box, jangan lupa memasukan sdcard ke stb
+- kita bisa menggunakan mouse dan keuboard untuk memudahkan step selanjutnya
+- setelah itu klik, 2 tombol dari icon home yamg iconnya mirip pensil untuk bisa menyalin file yang telah dipilih, pilih nyalin
 
 - lalu pencet tombol icon home
 
@@ -194,9 +184,13 @@ bootargs=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 
 
 - kemudian buka folder Download
 
-- klik logo pensil yang ada di icon home
+- klik logo pensil yang tadi kedua setelah icon home
   
 - pilih paste
+  
+- setelah itu buka aplikasi emulator terminal
+
+- kemudian masuk ke dalam root dengan menggunakan command
   
 - setelah itu buka aplikasi emulator terminal
 
