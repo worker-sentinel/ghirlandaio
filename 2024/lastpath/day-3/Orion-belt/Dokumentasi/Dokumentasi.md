@@ -70,14 +70,17 @@ masuk mode insert (i), lalu ganti internal
 agent \ 
     '--internal' \  
     'https://10.18.210.197' \ 
-    '--token' \ \'K10e72a47660799a1e48edb10de57efcf87eb5ae859855b5d672573f3cdffa2ca59::server:7b88c4d08dfc3ab438596a203f1c7318' \
+    '--token' \ 
+    'K10e72a47660799a1e48edb10de57efcf87eb5ae859855b5d672573f3cdffa2ca59::server:7b88c4d08dfc3ab438596a203f1c7318' \
     
 menjadi:
 
 ```
 agent \
 '--server' \        
-'https://10.18.210.197' \                                                         '--token' \ 'K10e72a47660799a1e48edb10de57efcf87eb5ae859855b5d672573f3cdffa2ca59::server:7b88c4d08dfc3ab438596a203f1c7318' \
+'https://10.18.210.197' \
+'--token' \  
+'K10e72a47660799a1e48edb10de57efcf87eb5ae859855b5d672573f3cdffa2ca59::server:7b88c4d08dfc3ab438596a203f1c7318' \
 ```
 
 Reload Systemd:
