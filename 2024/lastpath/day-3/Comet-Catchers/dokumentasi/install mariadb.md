@@ -1,6 +1,6 @@
 # INSTALL MARIADB
 
-instalasi paket
+## Instalasi paket
 
 ```
 sudo pacman -S apache mariadb php php-fpm unzip php-apache php-intl php-mysqli imagemagick
@@ -8,7 +8,7 @@ sudo pacman -S apache mariadb php php-fpm unzip php-apache php-intl php-mysqli i
 
 ## Masukin passwd
 
-## install paket tanpa php-mysqli
+## Install paket tanpa php-mysqli
 
 ```
 sudo pacman -S apache mariadb php php-fpm unzip php-apache php-intl imagemagick 
@@ -67,4 +67,6 @@ flush privileges;
 ```
 > Keluar dari MariaDB
 
+```
 quit
+```

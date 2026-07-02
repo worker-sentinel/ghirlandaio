@@ -247,6 +247,3 @@ podman ps -a
 ```
 exit
 ``` 
-
-# Percobaan akses di server 1
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/c59adb2e-7834-4d8a-ad4f-42533acabff0" />

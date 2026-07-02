@@ -5,20 +5,20 @@
 wget -c https://github.com/slims/docker-compose-for-slims/archive/master.zip 
 unzip master.zip
 ```
-> ​wget -c ...: Mengunduh file ZIP konfigurasi Docker Compose untuk SLiMS dari GitHub.
+> ​wget -c ...: Untuk mengunduh file ZIP konfigurasi Docker Compose untuk SLiMS dari GitHub.
 
-> -c (continue) memastikan jika download terputus, prosesnya bisa dilanjutkan lagi.
+> -c (continue): Untuk memastikan jika download terputus, prosesnya bisa dilanjutkan lagi.
 
-> unzip master.zip: Mengekstrak file ZIP yang sudah di-download.
+> unzip master.zip: Untuk mengekstrak file ZIP yang sudah di-download.
 
 ## Rename folder
 ```
 mv docker-compose-for-slims-master compose
 cd compose
 ```
-> ​mv ... compose: Mengubah nama folder hasil ekstrak yang panjang menjadi lebih simpel, yaitu compose.
+> ​mv ... compose: Untuk mengubah nama folder hasil ekstrak yang panjang menjadi lebih simpel, yaitu compose.
 
-> ​cd compose: Masuk ke dalam folder tersebut untuk melanjutkan proses setup.
+> ​cd compose: Untuk masuk ke dalam folder tersebut untuk melanjutkan proses setup.
 
 ## Kernel
 ```
@@ -54,23 +54,32 @@ nvim ~/.config/cleo/storage.conf
 driver = "overlay"  
 [storage.options.overlay]                                                                                                                                                                 mount_program = ""   
 mountopt = "userxattr"
-
-sudo nvim /etc/containers
 ```
 
+```
+sudo nvim /etc/containers
+```
+> Untuk membuka direktori konfigurasi global Podman.
+
+## Menjalankan Container dengan Podman
 ```
 podman pull docker.io/mysql:5.7
 ```
+> Mengunduh (pull) image database MySQL versi 5.7 dari Docker Hub ke komputer lokal menggunakan Podman.
 
 ```
 podman compose up -d
 ```
+> Untuk membaca file docker-compose.yml yang ada di dalam folder tersebut, lalu membuat dan menjalankan container SLiMS serta MySQL sekaligus.
+
+> -d (detached mode): Untuk membuat container berjalan di latar belakang (background).
 
 ```
 podman ps -a
 ```
->  Menampilkan daftar semua container yang ada, baik yang sedang berjalan maupun yang mati untuk memastikan apakah container SLiMS dan MySQL sudah aktif dengan status Up.
+>  Untuk menampilkan daftar semua container yang ada, baik yang sedang berjalan maupun yang mati dan untuk memastikan apakah container SLiMS dan MySQL sudah aktif dengan status Up.
 
 ```
 exit
 ```
+> Keluar dari terminal.
