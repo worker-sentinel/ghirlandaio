@@ -8,7 +8,7 @@ sudo pacman -Syy
 Reboot sistem
 ```
 sudo reboot
-
+```
 Perbarui keyring Arch Linux
 
 ```
