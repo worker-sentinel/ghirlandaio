@@ -11,4 +11,3 @@ untuk memindai jaringan wiffi sekitar
 ```
 station wlan0 get-generator
 ```
-> 
