@@ -1,15 +1,16 @@
+# Tipologi Jaringan
 
-![[Tipologi Jaringan.jpg]]
+<img width="449" height="291" alt="Tipologi Jaringan" src="https://github.com/user-attachments/assets/e338fac1-091b-461c-9271-bfae03f6dd66" />
 
 Topologi jaringan dalam proyek ini menggunakan konsep segmentasi jaringan dengan WLAN (Wireless Local Area Network) untuk memisahkan berbagai layanan berdasarkan fungsi dan tingkat keamanan yang berbeda. Infrastruktur terbagi menjadi beberapa area utama, yaitu Data, Internal, Public, dan Client, yang saling terhubung menggunakan perangkat jaringan. Selain itu, ada Administrator yang memiliki akses untuk mengelola semua layanan yang berjalan di dalam sistem. Pemisahan jaringan ini bertujuan untuk membuat lebih aman, memudahkan pengelolaan server, mengurangi kemungkinan akses yang tidak diizinkan, serta memastikan setiap layanan berjalan di lingkungan yang cocok dengan perannya.
 
 Dalam topologi, WLAN digunakan untuk memisahkan lalu lintas jaringan berdasarkan jenis layanan yang digunakan.  
   
-**WLAN 1 (Public)  
+**WLAN 1 (Public)** 
   
 WLAN 1 digunakan untuk layanan yang berhubungan langsung dengan pengguna atau klien. Semua akses pengguna akan masuk melalui jaringan ini.  Penggunaan WLAN 1 adalah untuk memisahkan trafik pengguna dari trafik server internal, mempermudah pengelolaan akses pengguna, dan mengurangi kemungkinan pengguna mengakses jaringan backend secara langsung.
 
-**WLAN 0 (Internal)  
+**WLAN 0 (Internal)**  
 
 WLAN 0 digunakan untuk komunikasi antar server secara internal dan juga untuk kegiatan administrasi sistem.  Penggunaan WLAN 0 adalah untuk memisahkan trafik administrasi dari trafik pengguna, meningkatkan keamanan jaringan, dan mempermudah monitoring dan pengelolaan server.
 
