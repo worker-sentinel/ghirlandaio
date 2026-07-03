@@ -48,3 +48,43 @@ Control
                         │
                      Client
 ```
+# Network yang Digunakan
+
+## Jenis Network
+
+Implementasi menggunakan **Local Area Network (LAN)** dengan arsitektur **Client-Server** dan cluster **Kubernetes (K3s)**.
+
+1. Network Type : Local Area Network (LAN)
+2. Kubernetes : K3s Cluster
+3. Container Runtime : containerd (default K3s)
+4. Image : Podman
+
+## Topologi Network
+
+```mermaid
+flowchart LR
+
+CONTROL[Control Node]
+DATA[Data Node]
+INTERNAL[Internal Node]
+PUBLIC[Public Node]
+CLIENT[Client]
+
+
+CONTROL -->|Kubernetes| DATA
+CONTROL -->|Kubernetes| INTERNAL
+CONTROL -->|Kubernetes| PUBLIC
+
+PUBLIC -->|3306| DATA
+PUBLIC -->|6379| INTERNAL
+
+CLIENT -->|HTTP/HTTPS| PUBLIC
+```
+
+
+### Alur Komunikasi
+1. Control Node mengelola seluruh worker melalui Kubernetes API (Port 6443).
+2. Public Node menjalankan aplikasi SLiMS.
+3. Public Node mengakses database pada Data Node melalui MariaDB (Port 3306).
+4. Public Node menggunakan Redis/Valkey pada Internal Node sebagai cache dan session (Port 6379).
+5. Client hanya dapat mengakses Public Node menggunakan HTTP/HTTPS.
