@@ -1,5 +1,7 @@
+# Diagram Regional
 
-![[Diagram Regional.jpg]]
+<img width="341" height="291" alt="Diagram Regional" src="https://github.com/user-attachments/assets/69d928f3-f233-44fa-b312-55b739056a5d" />
+
 
 Diagram regional dibuat agar dapat menunjukkan bagaimana fungsi sistem dibagi ke dalam berbagai wilayah atau segmen layanan. Setiap daerah punya peran yang berbeda, sehingga sistem lebih teratur, aman, dan mudah dikembangkan. Dengan pemisahan ini, masalah di satu area tidak akan langsung mengganggu seluruh sistem.
 ## 1. Regional Control
