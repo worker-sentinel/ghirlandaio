@@ -80,9 +80,6 @@ PUBLIC -->|6379| INTERNAL
 
 CLIENT -->|HTTP/HTTPS| PUBLIC
 ```
-
-
-### Alur Komunikasi
 1. Control Node mengelola seluruh worker melalui Kubernetes API (Port 6443).
 2. Public Node menjalankan aplikasi SLiMS.
 3. Public Node mengakses database pada Data Node melalui MariaDB (Port 3306).
