@@ -33,6 +33,9 @@ Waktu : 14.00 PM - 15.00 PM UTC+7
 # peserta outclass
 - pastikan waktu tersedia
 - pastikan perangkat telah bisa terkoneksi intern
+- pastikan join dengan akun jitsi yang disedikan
+- lakukan streaming dari bagian depan peserta dengan satu akun
+- lakukan streaming dari bagian belakang peserta dengan satu akun lainya
 
 
 # penyedia kelas
