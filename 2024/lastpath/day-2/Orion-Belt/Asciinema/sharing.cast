@@ -1,0 +1,9 @@
+{"version":3,"term":{"cols":190,"rows":59,"type":"xterm-256color","version":"VTE(8400)","theme":{"fg":"#ffffff","bg":"#000000","palette":"#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"}},"timestamp":1782903202,"env":{"SHELL":"/usr/bin/bash"}}
+[0.012, "o", "\u001b]0;root@kel5:/home/control\u0007\u001b[?2004h[root@kel5 control]# "]
+[20.342, "o", "e"]
+[0.355, "o", "x"]
+[0.234, "o", "i"]
+[0.914, "o", "t"]
+[0.823, "o", "\r\n\u001b[?2004l\r"]
+[0.000, "o", "exit\r\n"]
+[0.040, "x", "0"]
