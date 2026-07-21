@@ -11,9 +11,12 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 11.10   | Muhammad Luqman Hakim | Burhan Fathurahman | |
 | 11.20   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
 | 11.30   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   |  | |
-| 11.40   |     Fatma Ramadhani       | Hanifah Dina Pasha       | banding perihal nilai formatif yang terlalu mungil |
-| 11.50   |     Hanifah Dina Pasha       | Maryam Nurul Jaatsiyah       | banding terkait nilai formatif |
+| 11.40   |          | |  |
+| 11.50   |            |        |  |
 | 12.00   | Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif 
-| 12.10   |     Maryam Nurul Jaatsiyah       | Fatma Ramadhani       | banding terkait nilai formatif |
+| 12.10   |            |        |  |
 | 12.20   |            |        | |
+| 13.40   |      Fatma Ramadhani      |        | |
+| 13.50   |      Hanifah Dina Pasha      |        | |
+| 14.00   |      Maryam Nurul Jaatsiyah      |        | |
 | 03.00   |            |        | |
