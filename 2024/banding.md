@@ -7,6 +7,8 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 10.30   | Lu'lu'a Jannati Adn          | Fadhilah Amelia Ikhwan       | |
 | 11.00   | Muhammad Rafly         | Dimas Yoga      | banding terkait nilai formatif dari penugasan yang tidak sesuai |
 | 11.15   | Bagas Wicaksono  | Burhan Fathurahman| Banding terkait penilaian formatif ke 7 dan 10 |
+| 11.30   | Burhan Fathurahman | Muhammad Luqman Hakim | |
+| 11.45   | Muhammad Luqman Hakim | Burhan Fathurahman | |
 | 13.00   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
 |   13.00      |     Fatma Ramadhani       | Hanifah Dina Pasha       | |
 |   13.30      |     Hanifah Dina Pasha       | Fatma Ramadhani       | |
