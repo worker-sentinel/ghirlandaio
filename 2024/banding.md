@@ -19,4 +19,4 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 13.40   |      Fatma Ramadhani      |   Syahidah Muthmainnah     | aju banding perihal nilai formatif |
 | 13.50   |      Hanifah Dina Pasha      |        | |
 | 14.00   |      Maryam Nurul Jaatsiyah      |        | |
-| 03.00   |      Sumayyah Syahidah      |    Lilis TTazkiyatulHimmah    | aju banding terkait nilai formatif dan kontribusi pada kelompok tugas formatif |
+| 14.15   |      Sumayyah Syahidah      |    Lilis TTazkiyatulHimmah    | aju banding terkait nilai formatif dan kontribusi pada kelompok tugas formatif |
