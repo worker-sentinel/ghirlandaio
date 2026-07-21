@@ -9,7 +9,7 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 10.50   | Bagas Wicaksono  | | Banding terkait penilaian formatif ke 7 dan 10 |
 | 11.20   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
 | 11.30   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   |  | |
-| 11.40   |          | |  |
+| 11.40   |    Izza Rafifa Diraya    | |  |
 | 11.50   |            |        |  |
 | 12.00   | Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif 
 | 12.10   |            |        |  |
