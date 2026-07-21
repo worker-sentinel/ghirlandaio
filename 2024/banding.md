@@ -12,5 +12,6 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 13.00   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
 | 13.15   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   |  | |
 |   13.00      |     Fatma Ramadhani       | Hanifah Dina Pasha       | |
-|   13.30      |     Hanifah Dina Pasha       | Fatma Ramadhani       | |
+|   13.45      |     Hanifah Dina Pasha       | Maryam Nurul Jaatsiyah       | |
+|   14.00      |     Maryam Nurul Jaatsiyah       | Fatma Ramadhani       | |
 |  03.00  |            |        | |
