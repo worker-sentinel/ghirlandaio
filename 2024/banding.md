@@ -10,6 +10,7 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 11.30   | Burhan Fathurahman | Muhammad Luqman Hakim | |
 | 11.45   | Muhammad Luqman Hakim | Burhan Fathurahman | |
 | 13.00   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
+| 13.15   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   |  | |
 |   13.00      |     Fatma Ramadhani       | Hanifah Dina Pasha       | |
 |   13.30      |     Hanifah Dina Pasha       | Fatma Ramadhani       | |
 |  03.00  |            |        | |
