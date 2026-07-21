@@ -14,7 +14,7 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 12.00   | Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif 
 | 12.10   |            |        |  |
 | 12.20   |        |       | |
-| 13.40   |      Fatma Ramadhani      |        | |
+| 13.40   |      Fatma Ramadhani      |   Syahidah Muthmainnah     | aju banding perihal nilai formatif |
 | 13.50   |      Hanifah Dina Pasha      |        | |
 | 14.00   |      Maryam Nurul Jaatsiyah      |        | |
 | 03.00   |            |        | |
