@@ -29,3 +29,4 @@ waktu pelaksanaan persesi banding 10-15 menit
 |14.25  |      Lydian Salwa Hananihasna| Shabrina Zulfa    |   aju banding terkait tugas formatif resume       |
 |14.35    |  Vanesa Putri Zahra  |  Dhea Azahra  | aju banding terkait nilai formatif | 
 |14.45    | Zulfa Azhar asyifa  |                |  aju banding terkait tugas formatif resume |
+|14.55 | Kayla Shita Sabila                  |         |                   |
