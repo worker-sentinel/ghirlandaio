@@ -4,7 +4,6 @@ waktu pelaksanaan persesi banding 10-15 menit
 
 | waktu   | Pengaju   |  saksi | permasalahn  |
 |---------|------------|--------|--------------|
-|10.00|Azzahra Ramadhina Salsabillah|Siti Nijmatul Khairiyah|Banding terkait mempertimbangkan kontribusi tugas Formatif|
 | 10.30   | Lu'lu'a Jannati Adn          | Fadhilah Amelia Ikhwan       |Banding terkait penilaian dengan mempertimbangkan kontribusi tugas formatif |
 | 10.40   | Muhammad Rafly         | Dimas Yoga      | banding terkait nilai formatif dari penugasan yang tidak sesuai |
 | 11.00   | Lasya Fauziah | Dhea Azahra | banding formatif|
