@@ -1,5 +1,6 @@
 
 Waktu maksimal jam 03.00
+waktu pelaksanaan persesi banding 10-15 menit
 
 | waktu   | Pengaju   |  saksi | permasalahn  |
 |---------|------------|--------|--------------|
