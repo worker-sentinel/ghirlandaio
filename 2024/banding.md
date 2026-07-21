@@ -6,6 +6,7 @@ waktu pelaksanaan persesi banding 10-15 menit
 |---------|------------|--------|--------------|
 | 10.30   | Lu'lu'a Jannati Adn          | Fadhilah Amelia Ikhwan       |Banding terkait penilaian dengan mempertimbangkan kontribusi tugas formatif |
 | 10.40   | Muhammad Rafly         | Dimas Yoga      | banding terkait nilai formatif dari penugasan yang tidak sesuai |
+| 10.50   | Areva Dzikra Hody | Fadhlan Hariri | Aju banding terkait nilai formatif |
 | 11.00   | Lasya Fauziah | Dhea Azahra | banding formatif|
 | 11.20   | Miftha Nurul Azizah         | Nadya Fatma Salsabila       | |
 | 11.30   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   | bandiing formatif |
