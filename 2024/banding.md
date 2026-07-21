@@ -21,3 +21,4 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 13.50   |      Hanifah Dina Pasha      |        | |
 | 14.00   |      Maryam Nurul Jaatsiyah      |        | |
 | 14.15   |      Sumayyah Syahidah      |    Lilis TTazkiyatulHimmah    | aju banding terkait nilai formatif dan kontribusi pada kelompok tugas formatif |
+|14.30    |      Lydian Salwa Hananihasna| Shabrina Zulfa    |   aju banding terkait tugas formatif resume       |
