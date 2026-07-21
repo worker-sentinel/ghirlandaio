@@ -13,5 +13,6 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 13.15   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   |  | |
 |   13.00      |     Fatma Ramadhani       | Hanifah Dina Pasha       | banding perihal nilai formatif yang terlalu mungil |
 |   13.45      |     Hanifah Dina Pasha       | Maryam Nurul Jaatsiyah       | banding terkait nilai formatif |
+| 13.50   | Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif 
 |   14.00      |     Maryam Nurul Jaatsiyah       | Fatma Ramadhani       | banding terkait nilai formatif |
 |  03.00  |            |        | |
