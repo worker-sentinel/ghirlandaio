@@ -38,3 +38,49 @@
 | Hana Zada Videla          | 0   | 0   | 0   | 0   | 99  | 50  | 0   | 0   | 20  | 0   | 0   | 0   | 10        | 24.08 |
 | Kaafi Alfath Syahri       | 0   | 0   | 0   | 0   | 50  | 50  | 0   | 0   | 50  | 0   | 0   | 0   | 10        | 22.50 |
 | Echa Junika Alawiyah      | 0   | 0   | 0   | 0   | 99  | 99  | 0   | 99  | 50  | 80  | 0   | 0   | 10        | 45.58 |
+
+# Rasionale
+
+penugasan 1
+- nilai 0 = penggunaan AI lebih dari 20%
+- nilai 30 = berhasil menjawab pertanyaan
+
+penugasan 2 
+- nilai 0 = presentator tidak melaukan presentasi akibat miscommunication penanggung jawab kelas
+
+penugasan 3
+- nilai 0 = penggunaan AI lebih dari 20%
+- nilai 30 = berhasil menjawab pertanyaan
+
+penugasan 4
+- nilai 0 = penggunaan AI lebih dari 20%
+
+penugasan 5
+- nilai 50 = dokumentasi foto kurang langkah instalasi
+- nilai 0 = tidak mengumpulkan sama sekali
+
+penugasan 6
+- nilai 50 = dokumentasi foto kurang langkah instalasi
+- nilai 0 = tidak mengumpulkan sama sekali
+
+penugasan 7
+- nilai 0 = presentator telat mengumpulkan materi presentasi
+
+penugasan 8 
+- inayah: tidak ada file tugas, history commit atas nama iskandar
+- tidak sesuai ketentuan minimal 2 cast masing masing cast 1 audio
+
+penugasan 9
+- tidak sesuai dengan ketentuan 2 cast masing masing cast 1 audio
+- tidak sesuai dengan ketentuan mencantumkan file dokumentasi
+
+penugasan 10 
+- Tidak sesuai dengan ketentuan 2 cast masing masing cast 1 audio
+- tidak sesuai dengan ketentuan mencantumkan file dokumentasi
+
+penugasan 11 
+- pengumpulan menggunakan lebih dari 1 file cast, audio mengikuti file cast, dan dokumentasi
+- tidak sesuai dengan ketentuan mencantumkan file dokumentasi
+
+penugasan 12 
+- database harus terpisah dengan slims (dan tidak ada yang berhasil)
