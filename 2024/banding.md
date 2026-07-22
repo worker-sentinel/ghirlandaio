@@ -12,11 +12,11 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 11.30   | Rahimah Muflihah Humayroh  | Hazimah Azzah Putri Madita   | bandiing formatif |
 | 11.40   |    Izza Rafifa Diraya    |Irma Syafina|Banding terkait penilaian|
 | 11.50   |    Dechri Vanesa Mecca      | Nicky Puji Rahayu      | banding perihal penilaian dan mempertimbangkan kontribusi di semua tugas formatif|
-| 12.00   | Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif serta mempertimbankan kontribusi di setiap tugas
+| 12.00   | 
 | 12.10   | Muhammad Luqman Hakim | Lutfi sugeng | bandinh terkait tugas formatif dan serta mempertimbangkan nilai kontribusi di setiap tugas |
 | 12.20   |Khadizah Hasna Tsabita       | Amelia Salsabila Santoso       | | aju banding terkait penilaian formatif 
 | 12.30   | Burhan Fathurrahman |Irma Syafina       |                   |  | Aju Banding Nilai
-| 12.40   |  |  |  | 
+| 12.40   |  Nabillah Cahya Mahdiyyah | Rizkyna Amor Zevia | banding terkait nilai formatif serta mempertimbankan kontribusi di setiap tugas
 | 12.50   | Naila Ahnafani        |  Azzahra Rahmadina Salsabila      |  banding terkait nilai formatif serta mempertimbankan kontribusi tugas
 | 13.00   | Nur Padilah | Zaskia Syahda Hafizha Kurniawan   | Banding terkait nilai formatif 10
 | 13.10   | Salfa Firyal Hasanah           |  Intan Aulia Putri      |  banding terkait nilai formatif 
