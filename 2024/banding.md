@@ -24,5 +24,4 @@ waktu pelaksanaan persesi banding 10-15 menit
 | 13.50   |      Hanifah Dina Pasha      | Najma Nawiratul Aulia       |Aju banding formatif |
 | 14.00   |      Maryam Nurul Jaatsiyah      | Shavira Salsabila       | Aju banding nilai formatif |
 | 14.10   | Khadizah Hasna Tsabita        | Amelia Salsabila Santoso       | aju banding terkait penilaian formatif
-|14.20  |      Lydian Salwa Hananihasna| Shabrina Zulfa    |   aju banding terkait tugas formatif      |
 |14.40    | Zulfa Azhar asyifa  |  Rizkyna Amor Zevi       |  aju banding terkait tugas formatif resume |     
